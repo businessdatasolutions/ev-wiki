@@ -212,7 +212,9 @@ per kanaal met modellen, aantal video's en voorbeelden. **Alleen de gebruiker** 
 in de publieke repo:
 - **EV Database** (ev-database.org): alleen om fabrieksopgaven uit transcripts te controleren. Een
   pagina zegt hooguit "gecontroleerd tegen EV Database op <datum>"; waarden worden niet overgenomen.
-  Het is een commerciële databank (databankenrecht).
+  Het is een commerciële databank (databankenrecht). Naslaan per model, alleen in de terminal:
+  `uv run --no-project python onderzoek/evdb.py "Skoda Epiq" [--velden accu,wltp,kofferbak]`.
+  Hun "realistisch bereik" is een schatting, geen meting.
 - **eu-evs.com**: aanvullende informatie over de markt (registraties per land en merk). De
   onderzoeker leest alleen de openbare pagina's die `robots.txt` toestaat (zoals `/latest`, de top 5
   merken per land), zonder account en zonder iets op te slaan. Cijfers per model zitten achter
