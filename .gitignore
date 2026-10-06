@@ -57,3 +57,6 @@ raw/videos/test.txt
 
 # Logs van de verzamelaar (onderzoek/verzamel.sh)
 onderzoek/logs/
+
+# Python-cache, overal
+__pycache__/
