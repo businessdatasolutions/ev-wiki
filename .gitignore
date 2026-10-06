@@ -1,0 +1,56 @@
+# Quartz / Node
+node_modules
+public
+.quartz-cache
+tsconfig.tsbuildinfo
+prof
+
+# Generated graph (v0.3): emitted by scripts/graph-export.mjs, read by
+# future tools (v0.5 hybrid search). Always re-derivable from frontmatter.
+wiki/.graph.json
+
+# macOS
+.DS_Store
+
+# Obsidian — per-machine state (commit the rest of .obsidian/ if/when it appears)
+.obsidian/workspace.json
+.obsidian/workspaces.json
+.obsidian/cache
+.obsidian/.trash/
+
+# Editor swap files
+*.swp
+*~
+
+# Secrets / local environment — never commit
+.env
+.env.*
+
+# Raw source binaries — kept local-only for copyright/distribution reasons.
+# Wiki content (sources/, entities/, concepts/, syntheses/, threads/) is the
+# durable, redistributable artifact; raw/ holds your provenance. Each wiki
+# source page cites its raw file; readers of the public repo can locate the
+# original via the citation.
+# Exception: selected video stills are published as webp under wiki/assets/
+# (CLAUDE.md §Video stills); the full PNG set stays here, local-only.
+raw/**/*.pdf
+raw/**/*.docx
+raw/**/*.epub
+raw/**/*.mobi
+raw/**/*.mp4
+raw/**/*.mp3
+raw/**/*.png
+raw/**/*.jpg
+raw/**/*.jpeg
+raw/**/*.gif
+raw/**/*.webm
+raw/videos/test.txt
+
+# Python skill caches (e.g. youtube-transcript-skill uses uv/pyenv locally)
+.claude/skills/**/__pycache__/
+.claude/skills/**/.python-version
+
+
+# Playwright MCP session traces/logs — ephemeral browser-automation debug output
+.playwright-mcp/
+.venv/

@@ -1,0 +1,5 @@
+playwright>=1.40
+PyYAML>=6.0
+# extract_stills.py only
+yt-dlp>=2026.8.19
+google-genai>=2.26

@@ -1,0 +1,44 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm ci *)",
+      "Bash(npx quartz *)",
+      "Bash(node scripts/*)",
+      "Bash(uv run --no-project --with-requirements requirements.txt python fetch_transcript.py *)",
+      "Bash(gh pr *)"
+    ]
+  },
+  "hooks": {
+    "SessionStart": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node $CLAUDE_PROJECT_DIR/scripts/session-start.mjs"
+          }
+        ]
+      }
+    ],
+    "PostToolUse": [
+      {
+        "matcher": "Edit|Write",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node $CLAUDE_PROJECT_DIR/scripts/lint-page.mjs"
+          }
+        ]
+      }
+    ],
+    "Stop": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node $CLAUDE_PROJECT_DIR/scripts/session-end.mjs"
+          }
+        ]
+      }
+    ]
+  }
+}
