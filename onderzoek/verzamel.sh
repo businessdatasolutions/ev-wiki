@@ -11,4 +11,8 @@ LOGFILE="onderzoek/logs/$(date +%Y-%m-%d).log"
   "$UV" run --no-project --with-requirements .claude/skills/youtube-transcript-skill/requirements.txt \
     python -u onderzoek/verzamelaar.py "$@"
   echo "=== exit $?"
+  # Maandcijfers van eu-evs.com (intern, raw/data/ is gitignored); één keer per maand, en een
+  # fout hier houdt de verzamelaar niet tegen.
+  "$UV" run --no-project --with requests python -u onderzoek/eu_evs.py
+  echo "=== eu-evs exit $?"
 } >> "$LOGFILE" 2>&1

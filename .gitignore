@@ -60,3 +60,6 @@ onderzoek/logs/
 
 # Python-cache, overal
 __pycache__/
+
+# Gegevens uit accounts (eu-evs.com): alleen intern, nooit in de publieke repo
+raw/data/

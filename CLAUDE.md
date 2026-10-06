@@ -173,6 +173,18 @@ buiten de lijst worden **niet opgehaald**: ze komen als voorstel in `onderzoek/k
 per kanaal met modellen, aantal video's en voorbeelden. **Alleen de gebruiker** zet een kanaal in
 `vast:` of `genegeerd:`.
 
+**Bronnen die alleen intern zijn** (besluit eigenaar, 06-10-2026). Ze gaan nooit in `wiki/` of
+in de publieke repo:
+- **EV Database** (ev-database.org): alleen om fabrieksopgaven uit transcripts te controleren. Een
+  pagina zegt hooguit "gecontroleerd tegen EV Database op <datum>"; waarden worden niet overgenomen.
+  Het is een commerciële databank (databankenrecht).
+- **eu-evs.com**: registraties per model en land, een sterker signaal voor belangstelling dan
+  weergaven. `onderzoek/eu_evs.py` haalt eens per maand de maandcijfers per model op met het
+  account uit `.env` (`EU_EVS_E_MAIL`, `EU_EVS_PASSWORD`) naar `raw/data/eu-evs/` (gitignored).
+  De CSV-export vraagt **Premium**; op 06-10-2026 was dat niet actief en faalt het script met een
+  duidelijke melding, zonder de verzamelaar tegen te houden. Een wiki-pagina mag een enkel cijfer
+  noemen, met bron en maand.
+
 **Register.** `onderzoek/register.jsonl` heeft één regel per video die de verzamelaar zag, met
 status (`opgehaald`, `overgeslagen` met reden, `mislukt`, `voorstel`). Een video in het register of
 in `raw/` wordt niet opnieuw bekeken. Wil je een overgeslagen video toch, haal hem dan met de hand op.
