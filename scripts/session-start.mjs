@@ -161,6 +161,13 @@ try {
     const id = tekst.match(/^video_id: ['"]?([\w-]{11})/m)?.[1]
     if (id && !bronnen.includes(id)) wachtend.push(f)
   }
+  // Artikelen: wachtend als geen bronpagina hun url noemt
+  const artDir = join(WIKI_DIR, "..", "raw", "articles")
+  for (const f of await readdir(artDir).catch(() => [])) {
+    if (!f.endsWith(".md")) continue
+    const url = (await readFile(join(artDir, f), "utf8")).match(/^url: ['"]?([^'"\n]+)/m)?.[1]
+    if (url && !bronnen.includes(url)) wachtend.push(`articles/${f}`)
+  }
 } catch {}
 let voorstellen = 0
 try {
@@ -171,7 +178,7 @@ try {
 lines.push("")
 lines.push("**Verzamelaar:**")
 lines.push("")
-lines.push(`- ${wachtend.length} ruwe video('s) in \`raw/videos/\` wachten op Process${wachtend.length ? ":" : "."}`)
+lines.push(`- ${wachtend.length} ruwe bron(nen) in \`raw/\` wachten op Process${wachtend.length ? ":" : "."}`)
 for (const f of wachtend.slice(0, 10)) lines.push(`  - ${f}`)
 if (wachtend.length > 10) lines.push(`  - … en ${wachtend.length - 10} meer`)
 lines.push(`- ${voorstellen} kanaalvoorstel(len) in \`onderzoek/kanaalvoorstellen.md\`.`)

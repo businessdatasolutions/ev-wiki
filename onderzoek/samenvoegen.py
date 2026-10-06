@@ -49,7 +49,8 @@ def schrijf(p, fm, body):
     kwaliteit = {k: fm.pop(k) for k in ("quality_score", "quality_notes") if k in fm}
     kop = yaml.safe_dump(fm, allow_unicode=True, sort_keys=False, width=1000).rstrip()
     for k, v in kwaliteit.items():
-        kop += f"\n{k}: " + (json.dumps(v, ensure_ascii=False) if isinstance(v, list) else str(v))
+        # Precies zoals quality-score.mjs schrijft: enkele aanhalingstekens, '' voor een '
+        kop += f"\n{k}: " + ("[" + ", ".join("'" + str(n).replace("'", "''") + "'" for n in v) + "]" if isinstance(v, list) else str(v))
     body = re.sub(r"\n{3,}", "\n\n", body.strip())
     tekst = "---\n" + kop + "\n---\n\n" + body + "\n"
     if not os.path.exists(p) or open(p, encoding="utf-8").read() != tekst:
@@ -131,9 +132,13 @@ def main():
     for p in proces:
         p["fm"] = bronnen[p["slug"]]
 
+    def uitgever(fm):
+        # Bij een artikel is author een persoon; het kanaal is de site (ANWB), net als bij video's
+        return fm.get("site") or (fm.get("author") or ["?"])[0]
+
     def kanaal_kort(b):
         fm = bronnen[b]; d = datum(fm["date_published"])
-        return f"{(fm.get('author') or ['?'])[0]} {d[8:10]}-{d[5:7]}-{d[:4]}"
+        return f"{uitgever(fm)} {d[8:10]}-{d[5:7]}-{d[:4]}"
 
     def ingest(bs):
         return max((datum(bronnen[b].get("date_ingested") or bronnen[b]["date_published"]) for b in bs), default=None)
@@ -304,11 +309,11 @@ def main():
         fm, body = lees(f)
         if fm.get("kind") == "kanaal":
             naam = (fm.get("aliases") or [slug])[0]
-            srcs = sorted(b for b, bf in bronnen.items() if (bf.get("author") or [""])[0] == naam)
+            srcs = sorted(b for b, bf in bronnen.items() if uitgever(bf) == naam)
         elif fm.get("kind") == "aanbieder":
             ouder = next((r["target"] for r in fm.get("relationships") or [] if r["type"] == "part-of"), None)
             naam = (kanalen.get(ouder, {}).get("aliases") or [None])[0]
-            srcs = sorted(b for b, bf in bronnen.items() if naam and (bf.get("author") or [""])[0] == naam)
+            srcs = sorted(b for b, bf in bronnen.items() if naam and uitgever(bf) == naam)
         else:
             leden = {k for k, v in CONCERN.items() if v == slug}
             srcs = sorted({b for b, bf in bronnen.items() if leden & set(bf.get("merken") or [])})

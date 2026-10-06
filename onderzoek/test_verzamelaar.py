@@ -25,6 +25,7 @@ MODELLEN = [m(s) for s in (
     "renault/5-e-tech", "volkswagen/id-polo", "volkswagen/id-3", "fiat/grande-panda",
     "fiat/grande-panda-e", "hyundai/ioniq-5", "hyundai/ioniq-5-n", "alfa-romeo/junior",
     "audi/e-tron", "audi/q4-e-tron", "audi/e-tron-gt",
+    "mercedes-benz/c-klasse-limousine", "mercedes-benz/glc", "hyundai/kona-electric", "toyota/c-hr-plus",
 )]
 
 
@@ -67,6 +68,26 @@ class Koppelen(unittest.TestCase):
 
     def test_merk_van_twee_woorden(self):
         self.assertEqual(self.t("Alfa Romeo Junior Elettrica review"), ["alfa-romeo/junior"])
+
+
+class AnwbTitels(unittest.TestCase):
+    """Titels van ANWB-reviews (06-10-2026): korter merk, en zonder de algemene woorden van Plinkie."""
+    def t(self, titel):
+        return sorted(v.modellen_in(titel, MODELLEN))
+
+    def test_mercedes_is_mercedes_benz(self):
+        self.assertEqual(self.t("Mercedes C-Klasse VI (W520)"), ["mercedes-benz/c-klasse-limousine"])
+        self.assertEqual(self.t("Mercedes-Benz GLC"), ["mercedes-benz/glc"])
+
+    def test_algemeen_achtervoegsel_mag_ontbreken(self):
+        self.assertEqual(self.t("Hyundai Kona II"), ["hyundai/kona-electric"])
+
+    def test_plus_is_een_woord(self):
+        self.assertEqual(self.t("Toyota C-Hr+ I"), ["toyota/c-hr-plus"])
+
+    def test_preciezere_treffer_gaat_voor(self):
+        # Staat het hele model erin, dan geen tweede ronde voor dat merk
+        self.assertEqual(self.t("Audi Q4 e-tron"), ["audi/q4-e-tron"])
 
 
 class Herkansing(unittest.TestCase):

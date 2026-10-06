@@ -95,6 +95,11 @@ class KiesSpoor(unittest.TestCase):
         info = {"language": "en", "subtitles": {}, "automatic_captions": {"en": [], "nl": []}}
         self.assertIsNone(fetch_transcript.kies_spoor(info, "nl"))
 
+    def test_orig_track_counts_even_if_language_says_otherwise(self):
+        # Auto-dubbed Autovisie video (2026-10-06): language en-US, but nl-orig is the original audio.
+        info = {"language": "en-US", "subtitles": {}, "automatic_captions": {"nl-orig": [], "nl": [], "en-US-orig": []}}
+        self.assertEqual(fetch_transcript.kies_spoor(info, "nl"), "asr")
+
     def test_manual_in_another_language_does_not_count(self):
         # Autovisie, 2026-10-06: manual tracks in eight languages; ask nl, get nl.
         info = {"language": "nl", "subtitles": {"en": [], "nl": []}, "automatic_captions": {}}

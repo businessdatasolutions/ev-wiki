@@ -64,7 +64,7 @@ def main():
               "syntheses en threads** alfabetisch.", "", "## Bronnen", ""]
     for b in nieuw:
         fm, body = bronnen[b]
-        auteur = (fm.get("author") or ["?"])[0]
+        auteur = fm.get("site") or (fm.get("author") or ["?"])[0]
         soort = " Vergelijkingstest." if fm.get("vergelijking") else ""
         regels.append(f"- [[{b}]] — *{fm['title']}* (**{auteur}**; {fm['date_published']}).{soort} {eerste_zin(body, 'Samenvatting')}")
     regels += [l for l in bestaand if re.match(r"- \[\[([^\]|]+)", l).group(1) in bronnen]

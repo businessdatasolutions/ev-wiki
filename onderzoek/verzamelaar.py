@@ -35,6 +35,8 @@ from pathlib import Path
 import yaml
 import yt_dlp
 
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+
 REPO = Path(__file__).resolve().parents[1]
 ONDERZOEK = REPO / "onderzoek"
 RAW_VIDEOS = REPO / "raw" / "videos"
@@ -52,6 +54,8 @@ PAUZE_S = 2.0             # tussen twee lijst- of zoekverzoeken aan YouTube
 PAUZE_OPHALEN_S = 15.0    # tussen twee transcripts: na een reeks geeft YouTube HTTP 429
 MAX_POGINGEN = 3          # daarna blijft een mislukte video in het register staan
 MERKNAAM = {"vw": "volkswagen"}
+ALGEMENE_ACHTERVOEGSELS = {"limousine", "electric", "elektrisch", "suv", "hatchback", "sedan", "e", "tech",
+                           "sportback", "tourer", "estate", "coupe", "shooting", "brake"}
 
 
 # ---------------------------------------------------------------- tekst
@@ -62,7 +66,8 @@ def plat(tekst: str) -> str:
 
 
 def woorden(tekst: str) -> list[str]:
-    return [w for w in re.split(r"[^a-z0-9]+", plat(tekst)) if w]
+    # "+" is een woord: Plinkie schrijft Toyota C-HR+ als c-hr-plus (06-10-2026)
+    return [w for w in re.split(r"[^a-z0-9]+", plat(tekst).replace("+", " plus ")) if w]
 
 
 def slugify(tekst: str) -> str:
@@ -100,18 +105,35 @@ def modellen_in(titel: str, modellen: list[dict]) -> list[str]:
     Een model van één teken (Renault "4", "5") telt alleen direct na het merk, anders is
     elke "4x4" of "5 jaar" een treffer.
     """
-    ws = [MERKNAAM.get(w, w) for w in woorden(titel)]
+    ws = []
+    for i, w in enumerate(woorden(titel)):
+        ws.append(MERKNAAM.get(w, w))
+        # "Mercedes C-Klasse" is mercedes-benz in de sitemap (ANWB, 06-10-2026)
+        if w == "mercedes" and (woorden(titel)[i + 1:i + 2] or [""])[0] != "benz":
+            ws.append("benz")
     vast = "".join(ws)
+
+    def past(mw: list[str], merk: list[str]) -> bool:
+        if len(mw) == 1 and len(mw[0]) == 1:
+            return _bevat_reeks(ws, merk + mw)
+        return _bevat_reeks(ws, mw) or (len(mw) > 1 and "".join(mw) in vast) or ("".join(mw) in ws)
+
     treffers = []
     for m in modellen:
-        if not _bevat_reeks(ws, m["merk_woorden"]):
+        if _bevat_reeks(ws, m["merk_woorden"]) and past(m["model_woorden"], m["merk_woorden"]):
+            treffers.append(m["sleutel"])
+    # Tweede ronde, alleen voor een merk zonder treffer: algemene woorden aan het eind van de
+    # Plinkie-naam mogen ontbreken ("C-Klasse" is c-klasse-limousine, "Kona" is kona-electric).
+    # Een benzineversie koppelt dan ook; webbronnen.py haalt een review daarom alleen op als de
+    # tekst "kWh" noemt, en Process controleert of het om de elektrische auto gaat.
+    merken_met_treffer = {t.split("/")[0] for t in treffers}
+    for m in modellen:
+        if m["sleutel"].split("/")[0] in merken_met_treffer or not _bevat_reeks(ws, m["merk_woorden"]):
             continue
-        mw = m["model_woorden"]
-        if len(mw) == 1 and len(mw[0]) == 1:
-            ok = _bevat_reeks(ws, m["merk_woorden"] + mw)
-        else:
-            ok = _bevat_reeks(ws, mw) or (len(mw) > 1 and "".join(mw) in vast) or ("".join(mw) in ws)
-        if ok:
+        kern = list(m["model_woorden"])
+        while len(kern) > 1 and kern[-1] in ALGEMENE_ACHTERVOEGSELS:
+            kern.pop()
+        if kern != m["model_woorden"] and past(kern, m["merk_woorden"]):
             treffers.append(m["sleutel"])
     # Een treffer die binnen een andere treffer van hetzelfde merk valt, is die andere:
     # "Audi Q4 e-tron" is niet ook "audi/e-tron", "Renault 4 E-Tech" niet ook "renault/4".
@@ -337,7 +359,7 @@ def log_acquire(opgehaald: list[dict]) -> None:
     if not opgehaald:
         return
     vandaag = dt.date.today().isoformat()
-    lijst = "\n".join(f"- `{e['bestand']}` ({e['kanaal']}; {', '.join(e['modellen'])})" for e in opgehaald)
+    lijst = "\n".join(f"- `{e['bestand']}` ({e['kanaal']}; {', '.join(e.get('modellen') or []) or 'artikel'})" for e in opgehaald)
     regel = (f"## [{vandaag}] acquire | verzamelaar: {len(opgehaald)} review(s)\n\n"
              f"Opgehaald door `onderzoek/verzamelaar.py`, nog niet verwerkt (wacht op Process):\n\n{lijst}\n\n")
     tekst = LOG.read_text(encoding="utf-8")
@@ -350,6 +372,7 @@ def main() -> int:
     ap.add_argument("--droog", action="store_true", help="niets ophalen en niets schrijven; laat zien wat er zou gebeuren")
     ap.add_argument("--verken", action="store_true", help="verkenning nu, ook als de vorige korter dan een week geleden was")
     ap.add_argument("--geen-verkenning", action="store_true")
+    ap.add_argument("--geen-web", action="store_true", help="de webbronnen (reviews, artikelen) overslaan")
     ap.add_argument("--max", type=int, default=8, help="hoeveel transcripts hooguit per run (standaard 8)")
     args = ap.parse_args()
 
@@ -363,6 +386,11 @@ def main() -> int:
         reg[e["video_id"]] = e
 
     laatste = staat.get("laatste_verkenning")
+    verkennen_web = args.verken or (not args.geen_verkenning and (
+        laatste is None or (dt.date.today() - dt.date.fromisoformat(laatste)).days >= VERKEN_DAGEN))
+    if kanalen.get("web") and not args.geen_web:
+        import webbronnen
+        nieuw += webbronnen.web_run(kanalen["web"], modellen, modellen_in, reg, args.max, verkennen_web, args.droog)
     verkennen = args.verken or (not args.geen_verkenning and (
         laatste is None or (dt.date.today() - dt.date.fromisoformat(laatste)).days >= VERKEN_DAGEN))
     if verkennen:

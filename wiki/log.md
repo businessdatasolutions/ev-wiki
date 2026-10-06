@@ -8,6 +8,41 @@ Toegestane bewerkingen: `ingest`, `acquire`, `query`, `lint`, `synthesize`, `ref
 
 ---
 
+## [2026-10-06] acquire | verzamelaar: 6 review(s)
+
+Opgehaald door `onderzoek/verzamelaar.py`, nog niet verwerkt (wacht op Process):
+
+- `raw/videos/deze-nieuwe-bmw-3-serie-is-totaal-anders-dan-de-i3-andere-verhoudingen-met-vier-en-zescili.md` (AutoWeek; bmw/i3)
+- `raw/videos/de-volkswagen-id-tiguan-is-meer-dan-een-simpel-opgefriste-id4-andere-opzet-technisch-wel-g.md` (AutoWeek; volkswagen/id-4)
+- `raw/videos/de-peugeot-e-208-gti-is-de-meest-waardige-opvolger-van-de-205-gti-hele-berg-rijplezier.md` (AutoWeek; peugeot/e-208-gti)
+- `raw/videos/de-mg-im5-heeft-veel-te-bieden-maar-daar-betaal-je-dan-ook-voor-groter-maar-duurder-dan-mo.md` (AutoWeek; mg/mg-im5)
+- `raw/videos/de-skoda-peaq-is-heel-fijn-en-niet-vatbaar-voor-de-pseudo-eindheffing-groter-en-luxer-een.md` (AutoWeek; skoda/peaq)
+- `raw/articles/anwb-auto-review-toyota-c-hr-i.md` (ANWB; toyota/c-hr-plus)
+
+## [2026-10-06] acquire | verzamelaar: 5 review(s)
+
+Opgehaald door `onderzoek/verzamelaar.py`, nog niet verwerkt (wacht op Process):
+
+- `raw/articles/anwb-auto-review-mercedes-c-klasse-vi-w520.md` (ANWB; mercedes-benz/c-klasse-limousine)
+- `raw/articles/anwb-de-10-elektrische-auto-s-met-de-grootste-actieradius.md` (ANWB; artikel)
+- `raw/articles/anwb-top-10-goedkoopste-elektrische-auto-s.md` (ANWB; artikel)
+- `raw/articles/anwb-garantie-op-elektrische-auto-en-accupakket.md` (ANWB; artikel)
+- `raw/articles/anwb-welke-nieuwe-elektrische-auto-s-komen-er-in-2026.md` (ANWB; artikel)
+
+## [2026-10-06] acquire | verzamelaar: 9 review(s)
+
+Opgehaald door `onderzoek/verzamelaar.py`, nog niet verwerkt (wacht op Process):
+
+- `raw/videos/rijtest-mazda-cx-6e-dit-is-veel-beter-dan-6e.md` (Autovisie; mazda/cx-6e)
+- `raw/articles/anwb-auto-review-leapmotor-b05-i.md` (ANWB; leapmotor/b05)
+- `raw/articles/anwb-auto-review-volvo-ex60-i.md` (ANWB; volvo/ex60)
+- `raw/articles/anwb-auto-review-alpine-a390-i.md` (ANWB; alpine/a390)
+- `raw/articles/anwb-auto-review-volkswagen-id-polo-i.md` (ANWB; volkswagen/id-polo)
+- `raw/articles/anwb-auto-review-toyota-bz4x-i-1e-facelift.md` (ANWB; toyota/bz4x)
+- `raw/articles/anwb-auto-review-nissan-leaf-iii.md` (ANWB; nissan/leaf)
+- `raw/articles/anwb-9-elektrische-auto-s-met-trekhaak.md` (ANWB; artikel)
+- `raw/articles/anwb-top-10-elektrische-caravantrekkers.md` (ANWB; artikel)
+
 ## [2026-10-06] ingest | Tweede batch: 9 reviews, waarvan 8 van de verzamelaar, verwerkt door parallelle subagents
 
 Negen bronnen, elk door een eigen subagent tot concept-bronpagina en voorstel verwerkt, daarna in één pass samengevoegd (zodat gedeelde pagina's één keer geschreven worden):

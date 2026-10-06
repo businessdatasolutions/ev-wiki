@@ -618,9 +618,14 @@ def kies_spoor(info: dict, lang: str) -> str | None:
     """
     if lang in (info.get("subtitles") or {}):
         return "manual"
-    spoken = (info.get("language") or "").split("-")[0]
     auto = info.get("automatic_captions") or {}
-    if spoken == lang and (lang in auto or f"{lang}-orig" in auto):
+    # "<lang>-orig" is YouTube's recognition of the original audio in that language, never a
+    # translation. A video with auto-dubbing has several (nl-orig and en-US-orig on an Autovisie
+    # review, 2026-10-06) and `language` then says en-US, so check -orig before the spoken language.
+    if f"{lang}-orig" in auto:
+        return "asr"
+    spoken = (info.get("language") or "").split("-")[0]
+    if spoken == lang and lang in auto:
         return "asr"
     return None
 
@@ -701,7 +706,7 @@ def fetch_via_ytdlp(video_id: str, lang: str) -> dict | None:
                     time.sleep(wait)
                 log = _Log()
                 opts = {"skip_download": True, "writesubtitles": True, "writeautomaticsub": True,
-                        "subtitleslangs": [lang], "subtitlesformat": "vtt", "quiet": True,
+                        "subtitleslangs": [f"{lang}-orig", lang], "subtitlesformat": "vtt", "quiet": True,
                         "logger": log, "outtmpl": str(Path(tmp) / "s.%(ext)s")}
                 if clients:
                     opts["extractor_args"] = {"youtube": {"player_client": clients}}
@@ -710,7 +715,8 @@ def fetch_via_ytdlp(video_id: str, lang: str) -> dict | None:
                         info = y.extract_info(url, download=True)
                 except yt_dlp.utils.DownloadError as e:
                     log.msgs.append(str(e))
-                files = sorted(Path(tmp).glob(f"s.{lang}*.vtt"))
+                # The original-audio track first: "s.nl-orig.vtt" before a possibly translated "s.nl.vtt"
+                files = sorted(Path(tmp).glob(f"s.{lang}*.vtt"), key=lambda f: "-orig" not in f.name)
                 # A 429 on the first client: go to the next client, not into the wait loop.
                 if files or not any("429" in m for m in log.msgs) or clients:
                     break

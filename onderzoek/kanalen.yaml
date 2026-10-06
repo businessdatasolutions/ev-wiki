@@ -39,3 +39,29 @@ vast:
     uploads: 40
 
 genegeerd: []
+
+# Webbronnen: geschreven reviews en themaartikelen (onderzoek/webbronnen.py, CLAUDE.md §Verzamelaar).
+# Toegevoegd 06-10-2026 op verzoek van de eigenaar. robots.txt van anwb.nl staat deze paden toe.
+#   overzicht:            elke run de nieuwste reviews van deze pagina
+#   knooppunten, sitemap: alleen bij een verkenning, om oudere reviews te vinden via de modelpagina's
+#   artikelen:            vaste themaartikelen, opnieuw opgehaald na ververs_dagen
+web:
+  - naam: ANWB
+    taal: nl
+    ook_aanbieder: anwb-private-lease
+    overzicht: https://www.anwb.nl/auto/tests/auto-reviews
+    review_patroon: /auto/tests/auto-reviews/detail/[0-9a-f]{32}
+    knooppunten:
+      - https://www.anwb.nl/auto/elektrisch-rijden/elektrische-autos
+    sitemap: https://www.anwb.nl/sitemap.xml
+    sitemap_filter: /auto/sitemap-
+    sitemap_patroon: /auto/elektrisch-rijden/elektrische-autos/
+    modelpagina_patroon: /auto/informatie/[^"#?]+
+    ververs_dagen: 90
+    artikelen:
+      - https://www.anwb.nl/auto/elektrisch-rijden/elektrische-autos/elektrische-auto-met-trekhaak
+      - https://www.anwb.nl/auto/elektrisch-rijden/elektrische-autos/elektrische-caravantrekker
+      - https://www.anwb.nl/auto/elektrisch-rijden/elektrische-autos/elektrische-auto-met-grootste-actieradius
+      - https://www.anwb.nl/auto/elektrisch-rijden/elektrische-autos/goedkoopste-elektrische-auto
+      - https://www.anwb.nl/auto/elektrisch-rijden/elektrische-autos/garantie-op-elektrische-autos-hoe-zit-dat
+      - https://www.anwb.nl/auto/elektrisch-rijden/elektrische-autos/verwachte-elektrische-autos

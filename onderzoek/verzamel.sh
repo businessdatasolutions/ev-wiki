@@ -8,7 +8,7 @@ UV="${UV:-$HOME/.local/bin/uv}"
 LOGFILE="onderzoek/logs/$(date +%Y-%m-%d).log"
 {
   echo "=== $(date '+%Y-%m-%d %H:%M:%S') verzamelaar $*"
-  "$UV" run --no-project --with-requirements .claude/skills/youtube-transcript-skill/requirements.txt \
+  "$UV" run --no-project --with-requirements .claude/skills/youtube-transcript-skill/requirements.txt --with trafilatura \
     python -u onderzoek/verzamelaar.py "$@"
   echo "=== exit $?"
 } >> "$LOGFILE" 2>&1

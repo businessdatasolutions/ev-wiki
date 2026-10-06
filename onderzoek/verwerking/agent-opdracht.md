@@ -55,6 +55,15 @@ browserpaneel, dus mogelijk een andere taal); of het een review, test of vergeli
    "concepten": [{"slug","bestaat","toevoeging"}], "relaties_met_bestaande_bronnen": [{"type","target","via"}]}`.
    Elk feit noemt de uitvoering (of "uitvoering niet genoemd") en eindigt met de tijd.
 
+## Bij een artikel (raw/articles/)
+Geen tijdstempels: verwijs naar de tussenkop of de alinea ("onder 'Rijden'"). `kind: article`, geen
+`weergaven:`, `site:` uit de ruwe kop (bijv. `ANWB`; dat is het kanaal, `author` is de schrijver),
+`url:` letterlijk uit de ruwe kop, en `relationships` met `published-by` naar het kanaal (`anwb`). Een review van ANWB is een bron met belang (ANWB leaset zelf); een meting in de tekst
+("over ruim 500 km haalden we 19,8 kWh/100 km") is wel een `meting`, met de omstandigheden die erbij
+staan. Een themaartikel noemt veel modellen met één feit: zet die feiten per model in `model_feiten`
+en als aanvulling op het concept, en zet in `modellen:` alleen de modellen waarover het artikel echt
+iets zegt; neem alleen modellen op die in `onderzoek/plinkie-modellen.txt` staan of al een pagina hebben.
+
 ## Regels
 - Slugs: model = `<merk>-<model>` uit het Plinkie-pad; merk = het merkdeel; een uitvoering (GSE, HF, GTX)
   is geen eigen model. Een model dat Plinkie niet heeft, krijgt dezelfde vorm met `plinkie_pad: ""`.

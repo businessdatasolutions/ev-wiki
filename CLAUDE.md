@@ -276,6 +276,37 @@ description: |
 
 Vaste velden: `kind: video`, `raw: "../../raw/videos/<slug>.md"`, `url:` verplicht.
 
+### Artikelen: het frontmattercontract
+
+Geschreven reviews en themaartikelen (`raw/articles/`, door `onderzoek/webbronnen.py` of met de hand):
+
+```yaml
+---
+title: <titel van de pagina>
+url: <adres>
+site: ANWB
+soort: review | artikel          # review = test van één model; artikel = thema (trekhaak, actieradius)
+author: [<auteur>]               # uit de kenmerken naast de tekst, anders de site
+date_published: <JJJJ-MM-DD>     # "Gepubliceerd op" op de pagina
+uitvoering: <geteste uitvoering> # alleen bij een review
+taal: nl
+opgehaald: <JJJJ-MM-DD>
+verzameld: {door, datum, site, modellen_kandidaat, status}
+notes: <hoe de tekst uit de HTML is gehaald>
+---
+```
+
+**Verplicht voor pre-flight:** `title`, `url`, `date_published`. Op de bronpagina wordt het
+`kind: article`, `author` uit de kop, en geen `weergaven:`. Een feit verwijst naar de alinea of de
+tussenkop in plaats van een tijdstempel. Een themaartikel (bijv. "elektrische auto met trekhaak") geeft
+vaak één feit over veel modellen: zet die als aanvulling op het concept (`trekgewicht`) en per model
+in `model_feiten`, niet als tientallen eigen modellen in `modellen:`. Een themaartikel verandert: de
+verzamelaar haalt het na `ververs_dagen` opnieuw op, en de bronpagina noemt de datum van de stand.
+
+**ANWB-modelpagina's** (`/auto/informatie/…`) hebben een kolom "Praktijkverbruik" waarvan de herkomst
+niet op de pagina staat; die waarde wijkt af van de meting in de review van hetzelfde model (Kia EV9:
+28 tegen 19,8 kWh/100 km). Gebruik de review, niet die kolom.
+
 ### Getallen uit spraakherkenning
 
 **Een getal uit een automatisch transcript is een vermoeden, geen feit.** In één ANWB-video
