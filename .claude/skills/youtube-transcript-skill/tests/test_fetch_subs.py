@@ -81,5 +81,39 @@ class Manual(unittest.TestCase):
         self.assertEqual(segs[1], {"ts": "1:05", "text": "5 jaar garantie & 8 jaar op het accupakket"})
 
 
+class KiesSpoor(unittest.TestCase):
+    def test_manual_wins(self):
+        info = {"language": "nl", "subtitles": {"nl": []}, "automatic_captions": {"nl": []}}
+        self.assertEqual(fetch_transcript.kies_spoor(info, "nl"), "manual")
+
+    def test_asr_only_in_the_spoken_language(self):
+        info = {"language": "nl", "subtitles": {}, "automatic_captions": {"nl": [], "en": []}}
+        self.assertEqual(fetch_transcript.kies_spoor(info, "nl"), "asr")
+
+    def test_no_machine_translation(self):
+        # An English video offers an automatic "nl" track too: that is a translation.
+        info = {"language": "en", "subtitles": {}, "automatic_captions": {"en": [], "nl": []}}
+        self.assertIsNone(fetch_transcript.kies_spoor(info, "nl"))
+
+    def test_manual_in_another_language_does_not_count(self):
+        # Autovisie, 2026-10-06: manual tracks in eight languages; ask nl, get nl.
+        info = {"language": "nl", "subtitles": {"en": [], "nl": []}, "automatic_captions": {}}
+        self.assertEqual(fetch_transcript.kies_spoor(info, "nl"), "manual")
+
+
+class MetadataFromYtdlp(unittest.TestCase):
+    def test_shape_matches_the_page_scrape(self):
+        info = {"id": "EFAu5nYWeCM", "title": "Kia EV2", "channel": "ANWB", "channel_id": "UCx",
+                "timestamp": 1775030409, "duration": 668, "view_count": 51223, "language": "nl",
+                "subtitles": {}, "automatic_captions": {"nl": []}, "categories": ["Autos & Vehicles"],
+                "chapters": [{"title": "Prijs", "start_time": 114.0}], "description": "d"}
+        m = fetch_transcript.metadata_from_ytdlp(info)
+        self.assertEqual(m["publish_date"], "2026-04-01T08:00:09+00:00")
+        self.assertEqual(m["channel_url"], "https://www.youtube.com/channel/UCx")
+        self.assertEqual(m["chapters"], [{"title": "Prijs", "start": "1:54", "start_ms": 114000}])
+        self.assertEqual(m["caption_tracks"], [{"language_code": "nl", "name": None, "kind": "asr", "is_translatable": True}])
+        self.assertEqual((m["length_seconds"], m["view_count"], m["category"]), (668, 51223, "Autos & Vehicles"))
+
+
 if __name__ == "__main__":
     unittest.main()

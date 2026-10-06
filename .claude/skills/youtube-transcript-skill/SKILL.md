@@ -46,7 +46,9 @@ Then read the JSON, fix ASR errors (proper nouns, product names, mistranscribed 
 python fetch_transcript.py "URL" --sub-lang nl -o raw/videos/<slug>.md
 ```
 
-The transcript panel picks its own caption track, and with `hl=en` pinned it takes a creator-uploaded English track when one exists. An Autovisie review with manual tracks in eight languages came back in English that way. `--sub-lang` takes the text from the asked track with yt-dlp (manual before automatic) and keeps the page for metadata; the header then carries `transcript_track: {language_code, kind, via: yt-dlp}`. A "manual" track is not always human: that Autovisie track was a pasted ASR text ("DON Feng").
+The transcript panel picks its own caption track, and with `hl=en` pinned it takes a creator-uploaded English track when one exists. An Autovisie review with manual tracks in eight languages came back in English that way. `--sub-lang` gets metadata and the asked track in **one yt-dlp call, without a browser** (`fetch_via_ytdlp`): manual before automatic, and an automatic track only in the video's own spoken language, so a machine translation never comes in (`kies_spoor`). The header then carries `transcript_track: {language_code, kind, via: yt-dlp}`. If that fails, the browser path runs as before; then `transcript_track` is absent and the panel's text may be in another language.
+
+**HTTP 429.** YouTube rate-limits subtitle downloads per connection after a burst (2026-10-06, after a few dozen requests; it lasted over an hour). yt-dlp reports a failed subtitle download as a message and carries on, without raising, so `fetch_via_ytdlp` reads yt-dlp's log, waits 30 and 90 s on a 429, and retries. Running fetches in parallel makes it worse: every process shares the connection. A "manual" track is not always human: that Autovisie track was a pasted ASR text ("DON Feng").
 
 **View count is a snapshot.** The header carries `view_count_date:` next to `view_count:`, the day it was read. ev-wiki stores views per measurement on the source page (`weergaven:`), so a later re-read adds a measurement instead of overwriting one.
 

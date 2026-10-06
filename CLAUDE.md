@@ -69,8 +69,12 @@ Een nieuw ruw bestand landt in `raw/`. Acquire raakt **alleen** `raw/`.
      python fetch_transcript.py "<url>" --sub-lang nl --timeout 60000 -o ../../../raw/videos/<slug>.md
    ```
 
-   Zonder `--sub-lang` kiest het transcriptpaneel zelf een spoor, en dat was op 06-10-2026 bij een
-   Autovisie-review het Engelse. De skill zet `view_count_date:` naast `view_count:`: het aantal
+   Met `--sub-lang` haalt de skill metadata en ondertitels in **één yt-dlp-aanroep, zonder
+   browser**: twee verzoeken per video in plaats van vier tot zes. Een automatisch spoor telt alleen
+   in de taal van de video zelf, zodat er nooit een machinevertaling binnenkomt. Lukt het niet,
+   dan valt de skill terug op het transcriptpaneel in de browser; dan ontbreekt `transcript_track`
+   en kan de tekst in een andere taal zijn. Zonder `--sub-lang` kiest het paneel zelf een spoor,
+   en dat was op 06-10-2026 bij een Autovisie-review het Engelse. De skill zet `view_count_date:` naast `view_count:`: het aantal
    weergaven is een momentopname en zonder dag niet te vergelijken.
 4. **Opnieuw ophalen mag.** Een betere versie van dezelfde bron vervangt het ruwe bestand; de
    wiki-pagina verandert pas bij een nieuwe Process. **Uitzondering:** draai `fetch_transcript.py -o`
@@ -157,7 +161,10 @@ ruwe video's erop wachten.
    "Q4 e-tron") valt weg. Getest in `onderzoek/test_verzamelaar.py`.
 4. Overgeslagen: geen model, korter dan 4 minuten, of een titel onder `uitsluiten:` van het kanaal
    (bij ANWB de Wegenwacht-afleveringen).
-5. Opgehaald met de transcript-skill en `--sub-lang` in de taal van het kanaal, hooguit 8 per run.
+5. Opgehaald met de transcript-skill en `--sub-lang` in de taal van het kanaal, hooguit 8 per run,
+   met 15 seconden tussen twee video's. **YouTube beperkt per verbinding** (HTTP 429): de skill wacht
+   30 en 90 seconden en probeert opnieuw, en strandt een video toch op een 429, dan haalt de run
+   niets meer op. Parallel ophalen helpt hier niet: alle processen delen één verbinding.
    De ruwe kop krijgt een blok `verzameld:` (door, datum, kanaal, `modellen_kandidaat`).
 
 **Verkenning** (eens per week, of `--verken`). Voor 15 modellen per keer, op volgorde rond door de

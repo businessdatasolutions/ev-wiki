@@ -184,14 +184,15 @@ def zoek(vraag: str, n: int = 10, taal: str = "nl") -> list[dict]:
     return [e for e in info.get("entries") or [] if e.get("id")]
 
 
-def haal_op(video_id: str, taal: str, pad: Path, modellen: list[str], kanaal: str) -> tuple[bool, str]:
+def haal_op(video_id: str, taal: str, pad: Path, modellen: list[str], kanaal: str) -> tuple[bool, str, bool]:
     """Transcript ophalen met de skill, en vastleggen dat de verzamelaar het deed."""
     cmd = [sys.executable, str(SKILL / "fetch_transcript.py"), f"https://www.youtube.com/watch?v={video_id}",
            "--sub-lang", taal, "--timeout", "60000", "-o", str(pad)]
     r = subprocess.run(cmd, capture_output=True, text=True, cwd=SKILL)
+    geblokkeerd = "HTTP Error 429" in r.stderr
     if r.returncode != 0 or not pad.exists():
         uitvoer = (r.stderr or r.stdout).strip().splitlines()
-        return False, uitvoer[-1] if uitvoer else "onbekende fout"
+        return False, ("HTTP 429; " if geblokkeerd else "") + (uitvoer[-1] if uitvoer else "onbekende fout"), geblokkeerd
     tekst = pad.read_text(encoding="utf-8")
     blok = yaml.safe_dump({"verzameld": {
         "door": "verzamelaar",
@@ -203,13 +204,13 @@ def haal_op(video_id: str, taal: str, pad: Path, modellen: list[str], kanaal: st
     # Achter de frontmatter van de skill, vóór de afsluitende ---
     kop_einde = tekst.index("\n---", 4)
     pad.write_text(tekst[:kop_einde] + "\n" + blok + tekst[kop_einde:], encoding="utf-8")
-    return True, ""
+    return True, "", geblokkeerd
 
 
 # ---------------------------------------------------------------- runs
 
 def gewone_run(kanalen: list[dict], modellen: list[dict], reg: dict, in_raw: set, max_ophalen: int, droog: bool) -> list[dict]:
-    nieuw, opgehaald = [], 0
+    nieuw, opgehaald, geblokkeerd = [], 0, False
     vandaag = dt.date.today().isoformat()
     for k in kanalen:
         try:
@@ -234,7 +235,7 @@ def gewone_run(kanalen: list[dict], modellen: list[dict], reg: dict, in_raw: set
                 regel |= {"status": "overgeslagen", "reden": f"titel valt onder uitsluiten: {uitsluiten}"}
             elif duur and duur < MIN_DUUR_S:
                 regel |= {"status": "overgeslagen", "reden": f"korter dan {MIN_DUUR_S} s"}
-            elif opgehaald >= max_ophalen:
+            elif opgehaald >= max_ophalen or geblokkeerd:
                 continue  # niet registreren: de volgende run pakt hem op
             elif droog:
                 regel |= {"status": "zou ophalen"}
@@ -242,7 +243,11 @@ def gewone_run(kanalen: list[dict], modellen: list[dict], reg: dict, in_raw: set
                 pad = RAW_VIDEOS / f"{slugify(titel) or vid}.md"
                 if pad.exists():
                     pad = RAW_VIDEOS / f"{slugify(titel)}-{vid}.md"
-                ok, fout = haal_op(vid, k.get("taal", "nl"), pad, mods, k["naam"])
+                ok, fout, blok = haal_op(vid, k.get("taal", "nl"), pad, mods, k["naam"])
+                if blok and not ok:
+                    # YouTube weigert deze verbinding: doorgaan verlengt de blokkade.
+                    geblokkeerd = True
+                    print("! HTTP 429: deze run haalt niets meer op", file=sys.stderr)
                 if ok:
                     regel |= {"status": "opgehaald", "bestand": str(pad.relative_to(REPO))}
                 else:

@@ -608,26 +608,116 @@ def _vtt_to_segments(vtt: str, rolling: bool) -> list[dict]:
 SUBS_RETRY_WAITS_S = (30, 90)
 
 
-def fetch_subs(video_id: str, lang: str) -> tuple[list[dict], str] | None:
-    """Fetch the `lang` caption track with yt-dlp. Returns (segments, kind) or None."""
+def kies_spoor(info: dict, lang: str) -> str | None:
+    """Which track to take for `lang`: 'manual', 'asr', or None.
+
+    A creator-uploaded track in `lang` wins. YouTube also offers an automatic
+    track in every language, machine-translated from the spoken one, so an
+    automatic track only counts when the video itself is in `lang`: asking an
+    English video for `nl` must not return a translation.
+    """
+    if lang in (info.get("subtitles") or {}):
+        return "manual"
+    spoken = (info.get("language") or "").split("-")[0]
+    auto = info.get("automatic_captions") or {}
+    if spoken == lang and (lang in auto or f"{lang}-orig" in auto):
+        return "asr"
+    return None
+
+
+def metadata_from_ytdlp(info: dict) -> dict:
+    """yt-dlp's info dict in the shape the page scrape produces (see _grab_metadata)."""
+    def iso(ts: int | None, ymd: str | None) -> str | None:
+        if ts:
+            return datetime.datetime.fromtimestamp(ts, tz=datetime.timezone.utc).isoformat()
+        return f"{ymd[:4]}-{ymd[4:6]}-{ymd[6:]}" if ymd and len(ymd) == 8 else None
+
+    published = iso(info.get("release_timestamp") or info.get("timestamp"), info.get("upload_date"))
+    tracks = [{"language_code": k, "name": None, "kind": "manual", "is_translatable": True}
+              for k in (info.get("subtitles") or {}) if k != "live_chat"]
+    spoken = info.get("language")
+    if spoken and spoken.split("-")[0] in {k.split("-")[0] for k in (info.get("automatic_captions") or {})}:
+        tracks.append({"language_code": spoken, "name": None, "kind": "asr", "is_translatable": True})
+    chapters = [{"title": c.get("title") or "", "start": _format_duration(int(c.get("start_time") or 0)),
+                 "start_ms": int((c.get("start_time") or 0) * 1000)} for c in info.get("chapters") or []]
+    thumbs = [{"url": t["url"], "width": t.get("width"), "height": t.get("height")}
+              for t in info.get("thumbnails") or [] if t.get("width")]
+    return {
+        "video_id": info.get("id"),
+        "title": info.get("title"),
+        "url": f"https://www.youtube.com/watch?v={info.get('id')}",
+        "channel": info.get("channel") or info.get("uploader"),
+        "channel_id": info.get("channel_id"),
+        "channel_url": f"https://www.youtube.com/channel/{info['channel_id']}" if info.get("channel_id") else None,
+        "description": info.get("description"),
+        "keywords": info.get("tags") or [],
+        "category": (info.get("categories") or [None])[0],
+        "publish_date": published,
+        "upload_date": published,
+        "length_seconds": info.get("duration"),
+        "view_count": info.get("view_count"),
+        "default_language": spoken,
+        "is_family_safe": info.get("age_limit", 0) == 0,
+        "is_live": bool(info.get("is_live")),
+        "thumbnail": info.get("thumbnail"),
+        "thumbnails": thumbs,
+        "caption_tracks": tracks,
+        "chapters": chapters,
+    }
+
+
+def fetch_via_ytdlp(video_id: str, lang: str) -> dict | None:
+    """Metadata and the `lang` transcript in one yt-dlp call, no browser.
+
+    Two requests per video instead of the browser path's four to six (page,
+    panel, get_transcript, and two yt-dlp runs for manual and automatic). That
+    matters because YouTube rate-limits per connection (HTTP 429), and the
+    collector fetches several videos a night. Returns None when yt-dlp fails or
+    there is no usable track, so the caller can fall back to the browser.
+    """
+    import yt_dlp  # only this path needs it
+
+    class _Log:
+        """yt-dlp reports a failed subtitle download as an error message and carries
+        on; it does not raise. Collect the messages to see a 429 (2026-10-06)."""
+        def __init__(self):
+            self.msgs: list[str] = []
+        def debug(self, m): pass
+        def info(self, m): pass
+        def warning(self, m): self.msgs.append(m)
+        def error(self, m): self.msgs.append(m)
+
     url = f"https://www.youtube.com/watch?v={video_id}"
     with tempfile.TemporaryDirectory() as tmp:
-        for kind, flag in (("manual", "--write-subs"), ("asr", "--write-auto-subs")):
-            cmd = [sys.executable, "-m", "yt_dlp", "--skip-download", flag, "--sub-langs", lang,
-                   "--sub-format", "vtt", "-o", str(Path(tmp) / f"{kind}.%(ext)s"), url]
-            for wait in (0, *SUBS_RETRY_WAITS_S):
-                if wait:
-                    print(f"warning: HTTP 429 on subtitles, retrying in {wait} s", file=sys.stderr)
-                    time.sleep(wait)
-                r = subprocess.run(cmd, capture_output=True, text=True)
-                if "HTTP Error 429" not in r.stderr:
-                    break
-            files = sorted(Path(tmp).glob(f"{kind}.{lang}*.vtt"))
-            if files:
-                segs = _vtt_to_segments(files[0].read_text(encoding="utf-8"), rolling=(kind == "asr"))
-                if segs:
-                    return segs, kind
-    return None
+        info, files = None, []
+        for wait in (0, *SUBS_RETRY_WAITS_S):
+            if wait:
+                print(f"warning: HTTP 429 from YouTube, retrying in {wait} s", file=sys.stderr)
+                time.sleep(wait)
+            log = _Log()
+            opts = {"skip_download": True, "writesubtitles": True, "writeautomaticsub": True,
+                    "subtitleslangs": [lang], "subtitlesformat": "vtt", "quiet": True,
+                    "logger": log, "outtmpl": str(Path(tmp) / "s.%(ext)s")}
+            try:
+                with yt_dlp.YoutubeDL(opts) as y:
+                    info = y.extract_info(url, download=True)
+            except yt_dlp.utils.DownloadError as e:
+                log.msgs.append(str(e))
+            files = sorted(Path(tmp).glob(f"s.{lang}*.vtt"))
+            if files or not any("429" in m for m in log.msgs):
+                break
+        if info is None:
+            print(f"warning: yt-dlp failed: {(log.msgs or ['?'])[-1]}", file=sys.stderr)
+            return None
+        kind = kies_spoor(info, lang)
+        if not kind or not files:
+            return None
+        segs = _vtt_to_segments(files[0].read_text(encoding="utf-8"), rolling=(kind == "asr"))
+        if not segs:
+            return None
+        meta = metadata_from_ytdlp(info)
+        meta["transcript_track"] = {"language_code": lang, "kind": kind, "via": "yt-dlp"}
+        return {"video_id": video_id, "metadata": meta, "transcript": segs}
 
 
 # ---------------------------------------------------------------------------
@@ -806,21 +896,19 @@ async def _main() -> int:
         print(f"error: {e}", file=sys.stderr)
         return 2
 
-    result = await fetch(video_id, headless=not args.headed, timeout_ms=args.timeout)
+    # With --sub-lang, yt-dlp alone first: no browser, two requests. The browser
+    # path stays as the fallback, and then its panel transcript is kept, which
+    # may be in another language (check transcript_track at Process).
+    result = fetch_via_ytdlp(video_id, args.sub_lang) if args.sub_lang else None
+    if result is None:
+        if args.sub_lang:
+            print(f"warning: no {args.sub_lang} track via yt-dlp; falling back to the browser panel", file=sys.stderr)
+        result = await fetch(video_id, headless=not args.headed, timeout_ms=args.timeout)
 
     # view_count is a snapshot: without the day it was read, two counts of the
     # same video cannot be compared (ev-wiki stores views per measurement).
     if result.get("metadata", {}).get("view_count") is not None:
         result["metadata"]["view_count_date"] = datetime.date.today().isoformat()
-
-    if args.sub_lang:
-        subs = fetch_subs(video_id, args.sub_lang)
-        if subs:
-            result["transcript"], kind = subs
-            result.pop("error", None)
-            result["metadata"]["transcript_track"] = {"language_code": args.sub_lang, "kind": kind, "via": "yt-dlp"}
-        else:
-            print(f"warning: no {args.sub_lang} caption track via yt-dlp; kept the panel transcript", file=sys.stderr)
 
     if args.json:
         json.dump(result, sys.stdout, ensure_ascii=False, indent=2)
