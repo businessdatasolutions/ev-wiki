@@ -178,12 +178,11 @@ in de publieke repo:
 - **EV Database** (ev-database.org): alleen om fabrieksopgaven uit transcripts te controleren. Een
   pagina zegt hooguit "gecontroleerd tegen EV Database op <datum>"; waarden worden niet overgenomen.
   Het is een commerciële databank (databankenrecht).
-- **eu-evs.com**: registraties per model en land, een sterker signaal voor belangstelling dan
-  weergaven. `onderzoek/eu_evs.py` haalt eens per maand de maandcijfers per model op met het
-  account uit `.env` (`EU_EVS_E_MAIL`, `EU_EVS_PASSWORD`) naar `raw/data/eu-evs/` (gitignored).
-  De CSV-export vraagt **Premium**; op 06-10-2026 was dat niet actief en faalt het script met een
-  duidelijke melding, zonder de verzamelaar tegen te houden. Een wiki-pagina mag een enkel cijfer
-  noemen, met bron en maand.
+- **eu-evs.com**: aanvullende informatie over de markt (registraties per land en merk). De
+  onderzoeker leest alleen de openbare pagina's die `robots.txt` toestaat (zoals `/latest`, de top 5
+  merken per land), zonder account en zonder iets op te slaan. Cijfers per model zitten achter
+  Premium of op uitgesloten pagina's; daar gaan we niet heen. Een account is op 06-10-2026
+  geprobeerd en weer opgezegd. Een wiki-pagina mag een marktcijfer noemen, met bron en datum.
 
 **Register.** `onderzoek/register.jsonl` heeft één regel per video die de verzamelaar zag, met
 status (`opgehaald`, `overgeslagen` met reden, `mislukt`, `voorstel`). Een video in het register of
