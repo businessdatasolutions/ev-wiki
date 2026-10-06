@@ -374,7 +374,14 @@ concurrenten:
 - `tijd` is het tijdstempel in de video, verplicht bij `kind: video`.
 - `grond` zegt waarom de tester ze naast elkaar zet: prijs, klasse, maat, merkimago, een
   rechtstreekse vergelijkingstest. Een vergelijkingstest van twee modellen is de sterkste grond.
-- Neem alleen op wat de tester **als concurrent of alternatief** noemt. Een model dat ter
+- **Een vergelijking is automatisch concurrentie** (besluit eigenaar, 06-10-2026). Zet een video
+  of artikel twee of meer modellen van **verschillende merken** naast elkaar (een
+  vergelijkingstest, "X tegen Y", een occasion battle), dan zijn ze elkaars concurrent, ook als
+  het woord niet valt: dat het medium ze vergelijkt, is de grond. Zet dan `vergelijking: true` op
+  de bronpagina; lint eist dat elk paar van verschillende merken in `concurrenten:` staat.
+  Modellen van hetzelfde merk in één vergelijking (Kia EV3 tegen EV2) vallen er niet automatisch
+  onder: dat is een keuze binnen één merk, geen alternatief bij een andere aanbieder.
+- Neem verder alleen op wat de tester **als concurrent of alternatief** noemt. Een model dat ter
   vergelijking van één maat valt ("de Epiq heeft 490 liter"), telt mee als het in dezelfde
   passage als alternatief wordt gezet; een losse vermelding van een ander merk niet.
 

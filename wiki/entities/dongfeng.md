@@ -1,11 +1,13 @@
 ---
 type: entity
 kind: merk
-aliases: [Dongfeng]
-tags: [dongfeng]
+aliases:
+- Dongfeng
+tags:
+- dongfeng
 confidence: 0.75
-last_confirmed: "2026-10-06"
-accessed_at: "2026-10-06"
+last_confirmed: '2026-10-06'
+accessed_at: '2026-10-06'
 source_count: 2
 ---
 
@@ -15,12 +17,12 @@ Een van de oudste Chinese autoproducenten. Bouwde eerst vrachtwagens, daarna in 
 
 ## Modellen in deze wiki
 
-[[dongfeng-box]]
+[[dongfeng-box|Dongfeng Box]]
 
 ## Bronnen
 
-- [[2024-11-15-chinese-evs-onder-de-25-mille-kleine-autos-grote-verleiding|ANWB, Box tegen T03 (november 2024)]]
-- [[2024-09-18-deze-goedkope-chinese-ev-is-europese-concurrentie-te-slim-af|Autovisie, Dongfeng Box (september 2024)]]
+- [[2024-09-18-deze-goedkope-chinese-ev-is-europese-concurrentie-te-slim-af|Autovisie 18-09-2024]]
+- [[2024-11-15-chinese-evs-onder-de-25-mille-kleine-autos-grote-verleiding|ANWB 15-11-2024]]
 
 ## Debatten en vervanging
 

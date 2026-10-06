@@ -8,6 +8,32 @@ Toegestane bewerkingen: `ingest`, `acquire`, `query`, `lint`, `synthesize`, `ref
 
 ---
 
+## [2026-10-06] ingest | Tweede batch: 9 reviews, waarvan 8 van de verzamelaar, verwerkt door parallelle subagents
+
+Negen bronnen, elk door een eigen subagent tot concept-bronpagina en voorstel verwerkt, daarna in één pass samengevoegd (zodat gedeelde pagina's één keer geschreven worden):
+
+- [[2026-10-02-bmw-ix3-vs-volvo-ex60-roadtrip-met-special-guest]] (ANWB, vergelijkingstest, plus de Mercedes GLC)
+- [[2026-09-26-waarom-wij-voor-de-peugeot-e-208-gti-zouden-kiezen]] (Autovisie)
+- [[2026-09-13-skoda-epiq-troeft-zelfs-volkswagen-id-polo-af]] (Autovisie, met meting)
+- [[2026-09-11-rijtest-in-een-rationele-wereld-zou-iedereen-leapmotor-b03x-rijden]] (Autovisie)
+- [[2026-09-10-geliefd-in-nederland-populaire-volvo-xc40-en-ex40-weer-gefacelift]] (Autovisie, nieuws met fabrieksopgaven)
+- [[2026-09-09-is-de-volkswagen-id-polo-de-nieuwe-publiekslieveling]] (ANWB, met meting)
+- [[2026-09-06-elektrische-sportwagens-voor-weinig-de-audi-e-tron-gt-en-porsche-taycan-zijn-flink-afgesch]] (Autovisie, occasiontest)
+- [[2026-07-27-elektrische-c-klasse-doet-het-heel-anders-dan-de-bmw-i3]] (Autovisie, met meting)
+- AutoWeek, ID. Polo tegen Renault 5 (vergelijkingstest; met de hand opgehaald op aanwijzing van de eigenaar)
+
+Besluiten bij het samenvoegen:
+- **Een vergelijking is concurrentie** (besluit eigenaar): modellen van verschillende merken in een vergelijkingsvideo zijn elkaars concurrent; `vergelijking: true` op de bron, lint controleert de paren. Ook gezet op de Box-tegen-T03-test van ANWB.
+- Opel Corsa GSE en Lancia Ypsilon HF zijn uitvoeringen van `opel-corsa-electric` en `lancia-ypsilon`, de paden die Plinkie heeft.
+- `accugezondheid` niet als concept opgenomen: gaat over tweedehands, Plinkie vergelijkt nieuwe lease.
+- Nieuwe concepten: voorconditioneren, wegenbelasting, bidirectioneel laden.
+
+Bevindingen:
+- De titel stuurt de verzamelaar soms naar de concurrent: "Elektrische C-klasse doet het heel anders dan de BMW i3" gaat over de Mercedes; de controle bij Process ving het op.
+- Eerste tegenspraak tussen bronnen: kofferbak Škoda Epiq 490 L (ANWB) tegen ruim 470 L (Autovisie).
+- Volvo hernoemde alleen de aandrijflijnen (Single Motor → P5, Twin Motor → P8 AWD); Plinkie kent de EX40 ook als `xc40-recharge`.
+- Weergaven verschillen per soort video: een Occasion Battle van Autovisie haalt 5.507 per dag tegen 42 voor een eerste kennismaking. Binnen één kanaal vergelijken is niet genoeg.
+
 ## [2026-10-06] acquire | verzamelaar: 8 review(s)
 
 Opgehaald door `onderzoek/verzamelaar.py`, nog niet verwerkt (wacht op Process):

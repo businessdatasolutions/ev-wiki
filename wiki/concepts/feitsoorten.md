@@ -1,11 +1,13 @@
 ---
 type: concept
-aliases: ["feitsoort"]
-tags: [feitsoorten]
-confidence: 0.85
-last_confirmed: "2026-10-06"
-accessed_at: "2026-10-06"
-source_count: 4
+aliases:
+- feitsoort
+tags:
+- feitsoorten
+confidence: 0.9
+last_confirmed: '2026-10-06'
+accessed_at: '2026-10-06'
+source_count: 5
 quality_score: 1
 ---
 
@@ -29,12 +31,20 @@ Een oordeel is waardevol maar persoonlijk. Merk en service verandert langzaam en
 Van de drie reviews op 06-10-2026 heeft alleen [[2024-11-15-chinese-evs-onder-de-25-mille-kleine-autos-grote-verleiding|ANWB, Box tegen T03]] een eigen `meting`; alle drie hebben een
 `valkuil`.
 
+
+
+
+## Uit de bronnen van 06-10-2026
+
+- Bron telt mee bij de bronnen zonder eigen meting. ([[2026-09-06-elektrische-sportwagens-voor-weinig-de-audi-e-tron-gt-en-porsche-taycan-zijn-flink-afgesch|Autovisie 06-09-2026]])
+
 ## Bronnen
 
-- [[2026-10-06-plinkie-filtermodel|Plinkie-filtermodel]]
-- [[2026-04-01-grote-actieradius-en-goed-rijgedrag-voor-nieuwe-kia-ev2|ANWB, Kia EV2]]
-- [[2024-11-15-chinese-evs-onder-de-25-mille-kleine-autos-grote-verleiding|ANWB, Box tegen T03]]
-- [[2024-09-18-deze-goedkope-chinese-ev-is-europese-concurrentie-te-slim-af|Autovisie, Dongfeng Box]]
+- [[2026-10-06-plinkie-filtermodel|Plinkie 06-10-2026]]
+- [[2026-04-01-grote-actieradius-en-goed-rijgedrag-voor-nieuwe-kia-ev2|ANWB 01-04-2026]]
+- [[2024-11-15-chinese-evs-onder-de-25-mille-kleine-autos-grote-verleiding|ANWB 15-11-2024]]
+- [[2024-09-18-deze-goedkope-chinese-ev-is-europese-concurrentie-te-slim-af|Autovisie 18-09-2024]]
+- [[2026-09-06-elektrische-sportwagens-voor-weinig-de-audi-e-tron-gt-en-porsche-taycan-zijn-flink-afgesch|Autovisie 06-09-2026]]
 
 ## Debatten en vervanging
 

@@ -1,12 +1,14 @@
 ---
 type: entity
 kind: organisatie
-aliases: ["Stellantis N.V."]
-tags: [stellantis]
-confidence: 0.75
-last_confirmed: "2026-10-06"
-accessed_at: "2026-10-06"
-source_count: 2
+aliases:
+- Stellantis N.V.
+tags:
+- stellantis
+confidence: 0.8
+last_confirmed: '2026-10-06'
+accessed_at: '2026-10-06'
+source_count: 3
 ---
 
 # Stellantis
@@ -15,8 +17,9 @@ Autoconcern van onder meer [[fiat|Fiat]], [[citroen|Citroën]], [[jeep|Jeep]], O
 
 ## Bronnen
 
-- [[2024-11-15-chinese-evs-onder-de-25-mille-kleine-autos-grote-verleiding|ANWB, Box tegen T03 (november 2024)]]
-- [[2026-04-01-grote-actieradius-en-goed-rijgedrag-voor-nieuwe-kia-ev2|ANWB, Kia EV2 (april 2026)]]
+- [[2024-11-15-chinese-evs-onder-de-25-mille-kleine-autos-grote-verleiding|ANWB 15-11-2024]]
+- [[2026-09-11-rijtest-in-een-rationele-wereld-zou-iedereen-leapmotor-b03x-rijden|Autovisie 11-09-2026]]
+- [[2026-09-26-waarom-wij-voor-de-peugeot-e-208-gti-zouden-kiezen|Autovisie 26-09-2026]]
 
 ## Debatten en vervanging
 

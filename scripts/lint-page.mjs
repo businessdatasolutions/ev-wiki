@@ -261,6 +261,32 @@ if (fm.type === "source") {
       }
     }
   }
+  // `vergelijking: true` (CLAUDE.md §Concurrentie): elk paar modellen van verschillende
+  // merken in `modellen:` is concurrentie en staat dus in `concurrenten:`, in een van
+  // beide richtingen. Het merk komt uit de modelpagina.
+  if (fm.vergelijking === true && Array.isArray(fm.modellen) && fm.modellen.length > 1) {
+    const merkVan = {}
+    for (const m of fm.modellen) {
+      try {
+        merkVan[m] = matter(await readFile(resolve(REPO_ROOT, "wiki", "entities", `${m}.md`), "utf8")).data.merk
+      } catch {}
+    }
+    const paren = new Set()
+    for (const c of Array.isArray(fm.concurrenten) ? fm.concurrenten : []) {
+      for (const t of Array.isArray(c?.tegen) ? c.tegen : []) {
+        paren.add(`${c.model}|${t}`)
+        paren.add(`${t}|${c.model}`)
+      }
+    }
+    for (let i = 0; i < fm.modellen.length; i++) {
+      for (let j = i + 1; j < fm.modellen.length; j++) {
+        const [a, b] = [fm.modellen[i], fm.modellen[j]]
+        if (merkVan[a] && merkVan[b] && merkVan[a] !== merkVan[b] && !paren.has(`${a}|${b}`)) {
+          warnings.push(`vergelijking: \`${a}\` en \`${b}\` (verschillende merken) staan niet als paar in \`concurrenten:\` (CLAUDE.md §Concurrentie)`)
+        }
+      }
+    }
+  }
   const isYoutube = typeof fm.url === "string" && /youtube\.com|youtu\.be/.test(fm.url)
   if (isYoutube && !Array.isArray(fm.weergaven)) {
     warnings.push("YouTube-bron zonder `weergaven:` (CLAUDE.md §EV-lens: aantal met peildatum)")

@@ -30,5 +30,12 @@ vast:
     url: https://www.youtube.com/@AutoWeek/videos
     taal: nl
     uploads: 40
+  # Toegevoegd 06-10-2026 op verzoek van de eigenaar. Brits: prijzen in ponden en uitvoeringen
+  # van de Britse markt, dus bij Process nagaan wat ook in Nederland geldt. Gaat ook over energie
+  # en zonnepanelen; die video's vallen af omdat er geen model van Plinkie in de titel staat.
+  - naam: Fully Charged Show
+    url: https://www.youtube.com/@fullychargedshow/videos
+    taal: en
+    uploads: 40
 
 genegeerd: []

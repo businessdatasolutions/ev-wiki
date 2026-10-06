@@ -1,40 +1,63 @@
 ---
 type: source
 kind: video
-title: "Chinese EV’s onder de 25 mille | KLEINE AUTO’S, GROTE VERLEIDING?"
-author: ["ANWB"]
-url: "https://www.youtube.com/watch?v=c8ZJh90i-vw"
+title: Chinese EV’s onder de 25 mille | KLEINE AUTO’S, GROTE VERLEIDING?
+author:
+- ANWB
+url: https://www.youtube.com/watch?v=c8ZJh90i-vw
 date_published: 2024-11-15
 date_ingested: 2026-10-06
-length: "~23:47 minuten (transcript ~642 regels)"
-raw: "../../raw/videos/chinese-evs-onder-de-25-mille-kleine-autos-grote-verleiding.md"
-tags: [anwb, dongfeng, leapmotor, vergelijkingstest, stadsauto, b-segment, praktijkbereik]
-merken: [dongfeng, leapmotor]
-modellen: [dongfeng-box, leapmotor-t03]
-feitsoorten: [fabrieksopgave, meting, valkuil, oordeel, merk-en-service]
+length: ~23:47 minuten (transcript ~642 regels)
+raw: ../../raw/videos/chinese-evs-onder-de-25-mille-kleine-autos-grote-verleiding.md
+tags:
+- anwb
+- dongfeng
+- leapmotor
+- vergelijkingstest
+- stadsauto
+- b-segment
+- praktijkbereik
+merken:
+- dongfeng
+- leapmotor
+modellen:
+- dongfeng-box
+- leapmotor-t03
+feitsoorten:
+- fabrieksopgave
+- meting
+- valkuil
+- oordeel
+- merk-en-service
 concurrenten:
-  - model: leapmotor-t03
-    tegen: [dongfeng-box]
-    tijd: "0:00"
-    grond: "rechtstreekse vergelijkingstest: twee Chinese stadsauto's onder € 25.000"
-  - model: leapmotor-t03
-    tegen: [dacia-spring, citroen-e-c3]
-    tijd: "21:28"
-    grond: "elektrisch onder € 25.000: de Spring aan de ene kant, de ë-C3 aan de andere, T03 en Box ertussen"
-  - model: dongfeng-box
-    tegen: [dacia-spring, citroen-e-c3]
-    tijd: "21:28"
-    grond: "elektrisch onder € 25.000: de Spring aan de ene kant, de ë-C3 aan de andere, T03 en Box ertussen"
-weergaven:
-  - datum: 2026-10-06
-    aantal: 68599
+- model: leapmotor-t03
+  tegen:
+  - dongfeng-box
+  tijd: 0:00
+  grond: 'rechtstreekse vergelijkingstest: twee Chinese stadsauto''s onder € 25.000'
+- model: leapmotor-t03
+  tegen:
+  - dacia-spring
+  - citroen-e-c3
+  tijd: '21:28'
+  grond: 'elektrisch onder € 25.000: de Spring aan de ene kant, de ë-C3 aan de andere, T03 en Box ertussen'
+- model: dongfeng-box
+  tegen:
+  - dacia-spring
+  - citroen-e-c3
+  tijd: '21:28'
+  grond: 'elektrisch onder € 25.000: de Spring aan de ene kant, de ë-C3 aan de andere, T03 en Box ertussen'
 relationships:
-  - type: published-by
-    target: anwb
-  - type: supports
-    target: 2024-09-18-deze-goedkope-chinese-ev-is-europese-concurrentie-te-slim-af
-    via: "zelfde Dongfeng Box: dezelfde twee accu's (31,5/42,5 tegen ongeveer 32/42 kWh), dezelfde garantie, 750 kg trekgewicht en dezelfde importeur; gewicht 1350 tegen 1400 kg"
-    confidence: 0.8
+- type: published-by
+  target: anwb
+- type: supports
+  target: 2024-09-18-deze-goedkope-chinese-ev-is-europese-concurrentie-te-slim-af
+  via: 'zelfde Dongfeng Box: dezelfde twee accu''s (31,5/42,5 tegen ongeveer 32/42 kWh), dezelfde garantie, 750 kg trekgewicht en dezelfde importeur; gewicht 1350 tegen 1400 kg'
+  confidence: 0.8
+vergelijking: true
+weergaven:
+- datum: 2026-10-06
+  aantal: 68599
 ---
 
 # ANWB: Chinese EV's onder de 25 mille (Dongfeng Box tegen Leapmotor T03)

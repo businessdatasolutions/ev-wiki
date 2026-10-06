@@ -1,12 +1,16 @@
 ---
 type: entity
 kind: organisatie
-aliases: [VAG, "Volkswagen Group", VW-concern]
-tags: [volkswagen-groep]
-confidence: 0.7
-last_confirmed: "2026-10-06"
-accessed_at: "2026-10-06"
-source_count: 1
+aliases:
+- VAG
+- Volkswagen Group
+- VW-concern
+tags:
+- volkswagen-groep
+confidence: 0.85
+last_confirmed: '2026-10-06'
+accessed_at: '2026-10-06'
+source_count: 4
 ---
 
 # Volkswagen-groep
@@ -15,7 +19,10 @@ Concern van [[volkswagen|Volkswagen]], [[skoda|Škoda]] en [[cupra|Cupra]]. ANWB
 
 ## Bronnen
 
-- [[2026-04-01-grote-actieradius-en-goed-rijgedrag-voor-nieuwe-kia-ev2|ANWB, Kia EV2 (april 2026)]]
+- [[2026-09-06-elektrische-sportwagens-voor-weinig-de-audi-e-tron-gt-en-porsche-taycan-zijn-flink-afgesch|Autovisie 06-09-2026]]
+- [[2026-09-09-is-de-volkswagen-id-polo-de-nieuwe-publiekslieveling|ANWB 09-09-2026]]
+- [[2026-09-13-skoda-epiq-troeft-zelfs-volkswagen-id-polo-af|Autovisie 13-09-2026]]
+- [[2026-10-02-kan-de-volkswagen-id-polo-de-succesvolle-renault-5-aan|AutoWeek 02-10-2026]]
 
 ## Debatten en vervanging
 
