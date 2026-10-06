@@ -1,0 +1,452 @@
+{
+ "nieuwe_entiteiten": [
+  {
+   "slug": "autoweek",
+   "kind": "kanaal",
+   "naam": "AutoWeek",
+   "merk": "",
+   "plinkie_pad": "",
+   "aliases": [
+    "AutoWeek",
+    "Autoweek"
+   ],
+   "ook_aanbieder": "",
+   "tekst": "Nederlands autotijdschrift (weekblad, autoweek.nl) met een YouTube-kanaal; noemt zichzelf 'de auto-autoriteit van Nederland', sinds 1990. Geen eigen leaseaanbod bekend. Eerste bron: vergelijkingstest ID. Polo tegen Renault 5 (2 okt 2026)."
+  },
+  {
+   "slug": "renault-5",
+   "kind": "model",
+   "naam": "Renault 5",
+   "merk": "renault",
+   "plinkie_pad": "/deals/renault/5",
+   "aliases": [
+    "Renault 5",
+    "Renault 5 E-Tech",
+    "R5"
+   ],
+   "volledige_modelpagina": true,
+   "tekst": "Volledige modelpagina: deze bron is een review van de Renault 5 (iconic edition). Staat ook in het ANWB-voorstel als korte concurrentpagina; samenvoegen. Plinkie kent ook /deals/renault/5-e-tech."
+  },
+  {
+   "slug": "opel-corsa-electric",
+   "kind": "model",
+   "naam": "Opel Corsa Electric",
+   "merk": "opel",
+   "plinkie_pad": "/deals/opel/corsa-electric",
+   "aliases": [
+    "Opel Corsa Electric",
+    "Corsa Electric",
+    "Opel Corsa-e",
+    "Corsa"
+   ],
+   "tekst": "Ook in het ANWB-voorstel. AutoWeek: hatchback die je tegenover de ID. Polo en de Renault 5 kunt zetten (12:12); bij de introductie een omgebouwde auto met merkbaar overgewicht (6:28)."
+  },
+  {
+   "slug": "peugeot-e-208",
+   "kind": "model",
+   "naam": "Peugeot e-208",
+   "merk": "peugeot",
+   "plinkie_pad": "/deals/peugeot/e-208",
+   "aliases": [
+    "Peugeot e-208",
+    "e-208",
+    "208"
+   ],
+   "tekst": "Ook in het ANWB-voorstel. AutoWeek: hatchback die je tegenover de ID. Polo en de Renault 5 kunt zetten (12:12); bij de introductie een omgebouwde auto met merkbaar overgewicht (6:28)."
+  },
+  {
+   "slug": "opel",
+   "kind": "merk",
+   "naam": "Opel",
+   "merk": "",
+   "plinkie_pad": "",
+   "aliases": [
+    "Opel"
+   ],
+   "tekst": "Ook in het ANWB-voorstel; niet dubbel aanmaken."
+  },
+  {
+   "slug": "peugeot",
+   "kind": "merk",
+   "naam": "Peugeot",
+   "merk": "",
+   "plinkie_pad": "",
+   "aliases": [
+    "Peugeot"
+   ],
+   "tekst": "Ook in het ANWB-voorstel; niet dubbel aanmaken."
+  }
+ ],
+ "model_feiten": {
+  "volkswagen-id-polo": {
+   "uitvoeringen": [
+    {
+     "uitvoering": "launch edition 52 kWh, 211 pk",
+     "feit": "Testauto: 52 kWh, 211 pk op de voorwielen, alles erop en eraan",
+     "tijd": "1:10"
+    },
+    {
+     "uitvoering": "37 kWh",
+     "feit": "Kleine accu van 37 kWh met 116 of 137 pk (transcript; Autovisie noemt voor de Epiq 116 en 135 pk)",
+     "tijd": "1:26"
+    },
+    {
+     "uitvoering": "52 kWh",
+     "feit": "De grote accu is er nu alleen met 211 pk; minder vermogen met de grote accu komt later",
+     "tijd": "1:35"
+    }
+   ],
+   "fabrieksopgaven": [
+    {
+     "uitvoering": "launch edition 52 kWh, 211 pk",
+     "feit": "Prijs 'over de € 37.000', begin oktober 2026",
+     "tijd": "1:42"
+    },
+    {
+     "uitvoering": "52 kWh, 211 pk",
+     "feit": "0-100 km/u 'zeven nog wat' seconden volgens de fabriek",
+     "tijd": "7:40"
+    },
+    {
+     "uitvoering": "niet genoemd",
+     "feit": "Kofferbak 441 L, met veel diepte onder de laadvloer; geen frunk",
+     "tijd": "3:25"
+    },
+    {
+     "uitvoering": "niet genoemd",
+     "feit": "Snelladen officieel 105 kW; bij het prototype communiceerde Volkswagen 130 kW",
+     "tijd": "8:50"
+    },
+    {
+     "uitvoering": "testauto",
+     "feit": "Panoramadak en massagestoelen",
+     "tijd": "9:38"
+    },
+    {
+     "uitvoering": "niet genoemd",
+     "feit": "Regeneratie via een B-stand; geen flippers achter het stuur",
+     "tijd": "7:57"
+    }
+   ],
+   "metingen": [
+    {
+     "uitvoering": "52 kWh, 211 pk",
+     "feit": "Verbruik gemiddeld 14 kWh/100 km, soms 13,x",
+     "omstandigheden": "lente- en zomerweer rond 20 °C, airco aan, gewoon tempo op Nederlandse wegen",
+     "tester": "AutoWeek",
+     "datum": "2026-10-02",
+     "tijd": "8:22"
+    },
+    {
+     "uitvoering": "52 kWh, 211 pk",
+     "feit": "Praktijkbereik ongeveer 370 km, afgeleid uit het verbruik, niet leeggereden",
+     "omstandigheden": "idem",
+     "tester": "AutoWeek",
+     "datum": "2026-10-02",
+     "tijd": "8:42"
+    },
+    {
+     "uitvoering": "52 kWh, 211 pk",
+     "feit": "0-100 km/u 'ver onder de 7 seconden', sneller dan de fabrieksopgave",
+     "omstandigheden": "niet genoemd",
+     "tester": "AutoWeek",
+     "datum": "2026-10-02",
+     "tijd": "7:40"
+    }
+   ],
+   "valkuilen": [
+    {
+     "uitvoering": "37 kWh",
+     "feit": "Volgens de tester alleen geschikt als stadsauto; als eerste auto de grote accu nemen",
+     "tijd": "9:51"
+    },
+    {
+     "uitvoering": "optie audiopakket",
+     "feit": "De subwoofer neemt een deel van de ruimte onder de laadvloer (transcript: 'Audi pakket')",
+     "tijd": "3:38"
+    },
+    {
+     "uitvoering": "52 kWh",
+     "feit": "Nu alleen met 211 pk; de tester vindt 160-170 pk genoeg en verwacht dan een lagere prijs",
+     "tijd": "9:46"
+    },
+    {
+     "uitvoering": "52 kWh, 211 pk zonder launch edition",
+     "feit": "Prijs onzeker: transcript 'iets meer dan € 30.000', ANWB minimaal € 34.990",
+     "tijd": "10:03"
+    },
+    {
+     "uitvoering": "alle",
+     "feit": "Geen flippers voor regeneratie, alleen een B-stand",
+     "tijd": "7:57"
+    }
+   ],
+   "oordelen": [
+    {
+     "uitvoering": "testauto",
+     "feit": "Beenruimte achterin veel beter dan in de Renault 5, hoofdruimte ongeveer gelijk; goede zithoek",
+     "tijd": "2:50"
+    },
+    {
+     "uitvoering": "testauto",
+     "feit": "Bediening 'voelt als thuiskomen': fysieke knoppen, vier raamschakelaars, geen sliders; zithouding 'helemaal top'; retroweergave met Golf-klokken",
+     "tijd": "4:02"
+    },
+    {
+     "uitvoering": "testauto",
+     "feit": "Rijgedrag: comfortabel zonder week, stabiel zonder hard; 'stijgt merkbaar boven de rest van dit segment uit'; geen onderstuur",
+     "tijd": "6:00"
+    },
+    {
+     "uitvoering": "211 pk",
+     "feit": "Veel vermogen voor deze auto; trekt merkbaar aan de voorwielen",
+     "tijd": "7:23"
+    },
+    {
+     "uitvoering": "52 kWh",
+     "feit": "Laadcurve blijft langer hoog dan bij veel concurrenten; 10-80% 'een stukje sneller' (niet als tijd gemeten)",
+     "tijd": "9:03"
+    },
+    {
+     "uitvoering": "testauto",
+     "feit": "Eindoordeel: blinkt nergens in uit, maar scoort overal een acht; duur maar heel luxe; wint de test",
+     "tijd": "9:31"
+    }
+   ],
+   "concurrenten": [
+    {
+     "tegen": "renault-5",
+     "tijd": "1:03",
+     "grond": "rechtstreekse vergelijkingstest; beide ongeveer € 37.000 en 'echt concurrenten' (12:31)"
+    },
+    {
+     "tegen": "opel-corsa-electric",
+     "tijd": "12:12",
+     "grond": "hatchback in hetzelfde segment"
+    },
+    {
+     "tegen": "peugeot-e-208",
+     "tijd": "12:12",
+     "grond": "hatchback in hetzelfde segment"
+    },
+    {
+     "tegen": "renault-4",
+     "tijd": "12:03",
+     "grond": "genoemd als concurrent, maar groter en crossoverachtig; past volgens de tester beter bij de ID. Cross"
+    },
+    {
+     "tegen": "kia-ev2",
+     "tijd": "12:03",
+     "grond": "genoemd als concurrent, maar crossoverachtig; past volgens de tester beter bij de ID. Cross"
+    }
+   ]
+  },
+  "renault-5": {
+   "uitvoeringen": [
+    {
+     "uitvoering": "iconic edition",
+     "feit": "Testauto met de grootste accu (transcript: '55 kWu', vermoedelijk verhaspeld) en 150 pk, het maximum voor de 5",
+     "tijd": "1:58"
+    }
+   ],
+   "fabrieksopgaven": [
+    {
+     "uitvoering": "iconic edition",
+     "feit": "Prijs ongeveer € 37.000, begin oktober 2026",
+     "tijd": "2:07"
+    },
+    {
+     "uitvoering": "niet genoemd",
+     "feit": "Kofferbak 326 L met een vak voor de laadkabel; geen frunk",
+     "tijd": "2:35"
+    },
+    {
+     "uitvoering": "niet genoemd",
+     "feit": "Snelladen maximaal 100 kW",
+     "tijd": "13:04"
+    },
+    {
+     "uitvoering": "niet genoemd",
+     "feit": "Multilink-achterophanging",
+     "tijd": "10:33"
+    },
+    {
+     "uitvoering": "niet genoemd",
+     "feit": "Flippers achter het stuur voor regeneratie",
+     "tijd": "11:23"
+    },
+    {
+     "uitvoering": "iconic edition",
+     "feit": "Geen glazen dak en geen massagestoelen, anders dan de geteste ID. Polo",
+     "tijd": "12:31"
+    }
+   ],
+   "metingen": [
+    {
+     "uitvoering": "iconic edition",
+     "feit": "Verbruik boven de 15 kWh/100 km, vermoedelijk rond 15,5 (transcript: 'over de 15 155'); rustig rijdend onder de 15",
+     "omstandigheden": "vergelijkbaar gereden met de ID. Polo; temperatuur niet apart genoemd",
+     "tester": "AutoWeek",
+     "datum": "2026-10-02",
+     "tijd": "12:41"
+    },
+    {
+     "uitvoering": "iconic edition",
+     "feit": "Praktijkbereik 'net over de 300' km, afgeleid",
+     "omstandigheden": "idem",
+     "tester": "AutoWeek",
+     "datum": "2026-10-02",
+     "tijd": "13:04"
+    }
+   ],
+   "valkuilen": [
+    {
+     "uitvoering": "alle",
+     "feit": "Achterin niet voor volwassenen: beenruimte 'echt dramatisch', kinderen passen net; voor meer ruimte wijst de tester naar de Renault 4",
+     "tijd": "2:12"
+    },
+    {
+     "uitvoering": "alle",
+     "feit": "Hoge tildrempel bij de kofferbak",
+     "tijd": "2:42"
+    },
+    {
+     "uitvoering": "iconic edition",
+     "feit": "Accu-inhoud onduidelijk (transcript: '55 kWu'); ANWB zegt dat de ID. Polo (52 kWh) een grotere accu heeft. Na te gaan bij Renault",
+     "tijd": "1:58"
+    },
+    {
+     "uitvoering": "niet genoemd",
+     "feit": "100 kW snelladen is een korte piek; laadt in de praktijk langzamer dan de ID. Polo",
+     "tijd": "13:04"
+    }
+   ],
+   "oordelen": [
+    {
+     "uitvoering": "iconic edition",
+     "feit": "Interieur mooi en leuk, fraai stikwerk, gele bekleding; Google-software prima, maar menu's vragen meer zoeken dan bij de ID. Polo",
+     "tijd": "4:44"
+    },
+    {
+     "uitvoering": "niet genoemd",
+     "feit": "Versnellingshendel pakt bij steken en keren soms de achteruit niet",
+     "tijd": "5:13"
+    },
+    {
+     "uitvoering": "iconic edition",
+     "feit": "'Steengoed onderstel', zacht en toch sportief; stuurt leuker dan de ID. Polo, volwassener dan de Clio",
+     "tijd": "10:26"
+    },
+    {
+     "uitvoering": "150 pk",
+     "feit": "Vlot tot ongeveer 50 km/u, daarboven haakt hij af tegen de ID. Polo",
+     "tijd": "11:06"
+    },
+    {
+     "uitvoering": "niet genoemd",
+     "feit": "Te veel knoppen op het stuur; naast de ID. Polo 'een stukje minder' in ergonomie",
+     "tijd": "11:33"
+    },
+    {
+     "uitvoering": "iconic edition",
+     "feit": "Niet goedkoper dan de ID. Polo, die voor hetzelfde geld meer opties heeft",
+     "tijd": "12:19"
+    },
+    {
+     "uitvoering": "iconic edition",
+     "feit": "Eindoordeel: 'slaagt in wat hij moet zijn', leuk, luxe, rijdt fantastisch; voor lange afstanden minder bruikbaar dan de ID. Polo; verliest de test",
+     "tijd": "13:27"
+    }
+   ],
+   "concurrenten": [
+    {
+     "tegen": "opel-corsa-electric",
+     "tijd": "12:12",
+     "grond": "hatchback in hetzelfde segment"
+    },
+    {
+     "tegen": "peugeot-e-208",
+     "tijd": "12:12",
+     "grond": "hatchback in hetzelfde segment"
+    }
+   ]
+  }
+ },
+ "merk_feiten": {
+  "volkswagen": [
+   "De ID.3 was gehaast en 'voelde niet als een Volkswagen'; met de ID. Polo zegt Volkswagen die fouten niet te herhalen (AutoWeek, 2 okt 2026, 0:29)",
+   "De tester ziet de ID. Polo als 'de terugkeer van Volkswagen'; ID. Cross, de Škoda-versies en de Cupra Raval delen dezelfde technische basis (13:46). Dat platformpunt hoort eigenlijk op volkswagen-groep"
+  ],
+  "volkswagen-groep": [
+   "ID. Polo, ID. Cross, Škoda-versies en Cupra Raval op dezelfde technische basis; het concern 'heeft de tijd gehad om een standalone EV te bouwen' (AutoWeek, 2 okt 2026, 13:46)"
+  ],
+  "renault": [
+   "Renault 4 als ruimere variant van de Renault 5: 'dezelfde auto, iets comfortabeler, maar met meer ruimte' (AutoWeek, 2 okt 2026, 2:23)",
+   "Renault 5 noemt de tester 'de leukste auto in het segment' (1:03); bron toevoegen aan de lijst van het merk"
+  ],
+  "autoweek": [
+   "Nieuwe kanaalpagina; eerste bron 2026-10-02-kan-de-volkswagen-id-polo-de-succesvolle-renault-5-aan"
+  ]
+ },
+ "concepten": [
+  {
+   "slug": "praktijkbereik",
+   "bestaat": true,
+   "toevoeging": "ID. Polo 52 kWh/211 pk: ongeveer 14 kWh/100 km rond 20 °C met airco, afgeleid ~370 km; Renault 5 iconic edition: boven 15 kWh/100 km (vermoedelijk ~15,5), afgeleid net over 300 km (AutoWeek, 2 okt 2026, 8:22, 12:41)"
+  },
+  {
+   "slug": "kofferbakinhoud",
+   "bestaat": true,
+   "toevoeging": "ID. Polo 441 L (bevestigt ANWB), Renault 5 326 L met hoge tildrempel; subwoofer uit het audiopakket kost ruimte onder de vloer van de ID. Polo (AutoWeek, 2 okt 2026, 2:35, 3:25, 3:38)"
+  },
+  {
+   "slug": "snelladen-10-80",
+   "bestaat": true,
+   "toevoeging": "ID. Polo officieel 105 kW (prototype 130 kW), laadcurve langer hoog; Renault 5 100 kW als korte piek. Geen 10-80%-tijd gemeten (AutoWeek, 2 okt 2026, 8:50, 13:04)"
+  },
+  {
+   "slug": "b-segment",
+   "bestaat": true,
+   "toevoeging": "AutoWeek scheidt hatchbacks (ID. Polo, Renault 5, Corsa, 208) van crossoverachtigen (Renault 4, Kia EV2, ID. Cross); meer dan 200 pk alleen bij Chinese merken zoals MG4 (12:03, 1:18). Het gat in laadsnelheid met D-segment en hoger blijft volgens de tester, door 800V (9:12)"
+  },
+  {
+   "slug": "weergaven",
+   "bestaat": true,
+   "toevoeging": "AutoWeek ID. Polo tegen Renault 5: 52.540 op 06-10-2026, 4 dagen, ~13.135 per dag; eerste AutoWeek-meting, niet vergelijken met ANWB of Autovisie"
+  }
+ ],
+ "relaties_met_bestaande_bronnen": [
+  {
+   "type": "supports",
+   "target": "2026-09-09-is-de-volkswagen-id-polo-de-nieuwe-publiekslieveling",
+   "via": "zelfde testuitvoering (52 kWh, 211 pk), kofferbak 441 L, snelladen officieel 105 kW, Golf-klokken, fysieke knoppen; ID. Polo grotere accu en sneller snelladen dan de Renault 5"
+  },
+  {
+   "type": "contradicts",
+   "target": "2026-09-09-is-de-volkswagen-id-polo-de-nieuwe-publiekslieveling",
+   "via": "beenruimte achterin de ID. Polo: AutoWeek 'veel beter' dan de Renault 5, ANWB 'schiet echt tekort'"
+  },
+  {
+   "type": "supports",
+   "target": "2026-09-13-skoda-epiq-troeft-zelfs-volkswagen-id-polo-af",
+   "via": "verbruik rond 14 kWh/100 km bij ~20 °C (Epiq 55: 14,9); bediening van de ID. Polo als sterk punt; 0-100 fabriek rond 7 s"
+  }
+ ],
+ "debatten": [
+  {
+   "pagina": "volkswagen-id-polo",
+   "onderwerp": "beenruimte achterin",
+   "tekst": "AutoWeek (2 okt 2026, 2:50): veel beter dan de Renault 5, goed voor het segment. ANWB (9 sep 2026, 1:42): schiet echt tekort voor 1,93 m. Het draait om de lengte van de tester en waarmee vergeleken wordt."
+  },
+  {
+   "pagina": "volkswagen-id-polo",
+   "onderwerp": "prijs 52 kWh/211 pk",
+   "tekst": "AutoWeek-transcript 'iets meer dan € 30.000' (10:03) tegen ANWB minimaal € 34.990 en Epiq 55 € 33.990. Waarschijnlijk verkeerd gehoord."
+  },
+  {
+   "pagina": "volkswagen-id-polo",
+   "onderwerp": "praktijkverbruik",
+   "tekst": "AutoWeek ~14 kWh/100 km bij ~20 °C met airco; ANWB 15,1 zonder omstandigheden. Geen tegenspraak zolang de omstandigheden van ANWB onbekend zijn."
+  }
+ ]
+}

@@ -29,7 +29,7 @@ relationships:
 Model van [[renault|Renault]]. Bronnen over dit model: [[2026-10-02-kan-de-volkswagen-id-polo-de-succesvolle-renault-5-aan|AutoWeek 02-10-2026]].
 Met één eigen bron blijft de zekerheid op hooguit 0,75.
 
-**Plinkie.** `/deals/renault/5`, nagegaan in de sitemap van plinkie.nl op 06-10-2026.
+**Plinkie.** `/deals/renault/5`, staat in de sitemap van plinkie.nl.
 
 ## Uitvoeringen
 

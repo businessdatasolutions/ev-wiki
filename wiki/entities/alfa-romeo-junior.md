@@ -21,7 +21,7 @@ relationships:
 
 Model van [[alfa-romeo|Alfa Romeo]]. Deze wiki heeft nog geen review van de Alfa Romeo Junior zelf; de pagina bestaat omdat een bron hem als concurrent noemt of er iets over zegt.
 
-**Plinkie.** `/deals/alfa-romeo/junior`, nagegaan in de sitemap van plinkie.nl op 06-10-2026.
+**Plinkie.** `/deals/alfa-romeo/junior`, staat in de sitemap van plinkie.nl.
 
 ## Concurrenten
 

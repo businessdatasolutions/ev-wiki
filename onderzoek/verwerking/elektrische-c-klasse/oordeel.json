@@ -1,0 +1,20 @@
+{
+  "is_review": true,
+  "reden": "Eerste rijtest (rijimpressie) van de elektrische Mercedes-Benz C-klasse, uitvoering C 400 4MATIC, met één eigen verbruiksmeting. De BMW i3 Neue Klasse uit de titel is alleen de genoemde tegenstander; daarin is niet gereden.",
+  "taal_transcript": "nl",
+  "bronpagina_bestand": "2026-07-27-elektrische-c-klasse-doet-het-heel-anders-dan-de-bmw-i3.md",
+  "modellen": ["mercedes-benz-c-klasse-limousine"],
+  "merken": ["mercedes-benz"],
+  "kanaal": "autovisie",
+  "waarschuwingen": [
+    "modellen_kandidaat zei bmw/i3; de video gaat over de Mercedes C-klasse. bmw-i3 staat alleen onder concurrenten.",
+    "Ruwe kop heeft geen transcript_track; caption_tracks noemt nl asr en de tekst is Nederlands.",
+    "Aangenomen dat Plinkie-pad mercedes-benz/c-klasse-limousine de elektrische C-klasse is (Plinkie toont alleen EV's). Nagaan in de sitemap voor plinkie_pad wordt ingevuld.",
+    "Idem bmw/i3: in 2026 de i3 Neue Klasse, niet de oude i3 (2013-2022). Nagaan.",
+    "Prijs onleesbaar (transcript: 'kost vanaf zo'n €6.000'); niet overgenomen. Alleen 'ruim €11.000 meer dan de bestaande C-klasse'.",
+    "BMW-laadvermogen '400 kW dacht ik': de tester is zelf onzeker.",
+    "Wegenbelastingbedragen zijn berekeningen van de tester (juli 2026), niet gecontroleerd.",
+    "Eén meting: >18 kWh/100 km over 60 km, geen temperatuur genoemd.",
+    "Eerste kennismaking: confidence van de modelpagina niet boven 0.75 zolang er geen tweede bron is."
+  ]
+}

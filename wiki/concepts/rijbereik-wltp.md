@@ -29,10 +29,7 @@ In de reviews is het steeds een `fabrieksopgave`:
 
 Wat een tester haalt, staat bij [[praktijkbereik]].
 
-
-
-
-## Uit de bronnen van 06-10-2026
+## Uit de bronnen
 
 - Volkswagen ID. Polo: 322-454 km afhankelijk van de uitvoering, norm niet genoemd (ANWB, 9 sep 2026, 7:10) ([[2026-09-09-is-de-volkswagen-id-polo-de-nieuwe-publiekslieveling|ANWB 09-09-2026]])
 - Rijen: Audi e-tron GT 93,4 kWh 488 km (7:01); Porsche Taycan 93,4 kWh 416–490 km, uitvoering niet nader genoemd (12:33). Bron Autovisie 2026-09-06; de tester noemt beide tegenvallend voor de accugrootte. ([[2026-09-06-elektrische-sportwagens-voor-weinig-de-audi-e-tron-gt-en-porsche-taycan-zijn-flink-afgesch|Autovisie 06-09-2026]])

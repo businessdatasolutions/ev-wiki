@@ -1,0 +1,86 @@
+{
+  "nieuwe_entiteiten": [
+    {"slug": "mercedes-benz-c-klasse-limousine", "kind": "model", "naam": "Mercedes-Benz C-klasse (elektrisch)", "merk": "mercedes-benz", "plinkie_pad": "/deals/mercedes-benz/c-klasse-limousine", "aliases": ["C-klasse", "elektrische C-klasse", "Mercedes C-klasse", "C 400 4MATIC"], "tekst": "Elektrische middenklasse-sedan van Mercedes-Benz uit 2026, 4,88 m lang, naast de bestaande C-klasse met brandstofmotor. Autovisie reed in juli 2026 de C 400 4MATIC (Autovisie 27-07-2026)."},
+    {"slug": "mercedes-benz", "kind": "merk", "naam": "Mercedes-Benz", "merk": "", "plinkie_pad": "", "aliases": ["Mercedes", "Mercedes-Benz"], "tekst": "Duits merk; de tester noemt het 'het comfortmerk' tegenover het sportievere BMW (Autovisie 27-07-2026, 5:13)."},
+    {"slug": "bmw-i3", "kind": "model", "naam": "BMW i3 Neue Klasse", "merk": "bmw", "plinkie_pad": "/deals/bmw/i3", "aliases": ["i3", "BMW i3", "i3 Neue Klasse"], "tekst": "Elektrische sedan van BMW op het Neue Klasse-platform, bij opname van de Autovisie-video (juli 2026) nog niet gereden. Volgens de tester grotere accu, meer dan 900 km bereik en ruim 200 kg lichter dan de elektrische C-klasse (Autovisie 27-07-2026, 11:31). Korte pagina: alleen als concurrent genoemd."},
+    {"slug": "bmw", "kind": "merk", "naam": "BMW", "merk": "", "plinkie_pad": "", "aliases": ["BMW"], "tekst": "Duits merk; volgens de tester 'van oudsher wat sportiever' dan Mercedes-Benz (Autovisie 27-07-2026, 5:13)."}
+  ],
+  "model_feiten": {
+    "mercedes-benz-c-klasse-limousine": {
+      "uitvoeringen": [
+        "C 400 4MATIC: twee motoren (voor en achter), vierwielaandrijving, bijna 490 pk; de testauto. 12:37",
+        "Komend: versies met kleinere accu en achterwielaandrijving, iets meer bereik en lagere vanafprijs. 13:26",
+        "Komend: een versie met meer dan 800 km WLTP. 11:43",
+        "Komend: een AMG-versie, vermoedelijk met axiale-fluxmotoren. 13:08"
+      ],
+      "fabrieksopgaven": [
+        "Uitvoering niet van belang: lengte 4,88 m, ruim 12 cm langer dan de bestaande C-klasse; wielbasis bijna 3 m. 1:16",
+        "C 400 4MATIC: gewicht 2.460 kg. 7:11",
+        "C 400 4MATIC: accu iets meer dan 94 kWh bruikbaar. 11:14",
+        "C 400 4MATIC: WLTP ongeveer 760-761 km. 11:23",
+        "C 400 4MATIC: laden tot 330 kW. 11:52",
+        "C 400 4MATIC: verbruik 14,1 kWh/100 km. 14:27",
+        "C 400 4MATIC: frunk meer dan 100 L. 13:43",
+        "C 400 4MATIC: voormotor koppelt los; tweetraps automaat op de achteras, schakelt op bij ongeveer 120 km/u. 13:58",
+        "Uitvoering niet genoemd: voorbereid op vehicle-to-load, vehicle-to-home en vehicle-to-grid. 12:10",
+        "C 400 4MATIC: prijs ruim € 11.000 boven de bestaande C-klasse; het bedrag zelf is onleesbaar (transcript: 'kost vanaf zo'n €6.000'), juli 2026. 12:37"
+      ],
+      "metingen": [
+        "C 400 4MATIC met luchtvering en brede banden: iets meer dan 18 kWh/100 km over 60 km, deels snelweg, deels stevig doorgereden; temperatuur niet genoemd; opgave 14,1. Autovisie, juli 2026. 14:44"
+      ],
+      "valkuilen": [
+        "C 400 4MATIC: 2.460 kg geeft hoge wegenbelasting, volgens de tester ~€ 350/kwartaal nu (30% korting t/m 2028), 25% korting in 2029, meer dan € 500/kwartaal vanaf 2030. Bij private lease zit dit in het maandbedrag. 7:35",
+        "Uitvoering niet van belang: achterin krap voor 1,93 m, voeten niet onder de voorstoel, korte zitting, hoge vloer. 1:38",
+        "Uitvoering niet genoemd: hyperscreen kost ongeveer € 1.500 extra; standaard drie losse schermen. 4:17",
+        "Uitvoering niet genoemd: luchtvering met adaptieve dempers en vierwielbesturing zijn opties; het comfortoordeel geldt voor een auto mét die opties. 4:57",
+        "Uitvoering niet genoemd: panoramadak is dimbaar maar kan niet open. 9:32"
+      ],
+      "oordelen": [
+        "C 400 4MATIC met luchtvering: zeer comfortabel in de comfortstand; sportstand verandert weinig. 5:20",
+        "C 400 4MATIC: besturing wat licht maar met gevoel, meer dan de gemiddelde Chinese EV. 6:33",
+        "Uitvoering niet genoemd: fluisterstil, mede door dubbel glas voorin. 6:59",
+        "Met vierwielbesturing: voelt compacter, kleine draaicirkel in de stad. 7:28",
+        "Uitvoering niet genoemd: AI-spraakassistent werkt voortreffelijk. 3:08",
+        "Met hyperscreen: snel en scherp. 4:24",
+        "Uitvoering niet genoemd: rijhulpsystemen snel uit te zetten en weinig storend. 4:42",
+        "Uitvoering niet genoemd: stoelen wat hard, zitpositie te hoog. 8:52",
+        "Uitvoering niet genoemd: degelijke afwerking, harde plastics alleen onder de middentunnel en achter rond de ventilatie. 9:19",
+        "Uitvoering niet genoemd: achterdeur klinkt minder solide dan de voordeur. 2:31",
+        "Uitvoering niet genoemd: parkeerhulp herkent een vak al bij het aanrijden. 10:21",
+        "C 400 4MATIC: schakelen van de tweetraps automaat nauwelijks merkbaar. 14:12"
+      ],
+      "concurrenten": [
+        {"tegen": "bmw-i3", "tijd": "0:07", "grond": "nieuwe lichting elektrische Duitse sedans die het tegen elkaar opnemen; vergelijkingstest aangekondigd (15:11)"},
+        {"tegen": "bmw-i3", "tijd": "6:42", "grond": "karakter: C-klasse comfort, voor sportief rijden de BMW"},
+        {"tegen": "bmw-i3", "tijd": "11:31", "grond": "cijfers: i3 grotere accu, >900 km, sneller laden, ruim 200 kg lichter en lagere wegenbelasting"}
+      ]
+    },
+    "bmw-i3": {
+      "uitvoeringen": [],
+      "fabrieksopgaven": [
+        "Uitvoering niet genoemd: grotere accu dan de elektrische C-klasse en meer dan 900 km bereik, volgens Autovisie. 11:31",
+        "Uitvoering niet genoemd: laden 'met 400 kW dacht ik', de tester is onzeker. 11:52",
+        "Uitvoering niet genoemd: ruim 200 kg lichter dan de C 400 4MATIC; wegenbelasting volgens de tester € 295/kwartaal nu, iets meer dan € 420 vanaf 2030. 8:17"
+      ],
+      "metingen": [],
+      "valkuilen": [],
+      "oordelen": [
+        "Uitvoering niet genoemd: achterin volgens collega Dries van den Elsen niet beter dan de C-klasse, misschien slechter (niet zelf getest door de presentator). 2:12"
+      ],
+      "concurrenten": []
+    }
+  },
+  "merk_feiten": {
+    "mercedes-benz": ["De bestaande C-klasse met brandstofmotor blijft naast de elektrische C-klasse leverbaar (Autovisie 27-07-2026, 0:32).", "Mercedes kiest voor grote schermen; de hyperscreen is een optie van ongeveer € 1.500 (Autovisie 27-07-2026, 4:17)."],
+    "bmw": ["Volgens Autovisie van oudsher sportiever dan Mercedes-Benz (27-07-2026, 5:13)."]
+  },
+  "concepten": [
+    {"slug": "rijbereik-wltp", "bestaat": true, "toevoeging": "Elektrische C-klasse C 400 4MATIC: WLTP ongeveer 761 km met 94 kWh bruikbaar; BMW i3 Neue Klasse meer dan 900 km volgens de tester (Autovisie 27-07-2026, 11:23)."},
+    {"slug": "praktijkbereik", "bestaat": true, "toevoeging": "C 400 4MATIC verbruikte iets meer dan 18 kWh/100 km over 60 km tegen 14,1 opgegeven, ongeveer 28% meer; de tester zag hetzelfde bij de GLC (Autovisie 27-07-2026, 14:44)."},
+    {"slug": "snelladen-10-80", "bestaat": true, "toevoeging": "C 400 4MATIC laadt tot 330 kW; geen tijd voor 10-80% genoemd (Autovisie 27-07-2026, 11:52)."},
+    {"slug": "kofferbakinhoud", "bestaat": true, "toevoeging": "C 400 4MATIC: frunk van meer dan 100 L dankzij een compacte voormotor; de kofferbak achter wordt niet genoemd (Autovisie 27-07-2026, 13:43)."},
+    {"slug": "wegenbelasting", "bestaat": false, "toevoeging": "Nieuw concept voorgesteld: motorrijtuigenbelasting hangt aan gewicht, zware EV's betalen veel. Korting 30% t/m 2028, 25% in 2029, vol vanaf 2030. C 400 4MATIC (2.460 kg) ~€ 350/kwartaal nu, >€ 500 vanaf 2030; BMW i3 € 295 en >€ 420. Bij private lease zit dit in het maandbedrag (Autovisie 27-07-2026, 7:35)."},
+    {"slug": "bidirectioneel-laden", "bestaat": false, "toevoeging": "Optioneel nieuw concept: vehicle-to-load, -home en -grid. Elektrische C-klasse is erop voorbereid (Autovisie 27-07-2026, 12:10)."}
+  ],
+  "relaties_met_bestaande_bronnen": []
+}

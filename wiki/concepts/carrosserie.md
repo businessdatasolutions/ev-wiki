@@ -9,7 +9,7 @@ last_confirmed: '2026-10-06'
 accessed_at: '2026-10-06'
 source_count: 4
 quality_score: 0.99
-quality_notes: ['short body: 190 words (target ≥200)']
+quality_notes: ['short body: 188 words (target ≥200)']
 ---
 
 # Carrosserie
@@ -21,10 +21,7 @@ MPV" blijven apart. Een auto zonder opgegeven carrosserie valt onder "niet verme
 In de reviews komt de carrosserie zelden letterlijk terug; testers praten over het [[b-segment]] en over
 maat (de [[leapmotor-t03|T03]] is 41 cm korter en 16 cm smaller dan de [[dongfeng-box|Box]]).
 
-
-
-
-## Uit de bronnen van 06-10-2026
+## Uit de bronnen
 
 - Voorbeeld: Taycan als vierdeurs coupé tegen Cross Turismo (shooting brake) verandert kofferbak en hoofdruimte achterin (Autovisie 2026-09-06, 8:44, 10:04). Alleen toevoegen als de pagina varianten binnen één model behandelt. ([[2026-09-06-elektrische-sportwagens-voor-weinig-de-audi-e-tron-gt-en-porsche-taycan-zijn-flink-afgesch|Autovisie 06-09-2026]])
 - Eerste SUV's in de wiki: iX3, EX60 en GLC worden 'premium SUV' genoemd (ANWB 02-10-2026, 17:30). ([[2026-10-02-bmw-ix3-vs-volvo-ex60-roadtrip-met-special-guest|ANWB 02-10-2026]])

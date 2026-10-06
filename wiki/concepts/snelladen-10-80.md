@@ -28,10 +28,7 @@ naar traag. Bron: [[2026-10-06-plinkie-filtermodel|Plinkie-filtermodel]].
 zet, vergelijkt een kortere laadsessie met een langere. Een filter of sortering die laadtijden
 vergelijkt, moet het venster meenemen.
 
-
-
-
-## Uit de bronnen van 06-10-2026
+## Uit de bronnen
 
 - Volkswagen ID. Polo: maximaal 88-105 kW; geen 10-80%-tijd genoemd (ANWB, 9 sep 2026, 7:45) ([[2026-09-09-is-de-volkswagen-id-polo-de-nieuwe-publiekslieveling|ANWB 09-09-2026]])
 - Rij: Porsche Taycan, maximaal 270 kW op 800 volt, geen 10–80%-tijd genoemd (Autovisie 2026-09-06, 12:21). ([[2026-09-06-elektrische-sportwagens-voor-weinig-de-audi-e-tron-gt-en-porsche-taycan-zijn-flink-afgesch|Autovisie 06-09-2026]])

@@ -26,10 +26,7 @@ Hoeveel een auto mag trekken. Voor een kleine EV is de vraag vaak niet de carava
 Een valkuil: de T03 kan dus ook geen fietsendrager op een trekhaak. Plinkie heeft hier geen filter voor
 ([[2026-10-06-plinkie-filtermodel|filtermodel]]).
 
-
-
-
-## Uit de bronnen van 06-10-2026
+## Uit de bronnen
 
 - Volkswagen ID. Polo: maximaal 1200 kg, alleen bij de duurdere versies (ANWB, 9 sep 2026, 2:44) ([[2026-09-09-is-de-volkswagen-id-polo-de-nieuwe-publiekslieveling|ANWB 09-09-2026]])
 - Rij: Audi e-tron GT, uitvoering niet genoemd, trekgewicht nul, geen aanhanger toegestaan (Autovisie 2026-09-06, 6:37). ([[2026-09-06-elektrische-sportwagens-voor-weinig-de-audi-e-tron-gt-en-porsche-taycan-zijn-flink-afgesch|Autovisie 06-09-2026]])

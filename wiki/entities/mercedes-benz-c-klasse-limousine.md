@@ -28,7 +28,7 @@ relationships:
 Model van [[mercedes-benz|Mercedes-Benz]]. Bronnen over dit model: [[2026-07-27-elektrische-c-klasse-doet-het-heel-anders-dan-de-bmw-i3|Autovisie 27-07-2026]].
 Met één eigen bron blijft de zekerheid op hooguit 0,75.
 
-**Plinkie.** `/deals/mercedes-benz/c-klasse-limousine`, nagegaan in de sitemap van plinkie.nl op 06-10-2026.
+**Plinkie.** `/deals/mercedes-benz/c-klasse-limousine`, staat in de sitemap van plinkie.nl.
 
 ## Uitvoeringen
 

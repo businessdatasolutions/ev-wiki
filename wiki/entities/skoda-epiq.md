@@ -35,7 +35,7 @@ relationships:
 Model van [[skoda|Škoda]]. Bronnen over dit model: [[2026-09-13-skoda-epiq-troeft-zelfs-volkswagen-id-polo-af|Autovisie 13-09-2026]].
 Met één eigen bron blijft de zekerheid op hooguit 0,75.
 
-**Plinkie.** `/deals/skoda/epiq`, nagegaan in de sitemap van plinkie.nl op 06-10-2026.
+**Plinkie.** `/deals/skoda/epiq`, staat in de sitemap van plinkie.nl.
 
 ## Uitvoeringen
 

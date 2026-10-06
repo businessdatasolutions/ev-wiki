@@ -1,0 +1,85 @@
+{
+  "nieuwe_entiteiten": [
+    {"slug": "leapmotor-b03x", "kind": "model", "naam": "Leapmotor B03X", "merk": "leapmotor", "plinkie_pad": "/deals/leapmotor/b03x", "aliases": ["B03X", "Leapmotor B03X", "Leapmotor A10"], "tekst": "Compacte elektrische SUV van Leapmotor (4,27 m), in Europa via Stellantis; in China de A10. Rijtest door Autovisie (11-09-2026, Design 53 kWh), zonder eigen meting."},
+    {"slug": "byd-atto-2", "kind": "model", "naam": "BYD Atto 2", "merk": "byd", "plinkie_pad": "/deals/byd/atto-2", "aliases": ["Atto 2", "BYD Atto 2"], "tekst": "Model van BYD. Autovisie noemt hem als concurrent van de Leapmotor B03X op maat (11-09-2026, 1:49)."},
+    {"slug": "kia-ev3", "kind": "model", "naam": "Kia EV3", "merk": "kia", "plinkie_pad": "/deals/kia/ev3", "aliases": ["EV3", "Kia EV3"], "tekst": "Model van Kia. Autovisie noemt hem als concurrent van de Leapmotor B03X op maat (11-09-2026, 1:49)."},
+    {"slug": "volvo-ex30", "kind": "model", "naam": "Volvo EX30", "merk": "volvo", "plinkie_pad": "/deals/volvo/ex30", "aliases": ["EX30", "Volvo EX30"], "tekst": "Model van Volvo. Autovisie noemt hem als concurrent van de Leapmotor B03X op maat (11-09-2026, 1:49)."},
+    {"slug": "alfa-romeo-junior", "kind": "model", "naam": "Alfa Romeo Junior", "merk": "alfa-romeo", "plinkie_pad": "/deals/alfa-romeo/junior", "aliases": ["Junior", "Alfa Romeo Junior"], "tekst": "Model van Alfa Romeo (Stellantis). Autovisie noemt hem als concurrent van de Leapmotor B03X op maat (11-09-2026, 1:49)."},
+    {"slug": "peugeot-e-2008", "kind": "model", "naam": "Peugeot e-2008", "merk": "peugeot", "plinkie_pad": "/deals/peugeot/e-2008", "aliases": ["e-2008", "Peugeot 2008", "Peugeot e-2008"], "tekst": "Model van Peugeot (Stellantis). Autovisie noemt de '2008' als concurrent van de Leapmotor B03X op maat (11-09-2026, 1:49); Plinkie kent ook /deals/peugeot/e-2008-suv."},
+    {"slug": "citroen-e-c3-aircross", "kind": "model", "naam": "Citroën ë-C3 Aircross", "merk": "citroen", "plinkie_pad": "/deals/citroen/e-c3-aircross", "aliases": ["ë-C3 Aircross", "e-C3 Aircross", "EC3 Aircross"], "tekst": "Model van Citroën (Stellantis). Autovisie zet hem naast de Leapmotor B03X op specificaties, kofferbak en prijs: iets meer dan € 28.000, minder vermogen en bereik, geen middenscherm (11-09-2026, 2:04 en 13:32)."},
+    {"slug": "opel-frontera-electric", "kind": "model", "naam": "Opel Frontera Electric", "merk": "opel", "plinkie_pad": "/deals/opel/frontera-electric", "aliases": ["Frontera", "Opel Frontera", "Frontera Electric"], "tekst": "Model van Opel (Stellantis). Autovisie zet hem naast de Leapmotor B03X op specificaties en prijs: beter dan de ë-C3 Aircross, maar rond € 30.000 (11-09-2026, 2:04 en 14:02)."},
+    {"slug": "volvo", "kind": "merk", "naam": "Volvo", "merk": "", "plinkie_pad": "", "aliases": ["Volvo"], "tekst": "Merk. In deze wiki alleen via de EX30 als concurrent van de Leapmotor B03X (Autovisie, 11-09-2026)."},
+    {"slug": "alfa-romeo", "kind": "merk", "naam": "Alfa Romeo", "merk": "", "plinkie_pad": "", "aliases": ["Alfa Romeo", "Alfa"], "tekst": "Merk van Stellantis (part-of stellantis). In deze wiki via de Junior als concurrent van de Leapmotor B03X (Autovisie, 11-09-2026)."},
+    {"slug": "peugeot", "kind": "merk", "naam": "Peugeot", "merk": "", "plinkie_pad": "", "aliases": ["Peugeot"], "tekst": "Merk van Stellantis (part-of stellantis). In deze wiki via de e-2008 als concurrent van de Leapmotor B03X (Autovisie, 11-09-2026)."},
+    {"slug": "opel", "kind": "merk", "naam": "Opel", "merk": "", "plinkie_pad": "", "aliases": ["Opel"], "tekst": "Merk van Stellantis (part-of stellantis). In deze wiki via de Frontera als concurrent van de Leapmotor B03X (Autovisie, 11-09-2026)."}
+  ],
+  "model_feiten": {
+    "leapmotor-b03x": {
+      "uitvoeringen": [
+        "40 kWh, 166 pk, alleen Life; vanaf € 23.995 (Autovisie, sept. 2026) (5:52, 12:57)",
+        "53 kWh, 197 pk, Life; € 26.995 (sept. 2026). Koppeling 197 pk aan 53 kWh afgeleid uit 6:29 (5:52, 13:08)",
+        "53 kWh, 197 pk, Design; € 28.495 (sept. 2026). Design voegt toe: kunstleer, elektrisch verstelbare bestuurdersstoel, stoel- en stuurverwarming, 360°-camera, parkeersensoren voor, elektrisch verstelbare buitenspiegels (5:20, 13:24)",
+        "Uitvoering niet genoemd: altijd 18 inch; Life op stalen velgen met wieldoppen (2:35)"
+      ],
+      "fabrieksopgaven": [
+        "Uitvoering niet genoemd: 4,27 m lang, wielbasis 2,6 m (1:42)",
+        "Uitvoering niet genoemd: kofferbak 405 L plus 105 L onder de vloer, meer dan 1600 L met de bank plat (3:24)",
+        "Beide aandrijflijnen: voorwielaandrijving, 200 Nm, 0-100 km/u in 8,6 s; de 197 pk ongeveer 100 kg zwaarder (6:03)",
+        "40 kWh: bereik ongeveer 292 km; 53 kWh: 382 km, cyclus niet genoemd (6:29)",
+        "40 kWh: in de stad 'boven de 400 km'; 53 kWh: ongeveer 550 km; herkomst niet genoemd (7:00)",
+        "40 kWh: snelladen tot 100 kW; 53 kWh: tot 133 kW; beide 30-80% in ongeveer 16 minuten (7:15)",
+        "Alle uitvoeringen: accuvoorverwarming en warmtepomp standaard (7:48)",
+        "Uitvoering niet genoemd: draaicirkel 10 m (10:39)",
+        "Uitvoering niet genoemd: 8,8 inch instrumenten, 14,6 inch middenscherm, Qualcomm Snapdragon, draadloos CarPlay/Android Auto en telefoonlader (10:52)",
+        "Uitvoering niet genoemd: één gratis kleur, vijf andere € 700 (sept. 2026) (3:03)"
+      ],
+      "metingen": [],
+      "valkuilen": [
+        "Alle uitvoeringen: mag niets trekken, geen aanhanger of caravan (10:30)",
+        "Alle uitvoeringen: laadtijd opgegeven als 30-80% in plaats van 10-80% (7:32)",
+        "Design 53 kWh (testauto, Yokohama-banden): wielspin bij matige acceleratie en piepende banden bij matig remmen; tester vermoedt de banden (9:20)",
+        "40 kWh: alleen als Life leverbaar; Design vraagt de 53 kWh (5:52)",
+        "Uitvoering niet genoemd: geen fysieke knoppen voor klimaat of stoelverwarming (11:01)"
+      ],
+      "oordelen": [
+        "Design 53 kWh: ruim achterin voor een tester van 1,90 m (4:07)",
+        "Design 53 kWh: comfortabel en zacht, stuur erg licht ook in sport ('bakfiets'), remregeneratie ook op sterk te slap (8:24)",
+        "Design 53 kWh: stoelen prima, weinig dijsteun voor lange bestuurder (10:16)",
+        "Uitvoering niet genoemd: schermbediening snel en gebruiksvriendelijk (11:25)",
+        "Design: interieur fraai afgewerkt, ook de deurpanelen achterin; duurzaamheid onbekend (11:56)",
+        "Uitvoering niet genoemd: 'heel veel auto voor je geld'; restwaarde de open vraag (14:48)"
+      ],
+      "concurrenten": [
+        {"tegen": "byd-atto-2", "tijd": "1:49", "grond": "maat: zelfde 'vaarwater' (4,27 m, wielbasis 2,6 m)"},
+        {"tegen": "kia-ev3", "tijd": "1:49", "grond": "maat"},
+        {"tegen": "volvo-ex30", "tijd": "1:49", "grond": "maat"},
+        {"tegen": "alfa-romeo-junior", "tijd": "1:49", "grond": "maat; Stellantis-model"},
+        {"tegen": "peugeot-e-2008", "tijd": "1:49", "grond": "maat; Stellantis-model ('Peugeot 2008')"},
+        {"tegen": "citroen-e-c3-aircross", "tijd": "2:04", "grond": "specificaties een klasse lager, kofferbak gelijk (3:40); op prijs iets duurder met minder vermogen en bereik (13:32)"},
+        {"tegen": "opel-frontera-electric", "tijd": "2:04", "grond": "specificaties een klasse lager, kofferbak gelijk (3:40); op prijs beter dan de ë-C3 Aircross maar rond € 30.000 (14:02)"}
+      ]
+    }
+  },
+  "merk_feiten": {
+    "leapmotor": [
+      "Samenwerking met Stellantis: Leapmotor krijgt toegang tot het Europese dealer- en servicenetwerk van Stellantis, Stellantis tot betaalbare EV's; technisch nog geen gedeelde onderdelen (Autovisie, 11-09-2026, 0:30 en 0:52)",
+      "In Nederland leverbaar bij opname: T03, B05, B10, C10, plus nu de B03X (Autovisie, 11-09-2026, 1:07)",
+      "Restwaarde: tester verwacht die bij Europese merken beter; vermoeden, geen cijfer (Autovisie, 11-09-2026, 15:12)",
+      "Model toevoegen aan 'Modellen in deze wiki': leapmotor-b03x"
+    ],
+    "stellantis": [
+      "De B03X kannibaliseert volgens Autovisie de eigen Citroën ë-C3 Aircross en Opel Frontera (11-09-2026, 14:19)"
+    ]
+  },
+  "concepten": [
+    {"slug": "snelladen-10-80", "bestaat": true, "toevoeging": "Rij Leapmotor B03X: 40 kWh tot 100 kW, 53 kWh tot 133 kW, beide 30-80% in ongeveer 16 minuten (Autovisie 11-09-2026, 7:15). Tweede merk met een 30-80%-opgave naast Dongfeng; de valkuil is daarmee door twee bronnen gezien."},
+    {"slug": "trekgewicht", "bestaat": true, "toevoeging": "Rij Leapmotor B03X: geen aanhanger toegestaan, alle uitvoeringen (Autovisie 11-09-2026, 10:30). Net als de T03; tweede Leapmotor zonder trekhaak."},
+    {"slug": "kofferbakinhoud", "bestaat": true, "toevoeging": "Rij Leapmotor B03X: 405 L plus 105 L onder de vloer, meer dan 1600 L met de bank plat; volgens de tester ongeveer gelijk aan ë-C3 Aircross en Frontera (Autovisie 11-09-2026, 3:24 en 3:40)."},
+    {"slug": "rijbereik-wltp", "bestaat": true, "toevoeging": "Rij Leapmotor B03X: 40 / 53 kWh → ongeveer 292 / 382 km; de video noemt de cyclus niet (Autovisie 11-09-2026, 6:29)."},
+    {"slug": "weergaven", "bestaat": true, "toevoeging": "Autovisie B03X: 13.100 op 06-10-2026, 25 dagen na publicatie, ongeveer 524 per dag."}
+  ],
+  "relaties_met_bestaande_bronnen": [
+    {"type": "supports", "target": "2024-09-18-deze-goedkope-chinese-ev-is-europese-concurrentie-te-slim-af", "via": "laadtijd opgegeven als 30-80% in plaats van 10-80%, nu ook bij Leapmotor"},
+    {"type": "supports", "target": "2024-11-15-chinese-evs-onder-de-25-mille-kleine-autos-grote-verleiding", "via": "Leapmotor in Europa via Stellantis, met toegang tot het dealer- en servicenetwerk (ANWB telde toen 14 servicepunten)"}
+  ]
+}

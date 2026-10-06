@@ -21,7 +21,7 @@ relationships:
 
 Model van [[zeekr|Zeekr]]. Deze wiki heeft nog geen review van de Zeekr 7X zelf; de pagina bestaat omdat een bron hem als concurrent noemt of er iets over zegt.
 
-**Plinkie.** `/deals/zeekr/7x`, nagegaan in de sitemap van plinkie.nl op 06-10-2026.
+**Plinkie.** `/deals/zeekr/7x`, staat in de sitemap van plinkie.nl.
 
 ## Concurrenten
 

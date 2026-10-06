@@ -21,7 +21,7 @@ relationships:
 
 Model van [[volvo|Volvo]]. Deze wiki heeft nog geen review van de Volvo EX30 zelf; de pagina bestaat omdat een bron hem als concurrent noemt of er iets over zegt.
 
-**Plinkie.** `/deals/volvo/ex30`, nagegaan in de sitemap van plinkie.nl op 06-10-2026.
+**Plinkie.** `/deals/volvo/ex30`, staat in de sitemap van plinkie.nl.
 
 ## Concurrenten
 

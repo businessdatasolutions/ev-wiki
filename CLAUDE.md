@@ -141,6 +141,39 @@ done
 
 Wezen opsporen heeft geen script; dat is een handmatige ronde.
 
+## Parallel verwerken
+
+Bij meer dan een paar wachtende bronnen gaat Process sneller met subagents, op één voorwaarde:
+**agents schrijven nooit in `wiki/`.** Twee agents die tegelijk de pagina van de ID. Polo bijwerken,
+overschrijven elkaar. Daarom twee fasen:
+
+1. **Concepten, parallel.** Eén subagent per bron, met de opdracht in
+   `onderzoek/verwerking/agent-opdracht.md`. Elke agent schrijft naar `onderzoek/verwerking/<map>/`:
+   `oordeel.json` (is het een review, welke modellen), `bron.md` (de concept-bronpagina) en
+   `voorstel.json` (feiten per model, concurrenten, nieuwe entiteiten, aanvullingen op concepten).
+2. **Samenvoegen, één keer.** `onderzoek/samenvoegen.py` leest **alle** rondes in
+   `onderzoek/verwerking/` en de besluiten in `onderzoek/verwerking/besluiten.yaml`, schrijft nieuwe
+   bronpagina's, bouwt de modelpagina's opnieuw op uit alle voorstellen (behalve de handgeschreven),
+   en werkt merken, kanalen en concepten bij. Daarna `onderzoek/index_opbouwen.py`,
+   `node scripts/quality-score.mjs`, de lint en `node scripts/graph-export.mjs`, en een logregel.
+
+```sh
+uv run --no-project --with pyyaml python onderzoek/samenvoegen.py --sitemap
+uv run --no-project --with pyyaml python onderzoek/index_opbouwen.py
+node scripts/quality-score.mjs
+```
+
+- **De verwerkingsmappen blijven bewaard.** Ze zijn de bron van de modelpagina's: een map weghalen
+  haalt bij de volgende run zijn feiten van de modelpagina's. Ze zijn ook het spoor van wat een agent
+  las en voorstelde.
+- **Een besluit gaat naar `besluiten.yaml`,** niet in de code: welke pagina's met de hand geschreven
+  zijn, welke slug een uitvoering is, welk concept geen pagina krijgt, welke map een vergelijking is.
+  Lees de rapporten van de agents: wat ze als twijfel melden, is meestal een besluit.
+- **Een bronpagina wordt één keer geschreven.** Daarna is de wiki leidend; `--herschrijf-bronnen`
+  overschrijft correcties en is alleen voor een concept dat zelf fout was.
+- **Herhaalbaar.** Zonder nieuwe ronde verandert een run niets. Een met de hand geschreven modelpagina
+  hoort in `handgeschreven:`, anders schrijft het script hem opnieuw.
+
 ## Verzamelaar
 
 `onderzoek/verzamelaar.py` haalt **zelfstandig** reviews op. Het is Acquire, geautomatiseerd: hij

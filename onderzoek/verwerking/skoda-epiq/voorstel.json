@@ -1,0 +1,103 @@
+{
+  "nieuwe_entiteiten": [],
+  "model_feiten": {
+    "skoda-epiq": {
+      "uitvoeringen": [
+        "Epiq 35: 37 kWh netto LFP, 116 pk, 50 kW DC, vanaf ongeveer € 27.000 (beschrijving € 26.990, september 2026), leverbaar volgend jaar (2027). Autovisie 13-09-2026, 1:24",
+        "Epiq 40: 37 kWh netto LFP, 135 pk, 88 kW DC, prijs niet genoemd, leverbaar volgend jaar (2027). Autovisie 13-09-2026, 1:33",
+        "Epiq 55: 52 kWh netto, 211 pk, 290 Nm, 105 kW DC, vanaf ongeveer € 34.000 (beschrijving € 33.990, september 2026), nu leverbaar; de geteste uitvoering, op 19 inch. Autovisie 13-09-2026, 1:42"
+      ],
+      "fabrieksopgaven": [
+        "Epiq 35: WLTP 'ruim 300 km'. 1:24",
+        "Epiq 55: WLTP 436 km (tester zei eerst 'zo'n 450' en verbeterde zich). 7:42",
+        "Epiq 55: accu, prijs en vermogen gelijk aan de VW ID. Polo. 1:50",
+        "Uitvoering onduidelijk: AC-laden 11 kW (transcript: 'Wel 11 kW aan de gewone paal, de 40'). 2:30",
+        "Alle uitvoeringen: lengte 4,17 m (12 cm langer dan ID. Polo en Raval), wielbasis 2,60 m. 3:25",
+        "Uitvoering niet genoemd: kofferbak 'ruim 470 l' met laadvloer omlaag, groter dan ID. Polo en Kia EV2. 4:17",
+        "Epiq 55 ('in deze uitvoering'): trekgewicht 1200 kg. 4:32",
+        "Alle uitvoeringen: frunk 25 L, komt later. 4:43",
+        "Epiq 55: 0-100 km/u rond de 7 s. 10:35",
+        "Uitvoering niet genoemd: accuvoorverwarming en slimme routeplanner. 5:56"
+      ],
+      "metingen": [
+        "Epiq 55, 19 inch: verbruik 14,9 kWh/100 km op een lange rit, windstil, iets boven 20 °C, buiten Nederland; omgerekend ongeveer 350 km praktijkbereik tegen 436 km WLTP. Winter volgens schatting tester nog ~50 km minder. Autovisie 13-09-2026, 7:09"
+      ],
+      "valkuilen": [
+        "Epiq 35: instapprijs ~€ 27.000 hoort bij een uitvoering met 50 kW DC die pas in 2027 komt; 'een auto om mee te adverteren'. 2:22",
+        "Uitvoering niet genoemd: warmtepomp is een optie van ~€ 1000, pas eind 2026 leverbaar. 5:47",
+        "Uitvoering niet genoemd: frunk van 25 L ontbrak in de testauto en komt later. 4:43",
+        "Uitvoering niet genoemd: de grote kofferbakinhoud vraagt de laadvloer in de laagste stand. 4:08",
+        "Epiq 35 en 40: trekgewicht niet genoemd; de 1200 kg geldt voor de 55. 4:32",
+        "Uitvoering niet genoemd: rugleuning met hendel in standen, niet traploos. 9:05"
+      ],
+      "oordelen": [
+        "Epiq 55: achterin 'zeker 5 cm' ruimte voor 1,80 m (transcript: 'aanruimte, hoofdruimte'), meer dan in de ID. Polo, dicht bij de EV2. 5:02",
+        "Epiq 55: zachte materialen, mooier dan de ID. Polo. 6:05",
+        "Epiq 55: hoge zitpositie; knieën opgesloten tussen harde middentunnel en deurbediening. 9:13",
+        "Epiq 55: bediening goed met vaste knoppen, maar volumeslider onnauwkeurig; ID. Polo 'een tikje beter'. 9:27",
+        "Epiq 55: instrumenten eenvoudiger en minder overzichtelijk dan in de ID. Polo. 11:55",
+        "Epiq 55 op 19 inch met gewone banden: iets comfortabeler dan de ID. Polo op 19 inch sportbanden. 8:25",
+        "Epiq 55: rijgedrag gemiddeld maar probleemloos; precieze besturing zonder dood punt, minder trekken in het stuur dan de ID. Polo. 11:12",
+        "Epiq 55: eindoordeel 'weinig op aan te merken', op sommige vlakken beter dan de Polo. 12:40"
+      ],
+      "concurrenten": [
+        {"tegen": "volkswagen-id-polo", "tijd": "0:04", "grond": "platformgenoot op MEB+; ook rechtstreeks vergeleken door de hele video (1:50, 5:13, 9:27, 12:40), Polo uit eerdere rijtest"},
+        {"tegen": "cupra-raval", "tijd": "0:04", "grond": "platformgenoot op MEB+; sportiever alternatief (11:48)"},
+        {"tegen": "volkswagen-id-cross", "tijd": "0:04", "grond": "platformgenoot op MEB+, ook een crossover"},
+        {"tegen": "kia-ev2", "tijd": "1:00", "grond": "rechtstreeks benoemde concurrent in dezelfde prijsklasse; EV2 heeft 61 kWh (2:07, 12:32)"}
+      ]
+    },
+    "volkswagen-id-polo": {
+      "uitvoeringen": [],
+      "fabrieksopgaven": [
+        "Uitvoering met 52 kWh/211 pk: 'exact dezelfde cijfers' als de Epiq 55 (accu, prijs ~€ 34.000, vermogen). Autovisie 13-09-2026, 1:50"
+      ],
+      "metingen": [],
+      "valkuilen": [],
+      "oordelen": [
+        "Uitvoering niet genoemd, uit een eerdere rijtest: goedkoop plastic op dashboard/deur, minder mooi dan de Epiq. 6:13",
+        "Op 19 inch met sportbanden: achterzijde klapperde. 8:25",
+        "Uitvoering niet genoemd: betere bediening dan de Epiq, met een draaiknop voor het volume en de beste ergonomie op het platform. 9:27",
+        "Uitvoering niet genoemd: rijkere instrumenten met retro-weergaven. 12:02",
+        "Uitvoering niet genoemd: meer trekken in het stuur dan de Epiq; 'rijdt misschien wat leuker'. 10:50, 12:56"
+      ],
+      "concurrenten": []
+    },
+    "cupra-raval": {
+      "uitvoeringen": [],
+      "fabrieksopgaven": [],
+      "metingen": [
+        "Uitvoering niet genoemd: eerdere snellaadtest van Autovisie in Nederland, tot 70% boven 90 kW, bij 80% ruim boven 80 kW, 10-80% in 22 min (2 min sneller dan opgegeven). Datum en temperatuur niet genoemd. Autovisie 13-09-2026, 2:53"
+      ],
+      "valkuilen": [],
+      "oordelen": [
+        "Uitvoering niet genoemd: de sportievere keuze op het MEB+-platform. 11:48"
+      ],
+      "concurrenten": []
+    }
+  },
+  "merk_feiten": {
+    "skoda": [
+      "Volgens Autovisie (13-09-2026, 1:05) heeft Škoda een goede reputatie met elektrische crossovers; Enyaq en Elroq scoorden goed.",
+      "Epiq heeft de typische Škoda-paraplu in de deur. 3:51"
+    ],
+    "volkswagen-groep": [
+      "Vier compacte EV's op het voorwielaangedreven MEB+-platform worden in 2026 uitgerold: ID. Polo, Cupra Raval, ID. Cross en Škoda Epiq; ontwikkeling duurde zo'n vijf jaar. Autovisie 13-09-2026, 0:30",
+      "Op MEB+ heeft de ID. Polo volgens Autovisie de beste bediening, de Epiq net daaronder; bij MEB was dat andersom (ID.3 minder dan Enyaq). 10:02"
+    ]
+  },
+  "concepten": [
+    {"slug": "praktijkbereik", "bestaat": true, "toevoeging": "Rij in de tabel: Škoda Epiq 55, ~350 km (14,9 kWh/100 km), WLTP 436 km, lange rit windstil iets boven 20 °C, Autovisie 13-09-2026 (7:09). Afgeleid uit verbruik, niet gereden."},
+    {"slug": "kofferbakinhoud", "bestaat": true, "toevoeging": "Škoda Epiq 'ruim 470 l' met laadvloer omlaag (Autovisie 13-09-2026, 4:17) tegen 490 L bij ANWB (april 2026, 2:33); niet gemeten. Valkuil: inhoud met laadvloer in laagste stand."},
+    {"slug": "trekgewicht", "bestaat": true, "toevoeging": "Škoda Epiq 55: 1200 kg (Autovisie 13-09-2026, 4:32); voor 35/40 niet genoemd."},
+    {"slug": "snelladen-10-80", "bestaat": true, "toevoeging": "Cupra Raval eigen meting Autovisie: 10-80% in 22 min, 2 min sneller dan opgave (2:53). Epiq DC-maxima: 50/88/105 kW voor 35/40/55 (2:30)."},
+    {"slug": "rijbereik-wltp", "bestaat": true, "toevoeging": "Škoda Epiq: 35 'ruim 300 km' (1:24), 55 436 km (7:42), Autovisie 13-09-2026."},
+    {"slug": "lfp-accu", "bestaat": true, "toevoeging": "Škoda Epiq 35 en 40 hebben een 37 kWh LFP-accu (Autovisie 13-09-2026, 1:24; beschrijving)."},
+    {"slug": "b-segment", "bestaat": true, "toevoeging": "Škoda Epiq als hoge variant van de compacte MEB+-EV's, tegenhanger van de Kia EV2 (Autovisie 13-09-2026, 1:00). De video zegt zelf niet 'B-segment'."},
+    {"slug": "weergaven", "bestaat": true, "toevoeging": "Autovisie Epiq: 37.558 op 06-10-2026, 23 dagen, ~1.633 per dag; tegen 42 per dag voor Autovisie Dongfeng Box (ander jaar, binnen hetzelfde kanaal)."}
+  ],
+  "relaties_met_bestaande_bronnen": [
+    {"type": "supports", "target": "2026-04-01-grote-actieradius-en-goed-rijgedrag-voor-nieuwe-kia-ev2", "via": "Epiq als concurrent van de Kia EV2, scherp geprijsd"},
+    {"type": "contradicts", "target": "2026-04-01-grote-actieradius-en-goed-rijgedrag-voor-nieuwe-kia-ev2", "via": "kofferbakinhoud Epiq: 490 L (ANWB) tegen ruim 470 l (Autovisie)"}
+  ]
+}

@@ -27,10 +27,7 @@ De concurrentierelaties in deze wiki liggen bijna allemaal hier: de [[kia-ev2|Ki
 ANWB zet de grens van de goedkope kant bij € 25.000: de Spring onderaan, de ë-C3 bovenaan, T03 en Box
 ertussen ([[2024-11-15-chinese-evs-onder-de-25-mille-kleine-autos-grote-verleiding|ANWB, Box tegen T03]]). Autovisie noemt de Box een B-segmenter ([[2024-09-18-deze-goedkope-chinese-ev-is-europese-concurrentie-te-slim-af|Autovisie, Dongfeng Box]]).
 
-
-
-
-## Uit de bronnen van 06-10-2026
+## Uit de bronnen
 
 - ANWB zet de ID. Polo tegenover Renault 5, Opel Corsa, Peugeot e-208, Lancia Ypsilon en de zustermodellen Raval en Epiq (9 sep 2026, 3:32) ([[2026-09-09-is-de-volkswagen-id-polo-de-nieuwe-publiekslieveling|ANWB 09-09-2026]])
 - AutoWeek scheidt hatchbacks (ID. Polo, Renault 5, Corsa, 208) van crossoverachtigen (Renault 4, Kia EV2, ID. Cross); meer dan 200 pk alleen bij Chinese merken zoals MG4 (12:03, 1:18). Het gat in laadsnelheid met D-segment en hoger blijft volgens de tester, door 800V (9:12) ([[2026-10-02-kan-de-volkswagen-id-polo-de-succesvolle-renault-5-aan|AutoWeek 02-10-2026]])

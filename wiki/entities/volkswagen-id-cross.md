@@ -22,7 +22,7 @@ relationships:
 
 Model van [[volkswagen|Volkswagen]]. Deze wiki heeft nog geen review van de Volkswagen ID. Cross zelf; de pagina bestaat omdat een bron hem als concurrent noemt of er iets over zegt.
 
-**Plinkie.** `/deals/volkswagen/id-cross`, nagegaan in de sitemap van plinkie.nl op 06-10-2026.
+**Plinkie.** `/deals/volkswagen/id-cross`, staat in de sitemap van plinkie.nl.
 
 ## Fabrieksopgaven
 

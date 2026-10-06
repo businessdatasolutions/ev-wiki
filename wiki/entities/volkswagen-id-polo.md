@@ -46,7 +46,7 @@ relationships:
 
 Model van [[volkswagen|Volkswagen]]. Bronnen over dit model: [[2026-09-09-is-de-volkswagen-id-polo-de-nieuwe-publiekslieveling|ANWB 09-09-2026]], [[2026-10-02-kan-de-volkswagen-id-polo-de-succesvolle-renault-5-aan|AutoWeek 02-10-2026]].
 
-**Plinkie.** `/deals/volkswagen/id-polo`, nagegaan in de sitemap van plinkie.nl op 06-10-2026.
+**Plinkie.** `/deals/volkswagen/id-polo`, staat in de sitemap van plinkie.nl.
 
 ## Uitvoeringen
 

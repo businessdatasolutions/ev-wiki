@@ -1,0 +1,20 @@
+{
+  "is_review": true,
+  "reden": "Occasion Battle van Autovisie: rechtstreekse vergelijking van een gebruikte Audi e-tron GT en een gebruikte Porsche Taycan Cross Turismo 4, met plus- en minpunten en een korte rit. Gaat over occasions en afschrijving, maar zegt veel over de modellen zelf (rijgedrag, ruimte, kofferbak, trekgewicht, accu, terugroepacties).",
+  "taal_transcript": "nl",
+  "bronpagina_bestand": "2026-09-06-elektrische-sportwagens-voor-weinig-de-audi-e-tron-gt-en-porsche-taycan-zijn-flink-afgesch.md",
+  "modellen": ["audi-e-tron-gt", "porsche-taycan"],
+  "merken": ["audi", "porsche"],
+  "kanaal": "autovisie",
+  "waarschuwingen": [
+    "modellen_kandidaat 'audi/e-tron' klopt niet: dat is de SUV. De video gaat over de e-tron GT, die Plinkie niet aanbiedt; de Taycan ook niet. Beide krijgen plinkie_pad leeg.",
+    "Occasiontest van gebruikte exemplaren (ca. 2021 en 2022, 130.000 en 146.000 km), geen nieuwe auto en geen lease. Nieuwere bouwjaren kunnen afwijken.",
+    "Geen transcript_track in de kop, maar de tekst is Nederlands (automatische ondertitels).",
+    "Geen eigen meting: SoH (87% Audi, 92% Porsche volgens verkoper) en 327 km bij 80% op het dashboard gaan over het exemplaar en staan onder valkuilen.",
+    "Prijs Audi onleesbaar (transcript: '€4.000', twee keer); prijs Taycan 'net geen € 50.000' (transcript: '€49.40').",
+    "Hoofdruimte voorin Cross Turismo onleesbaar (transcript: '7mm').",
+    "WLTP 416–490 km noemt de tester voor de Taycan in het algemeen, niet voor de Cross Turismo 4.",
+    "Mercedes CLA en 'diverse Kia's' bewust niet als concurrent opgenomen: maatstaf voor techniek, geen alternatief.",
+    "Zeer veel weergaven: ongeveer 5507 per dag, tegen 42 per dag voor de eerdere Autovisie-video."
+  ]
+}

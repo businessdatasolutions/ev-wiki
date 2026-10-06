@@ -1,0 +1,20 @@
+{
+  "is_review": true,
+  "reden": "Volledige ANWB-rijtest (9:16, transcript tot 9:12) van de Volkswagen ID. Polo met de 52 kWh/211 pk-uitvoering in Duitse specificatie; ruimte, vermogen, concurrentie, rijhulp, interieur, verbruik en prijs. Eén eigen meting: 15,1 kWh/100 km.",
+  "taal_transcript": "nl",
+  "bronpagina_bestand": "2026-09-09-is-de-volkswagen-id-polo-de-nieuwe-publiekslieveling.md",
+  "modellen": ["volkswagen-id-polo"],
+  "merken": ["volkswagen"],
+  "kanaal": "anwb",
+  "waarschuwingen": [
+    "Bron met een belang: ANWB leaset zelf via ANWB Private Lease; confidence niet boven 0,75 zonder onafhankelijke tweede bron.",
+    "Testauto is een Duitse specificatie (massagestoelen); de tester is zelf niet zeker van de Nederlandse prijs (bijna 36 mille).",
+    "Meerprijs motorrijtuigenbelasting onleesbaar (transcript: '3 tot 15 tientjes per kwartaal'); niet als feit opgenomen.",
+    "Accu's in transcript als '37 kW' en '52 KWU'; gelezen als 37 en 52 kWh.",
+    "Bereik 322-454 km en snelladen 88-105 kW zijn niet per accu toegewezen; de koppeling kleine accu = laag getal is een aanname.",
+    "Verbruiksmeting zonder temperatuur, route of afstand.",
+    "Raval en Epiq staan als concurrent op grond van 'zustermodel op hetzelfde platform' in dezelfde passage; de samenvoegstap kan ze als zwakkere grond wegen.",
+    "Vier nieuwe modelpagina's nodig (renault-5, opel-corsa-electric, peugeot-e-208, lancia-ypsilon) en drie nieuwe merkpagina's (opel, peugeot, lancia).",
+    "Twee andere agents verwerken ook ID. Polo-video's: modelpagina volkswagen-id-polo groeit van stub naar volledige modelpagina; feiten samenvoegen per uitvoering."
+  ]
+}

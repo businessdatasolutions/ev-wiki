@@ -31,10 +31,7 @@ van de [[kia-ev2|EV2]] ([[2026-04-01-grote-actieradius-en-goed-rijgedrag-voor-ni
 **Regels.** Een praktijkbereik noemt altijd tester, datum, uitvoering, temperatuur en route. Getallen van
 verschillende testers worden niet gemiddeld zolang de omstandigheden verschillen.
 
-
-
-
-## Uit de bronnen van 06-10-2026
+## Uit de bronnen
 
 - Rij voor de ID. Polo 52 kWh/211 pk: 15,1 kWh/100 km gemeten tijdens de opnames, geen bereik afgeleid, omstandigheden niet genoemd; fabriek 322-454 km (ANWB, 9 sep 2026, 7:37) ([[2026-09-09-is-de-volkswagen-id-polo-de-nieuwe-publiekslieveling|ANWB 09-09-2026]])
 - Onder 'geen meting': een dashboardstand van 327 km bij ongeveer 80% in een gebruikte e-tron GT met iets onder 87% accugezondheid is geen praktijkbereik (Autovisie 2026-09-06, 6:53, 7:29). ([[2026-09-06-elektrische-sportwagens-voor-weinig-de-audi-e-tron-gt-en-porsche-taycan-zijn-flink-afgesch|Autovisie 06-09-2026]])

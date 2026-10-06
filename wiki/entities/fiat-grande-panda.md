@@ -22,7 +22,7 @@ relationships:
 
 Model van [[fiat|Fiat]]. Deze wiki heeft nog geen review van de Fiat Grande Panda zelf; de pagina bestaat omdat een bron hem als concurrent noemt of er iets over zegt.
 
-**Plinkie.** `/deals/fiat/grande-panda`, nagegaan in de sitemap van plinkie.nl op 06-10-2026.
+**Plinkie.** `/deals/fiat/grande-panda`, staat in de sitemap van plinkie.nl.
 
 ## Concurrenten
 

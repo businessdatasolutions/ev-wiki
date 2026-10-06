@@ -1,0 +1,114 @@
+{
+  "nieuwe_entiteiten": [
+    {
+      "slug": "volvo",
+      "kind": "merk",
+      "naam": "Volvo",
+      "merk": "",
+      "plinkie_pad": "",
+      "aliases": [
+        "Volvo",
+        "Volvo Cars"
+      ],
+      "tekst": "Zweeds automerk. De 40-serie (XC40, EX40, EC40) is in Nederland populair en kreeg in september 2026 een tweede facelift (Autovisie, 10-09-2026, 0:00)."
+    },
+    {
+      "slug": "volvo-ex40",
+      "kind": "model",
+      "naam": "Volvo EX40",
+      "merk": "volvo",
+      "plinkie_pad": "/deals/volvo/ex40",
+      "aliases": [
+        "EX40",
+        "Volvo EX40",
+        "XC40 Recharge",
+        "Volvo XC40 Recharge"
+      ],
+      "tekst": "Volledig elektrische compacte SUV, de elektrische versie van de XC40; tot de hernoeming heette hij XC40 Recharge. Kreeg in 2026 een facelift met nieuwe uitvoeringsnamen (Autovisie, 10-09-2026, 0:26 en 6:38). Plinkie kent hem ook onder /deals/volvo/xc40-recharge."
+    },
+    {
+      "slug": "volvo-ec40",
+      "kind": "model",
+      "naam": "Volvo EC40",
+      "merk": "volvo",
+      "plinkie_pad": "/deals/volvo/ec40",
+      "aliases": [
+        "EC40",
+        "Volvo EC40",
+        "C40 Recharge"
+      ],
+      "tekst": "De elektrische coupé-versie van de EX40. Krijgt bij de facelift van 2026 het nieuwe front van de EX40, maar geen nieuwe achterkant (Autovisie, 10-09-2026, 1:15 en 4:20)."
+    }
+  ],
+  "model_feiten": {
+    "volvo-ex40": {
+      "uitvoeringen": [
+        "P5 (was Single Motor): achterwielaandrijving, 238 pk, 70 kWh (Autovisie 10-09-2026, 6:38 en 7:01)",
+        "P5 Range, ook 'P5 Long Range' genoemd (was Single Motor Extended Range): achterwielaandrijving, 252 pk, 82 kWh (Autovisie 10-09-2026, 6:46 en 7:18)",
+        "P8 AWD (was Twin Motor): vierwielaandrijving, 408 pk, 82 kWh (Autovisie 10-09-2026, 6:46 en 7:32)",
+        "P8 AWD Performance (was Twin Motor Performance): vierwielaandrijving, 442 pk, 82 kWh (Autovisie 10-09-2026, 6:54 en 7:50)"
+      ],
+      "fabrieksopgaven": [
+        "P5: WLTP ongeveer 477 km; accu 70 kWh (transcript: '70 kWu') (Autovisie 10-09-2026, 7:01)",
+        "P5 Range: WLTP 576 km; accu 82 kWh (transcript: '82 kW batterij') (Autovisie 10-09-2026, 7:18)",
+        "P8 AWD en P8 AWD Performance: WLTP 'zo'n beetje rond de 540' km, afgerond en voor beide samen (Autovisie 10-09-2026, 7:32)",
+        "P8 AWD en P8 AWD Performance: 0-100 km/u onder 5 seconden (Autovisie 10-09-2026, 7:50)",
+        "P5: snelladen maximaal 180 kW; alle andere uitvoeringen 205 kW (Autovisie 10-09-2026, 8:00)",
+        "Alle uitvoeringen: snelladen 10-80% in minder dan een half uur onder de juiste omstandigheden (Autovisie 10-09-2026, 8:10)",
+        "Uitvoering niet genoemd: nieuw scherm van 11,2 inch, als tablet op het dashboard; eerder ingebouwd en kleiner, '9 inch, pin me er niet op vast' (Autovisie 10-09-2026, 5:03)",
+        "Uitvoering niet genoemd: nieuwe sensorset, veiligheidscomputer en software; Pilot Assist met Lane Change Assist; 360°-camera met 3D-beeld (Autovisie 10-09-2026, 5:41 en 6:22)",
+        "Uitvoering niet genoemd: dichte grille, strakker front, nieuwe achterlichten gelijk aan de XC40; wielen 18, 19 of 20 inch (Autovisie 10-09-2026, 2:44 en 4:04)"
+      ],
+      "metingen": [],
+      "valkuilen": [
+        "Alle uitvoeringen: de aandrijflijnen zijn bij de facelift alleen hernoemd (Single Motor → P5 enz.); een aanbieding onder de oude naam is dezelfde techniek, maar mogelijk de oudere generatie met ander scherm en andere assistentiesystemen (Autovisie 10-09-2026, 6:38)",
+        "Uitvoering niet genoemd: de EX40 heette eerder XC40 Recharge; aanbiedingen kunnen beide namen dragen (Autovisie 10-09-2026, 0:33)",
+        "P5: kleinere accu (70 kWh) én lager DC-laadvermogen (180 kW) dan alle andere uitvoeringen (82 kWh, 205 kW); volgens de presentator weinig verschil in laadtijd 10-80% (Autovisie 10-09-2026, 7:01 en 8:00)"
+      ],
+      "oordelen": [
+        "Uitvoering niet genoemd: geen rijindruk; de nieuwe achterlichten zijn 'eigenlijk best wel heel fraai' (Autovisie 10-09-2026, 3:35)"
+      ],
+      "concurrenten": []
+    },
+    "volvo-ec40": {
+      "uitvoeringen": [
+        "Uitvoering niet genoemd: de video noemt geen aandrijflijnen of accu's specifiek voor de EC40 (Autovisie 10-09-2026, 4:20)"
+      ],
+      "fabrieksopgaven": [
+        "Uitvoering niet genoemd: krijgt het nieuwe front van de EX40; de achterkant met doorlopende achterlichten in de achterruit blijft gelijk (Autovisie 10-09-2026, 4:20)"
+      ],
+      "metingen": [],
+      "valkuilen": [
+        "Uitvoering niet genoemd: na de facelift is alleen het front nieuw; de achterkant van een nieuwe EC40 is niet te onderscheiden van de oude (Autovisie 10-09-2026, 4:20)"
+      ],
+      "oordelen": [],
+      "concurrenten": []
+    }
+  },
+  "merk_feiten": {
+    "volvo": [
+      "De 40-serie (XC40 uit 2017, EX40, EC40) is bijna negen jaar oud en staat op het oudere CMA-platform; ze moet nog een paar jaar mee (Autovisie 10-09-2026, 0:17 en 10:13)",
+      "Mogelijk opvolger: een volledig elektrische EX50 op het SP3-platform, dat ook de EX60 en de toekomstige Polestar 7 gebruiken; verwachting, geen aankondiging (Autovisie 10-09-2026, 9:58)",
+      "De plug-in hybride XC40 is sinds 2024 uit het programma; de brandstof-XC40 is er alleen nog als mild hybride B3 (163 pk) en B4 (197 pk) (Autovisie 10-09-2026, 8:26 en 9:24)",
+      "In Nederland 'bijna 60.000' registraties van de 40-serie in de laatste jaren, ongeveer 95% volledig elektrisch (Autovisie 10-09-2026, 0:43). EC40-aantal en de cijfers tot juli zijn in het transcript onleesbaar; niet opnemen als feit (1:15, 10:48)"
+    ]
+  },
+  "concepten": [
+    {
+      "slug": "rijbereik-wltp",
+      "bestaat": true,
+      "toevoeging": "Volvo EX40 (facelift 2026): P5 ongeveer 477 km, P5 Range 576 km, P8-versies 'rond de 540' km; fabrieksopgaven via Autovisie 10-09-2026 (7:01-7:32)."
+    },
+    {
+      "slug": "snelladen-10-80",
+      "bestaat": true,
+      "toevoeging": "Rij in de tabel: Volvo EX40, 10-80% in minder dan een half uur; maximaal 180 kW (P5) of 205 kW (overige); Autovisie 10-09-2026 (8:00)."
+    },
+    {
+      "slug": "weergaven",
+      "bestaat": true,
+      "toevoeging": "Autovisie, Volvo EX40-facelift: 7.559 op 06-10-2026, 26 dagen na publicatie, ongeveer 291 per dag. Vergelijkbaar binnen Autovisie met de Dongfeng Box-video."
+    }
+  ],
+  "relaties_met_bestaande_bronnen": []
+}

@@ -21,7 +21,7 @@ relationships:
 
 Model van [[jeep|Jeep]]. Deze wiki heeft nog geen review van de Jeep Avenger zelf; de pagina bestaat omdat een bron hem als concurrent noemt of er iets over zegt.
 
-**Plinkie.** `/deals/jeep/avenger`, nagegaan in de sitemap van plinkie.nl op 06-10-2026.
+**Plinkie.** `/deals/jeep/avenger`, staat in de sitemap van plinkie.nl.
 
 ## Concurrenten
 

@@ -27,7 +27,7 @@ relationships:
 Model van [[porsche|Porsche]]. Bronnen over dit model: [[2026-09-06-elektrische-sportwagens-voor-weinig-de-audi-e-tron-gt-en-porsche-taycan-zijn-flink-afgesch|Autovisie 06-09-2026]].
 Met één eigen bron blijft de zekerheid op hooguit 0,75.
 
-**Plinkie.** Niet in de sitemap van plinkie.nl op 06-10-2026.
+**Plinkie.** Staat niet in de sitemap van plinkie.nl.
 
 ## Uitvoeringen
 

@@ -1,0 +1,15 @@
+{"is_review": true,
+ "reden": "Eerste rijtest van de Peugeot e-208 GTi op Schotse wegen door Autovisie, met rijgedrag, besturing, remmen, zitpositie en een vergelijking met de Stellantis-stalgenoten. Geen eigen meting.",
+ "taal_transcript": "nl",
+ "bronpagina_bestand": "2026-09-26-waarom-wij-voor-de-peugeot-e-208-gti-zouden-kiezen.md",
+ "modellen": ["peugeot-e-208-gti"],
+ "merken": ["peugeot"],
+ "kanaal": "autovisie",
+ "waarschuwingen": [
+  "Geen transcript_track in de ruwe kop: het transcript kwam uit het browserpaneel, maar de tekst is Nederlands (automatisch, met ASR-fouten als 'hotgeantklasse', 'torst type', 'Peugeot VTI').",
+  "De ruwe bestandsnaam ('waarom-wij-voor-de-peugeot-e-208-gti-zouden-kiezen') wijkt af van de huidige titel; de bronpagina volgt de bestandsnaam voor de slug.",
+  "De prijs EUR 41.990 komt uit de beschrijving van het kanaal, niet uit het transcript.",
+  "Plinkie heeft lancia/ypsilon en opel/corsa-electric, maar geen apart pad voor de HF en de GSE. Gekozen voor eigen slugs lancia-ypsilon-hf en opel-corsa-gse met leeg plinkie_pad; de samenvoegstap kan ze aan de basismodellen koppelen als uitvoering.",
+  "Abarth en Alfa Romeo noemt de tester alleen bij merknaam; abarth-600e en alfa-romeo-junior zijn afgeleid (enige Stellantis-modellen met deze aandrijflijn).",
+  "Het getal '250 pk' (6:03) is een gedachte-voorbeeld van de tester, geen uitvoering."
+ ]}

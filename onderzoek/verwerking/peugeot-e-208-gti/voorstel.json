@@ -1,0 +1,60 @@
+{
+ "nieuwe_entiteiten": [
+  {"slug": "peugeot-e-208-gti", "kind": "model", "naam": "Peugeot e-208 GTi", "merk": "peugeot", "plinkie_pad": "/deals/peugeot/e-208-gti", "aliases": ["e-208 GTi", "E-208 GTI", "208 GTi"], "tekst": "Elektrische hot hatch van Peugeot, de vijfde Stellantis-hot hatch met dezelfde aandrijflijn (281 pk, voorwielaandrijving, Torsen-sper). Autovisie noemt hem een waardige opvolger van de 205 GTI (26-09-2026, 8:13)."},
+  {"slug": "peugeot", "kind": "merk", "naam": "Peugeot", "merk": "", "plinkie_pad": "", "aliases": ["Peugeot"], "tekst": "Frans automerk van Stellantis (part-of stellantis). In de wiki via de e-208 GTi (Autovisie, 26-09-2026)."},
+  {"slug": "opel-corsa-gse", "kind": "model", "naam": "Opel Corsa GSE", "merk": "opel", "plinkie_pad": "", "aliases": ["Corsa GSE"], "tekst": "Elektrische hot hatch van Opel met dezelfde aandrijflijn als de Peugeot e-208 GTi; volgens Peugeot stabieler afgestemd (Autovisie, 26-09-2026, 4:06). Plinkie heeft /deals/opel/corsa-electric; of de GSE daaronder valt, is niet nagegaan."},
+  {"slug": "opel", "kind": "merk", "naam": "Opel", "merk": "", "plinkie_pad": "", "aliases": ["Opel"], "tekst": "Duits automerk van Stellantis (part-of stellantis). In de wiki als merk van de Corsa GSE (Autovisie, 26-09-2026)."},
+  {"slug": "lancia-ypsilon-hf", "kind": "model", "naam": "Lancia Ypsilon HF", "merk": "lancia", "plinkie_pad": "", "aliases": ["Ypsilon HF", "Lancia Y HF"], "tekst": "Elektrische hot hatch van Lancia met dezelfde aandrijflijn als de Peugeot e-208 GTi; volgens Autovisie een van de twee meest directe concurrenten (26-09-2026, 0:33). Plinkie heeft /deals/lancia/ypsilon; of de HF daaronder valt, is niet nagegaan."},
+  {"slug": "lancia", "kind": "merk", "naam": "Lancia", "merk": "", "plinkie_pad": "", "aliases": ["Lancia"], "tekst": "Italiaans automerk van Stellantis (part-of stellantis). In de wiki als merk van de Ypsilon HF (Autovisie, 26-09-2026)."},
+  {"slug": "abarth-600e", "kind": "model", "naam": "Abarth 600e", "merk": "abarth", "plinkie_pad": "/deals/abarth/600e", "aliases": ["600e"], "tekst": "Sportieve elektrische crossover van Abarth met dezelfde aandrijflijn als de Peugeot e-208 GTi. Autovisie noemt alleen 'de Abarth' (26-09-2026, 2:51); het model is afgeleid."},
+  {"slug": "abarth", "kind": "merk", "naam": "Abarth", "merk": "", "plinkie_pad": "", "aliases": ["Abarth"], "tekst": "Sportmerk van Stellantis (part-of stellantis). In de wiki via de 600e als Stellantis-stalgenoot (Autovisie, 26-09-2026)."},
+  {"slug": "alfa-romeo-junior", "kind": "model", "naam": "Alfa Romeo Junior", "merk": "alfa-romeo", "plinkie_pad": "/deals/alfa-romeo/junior", "aliases": ["Junior", "Junior Veloce"], "tekst": "Elektrische crossover van Alfa Romeo; de sportieve versie deelt de aandrijflijn met de Peugeot e-208 GTi. Autovisie noemt alleen 'de Alfa Romeo' (26-09-2026, 2:51); model en uitvoering zijn afgeleid."},
+  {"slug": "alfa-romeo", "kind": "merk", "naam": "Alfa Romeo", "merk": "", "plinkie_pad": "", "aliases": ["Alfa Romeo", "Alfa"], "tekst": "Italiaans automerk van Stellantis (part-of stellantis). In de wiki via de Junior (Autovisie, 26-09-2026; ook genoemd door ANWB als Junior uit de Poolse fabriek)."}
+ ],
+ "model_feiten": {
+  "peugeot-e-208-gti": {
+   "uitvoeringen": ["e-208 GTi: één uitvoering, elektromotor op de voorwielen met mechanisch Torsen-sperdifferentieel; accu niet genoemd (Autovisie, 3:24)"],
+   "fabrieksopgaven": [
+    "e-208 GTi: prijs EUR 41.990 volgens de beschrijving van Autovisie, 26-09-2026 (beschrijving)",
+    "e-208 GTi: 281 pk en 345 Nm (3:31)",
+    "e-208 GTi: 0-100 km/u in 5,5 s, top begrensd op 180 km/u, gelijk aan de stalgenoten (5:05)",
+    "e-208 GTi: Alcon-sportremmen, net als de Corsa GSE (6:45)",
+    "e-208 GTi: volgens Peugeot aangepaste achterwielophanging met meer toespoor, voor een lossere achteras in het grensbereik (1:47)"
+   ],
+   "metingen": [],
+   "valkuilen": [
+    "e-208 GTi: i-Cockpit met klein plat stuur; de tester kan net over het stuur naar de instrumenten kijken en een lager stuur stuurt niet prettig; niet voor iedereen de ideale zitpositie, dus eerst proefzitten (4:15)",
+    "e-208 GTi: aandrijflijn, prestaties en remmen gelijk aan Corsa GSE en Ypsilon HF; zonder ze naast elkaar te rijden is het verschil nauwelijks te merken (5:25)"
+   ],
+   "oordelen": [
+    "e-208 GTi: qua uiterlijk de meest overtuigende van de klasse (1:25)",
+    "e-208 GTi: voelt beweeglijk en sportief genoeg voor een echte hot hatch; de lossere achteras is niet aan de grens getoetst (5:02)",
+    "e-208 GTi: besturing best scherp en communicatief, maar niet veel scherper dan bij de concurrenten (6:38)",
+    "e-208 GTi: vering niet keihard, met incasseringsvermogen op oneffen wegen (7:19)",
+    "e-208 GTi: waardige opvolger van de 205 GTI en voorlopig nummer één van de Stellantis-club voor de tester (8:13)"
+   ],
+   "concurrenten": [
+    {"tegen": "lancia-ypsilon-hf", "tijd": "0:33", "grond": "Stellantis-hot hatch met dezelfde aandrijflijn; 'meest directe concurrent'"},
+    {"tegen": "opel-corsa-gse", "tijd": "0:33", "grond": "Stellantis-hot hatch met dezelfde aandrijflijn; 'meest directe concurrent'; op 4:06 rechtstreeks vergeleken op afstemming"},
+    {"tegen": "abarth-600e", "tijd": "2:51", "grond": "zelfde aandrijflijn, maar crossover met hoger zwaartepunt; alleen het merk genoemd"},
+    {"tegen": "alfa-romeo-junior", "tijd": "2:51", "grond": "zelfde aandrijflijn, maar crossover met hoger zwaartepunt; alleen het merk genoemd"}
+   ]
+  },
+  "opel-corsa-gse": {
+   "uitvoeringen": ["Corsa GSE: zelfde aandrijflijn als de e-208 GTi (0:42)"],
+   "fabrieksopgaven": ["Corsa GSE: Alcon-sportremmen (6:53)"],
+   "metingen": [], "valkuilen": [],
+   "oordelen": ["Corsa GSE: volgens Peugeot stabieler afgestemd dan de e-208 GTi (4:47)"],
+   "concurrenten": []
+  }
+ },
+ "merk_feiten": {
+  "stellantis": ["Stellantis heeft vijf elektrische hot hatches/crossovers met dezelfde aandrijflijn (Peugeot e-208 GTi, Opel Corsa GSE, Lancia Ypsilon HF, Abarth, Alfa Romeo). Autovisie vindt dat het concern ze te weinig onderscheid geeft en de historie van de merken beter had moeten benutten (Autovisie, 26-09-2026, 5:40 en 6:19)."],
+  "peugeot": ["De e-208 GTi leunt vooral op de historie van de 205 GTI; volgens Autovisie heeft Peugeot de meeste 'heritage' van de Stellantis-club (26-09-2026, 5:48)."]
+ },
+ "concepten": [
+  {"slug": "b-segment", "bestaat": true, "toevoeging": "Sportieve uitvoeringen in het B-segment: de e-208 GTi, Corsa GSE en Ypsilon HF delen één aandrijflijn (Autovisie, 26-09-2026, 3:01)."},
+  {"slug": "carrosserie", "bestaat": true, "toevoeging": "Autovisie onderscheidt binnen de Stellantis-club echte hatchbacks (e-208 GTi, Corsa GSE, Ypsilon HF) van crossovers met een hoger zwaartepunt (Abarth, Alfa Romeo), en noemt de hatchbacks mogelijk de sportiefste (26-09-2026, 3:01-3:17)."}
+ ],
+ "relaties_met_bestaande_bronnen": []
+}

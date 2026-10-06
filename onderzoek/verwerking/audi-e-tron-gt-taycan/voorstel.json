@@ -1,0 +1,106 @@
+{
+  "nieuwe_entiteiten": [
+    {"slug": "audi-e-tron-gt", "kind": "model", "naam": "Audi e-tron GT", "merk": "audi", "plinkie_pad": "", "aliases": ["e-tron GT", "Audi e-tron GT quattro", "RS e-tron GT"], "tekst": "Elektrische vierdeurs sportwagen van Audi, technisch dezelfde auto als de Porsche Taycan. Autovisie vergeleek in september 2026 een gebruikt exemplaar met een Taycan Cross Turismo 4 (2026-09-06, 0:00)."},
+    {"slug": "porsche-taycan", "kind": "model", "naam": "Porsche Taycan", "merk": "porsche", "plinkie_pad": "", "aliases": ["Taycan", "Taycan Cross Turismo", "Taycan Cross Turismo 4"], "tekst": "Elektrische sportwagen van Porsche (sinds 2019), ook als Cross Turismo (shooting brake). Autovisie zette in september 2026 een gebruikte Cross Turismo 4 uit 2022 tegen een Audi e-tron GT (2026-09-06, 0:00)."},
+    {"slug": "audi", "kind": "merk", "naam": "Audi", "merk": "", "plinkie_pad": "", "aliases": ["Audi"], "tekst": "Duits merk van de Volkswagen-groep. In de wiki met de e-tron GT (Autovisie, 2026-09-06)."},
+    {"slug": "porsche", "kind": "merk", "naam": "Porsche", "merk": "", "plinkie_pad": "", "aliases": ["Porsche"], "tekst": "Duits sportwagenmerk van de Volkswagen-groep. In de wiki met de Taycan (Autovisie, 2026-09-06)."},
+    {"slug": "zeekr-7x", "kind": "model", "naam": "Zeekr 7X", "merk": "zeekr", "plinkie_pad": "/deals/zeekr/7x", "aliases": ["7X", "Zeekr 7X"], "tekst": "Elektrische SUV van Zeekr. Autovisie noemt hem als alternatief voor een gebruikte e-tron GT of Taycan: nieuw ongeveer € 50.000, 400 kW laden, bijna 600 km bereik (2026-09-06, 15:34). Korte pagina: alleen als concurrent genoemd."},
+    {"slug": "zeekr", "kind": "merk", "naam": "Zeekr", "merk": "", "plinkie_pad": "", "aliases": ["Zeekr"], "tekst": "Chinees merk (Geely). In de wiki alleen via de 7X als concurrent (Autovisie, 2026-09-06, 15:34). Alleen aanmaken als de samenvoegstap een merkpagina per concurrent wil."}
+  ],
+  "model_feiten": {
+    "audi-e-tron-gt": {
+      "uitvoeringen": [
+        "Basisversie (e-tron GT) met 476 pk; optioneel luchtvering, standaard conventioneel onderstel (1:58)",
+        "RS e-tron GT als sportievere versie, niet getest (2:05)",
+        "Geen Avant/stationversie (17:28)"
+      ],
+      "fabrieksopgaven": [
+        "Basisversie: 476 pk, 630 Nm, 0–100 km/u in 4,1 s, top 245 km/u (1:43)",
+        "Uitvoering niet apart genoemd: accu 93,4 kWh, WLTP 488 km (7:01)",
+        "Uitvoering niet genoemd: kofferbak 405 L plus frunk 81 L (6:04)",
+        "Uitvoering niet genoemd: trekgewicht nul (6:37)",
+        "Uitvoering niet genoemd: bijna 5 meter lang (5:09)",
+        "Basisversie: nieuwprijs € 103.000 zonder opties, prijs bij introductie (2:43)",
+        "Uitvoering niet genoemd: tweetraps transmissie, net als de Taycan (4:22)"
+      ],
+      "metingen": [],
+      "valkuilen": [
+        "Uitvoering niet genoemd: trekgewicht nul, dus geen aanhanger en geen fietsendrager op een trekhaak (6:37)",
+        "Uitvoering niet genoemd: kleine kofferbak van 405 L, deels opgevangen door frunk van 81 L (6:04)",
+        "Uitvoering niet genoemd: weinig hoofdruimte achterin door de aflopende daklijn; beenruimte goed dankzij uitsparingen in de accu (5:28)",
+        "Uitvoering niet genoemd: terugroepacties voor vermogensverlies en een accu die oververhit kan raken; verder bekende problemen met tweetraps transmissie, achterspoiler, remmodule en lekkage aan de koeling van de voorste motor (4:00)",
+        "93,4 kWh: bereik valt tegen voor de accugrootte, naast nieuwe EV's (7:14)",
+        "Gebruikt exemplaar (ca. 2021, ruim 130.000 km): accugezondheid iets onder 87%; dashboard bij ongeveer 80% gaf 327 km aan. Over het exemplaar, geen meting op een rit (6:53, 7:29)"
+      ],
+      "oordelen": [
+        "Alle versies: uitstekend sturend, 'elektrische auto voor petrolheads' (2:05)",
+        "Uitvoering niet genoemd: mooier dan de Taycan en fraaier dashboard, volgens de Audi-presentator (1:15)",
+        "Uitvoering niet genoemd: bouwkwaliteit en materialen gelijk aan de Taycan (16:26)",
+        "Uitvoering niet genoemd: techniek uit 2019 nu ingehaald door nieuwere EV's (15:01)",
+        "Instagram-peiling van Autovisie: 62% voor de Audi tegen 38% voor de Porsche (22:41)"
+      ],
+      "concurrenten": [
+        {"tegen": "porsche-taycan", "tijd": "0:00", "grond": "rechtstreekse vergelijking (Occasion Battle), technisch dezelfde auto"},
+        {"tegen": "zeekr-7x", "tijd": "15:34", "grond": "zelfde prijs: nieuw ongeveer € 50.000, met 400 kW laden en bijna 600 km bereik"}
+      ]
+    },
+    "porsche-taycan": {
+      "uitvoeringen": [
+        "Taycan Cross Turismo 4 (2022): vierwielaandrijving, grootste accu 93,4 kWh en luchtvering standaard, wat de gewone Taycan niet standaard heeft (8:21)",
+        "Gewone Taycan: vierdeurs coupé met minder kofferbak en hoofdruimte (9:10, 10:04)"
+      ],
+      "fabrieksopgaven": [
+        "Taycan algemeen: 800 volt, laden tot 270 kW, accu 93,4 kWh (12:21)",
+        "Taycan algemeen: WLTP 416–490 km bij nieuw, uitvoering niet nader genoemd (12:33)",
+        "Cross Turismo: kofferbak 446 L, bijna 40 L meer dan de gewone Taycan; ruim 1200 L met bank plat (8:56)",
+        "Uitvoering niet genoemd: tweetraps transmissie (4:22, 15:01)"
+      ],
+      "metingen": [],
+      "valkuilen": [
+        "Gewone Taycan tegen Cross Turismo: de gewone heeft minder kofferbak en minder hoofdruimte achterin; de meerruimte voorin is onleesbaar (transcript: '7mm') (8:56, 9:48)",
+        "Vroege bouwjaren: terugroepacties voor remmen en software; controleer of recalls zijn afgewerkt (13:19)",
+        "Taycan algemeen: bereik valt tegen voor 93,4 kWh naast nieuwe EV's (12:42)",
+        "Uitvoering niet genoemd: duur onderhoud en dure onderdelen (13:01)",
+        "Gebruikte Cross Turismo 4 (2022, ruim 146.000 km): verkoper noemt 92% accucapaciteit; tester raadt onafhankelijke keuring aan. Over het exemplaar (14:03)"
+      ],
+      "oordelen": [
+        "Cross Turismo 4: 'stuurt als een echte Porsche', fijn en precies stuurgevoel, goede remmen en werkplek (11:19, 20:02)",
+        "Cross Turismo 4: ook een comfortabele reisauto door de luchtvering (8:28)",
+        "Cross Turismo: ruim genoeg achterin voor iemand van 1,90 m, ook met panoramadak (9:37)",
+        "Taycan algemeen: in 2019 vooruitstrevend, nu ingehaald; 800 volt en 270 kW nog 'niet langzaam' (12:04, 15:01)"
+      ],
+      "concurrenten": [
+        {"tegen": "audi-e-tron-gt", "tijd": "0:00", "grond": "rechtstreekse vergelijking (Occasion Battle), technisch dezelfde auto"},
+        {"tegen": "zeekr-7x", "tijd": "15:34", "grond": "zelfde prijs: nieuw ongeveer € 50.000, met 400 kW laden en bijna 600 km bereik"}
+      ]
+    }
+  },
+  "merk_feiten": {
+    "audi": [
+      "Sinds 2020 zijn in Nederland 640 e-tron GT's geregistreerd (Autovisie 2026-09-06, 3:29)",
+      "Geen Avant-versie van de e-tron GT (17:28)",
+      "Autovisie verwacht dat de Volkswagen-groep de e-tron GT schrapt; verwachting, geen aankondiging (21:35)",
+      "Part-of volkswagen-groep (algemene kennis; de video noemt Audi en Porsche 'technisch dezelfde auto's', 17:36)"
+    ],
+    "porsche": [
+      "Sinds 2020 zijn in Nederland bijna 2900 Taycans geregistreerd (Autovisie 2026-09-06, 3:29)",
+      "Dure onderhoud en onderdelen; Porsche doet zelf aankoopkeuringen (13:01, 14:14)",
+      "Part-of volkswagen-groep (algemene kennis)"
+    ],
+    "volkswagen-groep": [
+      "Autovisie (2026-09-06, 21:23): het concern kondigde extra ontslagen aan en het verdwijnen van modellen, 'waarschijnlijk ook de e-tron GT'. Aantal ontslagen onleesbaar (transcript: '50.000 1000'). Concern omvat ook Audi en Porsche."
+    ]
+  },
+  "concepten": [
+    {"slug": "trekgewicht", "bestaat": true, "toevoeging": "Rij: Audi e-tron GT, uitvoering niet genoemd, trekgewicht nul, geen aanhanger toegestaan (Autovisie 2026-09-06, 6:37)."},
+    {"slug": "kofferbakinhoud", "bestaat": true, "toevoeging": "Rijen: Audi e-tron GT 405 L + frunk 81 L (6:04); Porsche Taycan Cross Turismo 446 L / ruim 1200 L bank plat, gewone Taycan bijna 40 L minder (8:56). Bron Autovisie 2026-09-06."},
+    {"slug": "rijbereik-wltp", "bestaat": true, "toevoeging": "Rijen: Audi e-tron GT 93,4 kWh 488 km (7:01); Porsche Taycan 93,4 kWh 416–490 km, uitvoering niet nader genoemd (12:33). Bron Autovisie 2026-09-06; de tester noemt beide tegenvallend voor de accugrootte."},
+    {"slug": "snelladen-10-80", "bestaat": true, "toevoeging": "Rij: Porsche Taycan, maximaal 270 kW op 800 volt, geen 10–80%-tijd genoemd (Autovisie 2026-09-06, 12:21)."},
+    {"slug": "carrosserie", "bestaat": true, "toevoeging": "Voorbeeld: Taycan als vierdeurs coupé tegen Cross Turismo (shooting brake) verandert kofferbak en hoofdruimte achterin (Autovisie 2026-09-06, 8:44, 10:04). Alleen toevoegen als de pagina varianten binnen één model behandelt."},
+    {"slug": "praktijkbereik", "bestaat": true, "toevoeging": "Onder 'geen meting': een dashboardstand van 327 km bij ongeveer 80% in een gebruikte e-tron GT met iets onder 87% accugezondheid is geen praktijkbereik (Autovisie 2026-09-06, 6:53, 7:29)."},
+    {"slug": "accugezondheid", "bestaat": false, "toevoeging": "Nieuw concept (aliases: state of health, SoH, accucapaciteit): hoeveel van de oorspronkelijke capaciteit over is. Voorbeelden: gebruikte e-tron GT iets onder 87% (7:29), Taycan 92% volgens verkoper, tester raadt onafhankelijke keuring aan (14:03). Voor Plinkie (nieuwe lease) minder van belang; alleen aanmaken als de samenvoegstap het nuttig vindt."},
+    {"slug": "weergaven", "bestaat": true, "toevoeging": "Rij: Autovisie, e-tron GT tegen Taycan, gemeten 06-10-2026, 165.195, ongeveer 5507 per dag (30 dagen). Veel hoger dan de andere Autovisie-video (42 per dag)."},
+    {"slug": "feitsoorten", "bestaat": true, "toevoeging": "Bron telt mee bij de bronnen zonder eigen meting."}
+  ],
+  "relaties_met_bestaande_bronnen": []
+}

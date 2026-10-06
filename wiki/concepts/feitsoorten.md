@@ -31,10 +31,7 @@ Een oordeel is waardevol maar persoonlijk. Merk en service verandert langzaam en
 Van de drie reviews op 06-10-2026 heeft alleen [[2024-11-15-chinese-evs-onder-de-25-mille-kleine-autos-grote-verleiding|ANWB, Box tegen T03]] een eigen `meting`; alle drie hebben een
 `valkuil`.
 
-
-
-
-## Uit de bronnen van 06-10-2026
+## Uit de bronnen
 
 - Bron telt mee bij de bronnen zonder eigen meting. ([[2026-09-06-elektrische-sportwagens-voor-weinig-de-audi-e-tron-gt-en-porsche-taycan-zijn-flink-afgesch|Autovisie 06-09-2026]])
 

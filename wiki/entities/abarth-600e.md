@@ -21,7 +21,7 @@ relationships:
 
 Model van [[abarth|Abarth]]. Deze wiki heeft nog geen review van de Abarth 600e zelf; de pagina bestaat omdat een bron hem als concurrent noemt of er iets over zegt.
 
-**Plinkie.** `/deals/abarth/600e`, nagegaan in de sitemap van plinkie.nl op 06-10-2026.
+**Plinkie.** `/deals/abarth/600e`, staat in de sitemap van plinkie.nl.
 
 ## Concurrenten
 

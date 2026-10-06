@@ -1,0 +1,96 @@
+{
+  "nieuwe_entiteiten": [
+    {"slug": "renault-5", "kind": "model", "naam": "Renault 5", "merk": "renault", "plinkie_pad": "/deals/renault/5", "aliases": ["Renault 5", "Renault 5 E-Tech", "R5"], "tekst": "Genoemd als concurrent van de Volkswagen ID. Polo; volgens ANWB heeft de ID. Polo een grotere accu en sneller snelladen (ANWB, ID. Polo, 9 sep 2026, 3:32 en 3:57). Plinkie kent ook /deals/renault/5-e-tech."},
+    {"slug": "opel-corsa-electric", "kind": "model", "naam": "Opel Corsa Electric", "merk": "opel", "plinkie_pad": "/deals/opel/corsa-electric", "aliases": ["Opel Corsa Electric", "Corsa Electric", "Opel Corsa-e", "Opel Corsa"], "tekst": "Stellantis-model op hetzelfde platform als de Peugeot e-208 en Lancia Ypsilon; genoemd als concurrent van de Volkswagen ID. Polo (ANWB, 9 sep 2026, 3:32)."},
+    {"slug": "peugeot-e-208", "kind": "model", "naam": "Peugeot e-208", "merk": "peugeot", "plinkie_pad": "/deals/peugeot/e-208", "aliases": ["Peugeot e-208", "e-208", "Peugeot 208"], "tekst": "Stellantis-model op hetzelfde platform als de Opel Corsa en Lancia Ypsilon; genoemd als concurrent van de Volkswagen ID. Polo (ANWB, 9 sep 2026, 3:32)."},
+    {"slug": "lancia-ypsilon", "kind": "model", "naam": "Lancia Ypsilon", "merk": "lancia", "plinkie_pad": "/deals/lancia/ypsilon", "aliases": ["Lancia Ypsilon", "Ypsilon"], "tekst": "Stellantis-model op hetzelfde platform als de Opel Corsa en Peugeot e-208; genoemd als concurrent van de Volkswagen ID. Polo (ANWB, 9 sep 2026, 3:32; transcript: 'Lancia Yilon')."},
+    {"slug": "opel", "kind": "merk", "naam": "Opel", "merk": "", "plinkie_pad": "", "aliases": ["Opel"], "tekst": "Duits merk van Stellantis (part-of stellantis). In deze wiki via de Corsa Electric als concurrent van de ID. Polo (ANWB, 9 sep 2026)."},
+    {"slug": "peugeot", "kind": "merk", "naam": "Peugeot", "merk": "", "plinkie_pad": "", "aliases": ["Peugeot"], "tekst": "Frans merk van Stellantis (part-of stellantis). In deze wiki via de e-208 als concurrent van de ID. Polo (ANWB, 9 sep 2026)."},
+    {"slug": "lancia", "kind": "merk", "naam": "Lancia", "merk": "", "plinkie_pad": "", "aliases": ["Lancia"], "tekst": "Italiaans merk van Stellantis (part-of stellantis). In deze wiki via de Ypsilon als concurrent van de ID. Polo (ANWB, 9 sep 2026)."}
+  ],
+  "model_feiten": {
+    "volkswagen-id-polo": {
+      "uitvoeringen": [
+        "Bij de introductie twee accu's en drie vermogens; het derde vermogen wordt niet genoemd (2:24)",
+        "Instap: 116 pk (2:30) en 37 kWh (7:28; transcript: '37 kW')",
+        "Testauto: 211 pk (2:34) en 52 kWh (7:33; transcript: '52 KWU'), Duitse specificatie met massagestoelen (8:02)"
+      ],
+      "fabrieksopgaven": [
+        "Uitvoering niet genoemd (instap): geadverteerde vanafprijs € 24.990, september 2026 (0:18)",
+        "Testuitvoering 211 pk/52 kWh: minimaal € 34.990; met massagestoelen in Nederland 'bijna 36 mille', september 2026 (7:50)",
+        "Rijbereik 322 tot 454 km afhankelijk van de uitvoering; norm niet genoemd, niet per accu toegewezen (7:10)",
+        "Maximaal snelladen 88 tot 105 kW; niet per accu toegewezen (7:45)",
+        "Duurdere versies: trekgewicht maximaal 1200 kg (2:44)",
+        "Uitvoering niet genoemd: kofferbak 441 L, tegen 355 L in de benzine-Polo (1:55)",
+        "Uitvoering niet genoemd: accupakket 400 kg (3:00)",
+        "Alle uitvoeringen: motor voorin, anders dan de ID.3 (5:15)",
+        "Alle uitvoeringen: even lang als de benzine-Polo, iets hoger en breder (1:32)"
+      ],
+      "metingen": [
+        "Testauto 211 pk/52 kWh, Duitse specificatie: praktijkverbruik 15,1 kWh/100 km 'gedurende de opnames'; temperatuur, route en afstand niet genoemd; ANWB, september 2026 (7:37)"
+      ],
+      "valkuilen": [
+        "Uitvoering niet genoemd vs. testauto: geadverteerd € 24.990, de geteste auto kost minimaal € 34.990 en met massagestoelen bijna € 36.000 (0:14, 7:50)",
+        "Testauto: Duitse specificatie; Nederlandse prijs volgens de tester onzeker (7:59)",
+        "Alleen duurdere versies: 1200 kg trekgewicht; instap niet genoemd (2:37)",
+        "Vanaf het tweede uitrustingsniveau: variabele bagagebodem; met de bank plat een oplopende laadvloer (2:05)",
+        "Alle uitvoeringen: geen frunk (2:15)",
+        "Uitvoering niet genoemd: hogere motorrijtuigenbelasting dan de benzine-Polo door de accu; bedrag onleesbaar (transcript: '3 tot 15 tientjes per kwartaal'), raakt koop en niet lease (3:06)",
+        "Alle uitvoeringen: '5 jaar gratis onderhoud' vertegenwoordigt € 490 (4:30)"
+      ],
+      "oordelen": [
+        "Testauto: achterin hoofdruimte goed voor 1,93 m, beenruimte 'schiet echt tekort'; middentunnel steekt ver in (1:42)",
+        "Optioneel: rijhulp met online kaartinformatie en gegevens van andere Volkswagens, 'opvallend volwassen' (4:47)",
+        "Alle uitvoeringen: vertrouwd voor wie van een benzine-Polo komt; navigatie toont laadpunten (5:24)",
+        "Testauto: infotainment om te zetten naar Golf 1-weergave, sympathiek maar onpraktisch (5:56)",
+        "Testauto: terugkeer van fysieke knoppen positief (6:37)",
+        "Testauto: ruw motief op deurgrepen en raamschakelaars, 'daar zou je een appel op kunnen raspen' (6:44)",
+        "Uitvoering niet genoemd: meerdere rijstanden, in de sterkste rijden zonder rem (7:18)",
+        "Eindoordeel: niet duurder dan de concurrentie, wel ruimer; 'doet weinig verkeerd, maar ook weinig meer dan menig alternatief' (8:20, 8:42)"
+      ],
+      "concurrenten": [
+        {"tegen": "renault-5", "tijd": "3:32", "grond": "concurrent buiten de Volkswagen-groep; de ID. Polo heeft een grotere accu en sneller snelladen (3:57)"},
+        {"tegen": "opel-corsa-electric", "tijd": "3:32", "grond": "Stellantis-concurrent op één platform; goedkoopste versies grotere accu, sneller laden, langere garantie (3:57)"},
+        {"tegen": "peugeot-e-208", "tijd": "3:32", "grond": "Stellantis-concurrent op één platform; goedkoopste versies grotere accu, sneller laden, langere garantie (3:57)"},
+        {"tegen": "lancia-ypsilon", "tijd": "3:32", "grond": "Stellantis-concurrent op één platform; goedkoopste versies grotere accu, sneller laden, langere garantie (3:57)"},
+        {"tegen": "cupra-raval", "tijd": "3:45", "grond": "zustermodel op hetzelfde platform, tegelijk geïntroduceerd"},
+        {"tegen": "skoda-epiq", "tijd": "3:45", "grond": "zustermodel op hetzelfde platform, tegelijk geïntroduceerd"}
+      ]
+    },
+    "volkswagen-id-cross": {
+      "uitvoeringen": [],
+      "fabrieksopgaven": ["Uitvoering niet genoemd: SUV-broer van de ID. Polo, samen een modelfamilie (ANWB, ID. Polo, 8:27)"],
+      "metingen": [],
+      "valkuilen": [],
+      "oordelen": [],
+      "concurrenten": []
+    }
+  },
+  "merk_feiten": {
+    "volkswagen": [
+      "ID. Polo: 2 jaar fabrieksgarantie, 'niet veel' in een segment waar 10 jaar te krijgen is (ANWB, 9 sep 2026, 4:17)",
+      "Nederlandse importeur: 5 jaar gratis onderhoud op de ID. Polo, ter waarde van € 490 (4:30)",
+      "De benzine-Polo wordt doorgebouwd voor landen met vraag, Nederland voorlopig ook (1:09)",
+      "In mei 2025 reden er 284.000 Polo's in Nederland, de meest voorkomende auto (0:48)",
+      "Modellen in de wiki aanvullen met de nieuwe bron; ID.3 genoemd als eerdere kleine elektrische Volkswagen met de motor achterin (5:15), geen eigen pagina nodig"
+    ],
+    "stellantis": [
+      "Opel Corsa, Peugeot e-208 en Lancia Ypsilon delen één platform; de goedkoopste versies hebben volgens ANWB een grotere accu, sneller laden en langere garantie dan de ID. Polo (ANWB, 9 sep 2026, 3:32, 3:57). Opel, Peugeot en Lancia worden wikilinks zodra hun merkpagina's bestaan"
+    ],
+    "anwb": [
+      "Bron toevoegen aan de lijst: ANWB, Volkswagen ID. Polo (september 2026); source_count +1"
+    ]
+  },
+  "concepten": [
+    {"slug": "praktijkbereik", "bestaat": true, "toevoeging": "Rij voor de ID. Polo 52 kWh/211 pk: 15,1 kWh/100 km gemeten tijdens de opnames, geen bereik afgeleid, omstandigheden niet genoemd; fabriek 322-454 km (ANWB, 9 sep 2026, 7:37)"},
+    {"slug": "trekgewicht", "bestaat": true, "toevoeging": "Volkswagen ID. Polo: maximaal 1200 kg, alleen bij de duurdere versies (ANWB, 9 sep 2026, 2:44)"},
+    {"slug": "kofferbakinhoud", "bestaat": true, "toevoeging": "Volkswagen ID. Polo: 441 L tegen 355 L in de benzine-Polo; variabele vloer vanaf het tweede uitrustingsniveau; geen frunk (ANWB, 9 sep 2026, 1:55-2:15)"},
+    {"slug": "rijbereik-wltp", "bestaat": true, "toevoeging": "Volkswagen ID. Polo: 322-454 km afhankelijk van de uitvoering, norm niet genoemd (ANWB, 9 sep 2026, 7:10)"},
+    {"slug": "snelladen-10-80", "bestaat": true, "toevoeging": "Volkswagen ID. Polo: maximaal 88-105 kW; geen 10-80%-tijd genoemd (ANWB, 9 sep 2026, 7:45)"},
+    {"slug": "b-segment", "bestaat": true, "toevoeging": "ANWB zet de ID. Polo tegenover Renault 5, Opel Corsa, Peugeot e-208, Lancia Ypsilon en de zustermodellen Raval en Epiq (9 sep 2026, 3:32)"},
+    {"slug": "weergaven", "bestaat": true, "toevoeging": "ANWB ID. Polo: 126.172 op 06-10-2026, 27 dagen, ~4.673 per dag; veruit de hoogste per dag van de ANWB-bronnen tot nu toe (EV2 ~272/dag)"}
+  ],
+  "relaties_met_bestaande_bronnen": [
+    {"type": "supports", "target": "2026-04-01-grote-actieradius-en-goed-rijgedrag-voor-nieuwe-kia-ev2", "via": "ID. Polo, Raval en Epiq als gelijktijdige kleine EV's van de Volkswagen-groep; 10 jaar garantie als maatstaf in dit segment"}
+  ]
+}

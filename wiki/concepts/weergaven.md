@@ -34,10 +34,7 @@ Het aantal keer dat een video bekeken is, met de dag waarop het gelezen is. Een 
 Voor [[plinkie|Plinkie]] is het beheerinformatie die de volgorde van werk stuurt, nooit een
 "populair"-label op de site.
 
-
-
-
-## Uit de bronnen van 06-10-2026
+## Uit de bronnen
 
 - ANWB ID. Polo: 126.172 op 06-10-2026, 27 dagen, ~4.673 per dag; veruit de hoogste per dag van de ANWB-bronnen tot nu toe (EV2 ~272/dag) ([[2026-09-09-is-de-volkswagen-id-polo-de-nieuwe-publiekslieveling|ANWB 09-09-2026]])
 - Rij: Autovisie, e-tron GT tegen Taycan, gemeten 06-10-2026, 165.195, ongeveer 5507 per dag (30 dagen). Veel hoger dan de andere Autovisie-video (42 per dag). ([[2026-09-06-elektrische-sportwagens-voor-weinig-de-audi-e-tron-gt-en-porsche-taycan-zijn-flink-afgesch|Autovisie 06-09-2026]])

@@ -1,0 +1,23 @@
+{
+  "is_review": true,
+  "reden": "Rechtstreekse vergelijkingstest van AutoWeek ('eerste vergelijkende test', 1:03): Volkswagen ID. Polo 52 kWh/211 pk (launch edition) tegen Renault 5 iconic edition met de grootste accu en 150 pk. Beide auto's gereden, met eigen verbruiksindruk per auto en een eigen acceleratiemeting van de Polo. Hele video gelezen: 13 hoofdstukken, laatste tijdstempel 14:43 bij een duur van 14:44.",
+  "taal_transcript": "nl (automatisch; de ruwe kop heeft caption_tracks met nl asr, maar geen transcript_track: met de hand opgehaald uit het browserpaneel)",
+  "bronpagina_bestand": "2026-10-02-kan-de-volkswagen-id-polo-de-succesvolle-renault-5-aan.md",
+  "modellen": ["volkswagen-id-polo", "renault-5"],
+  "merken": ["volkswagen", "renault"],
+  "kanaal": "autoweek",
+  "vergelijking": true,
+  "waarschuwingen": [
+    "Geen verzameld:-blok en geen transcript_track: met de hand opgehaald. De verplichte velden title, url, channel en publish_date zijn er wel.",
+    "Accu Renault 5: transcript '55 kWu' bij 'de grootste accu'. ANWB (09-09-2026) zegt dat de ID. Polo (52 kWh) een grotere accu heeft dan de Renault 5; 55 kWh is dus waarschijnlijk een verhaspeling. Na te gaan bij Renault; niet als feit opnemen.",
+    "Prijs ID. Polo 211 pk/52 kWh: transcript 'iets meer dan €30.000' (10:03), terwijl ANWB minimaal € 34.990 noemt en Autovisie de technisch gelijke Epiq 55 op € 33.990 zet. Alleen als vermoeden opnemen; launch edition 'over de €37.000' (1:42) is wel consistent.",
+    "Vermogens kleine accu ID. Polo: transcript '116 of 137 pk'; Autovisie noemt voor de Epiq 116 en 135 pk. 137 is onzeker.",
+    "Verbruik Renault 5: transcript 'over de 15 155'. Vermoedelijk rond 15,5 kWh/100 km; als vermoeden opnemen.",
+    "'MJ4' (1:18) gelezen als MG4 (Plinkie: mg/4). De tester noemt hem als alternatief voor wie meer dan 200 pk wil; zwakke concurrentiegrond. De samenvoegstap mag hem weglaten.",
+    "'Fabia' (2:57) is vermoedelijk de Skoda Epiq (crossover op hetzelfde platform, 'gaat meer concurreren met de ID Cross en de Renault 4'). Niet als concurrentie van de modellen in deze bron opgenomen.",
+    "Renault 4 en Kia EV2 (12:03) noemt de tester crossoverachtiger; hij zet ze eerder tegenover de ID. Cross. Opgenomen als concurrent van de ID. Polo met die kanttekening in de grond. De Renault 4 als ruimer alternatief voor de Renault 5 (2:23) is een keuze binnen één merk en staat niet in concurrenten.",
+    "Beenruimte achterin ID. Polo: AutoWeek 'veel beter' dan de Renault 5 en goed voor het segment; ANWB 'schiet echt tekort'. Tegenspraak voor Debatten en vervanging.",
+    "Nieuwe entiteiten die ook in het ANWB-voorstel staan: renault-5, opel-corsa-electric, peugeot-e-208, opel, peugeot. Samenvoegen, niet dubbel aanmaken.",
+    "'Igo duurtester die was al 31' (1:49) is onleesbaar; niet opgenomen."
+  ]
+}

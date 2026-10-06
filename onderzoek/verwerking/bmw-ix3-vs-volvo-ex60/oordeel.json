@@ -1,0 +1,20 @@
+{
+  "is_review": true,
+  "reden": "Rechtstreekse vergelijkingstest van BMW iX3 en Volvo EX60 over een roadtrip van ~1000 km naar Denemarken, met eigen ritwaarnemingen (laadstops, laadvermogen, bereikschatting). Daarnaast een stilstaande bespreking van de elektrische Mercedes-Benz GLC.",
+  "taal_transcript": "nl",
+  "bronpagina_bestand": "2026-10-02-bmw-ix3-vs-volvo-ex60-roadtrip-met-special-guest.md",
+  "modellen": ["bmw-ix3", "volvo-ex60", "mercedes-benz-glc"],
+  "merken": ["bmw", "volvo", "mercedes-benz"],
+  "kanaal": "anwb",
+  "waarschuwingen": [
+    "mercedes-benz-glc staat in modellen: omdat de video er ~4 minuten fabrieksopgaven en valkuilen over geeft; hij is niet gereden. Wie hem liever alleen als concurrent ziet: haal hem uit modellen:/merken: en houd de concurrentenregels.",
+    "Alle zes entiteiten (bmw, volvo, mercedes-benz, bmw-ix3, volvo-ex60, mercedes-benz-glc) bestaan nog niet in de wiki.",
+    "Testautoprijzen onleesbaar: BMW (transcript: '83.000 509'), Volvo (transcript: '€7.45'). Niet als feit opgenomen.",
+    "Frunk onduidelijk (transcript: '58 l voor de EX60'), terwijl de BMW de grotere frunk zou hebben; waarschijnlijk BMW 58 L, Volvo 52 L.",
+    "Restlading BMW bij aankomst (transcript: '6% over 4 km'): 6% is zeker, het aantal km niet.",
+    "Accu instapper iX3 (transcript: '87,5 kW') gelezen als 87,5 kWh; niet tegen BMW gelegd.",
+    "Spreker-toewijzing in het ASR-transcript is soms onzeker (bijnamen 'Buma'/'Wissen', de achterdeur bij 8:58 is niet aan een auto te koppelen).",
+    "Weergaven zijn gemeten 4 dagen na publicatie; ~14.750/dag is een eerste-weekpiek, niet vergelijkbaar met oudere ANWB-video's.",
+    "Hyundai Ioniq 3 en Leapmotor B05 worden alleen aangekondigd voor de volgende aflevering: geen concurrent."
+  ]
+}

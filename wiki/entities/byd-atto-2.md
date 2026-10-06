@@ -21,7 +21,7 @@ relationships:
 
 Model van [[byd|BYD]]. Deze wiki heeft nog geen review van de BYD Atto 2 zelf; de pagina bestaat omdat een bron hem als concurrent noemt of er iets over zegt.
 
-**Plinkie.** `/deals/byd/atto-2`, nagegaan in de sitemap van plinkie.nl op 06-10-2026.
+**Plinkie.** `/deals/byd/atto-2`, staat in de sitemap van plinkie.nl.
 
 ## Concurrenten
 

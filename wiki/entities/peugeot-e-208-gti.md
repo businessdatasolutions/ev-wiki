@@ -36,7 +36,7 @@ relationships:
 Model van [[peugeot|Peugeot]]. Bronnen over dit model: [[2026-09-26-waarom-wij-voor-de-peugeot-e-208-gti-zouden-kiezen|Autovisie 26-09-2026]].
 Met één eigen bron blijft de zekerheid op hooguit 0,75.
 
-**Plinkie.** `/deals/peugeot/e-208-gti`, nagegaan in de sitemap van plinkie.nl op 06-10-2026.
+**Plinkie.** `/deals/peugeot/e-208-gti`, staat in de sitemap van plinkie.nl.
 
 ## Uitvoeringen
 

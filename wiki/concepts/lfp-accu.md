@@ -10,7 +10,7 @@ last_confirmed: '2026-10-06'
 accessed_at: '2026-10-06'
 source_count: 2
 quality_score: 0.96
-quality_notes: ['short body: 75 words (target ≥200)']
+quality_notes: ['short body: 73 words (target ≥200)']
 ---
 
 # LFP-accu
@@ -20,10 +20,7 @@ schade, terwijl je een NMC-accu liever tussen 10 en 80% houdt ([[2024-09-18-deze
 
 In deze wiki: de [[dongfeng-box|Dongfeng Box]].
 
-
-
-
-## Uit de bronnen van 06-10-2026
+## Uit de bronnen
 
 - Škoda Epiq 35 en 40 hebben een 37 kWh LFP-accu (Autovisie 13-09-2026, 1:24; beschrijving). ([[2026-09-13-skoda-epiq-troeft-zelfs-volkswagen-id-polo-af|Autovisie 13-09-2026]])
 

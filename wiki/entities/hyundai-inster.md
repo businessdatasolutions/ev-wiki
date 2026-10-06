@@ -21,7 +21,7 @@ relationships:
 
 Model van [[hyundai|Hyundai]]. Deze wiki heeft nog geen review van de Hyundai Inster zelf; de pagina bestaat omdat een bron hem als concurrent noemt of er iets over zegt.
 
-**Plinkie.** `/deals/hyundai/inster`, nagegaan in de sitemap van plinkie.nl op 06-10-2026.
+**Plinkie.** `/deals/hyundai/inster`, staat in de sitemap van plinkie.nl.
 
 ## Concurrenten
 

@@ -1,0 +1,19 @@
+{
+  "is_review": true,
+  "reden": "Volledige rijtest (15:35) van de Leapmotor B03X door Autovisie: exterieur, kofferbak, interieur, uitvoeringen, rijgedrag, bediening, prijs en concurrenten. Geen eigen meting.",
+  "taal_transcript": "nl",
+  "bronpagina_bestand": "2026-09-11-rijtest-in-een-rationele-wereld-zou-iedereen-leapmotor-b03x-rijden.md",
+  "modellen": ["leapmotor-b03x"],
+  "merken": ["leapmotor"],
+  "kanaal": "autovisie",
+  "waarschuwingen": [
+    "Testauto is Design met 53 kWh; dat de 197 pk bij de 53 kWh hoort is afgeleid uit 6:29, niet letterlijk gezegd.",
+    "Geen eigen meting: bereik (292/382 km, stad >400/~550 km), laden en 0-100 zijn fabrieksopgaven; de cyclus en herkomst van het stadsbereik worden niet genoemd.",
+    "Prijs ë-C3 Aircross verminkt (transcript: 'heel iets meer dan €28.000, 000'); alleen als 'iets meer dan € 28.000' opgenomen.",
+    "'Peugeot 2008' gekoppeld aan peugeot-e-2008 (kortste Plinkie-pad); de tester zegt niet of hij de elektrische bedoelt.",
+    "Opel Frontera gekoppeld aan opel-frontera-electric (enige Plinkie-pad); transcript ook 'Opel Volontera'.",
+    "Of de B03X flippers voor de remregeneratie mist, blijkt niet helemaal zeker uit 9:05.",
+    "Dealernetwerk: ANWB (nov. 2024) telde 14 Leapmotor-servicepunten, deze video spreekt van het hele Stellantis-netwerk; als twee momenten behandeld, niet als tegenspraak.",
+    "Zeven concurrentmodellen en vier merken (volvo, alfa-romeo, peugeot, opel) hebben nog geen pagina."
+  ]
+}

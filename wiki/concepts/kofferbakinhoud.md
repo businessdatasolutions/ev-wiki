@@ -29,10 +29,7 @@ Concurrenten volgens ANWB: Škoda Epiq 490 L, Renault 4 420 L, Citroën ë-C3 mi
 **De valkuil bij de EV2** is het schoolvoorbeeld: het hoogste getal geldt alleen voor een uitvoering die
 je apart moet kiezen. Een kofferbakfilter moet de uitvoering kennen.
 
-
-
-
-## Uit de bronnen van 06-10-2026
+## Uit de bronnen
 
 - Volkswagen ID. Polo: 441 L tegen 355 L in de benzine-Polo; variabele vloer vanaf het tweede uitrustingsniveau; geen frunk (ANWB, 9 sep 2026, 1:55-2:15) ([[2026-09-09-is-de-volkswagen-id-polo-de-nieuwe-publiekslieveling|ANWB 09-09-2026]])
 - Rijen: Audi e-tron GT 405 L + frunk 81 L (6:04); Porsche Taycan Cross Turismo 446 L / ruim 1200 L bank plat, gewone Taycan bijna 40 L minder (8:56). Bron Autovisie 2026-09-06. ([[2026-09-06-elektrische-sportwagens-voor-weinig-de-audi-e-tron-gt-en-porsche-taycan-zijn-flink-afgesch|Autovisie 06-09-2026]])

@@ -1,0 +1,69 @@
+# Besluiten bij het samenvoegen (onderzoek/samenvoegen.py, CLAUDE.md §Parallel verwerken).
+# Wat hier staat, past het script toe op elke ronde. Voeg een besluit toe met datum en reden;
+# haal er niets weg zonder de pagina's opnieuw te bekijken die het raakt.
+
+# Modelpagina's die met de hand geschreven zijn. Het script laat ze staan.
+handgeschreven:
+  - kia-ev2
+  - leapmotor-t03
+  - dongfeng-box
+
+# Een slug die een agent voorstelde, maar die een uitvoering is van een model dat Plinkie heeft.
+# 06-10-2026: Corsa GSE en Ypsilon HF hebben geen eigen pad op Plinkie.
+uitvoering_van:
+  opel-corsa-gse: opel-corsa-electric
+  lancia-ypsilon-hf: lancia-ypsilon
+
+# Concepten die bewust geen pagina krijgen; links ernaar worden gewone tekst.
+# 06-10-2026: accugezondheid gaat over tweedehands, Plinkie vergelijkt nieuwe lease.
+geen_concept:
+  - accugezondheid
+
+# Verwerkingsmappen die een vergelijkingstest zijn, ook als de agent dat niet zelf aangaf.
+vergelijking:
+  - bmw-ix3-vs-volvo-ex60
+  - audi-e-tron-gt-taycan
+
+# Merk → concern, voor de relatie `part-of`.
+concern:
+  opel: stellantis
+  peugeot: stellantis
+  lancia: stellantis
+  abarth: stellantis
+  alfa-romeo: stellantis
+  fiat: stellantis
+  citroen: stellantis
+  jeep: stellantis
+  leapmotor: stellantis
+  audi: volkswagen-groep
+  porsche: volkswagen-groep
+  skoda: volkswagen-groep
+  volkswagen: volkswagen-groep
+  cupra: volkswagen-groep
+
+# Weergavenaam van een merk als die niet uit de slug volgt.
+merknaam:
+  alfa-romeo: Alfa Romeo
+  bmw: BMW
+  mercedes-benz: Mercedes-Benz
+  byd: BYD
+  mg: MG
+
+# Nieuwe concepten die een agent voorstelde, met de definitie waarmee de pagina begint.
+nieuwe_concepten:
+  voorconditioneren:
+    naam: Voorconditioneren
+    definitie: >-
+      De accu vóór het snelladen op temperatuur brengen, zodat de auto sneller laadt. Of en hoe een
+      auto dat doet, verandert de laadtijd onderweg meer dan het maximale laadvermogen.
+  wegenbelasting:
+    naam: Wegenbelasting
+    definitie: >-
+      Motorrijtuigenbelasting voor elektrische auto's, die sinds 2025 stap voor stap wordt ingevoerd en
+      afhangt van het gewicht. Bij private lease zit hij in het maandbedrag, dus een zware auto is
+      duurder om te leasen, ook als de aanbieder het niet apart noemt.
+  bidirectioneel-laden:
+    naam: Bidirectioneel laden
+    definitie: >-
+      De auto levert stroom terug: aan apparaten (vehicle-to-load), aan het huis (vehicle-to-home) of
+      aan het net (vehicle-to-grid). Welke vorm een auto kan, verschilt per model en uitvoering.

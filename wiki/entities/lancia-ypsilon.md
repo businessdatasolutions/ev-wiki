@@ -21,7 +21,7 @@ relationships:
 
 Model van [[lancia|Lancia]]. Deze wiki heeft nog geen review van de Lancia Ypsilon zelf; de pagina bestaat omdat een bron hem als concurrent noemt of er iets over zegt.
 
-**Plinkie.** `/deals/lancia/ypsilon`, nagegaan in de sitemap van plinkie.nl op 06-10-2026.
+**Plinkie.** `/deals/lancia/ypsilon`, staat in de sitemap van plinkie.nl.
 
 ## Concurrenten
 

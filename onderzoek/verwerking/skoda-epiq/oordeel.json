@@ -1,0 +1,19 @@
+{
+  "is_review": true,
+  "reden": "Eerste rijtest van de Skoda Epiq 55 (52 kWh, 211 pk, 19 inch) door Autovisie, buiten Nederland, met één eigen verbruiksmeting en doorlopende vergelijking met de VW ID. Polo uit een eerdere rijtest.",
+  "taal_transcript": "nl",
+  "bronpagina_bestand": "2026-09-13-skoda-epiq-troeft-zelfs-volkswagen-id-polo-af.md",
+  "modellen": ["skoda-epiq"],
+  "merken": ["skoda"],
+  "kanaal": "autovisie",
+  "waarschuwingen": [
+    "De ruwe kop heeft geen transcript_track (browserpaneel), maar de tekst is Nederlands; het enige nl-spoor is asr.",
+    "modellen_kandidaat noemt ook volkswagen/id-polo. De Polo is in deze video niet gereden; hij staat als concurrent, niet in modellen:. De samenvoegstap kan anders kiezen als de ANWB-test van de ID. Polo daar aanleiding toe geeft.",
+    "Kanaalbeschrijving is verhaspeld: 'de Kia EV2 met een 52 kWh NMC-accu' hoort vermoedelijk bij de Epiq 55; de video zelf noemt geen accutype voor de 52 kWh.",
+    "Kofferbak 'ruim 470 l' (Autovisie) tegen 490 L (ANWB, april 2026); geen van beide gemeten.",
+    "Onzeker in transcript: '11 kW' AC (toewijzing aan uitvoering), 'zeker 5 cm aanruimte, hoofdruimte', en of 'vanaf € 27.000' op 1:00 bij Epiq of EV2 hoort.",
+    "WLTP 55: tester zegt eerst 'zo'n 450 km' en verbetert zelf naar 436 km (7:42).",
+    "De laadmeting (22 min 10-80%) gaat over de Cupra Raval uit een eerdere Autovisie-test, niet over de Epiq.",
+    "De video noemt het woord B-segment niet; de link naar [[b-segment]] is een indeling van de wiki."
+  ]
+}

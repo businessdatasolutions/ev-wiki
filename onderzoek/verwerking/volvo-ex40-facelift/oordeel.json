@@ -1,0 +1,20 @@
+{
+  "is_review": true,
+  "reden": "Nieuwsitem over de facelift zonder rijtest en zonder eigen meting, maar met concrete fabrieksopgaven over de EX40: nieuwe uitvoeringsnamen (P5, P5 Range, P8 AWD, P8 AWD Performance) met oude namen, vermogen, accu, WLTP en DC-laadvermogen per uitvoering, plus wat er aan EX40 en EC40 verandert. Bruikbaar als bron met feitsoort fabrieksopgave en valkuil (naamswissel).",
+  "taal_transcript": "nl",
+  "bronpagina_bestand": "2026-09-10-geliefd-in-nederland-populaire-volvo-xc40-en-ex40-weer-gefacelift.md",
+  "modellen": ["volvo-ex40", "volvo-ec40"],
+  "merken": ["volvo"],
+  "kanaal": "autovisie",
+  "waarschuwingen": [
+    "Geen transcript_track in de kop: transcript uit het browserpaneel; inhoud is wel Nederlands.",
+    "Geen rijtest, geen eigen meting: alleen fabrieksopgaven. Confidence van de modelpagina's niet boven 0.75.",
+    "Accu's uit het transcript als '70 kWu' en '82 kW batterij'; gelezen als 70 en 82 kWh.",
+    "Uitvoeringsnaam wisselt in het transcript: 'P5 range' (6:46) en 'P5 Long Range' (7:18). Te controleren bij Volvo.",
+    "P8-bereik is afgerond ('rond de 540') en voor beide P8-versies samen.",
+    "Registratiecijfers twijfelachtig: EC40 'ongeveer 100' en '364 ... 362 meer dan vorig jaar' (10:48); niet als feit opnemen.",
+    "Plinkie heeft ook /deals/volvo/xc40-recharge: dat is de oude naam van de EX40 (0:26). Als alias opnemen, geen apart model.",
+    "XC40 (brandstof) en EX50/EX60/Polestar 7 krijgen geen pagina en zijn geen concurrenten.",
+    "Merkpagina volvo bestaat nog niet."
+  ]
+}
