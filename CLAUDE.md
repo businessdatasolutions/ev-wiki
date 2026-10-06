@@ -195,9 +195,11 @@ ruwe video's erop wachten.
 4. Overgeslagen: geen model, korter dan 4 minuten, of een titel onder `uitsluiten:` van het kanaal
    (bij ANWB de Wegenwacht-afleveringen).
 5. Opgehaald met de transcript-skill en `--sub-lang` in de taal van het kanaal, hooguit 8 per run,
-   met 15 seconden tussen twee video's. **YouTube beperkt per verbinding** (HTTP 429): de skill wacht
-   30 en 90 seconden en probeert opnieuw, en strandt een video toch op een 429, dan haalt de run
-   niets meer op. Parallel ophalen helpt hier niet: alle processen delen één verbinding.
+   met 15 seconden tussen twee video's. **HTTP 429** van YouTube bleek op 06-10-2026 geen limiet per
+   verbinding maar een blokkade op de ondertitels van de standaard webclient van yt-dlp: de client
+   `android_vr` haalde hetzelfde spoor meteen op. De skill vraagt daarom eerst `android_vr`, en valt
+   terug op de webclient met wachten en opnieuw proberen. Strandt een video toch op een 429, dan haalt
+   de run niets meer op.
    De ruwe kop krijgt een blok `verzameld:` (door, datum, kanaal, `modellen_kandidaat`).
 
 **Verkenning** (eens per week, of `--verken`). Voor 15 modellen per keer, op volgorde rond door de

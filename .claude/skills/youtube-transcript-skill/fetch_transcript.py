@@ -690,21 +690,31 @@ def fetch_via_ytdlp(video_id: str, lang: str) -> dict | None:
     url = f"https://www.youtube.com/watch?v={video_id}"
     with tempfile.TemporaryDirectory() as tmp:
         info, files = None, []
-        for wait in (0, *SUBS_RETRY_WAITS_S):
-            if wait:
-                print(f"warning: HTTP 429 from YouTube, retrying in {wait} s", file=sys.stderr)
-                time.sleep(wait)
-            log = _Log()
-            opts = {"skip_download": True, "writesubtitles": True, "writeautomaticsub": True,
-                    "subtitleslangs": [lang], "subtitlesformat": "vtt", "quiet": True,
-                    "logger": log, "outtmpl": str(Path(tmp) / "s.%(ext)s")}
-            try:
-                with yt_dlp.YoutubeDL(opts) as y:
-                    info = y.extract_info(url, download=True)
-            except yt_dlp.utils.DownloadError as e:
-                log.msgs.append(str(e))
-            files = sorted(Path(tmp).glob(f"s.{lang}*.vtt"))
-            if files or not any("429" in m for m in log.msgs):
+        # Player client first. On 2026-10-06 the default web client got HTTP 429 on every
+        # subtitle URL for hours, also with curl_cffi impersonation, while the android_vr
+        # client fetched the same track at once and returned full metadata (language,
+        # description, chapters, views). The default client stays as the fallback.
+        for clients in (["android_vr"], None):
+            for wait in (0, *SUBS_RETRY_WAITS_S):
+                if wait:
+                    print(f"warning: HTTP 429 from YouTube, retrying in {wait} s", file=sys.stderr)
+                    time.sleep(wait)
+                log = _Log()
+                opts = {"skip_download": True, "writesubtitles": True, "writeautomaticsub": True,
+                        "subtitleslangs": [lang], "subtitlesformat": "vtt", "quiet": True,
+                        "logger": log, "outtmpl": str(Path(tmp) / "s.%(ext)s")}
+                if clients:
+                    opts["extractor_args"] = {"youtube": {"player_client": clients}}
+                try:
+                    with yt_dlp.YoutubeDL(opts) as y:
+                        info = y.extract_info(url, download=True)
+                except yt_dlp.utils.DownloadError as e:
+                    log.msgs.append(str(e))
+                files = sorted(Path(tmp).glob(f"s.{lang}*.vtt"))
+                # A 429 on the first client: go to the next client, not into the wait loop.
+                if files or not any("429" in m for m in log.msgs) or clients:
+                    break
+            if files and info is not None:
                 break
         if info is None:
             print(f"warning: yt-dlp failed: {(log.msgs or ['?'])[-1]}", file=sys.stderr)
