@@ -1,0 +1,96 @@
+{
+  "nieuwe_entiteiten": [
+    {"slug": "mazda", "kind": "merk", "naam": "Mazda", "merk": "", "plinkie_pad": "", "aliases": ["Mazda"], "tekst": "Japans automerk. Een kleine, onafhankelijke fabrikant die volgens Autovisie elektrische auto's niet zelf kan ontwikkelen; de EV's voor Europa komen uit een samenwerking met het Chinese Changan (6e, CX-6e), gebouwd in China. Mazda stond bekend om gebruiksvriendelijke interieurs en een goede balans tussen comfort en dynamiek."},
+    {"slug": "mazda-cx-6e", "kind": "model", "naam": "Mazda CX-6e", "merk": "mazda", "plinkie_pad": "/deals/mazda/cx-6e", "aliases": ["CX-6e", "Mazda CX-6e", "CX6e"], "tekst": "Elektrische SUV van 4,85 m van Mazda, gebouwd in China en gebaseerd op de Changan Deepal S07. Eén uitvoering: 258 pk, 78 kWh bruto, achterwielaandrijving, vanaf € 46.000 (september 2026)."},
+    {"slug": "mazda-mazda6e", "kind": "model", "naam": "Mazda 6e", "merk": "mazda", "plinkie_pad": "/deals/mazda/mazda6e", "aliases": ["6e", "Mazda 6e", "Mazda6e"], "tekst": "Elektrische liftback van Mazda en de eerste EV uit de samenwerking met Changan. Volgens Autovisie te snel op de markt gebracht; hij krijgt binnen twee jaar een grote update. Deze wiki heeft nog geen review van de 6e zelf."},
+    {"slug": "tesla", "kind": "merk", "naam": "Tesla", "merk": "", "plinkie_pad": "", "aliases": ["Tesla"], "tekst": "Amerikaans merk van elektrische auto's."},
+    {"slug": "tesla-model-y", "kind": "model", "naam": "Tesla Model Y", "merk": "tesla", "plinkie_pad": "/deals/tesla/model-y", "aliases": ["Model Y", "Tesla Model Y"], "tekst": "Elektrische SUV van Tesla. Deze wiki heeft nog geen review van de Model Y; de pagina bestaat omdat een bron hem als concurrent noemt."},
+    {"slug": "kia-ev6", "kind": "model", "naam": "Kia EV6", "merk": "kia", "plinkie_pad": "/deals/kia/ev6", "aliases": ["EV6", "Kia EV6"], "tekst": "Elektrische crossover van Kia. Deze wiki heeft nog geen review van de EV6; de pagina bestaat omdat een bron hem als concurrent noemt."},
+    {"slug": "hyundai-ioniq-5", "kind": "model", "naam": "Hyundai Ioniq 5", "merk": "hyundai", "plinkie_pad": "/deals/hyundai/ioniq-5", "aliases": ["Ioniq 5", "Hyundai Ioniq 5", "IONIQ 5"], "tekst": "Elektrische crossover van Hyundai. Deze wiki heeft nog geen review van de Ioniq 5; de pagina bestaat omdat een bron hem als concurrent noemt."}
+  ],
+  "model_feiten": {
+    "mazda-cx-6e": {
+      "uitvoeringen": [
+        "Enige uitvoering: 258 pk, 290 Nm, 78 kWh bruto, achterwielaandrijving, ruim 2000 kg, 19 of 21 inch; getest op 21 inch. Vanaf € 46.000 (transcript: 'de zakelijke versie'), september 2026. Autovisie 23-09-2026, 1:43, 13:21"
+      ],
+      "fabrieksopgaven": [
+        "Enige uitvoering: bereik 484 km (niet uitdrukkelijk WLTP genoemd). 1:51",
+        "Enige uitvoering: 200 kW DC, 10-80% in 24 min, 400-voltplatform. 2:13",
+        "Uitvoering niet genoemd: warmtepomp, slimme routeplanner en elektrische achterklep. 1:57",
+        "Alle uitvoeringen: 4,85 m lang, 1,9 m breed, wielbasis net onder 3 m. 2:43, 3:16",
+        "Uitvoering niet genoemd: kofferbak 363 l, tot het dak 468 l. 3:59, 4:16",
+        "Uitvoering niet genoemd: frunk 80 l. 4:36",
+        "Enige uitvoering: gebouwd in China, gebaseerd op de Changan Deepal S07. 1:20, 1:38"
+      ],
+      "metingen": [],
+      "valkuilen": [
+        "Enige uitvoering: geen volledige accuverwarming; in de winter moet je de accu zelf opwarmen om 200 kW te halen. 2:06",
+        "Uitvoering niet genoemd: kofferbak van 363 l is klein voor een auto van 4,85 m, door de aflopende achterkant; frunk van 80 l compenseert deels. 4:05",
+        "Getest op 21 inch: bonkende achteras hoort bij de grote wielen; 19 inch niet gereden. 12:59",
+        "Uitvoering niet genoemd: fysieke knoppen alleen voor de ramen; spiegels via een menu. 5:44, 8:13",
+        "Uitvoering niet genoemd: geen flippers voor de regeneratie; instellen via het scherm in de individuele rijmodus. 13:58"
+      ],
+      "oordelen": [
+        "Uitvoering niet genoemd: uiterlijk is het sterkste punt; groter dan Model Y, EV6 en Ioniq 5. 2:40",
+        "Uitvoering niet genoemd: achterin veel beenruimte voor 1,80 m, ongeveer 1 cm hoofdruimte; zitting mag hoger en langer; veel beter dan de 6e. 5:10",
+        "Uitvoering niet genoemd: snel en mooi scherm maar onlogische menu's, radio zoekt lang; beter dan de 6e maar minder gebruiksvriendelijk dan de concurrenten. 6:21",
+        "Uitvoering niet genoemd: mooie, netjes afgewerkte materialen. 7:37",
+        "Uitvoering niet genoemd: natuurlijkere zitpositie dan in de 6e. 7:52",
+        "Uitvoering niet genoemd: aandachtswaarschuwing en piepjes van de rijhulpsystemen irritant. 8:31, 9:21",
+        "Uitvoering niet genoemd: erg stil. 8:49",
+        "Uitvoering niet genoemd: besturing veel preciezer dan de 6e, maar zonder het volle Mazda-gevoel. 8:56, 9:34",
+        "Uitvoering niet genoemd: vertraging in het gaspedaal bij gas geven en gas los, groter bij hogere snelheid. 9:48, 13:35",
+        "21 inch: comfort niet verfijnd, achteras bromt en bonkt. 10:31",
+        "Uitvoering niet genoemd: niet dynamisch, wel meer vertrouwen en minder overhellen dan de 6e. 11:18",
+        "Eindoordeel: mooie auto, acceptabele prijs, veel beter dan de 6e, maar rijdt 'heel gemiddeld'. 14:07"
+      ],
+      "concurrenten": [
+        {"tegen": "tesla-model-y", "tijd": "2:23", "grond": "door de tester genoemde concurrentie bij laadtijd en prijs; de CX-6e is groter (2:46)"},
+        {"tegen": "kia-ev6", "tijd": "2:23", "grond": "genoemde concurrentie; de EV6 is leuker om mee te rijden (12:05)"},
+        {"tegen": "hyundai-ioniq-5", "tijd": "2:23", "grond": "genoemde concurrentie; de Ioniq 5 is comfortabeler (12:05)"}
+      ]
+    },
+    "mazda-mazda6e": {
+      "uitvoeringen": [],
+      "fabrieksopgaven": [
+        "Uitvoering niet genoemd: zelfde Changan-platform als de CX-6e. 8:56"
+      ],
+      "metingen": [],
+      "valkuilen": [],
+      "oordelen": [
+        "Uitvoering niet genoemd, samenvatting van de duurtest van Autovisie: matige besturing, matig multimediasysteem, niet comfortabel, slechte zitpositie. 0:58",
+        "Uitvoering niet genoemd: rijhulpsystemen in twee menu's, ruitenwissers via het scherm. 6:10, 7:18",
+        "Uitvoering niet genoemd: je zit voorin te hoog op de accu, achterin beperkt. 4:59, 7:52",
+        "Uitvoering niet genoemd: vage besturing zonder tegendruk rond het midden. 9:01",
+        "Volgens Autovisie te snel op de markt gebracht; krijgt binnen twee jaar een grote update. 1:12, 14:51"
+      ],
+      "concurrenten": []
+    },
+    "kia-ev6": {
+      "uitvoeringen": [], "fabrieksopgaven": [], "metingen": [], "valkuilen": [],
+      "oordelen": ["Uitvoering niet genoemd: 'duidelijk leuker om mee te rijden' dan de Mazda CX-6e. Autovisie 23-09-2026, 12:05"],
+      "concurrenten": []
+    },
+    "hyundai-ioniq-5": {
+      "uitvoeringen": [], "fabrieksopgaven": [], "metingen": [], "valkuilen": [],
+      "oordelen": ["Uitvoering niet genoemd: comfortabeler dan de Mazda CX-6e. Autovisie 23-09-2026, 12:09"],
+      "concurrenten": []
+    }
+  },
+  "merk_feiten": {
+    "mazda": [
+      "Volgens Autovisie (23-09-2026, 0:38) kan Mazda als kleine, onafhankelijke fabrikant zelf geen EV's ontwikkelen en werkt het daarvoor samen met Changan; de 6e was de eerste, de CX-6e de tweede.",
+      "Mazda geeft volgens Autovisie 'tussen de regels door' toe dat de 6e te snel op de markt kwam. 1:12",
+      "De tester vindt dat ook de Mazda CX-5 (brandstof) niet meer echt dynamisch is. 10:14"
+    ]
+  },
+  "concepten": [
+    {"slug": "snelladen-10-80", "bestaat": true, "toevoeging": "Mazda CX-6e: 200 kW DC, 10-80% in 24 min op 400 volt, fabrieksopgave (Autovisie 23-09-2026, 2:13); alleen te halen met een warme accu."},
+    {"slug": "voorconditioneren", "bestaat": true, "toevoeging": "Mazda CX-6e heeft geen volledige accuverwarming: in de winter moet je de accu zelf opwarmen om de 200 kW te halen (Autovisie 23-09-2026, 2:06)."},
+    {"slug": "kofferbakinhoud", "bestaat": true, "toevoeging": "Mazda CX-6e: 363 l, tot het dak 468 l, plus frunk 80 l; klein voor 4,85 m door de aflopende achterkant (Autovisie 23-09-2026, 3:59). Fabrieksopgave, niet gemeten."},
+    {"slug": "rijbereik-wltp", "bestaat": true, "toevoeging": "Mazda CX-6e: 484 km met 78 kWh bruto (Autovisie 23-09-2026, 1:51); de video noemt het woord WLTP niet."},
+    {"slug": "carrosserie", "bestaat": true, "toevoeging": "Mazda CX-6e: SUV met coupé-achtig aflopende achterkant, 4,85 m (Autovisie 23-09-2026, 3:27)."},
+    {"slug": "weergaven", "bestaat": true, "toevoeging": "Autovisie Mazda CX-6e: 26.496 op 06-10-2026, 13 dagen, ~2.038 per dag; tegen ~1.633 per dag voor de Autovisie-rijtest van de Škoda Epiq."}
+  ],
+  "relaties_met_bestaande_bronnen": []
+}

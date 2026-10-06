@@ -8,7 +8,7 @@ tags:
 confidence: 0.95
 last_confirmed: '2026-10-06'
 accessed_at: '2026-10-06'
-source_count: 7
+source_count: 8
 ---
 
 # Autovisie
@@ -23,6 +23,7 @@ Nederlands autotijdschrift (Autovisie Magazine, Jaarboek, autovisie.nl) met een 
 - [[2026-09-10-geliefd-in-nederland-populaire-volvo-xc40-en-ex40-weer-gefacelift|Autovisie 10-09-2026]]
 - [[2026-09-11-rijtest-in-een-rationele-wereld-zou-iedereen-leapmotor-b03x-rijden|Autovisie 11-09-2026]]
 - [[2026-09-13-skoda-epiq-troeft-zelfs-volkswagen-id-polo-af|Autovisie 13-09-2026]]
+- [[2026-09-23-rijtest-mazda-cx-6e-dit-is-veel-beter-dan-6e|Autovisie 23-09-2026]]
 - [[2026-09-26-waarom-wij-voor-de-peugeot-e-208-gti-zouden-kiezen|Autovisie 26-09-2026]]
 
 ## Debatten en vervanging

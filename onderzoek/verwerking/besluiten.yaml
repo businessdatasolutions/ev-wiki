@@ -35,6 +35,7 @@ concern:
   citroen: stellantis
   jeep: stellantis
   leapmotor: stellantis
+  ds: stellantis
   audi: volkswagen-groep
   porsche: volkswagen-groep
   skoda: volkswagen-groep
@@ -62,8 +63,24 @@ nieuwe_concepten:
       Motorrijtuigenbelasting voor elektrische auto's, die sinds 2025 stap voor stap wordt ingevoerd en
       afhangt van het gewicht. Bij private lease zit hij in het maandbedrag, dus een zware auto is
       duurder om te leasen, ook als de aanbieder het niet apart noemt.
+  garantie:
+    naam: Garantie
+    definitie: >-
+      De belofte van de fabrikant om gebreken te herstellen, apart voor de auto en voor de accu, elk
+      met een termijn in jaren en kilometers (wat het eerst komt). Bij de accu hoort een minimale
+      State of Health: zakt de capaciteit daaronder, dan repareert of vervangt de fabrikant hem; bij de
+      meeste merken 70%. Bij private lease draagt de leasemaatschappij het risico, maar een korte
+      garantie kan in het maandbedrag zitten.
   bidirectioneel-laden:
     naam: Bidirectioneel laden
     definitie: >-
       De auto levert stroom terug: aan apparaten (vehicle-to-load), aan het huis (vehicle-to-home) of
       aan het net (vehicle-to-grid). Welke vorm een auto kan, verschilt per model en uitvoering.
+
+# Bronnen die dezelfde test zijn (zelfde rit, zelfde testauto, zelfde tester), bijvoorbeeld een
+# ANWB-video en de geschreven review erbij. Ze tellen als één bron voor source_count en voor de
+# zekerheidsgrens van 0,75. 06-10-2026: gemeld door de Process-agents.
+zelfde_test:
+  - [2026-10-02-bmw-ix3-vs-volvo-ex60-roadtrip-met-special-guest, 2026-09-24-auto-review-volvo-ex60-i]
+  - [2026-09-09-is-de-volkswagen-id-polo-de-nieuwe-publiekslieveling, 2026-09-09-volkswagen-id-polo-beter-door-de-bocht]
+

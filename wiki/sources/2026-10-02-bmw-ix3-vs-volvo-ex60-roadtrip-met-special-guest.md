@@ -168,8 +168,10 @@ De bereikschattingen zijn wat de boordcomputer zei, geen leeggereden bereik. Zie
 - **BMW iX3: rugleuning achter niet elektrisch verstelbaar**, in de Volvo wel
   ([9:08](https://www.youtube.com/watch?v=ITnrmIyZ-x4&t=548s),
   [19:12](https://www.youtube.com/watch?v=ITnrmIyZ-x4&t=1152s)).
-  De BMW heeft wel een kofferbakvloer met twee klepjes, zodat je bij de laadkabel kunt als er bagage
-  ligt ([9:56](https://www.youtube.com/watch?v=ITnrmIyZ-x4&t=596s)).
+  Over een kofferbakvloer met twee klepjes, zodat je bij de laadkabel kunt als er bagage ligt
+  ([9:56](https://www.youtube.com/watch?v=ITnrmIyZ-x4&t=596s)), is het transcript niet duidelijk
+  over welke auto het gaat; volgens de ANWB-review van dezelfde test is het de Volvo EX60
+  (correctie 06-10-2026).
 - **Volvo EX60: knop van de bestuurderscamera diep in het menu.** De camera die je oplettendheid
   bewaakt, zet je pas uit na zoeken in menu's
   ([14:16](https://www.youtube.com/watch?v=ITnrmIyZ-x4&t=856s)).

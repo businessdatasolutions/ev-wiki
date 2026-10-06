@@ -5,10 +5,10 @@ aliases:
 - BYD
 tags:
 - byd
-confidence: 0.75
+confidence: 0.8
 last_confirmed: '2026-10-06'
 accessed_at: '2026-10-06'
-source_count: 2
+source_count: 3
 ---
 
 # BYD
@@ -17,12 +17,17 @@ Chinese fabrikant van elektrische auto's en accu's.
 
 ## Modellen in deze wiki
 
-[[byd-atto-2|BYD Atto 2]], [[byd-dolphin-surf|BYD Dolphin Surf]]
+[[byd-atto-2|BYD Atto 2]], [[byd-dolphin-surf|BYD Dolphin Surf]], [[byd-sealion-7|BYD Sealion 7]]
+
+## Uit de bronnen
+
+- Garantie op de auto 6 jaar / 150.000 km; op de accu 8 jaar / 200.000 km; minimale State of Health 70% (ANWB-garantieoverzicht, stand 06-10-2026, onder 'Overzicht garanties op elektrische auto's') ([[2026-10-06-garantie-op-elektrische-auto-en-accupakket|ANWB 06-10-2026]])
 
 ## Bronnen
 
 - [[2026-04-01-grote-actieradius-en-goed-rijgedrag-voor-nieuwe-kia-ev2|ANWB 01-04-2026]]
 - [[2026-09-11-rijtest-in-een-rationele-wereld-zou-iedereen-leapmotor-b03x-rijden|Autovisie 11-09-2026]]
+- [[2026-10-06-garantie-op-elektrische-auto-en-accupakket|ANWB 06-10-2026]]
 
 ## Debatten en vervanging
 

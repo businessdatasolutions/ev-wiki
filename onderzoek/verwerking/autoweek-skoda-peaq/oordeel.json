@@ -1,0 +1,21 @@
+{
+  "is_review": true,
+  "reden": "Rijtest van de Skoda Peaq 90 (kleine 90 kWh, 286 pk, achterwielaandrijving, zevenzitter) door AutoWeek, zonder eigen meting; oordelen over ruimte, bediening en onderstel, met de Peugeot e-5008 als enige echte concurrent.",
+  "taal_transcript": "nl",
+  "bronpagina_bestand": "2026-09-20-de-skoda-peaq-is-heel-fijn-en-niet-vatbaar-voor-de-pseudo-eindheffing-groter-en-luxer-een.md",
+  "modellen": ["skoda-peaq"],
+  "merken": ["skoda"],
+  "kanaal": "autoweek",
+  "vergelijking": false,
+  "waarschuwingen": [
+    "De ruwe kop heeft geen transcript_track; het enige nl-spoor is asr en de tekst is Nederlands.",
+    "publish_date is 2026-09-20T14:59-07:00 (in UTC al 21-09); de bronpagina neemt de datum uit de kop, 2026-09-20.",
+    "Pseudo-eindheffing is geen prijsgrens en geen valkuil voor private lease: het is een heffing vanaf 2027 op zakelijk rijden in een niet-elektrische auto (transcript 0:26: 'nietrische auto'). De Peaq valt er als EV buiten. Alleen in de samenvatting genoemd.",
+    "Onleesbare getallen: prijs Peaq 60 'net geen 50.000. €1000' (als 'net onder € 50.000' gelezen), prijs grote accu 'minimaal €5.000', derde zitrij 'Kost €190', trekgewicht achterwielaandrijving '100 kg'. Alle vier als transcript genoteerd, niet als feit.",
+    "Verbruik 15 kWh/100 km is een Skoda-opgave met eenheid 'kW' in het transcript; uitvoering niet genoemd. Geen eigen meting in deze video.",
+    "Kofferbak 935 l (vijfzitter) / 900 l (zevenzitter) met derde rij geklapt: de tester weet zelf niet bij welke stand van de middenbank.",
+    "Nieuwe modelpagina's nodig: skoda-peaq (plinkie_pad /deals/skoda/peaq) en drie korte concurrentpagina's: peugeot-e-5008 (/deals/peugeot/e-5008), kia-ev9 (/deals/kia/ev9), hyundai-ioniq-9 (/deals/hyundai/ioniq-9). Alle vier staan in onderzoek/plinkie-modellen.txt; merken peugeot, kia en hyundai bestaan al.",
+    "Skoda Kodiaq (verbrandingsmotor) en Skoda Elroq worden genoemd maar niet als EV-concurrent; geen pagina voorgesteld. De Elroq staat wel in plinkie-modellen.txt (skoda/elroq), maar valt hier alleen als maat voor verkoopsucces.",
+    "skoda-epiq staat alleen als link (zelfde vormgeving, ander platform), niet in modellen: of concurrenten:."
+  ]
+}

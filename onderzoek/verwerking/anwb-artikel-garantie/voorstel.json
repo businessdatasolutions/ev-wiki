@@ -1,0 +1,375 @@
+{
+ "nieuwe_entiteiten": [
+  {
+   "slug": "ds",
+   "kind": "merk",
+   "naam": "DS",
+   "merk": "",
+   "plinkie_pad": "",
+   "aliases": [
+    "DS"
+   ],
+   "tekst": "Frans merk van Stellantis. In deze wiki via het garantieoverzicht van ANWB (stand 06-10-2026): 8 jaar / 160.000 km op de auto, 8 jaar / 160.000 km op de accu."
+  },
+  {
+   "slug": "ford",
+   "kind": "merk",
+   "naam": "Ford",
+   "merk": "",
+   "plinkie_pad": "",
+   "aliases": [
+    "Ford"
+   ],
+   "tekst": "Amerikaans merk. In deze wiki via het garantieoverzicht van ANWB (stand 06-10-2026): 2 jaar op de auto, 8 jaar / 160.000 km op de accu."
+  },
+  {
+   "slug": "honda",
+   "kind": "merk",
+   "naam": "Honda",
+   "merk": "",
+   "plinkie_pad": "",
+   "aliases": [
+    "Honda"
+   ],
+   "tekst": "Japans merk. In deze wiki via het garantieoverzicht van ANWB (stand 06-10-2026): 3 jaar / 100.000 km op de auto, 8 jaar / 160.000 km op de accu."
+  },
+  {
+   "slug": "lexus",
+   "kind": "merk",
+   "naam": "Lexus",
+   "merk": "",
+   "plinkie_pad": "",
+   "aliases": [
+    "Lexus"
+   ],
+   "tekst": "Japans premiummerk van Toyota. In deze wiki via het garantieoverzicht van ANWB (stand 06-10-2026): 10 jaar / 200.000 km op de auto, 15 jaar / 1.000.000 km op de accu."
+  },
+  {
+   "slug": "lynk-co",
+   "kind": "merk",
+   "naam": "Lynk & Co",
+   "merk": "",
+   "plinkie_pad": "",
+   "aliases": [
+    "Lynk & Co"
+   ],
+   "tekst": "Chinees-Zweeds merk van Geely. In deze wiki via het garantieoverzicht van ANWB (stand 06-10-2026): 4 jaar / 120.000 km op de auto, 8 jaar / 120.000 km op de accu."
+  },
+  {
+   "slug": "mazda",
+   "kind": "merk",
+   "naam": "Mazda",
+   "merk": "",
+   "plinkie_pad": "",
+   "aliases": [
+    "Mazda"
+   ],
+   "tekst": "Japans merk. In deze wiki via het garantieoverzicht van ANWB (stand 06-10-2026): 6 jaar / 150.000 km op de auto, 8 jaar / 160.000 km op de accu."
+  },
+  {
+   "slug": "mg",
+   "kind": "merk",
+   "naam": "MG",
+   "merk": "",
+   "plinkie_pad": "",
+   "aliases": [
+    "MG"
+   ],
+   "tekst": "Merk van het Chinese SAIC. In deze wiki via het garantieoverzicht van ANWB (stand 06-10-2026): 7 jaar / 150.000 km op de auto, 7 jaar / 150.000 km op de accu."
+  },
+  {
+   "slug": "mini",
+   "kind": "merk",
+   "naam": "MINI",
+   "merk": "",
+   "plinkie_pad": "",
+   "aliases": [
+    "MINI"
+   ],
+   "tekst": "Brits merk van BMW. In deze wiki via het garantieoverzicht van ANWB (stand 06-10-2026): 3 jaar op de auto, 8 jaar / 160.000 km op de accu."
+  },
+  {
+   "slug": "nio",
+   "kind": "merk",
+   "naam": "NIO",
+   "merk": "",
+   "plinkie_pad": "",
+   "aliases": [
+    "NIO"
+   ],
+   "tekst": "Chinees merk. In deze wiki via het garantieoverzicht van ANWB (stand 06-10-2026): 5 jaar / 150.000 km op de auto, 8 jaar / 160.000 km op de accu."
+  },
+  {
+   "slug": "nissan",
+   "kind": "merk",
+   "naam": "Nissan",
+   "merk": "",
+   "plinkie_pad": "",
+   "aliases": [
+    "Nissan"
+   ],
+   "tekst": "Japans merk. In deze wiki via het garantieoverzicht van ANWB (stand 06-10-2026): 3 jaar / 100.000 km op de auto, 8 jaar / 160.000 km op de accu."
+  },
+  {
+   "slug": "polestar",
+   "kind": "merk",
+   "naam": "Polestar",
+   "merk": "",
+   "plinkie_pad": "",
+   "aliases": [
+    "Polestar"
+   ],
+   "tekst": "Zweeds-Chinees merk, verbonden met Volvo en Geely. In deze wiki via het garantieoverzicht van ANWB (stand 06-10-2026): 2 jaar op de auto, 8 jaar / 160.000 km op de accu."
+  },
+  {
+   "slug": "smart",
+   "kind": "merk",
+   "naam": "Smart",
+   "merk": "",
+   "plinkie_pad": "",
+   "aliases": [
+    "Smart"
+   ],
+   "tekst": "Merk van Mercedes-Benz en Geely. In deze wiki via het garantieoverzicht van ANWB (stand 06-10-2026): 2 jaar op de auto, 8 jaar / 200.000 km op de accu."
+  },
+  {
+   "slug": "tesla",
+   "kind": "merk",
+   "naam": "Tesla",
+   "merk": "",
+   "plinkie_pad": "",
+   "aliases": [
+    "Tesla"
+   ],
+   "tekst": "Amerikaans merk. In deze wiki via het garantieoverzicht van ANWB (stand 06-10-2026): 4 jaar / 80.000 km op de auto, per model: 8 jaar / 160.000 km (Model 3 Standard Range), 8 jaar / 192.000 km (Model 3 en Model Y), 8 jaar / 240.000 km (Model S en X) op de accu."
+  },
+  {
+   "slug": "toyota",
+   "kind": "merk",
+   "naam": "Toyota",
+   "merk": "",
+   "plinkie_pad": "",
+   "aliases": [
+    "Toyota"
+   ],
+   "tekst": "Japans merk. In deze wiki via het garantieoverzicht van ANWB (stand 06-10-2026): 10 jaar / 200.000 km op de auto, 10 jaar / 300.000 km op de accu."
+  },
+  {
+   "slug": "xpeng",
+   "kind": "merk",
+   "naam": "XPENG",
+   "merk": "",
+   "plinkie_pad": "",
+   "aliases": [
+    "XPENG"
+   ],
+   "tekst": "Chinees merk. In deze wiki via het garantieoverzicht van ANWB (stand 06-10-2026): 7 jaar / 160.000 km op de auto, 7 jaar / 160.000 km op de accu."
+  },
+  {
+   "slug": "tesla-model-3",
+   "kind": "model",
+   "naam": "Tesla Model 3",
+   "merk": "tesla",
+   "plinkie_pad": "/deals/tesla/model-3",
+   "aliases": [
+    "Model 3",
+    "Tesla Model 3"
+   ],
+   "tekst": "Elektrische sedan van Tesla. In deze wiki via het garantieoverzicht van ANWB: de accugarantie hangt af van de uitvoering (Standard Range 8 jaar / 160.000 km, andere 8 jaar / 192.000 km)."
+  },
+  {
+   "slug": "tesla-model-y",
+   "kind": "model",
+   "naam": "Tesla Model Y",
+   "merk": "tesla",
+   "plinkie_pad": "/deals/tesla/model-y",
+   "aliases": [
+    "Model Y",
+    "Tesla Model Y"
+   ],
+   "tekst": "Elektrische SUV van Tesla. In deze wiki via het garantieoverzicht van ANWB: 8 jaar / 192.000 km op de accu."
+  }
+ ],
+ "model_feiten": {
+  "tesla-model-3": {
+   "uitvoeringen": [
+    "Standard Range (SR) en een of meer andere uitvoeringen; welke precies zegt de tabel niet (onder 'Overzicht garanties')"
+   ],
+   "fabrieksopgaven": [],
+   "metingen": [],
+   "valkuilen": [
+    "Standard Range: accugarantie 8 jaar / 160.000 km; andere uitvoeringen 8 jaar / 192.000 km. De kilometergrens hangt dus aan de uitvoering; auto zelf 4 jaar / 80.000 km, minimale SoH 70% (ANWB-garantieoverzicht, stand 06-10-2026)"
+   ],
+   "oordelen": [],
+   "concurrenten": []
+  },
+  "tesla-model-y": {
+   "uitvoeringen": [],
+   "fabrieksopgaven": [],
+   "metingen": [],
+   "valkuilen": [
+    "Uitvoering niet genoemd: accugarantie 8 jaar / 192.000 km; op de auto 4 jaar / 80.000 km, de laagste kilometergrens in de tabel; minimale SoH 70% (ANWB-garantieoverzicht, stand 06-10-2026)"
+   ],
+   "oordelen": [],
+   "concurrenten": []
+  }
+ },
+ "merk_feiten": {
+  "alfa-romeo": [
+   "Garantie op de auto 8 jaar / 160.000 km; op de accu 8 jaar / 160.000 km; minimale State of Health 70% (ANWB-garantieoverzicht, stand 06-10-2026, onder 'Overzicht garanties op elektrische auto's')"
+  ],
+  "audi": [
+   "Garantie op de auto 4 jaar; op de accu 8 jaar / 160.000 km; minimale State of Health 70% (ANWB-garantieoverzicht, stand 06-10-2026, onder 'Overzicht garanties op elektrische auto's')"
+  ],
+  "bmw": [
+   "Garantie op de auto 3 jaar; op de accu 8 jaar / 160.000 km; minimale State of Health n.b. (ANWB-garantieoverzicht, stand 06-10-2026, onder 'Overzicht garanties op elektrische auto's')"
+  ],
+  "byd": [
+   "Garantie op de auto 6 jaar / 150.000 km; op de accu 8 jaar / 200.000 km; minimale State of Health 70% (ANWB-garantieoverzicht, stand 06-10-2026, onder 'Overzicht garanties op elektrische auto's')"
+  ],
+  "citroen": [
+   "Garantie op de auto 8 jaar / 160.000 km; op de accu 8 jaar / 160.000 km; minimale State of Health 70% (ANWB-garantieoverzicht, stand 06-10-2026, onder 'Overzicht garanties op elektrische auto's')"
+  ],
+  "cupra": [
+   "Garantie op de auto 2 jaar; op de accu 8 jaar / 160.000 km; minimale State of Health n.b. (ANWB-garantieoverzicht, stand 06-10-2026, onder 'Overzicht garanties op elektrische auto's')"
+  ],
+  "dacia": [
+   "Garantie op de auto 3 jaar / 100.000 km; op de accu 8 jaar / 120.000 km; minimale State of Health 70% (ANWB-garantieoverzicht, stand 06-10-2026, onder 'Overzicht garanties op elektrische auto's')"
+  ],
+  "dongfeng": [
+   "Garantie op de auto 5 jaar / 100.000 km; op de accu 8 jaar / 160.000 km; minimale State of Health n.b. (ANWB-garantieoverzicht, stand 06-10-2026, onder 'Overzicht garanties op elektrische auto's')"
+  ],
+  "ds": [
+   "Garantie op de auto 8 jaar / 160.000 km; op de accu 8 jaar / 160.000 km; minimale State of Health 70% (ANWB-garantieoverzicht, stand 06-10-2026, onder 'Overzicht garanties op elektrische auto's')"
+  ],
+  "fiat": [
+   "Garantie op de auto 8 jaar / 160.000 km; op de accu 8 jaar / 160.000 km; minimale State of Health 70% (ANWB-garantieoverzicht, stand 06-10-2026, onder 'Overzicht garanties op elektrische auto's')"
+  ],
+  "ford": [
+   "Garantie op de auto 2 jaar; op de accu 8 jaar / 160.000 km; minimale State of Health n.b. (ANWB-garantieoverzicht, stand 06-10-2026, onder 'Overzicht garanties op elektrische auto's')"
+  ],
+  "honda": [
+   "Garantie op de auto 3 jaar / 100.000 km; op de accu 8 jaar / 160.000 km; minimale State of Health 70% (ANWB-garantieoverzicht, stand 06-10-2026, onder 'Overzicht garanties op elektrische auto's')"
+  ],
+  "hyundai": [
+   "Garantie op de auto 5 jaar; op de accu 8 jaar / 160.000 km; minimale State of Health n.b. (ANWB-garantieoverzicht, stand 06-10-2026, onder 'Overzicht garanties op elektrische auto's')"
+  ],
+  "kia": [
+   "Garantie op de auto 7 jaar / 150.000 km; op de accu 7 jaar / 150.000 km; minimale State of Health 70% (ANWB-garantieoverzicht, stand 06-10-2026, onder 'Overzicht garanties op elektrische auto's')",
+   "Kia en MG zijn volgens ANWB de enige merken zonder langere garantie op de accu dan op de auto; dat komt doordat ze al 7 jaar / 150.000 km op de hele auto geven (onder 'Aanvullende accugarantie')",
+   "Tegenspraak: de EV2-video van ANWB (01-04-2026, 3:00) noemt 'tot 10 jaar' garantie; de tabel 7 jaar / 150.000 km"
+  ],
+  "leapmotor": [
+   "Garantie op de auto 3 jaar / 100.000 km; op de accu 8 jaar / 160.000 (eenheid ontbreekt in de bron, gelezen als km); minimale State of Health 80% (ANWB-garantieoverzicht, stand 06-10-2026, onder 'Overzicht garanties op elektrische auto's')",
+   "Hoogste SoH-grens in de tabel: 80%"
+  ],
+  "lexus": [
+   "Garantie op de auto 10 jaar / 200.000 km; op de accu 15 jaar / 1.000.000 km; minimale State of Health 70% na 10 jaar (ANWB-garantieoverzicht, stand 06-10-2026, onder 'Overzicht garanties op elektrische auto's')",
+   "Accugarantie tot 1.000.000 km of 15 jaar, de langste in de tabel (onder 'Aanvullende accugarantie')"
+  ],
+  "lynk-co": [
+   "Garantie op de auto 4 jaar / 120.000 km; op de accu 8 jaar / 120.000 km; minimale State of Health n.b. (ANWB-garantieoverzicht, stand 06-10-2026, onder 'Overzicht garanties op elektrische auto's')"
+  ],
+  "mazda": [
+   "Garantie op de auto 6 jaar / 150.000 km; op de accu 8 jaar / 160.000 km; minimale State of Health 70% (ANWB-garantieoverzicht, stand 06-10-2026, onder 'Overzicht garanties op elektrische auto's')"
+  ],
+  "mercedes-benz": [
+   "Garantie op de auto 2 jaar; op de accu 8 jaar / 160.000 km; minimale State of Health n.b. (ANWB-garantieoverzicht, stand 06-10-2026, onder 'Overzicht garanties op elektrische auto's')"
+  ],
+  "mg": [
+   "Garantie op de auto 7 jaar / 150.000 km; op de accu 7 jaar / 150.000 km; minimale State of Health n.b. (ANWB-garantieoverzicht, stand 06-10-2026, onder 'Overzicht garanties op elektrische auto's')",
+   "Kia en MG zijn volgens ANWB de enige merken zonder langere garantie op de accu dan op de auto, omdat ze al 7 jaar / 150.000 km op de hele auto geven (onder 'Aanvullende accugarantie')"
+  ],
+  "mini": [
+   "Garantie op de auto 3 jaar; op de accu 8 jaar / 160.000 km; minimale State of Health n.b. (ANWB-garantieoverzicht, stand 06-10-2026, onder 'Overzicht garanties op elektrische auto's')"
+  ],
+  "nio": [
+   "Garantie op de auto 5 jaar / 150.000 km; op de accu 8 jaar / 160.000 km; minimale State of Health n.b. (ANWB-garantieoverzicht, stand 06-10-2026, onder 'Overzicht garanties op elektrische auto's')"
+  ],
+  "nissan": [
+   "Garantie op de auto 3 jaar / 100.000 km; op de accu 8 jaar / 160.000 km; minimale State of Health 70% (ANWB-garantieoverzicht, stand 06-10-2026, onder 'Overzicht garanties op elektrische auto's')"
+  ],
+  "opel": [
+   "Garantie op de auto 8 jaar / 160.000 km; op de accu 8 jaar / 160.000 km; minimale State of Health 70% (ANWB-garantieoverzicht, stand 06-10-2026, onder 'Overzicht garanties op elektrische auto's')"
+  ],
+  "peugeot": [
+   "Garantie op de auto 8 jaar / 160.000 km; op de accu 8 jaar / 160.000 km; minimale State of Health 70% (ANWB-garantieoverzicht, stand 06-10-2026, onder 'Overzicht garanties op elektrische auto's')"
+  ],
+  "polestar": [
+   "Garantie op de auto 2 jaar; op de accu 8 jaar / 160.000 km; minimale State of Health 70% (ANWB-garantieoverzicht, stand 06-10-2026, onder 'Overzicht garanties op elektrische auto's')"
+  ],
+  "porsche": [
+   "Garantie op de auto 2 jaar; op de accu 8 jaar / 160.000 km; minimale State of Health 70% (ANWB-garantieoverzicht, stand 06-10-2026, onder 'Overzicht garanties op elektrische auto's')"
+  ],
+  "renault": [
+   "Garantie op de auto 2 jaar; op de accu 8 jaar / 160.000 km, volgens een voetnoot voor Megane, ZOE en Twingo E-TECH afgeleverd vanaf 1 januari 2021; minimale State of Health 70%, met dezelfde voetnoot (ANWB-garantieoverzicht, stand 06-10-2026, onder 'Overzicht garanties op elektrische auto's')"
+  ],
+  "skoda": [
+   "Garantie op de auto 4 jaar; op de accu 8 jaar / 160.000 km; minimale State of Health n.b. (ANWB-garantieoverzicht, stand 06-10-2026, onder 'Overzicht garanties op elektrische auto's')"
+  ],
+  "smart": [
+   "Garantie op de auto 2 jaar; op de accu 8 jaar / 200.000 km; minimale State of Health 70% (ANWB-garantieoverzicht, stand 06-10-2026, onder 'Overzicht garanties op elektrische auto's')"
+  ],
+  "tesla": [
+   "Garantie op de auto 4 jaar / 80.000 km; op de accu per model: 8 jaar / 160.000 km (Model 3 Standard Range), 8 jaar / 192.000 km (Model 3 en Model Y), 8 jaar / 240.000 km (Model S en X); minimale State of Health 70% (ANWB-garantieoverzicht, stand 06-10-2026, onder 'Overzicht garanties op elektrische auto's')",
+   "Laagste kilometergrens op de auto in de tabel: 80.000 km"
+  ],
+  "toyota": [
+   "Garantie op de auto 10 jaar / 200.000 km; op de accu 10 jaar / 300.000 km; minimale State of Health 70% (ANWB-garantieoverzicht, stand 06-10-2026, onder 'Overzicht garanties op elektrische auto's')",
+   "Accugarantie 10 jaar of 300.000 km voor batterij-elektrische modellen (onder 'Aanvullende accugarantie')"
+  ],
+  "volkswagen": [
+   "Garantie op de auto 4 jaar; op de accu 8 jaar / 160.000 km; minimale State of Health 70% (ANWB-garantieoverzicht, stand 06-10-2026, onder 'Overzicht garanties op elektrische auto's')",
+   "Tegenspraak: de ID. Polo-video van ANWB (09-09-2026, 4:17) noemt 2 jaar fabrieksgarantie; de tabel 4 jaar"
+  ],
+  "volvo": [
+   "Garantie op de auto 2 jaar; op de accu 8 jaar / 160.000 km; minimale State of Health n.b. (ANWB-garantieoverzicht, stand 06-10-2026, onder 'Overzicht garanties op elektrische auto's')",
+   "Tegenspraak: de iX3-EX60-video van ANWB (02-10-2026, 21:44 en 23:08) noemt 3 jaar / 100.000 km op de auto en 10 jaar op de accu bij onderhoud bij de dealer; de tabel 2 jaar en 8 jaar / 160.000 km"
+  ],
+  "xpeng": [
+   "Garantie op de auto 7 jaar / 160.000 km; op de accu 7 jaar / 160.000 km; minimale State of Health n.b. (ANWB-garantieoverzicht, stand 06-10-2026, onder 'Overzicht garanties op elektrische auto's')"
+  ],
+  "anwb": [
+   "Bron toevoegen: ANWB-themaartikel over garantie op auto en accu (stand 06-10-2026); verwijst naar ANWB Private Lease, het Occasionplatform en ledenkorting op de DEKRA-batterijtest"
+  ]
+ },
+ "concepten": [
+  {
+   "slug": "garantie",
+   "bestaat": false,
+   "toevoeging": "Nieuw concept voorgesteld. Definitie: de belofte van de fabrikant om gebreken te herstellen, apart voor de auto en voor de accu, elk met een termijn in jaren en kilometers (wat het eerst komt). Bij de accu hoort een minimale State of Health: zakt de capaciteit daaronder, dan repareert of vervangt de fabrikant hem; bij de meeste merken 70%. Standaard is 2 jaar op de auto; Koreaanse en Chinese merken geven vaak 5 tot 8 jaar, Toyota en Lexus 10 jaar. Op de accu bijna altijd 8 jaar / 160.000 km. Soms hangt een langere garantie aan onderhoud bij de dealer. Voor lease telt vooral de kilometergrens: een bundel van 20.000 km per jaar haalt 80.000 km binnen vier jaar. Uit de bron: per merk de tabel (ANWB-garantieoverzicht, stand 06-10-2026); de tabel spreekt drie ANWB-video's tegen (Volkswagen, Kia, Volvo)."
+  },
+  {
+   "slug": "kilometerbundel",
+   "bestaat": true,
+   "toevoeging": "De kilometergrens van de garantie verschilt per merk: Tesla 80.000 km op de auto, Kia en MG 150.000 km, Toyota en Lexus 200.000 km; op de accu van 120.000 km (Dacia, Lynk & Co) tot 300.000 km (Toyota). Bij een grote bundel kan de grens binnen de leaseperiode vallen (ANWB-garantieoverzicht, stand 06-10-2026)"
+  },
+  {
+   "slug": "looptijd",
+   "bestaat": true,
+   "toevoeging": "Garantie op de auto loopt van 2 jaar (onder meer CUPRA, Porsche, Mercedes-Benz, Volvo, Polestar, Ford en Renault) tot 8 jaar (Stellantis-merken) en 10 jaar (Toyota, Lexus). Een looptijd langer dan de garantie betekent een periode zonder fabrieksgarantie, tenzij de leasemaatschappij dat dekt (ANWB-garantieoverzicht, stand 06-10-2026)"
+  }
+ ],
+ "relaties_met_bestaande_bronnen": [
+  {
+   "type": "contradicts",
+   "target": "2026-09-09-is-de-volkswagen-id-polo-de-nieuwe-publiekslieveling",
+   "via": "Volkswagen: 4 jaar garantie op de auto in de tabel, 2 jaar volgens de ID. Polo-video"
+  },
+  {
+   "type": "contradicts",
+   "target": "2026-04-01-grote-actieradius-en-goed-rijgedrag-voor-nieuwe-kia-ev2",
+   "via": "Kia: 7 jaar / 150.000 km in de tabel, 'tot 10 jaar' volgens de EV2-video"
+  },
+  {
+   "type": "contradicts",
+   "target": "2026-10-02-bmw-ix3-vs-volvo-ex60-roadtrip-met-special-guest",
+   "via": "Volvo: 2 jaar auto en 8 jaar accu in de tabel, 3 jaar / 100.000 km en 10 jaar accu bij dealeronderhoud volgens de video; BMW 3 jaar en Mercedes-Benz 2 jaar kloppen wel"
+  },
+  {
+   "type": "supports",
+   "target": "2024-11-15-chinese-evs-onder-de-25-mille-kleine-autos-grote-verleiding",
+   "via": "Dongfeng 5 jaar / 100.000 km auto en 8 jaar / 160.000 km accu; Leapmotor 3 jaar / 100.000 km auto"
+  }
+ ]
+}

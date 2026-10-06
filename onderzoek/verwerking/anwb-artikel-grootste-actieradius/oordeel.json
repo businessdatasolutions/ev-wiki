@@ -1,0 +1,35 @@
+{
+ "is_review": true,
+ "reden": "Themaartikel van ANWB: een ranglijst van tien elektrische auto's op WLTP-bereik, met per model het bereik, soms de uitvoering en een vanafprijs. Geen test en geen eigen meting; alle bereiken zijn volgens het artikel zelf fabrieksopgaven. Bruikbaar als aanvulling op rijbereik-wltp en als één fabrieksopgave per model.",
+ "taal_transcript": "nl",
+ "bronpagina_bestand": "2026-10-06-de-10-elektrische-auto-s-met-de-grootste-actieradius.md",
+ "modellen": [
+  "ds-n-8",
+  "mercedes-benz-cla",
+  "volkswagen-id-7",
+  "tesla-model-3",
+  "peugeot-e-3008",
+  "mercedes-benz-eqe",
+  "polestar-2"
+ ],
+ "merken": [
+  "ds",
+  "mercedes-benz",
+  "volkswagen",
+  "tesla",
+  "peugeot",
+  "polestar"
+ ],
+ "kanaal": "anwb",
+ "vergelijking": false,
+ "waarschuwingen": [
+  "Datum: date_published in de ruwe kop is 2022-05-01 (eerste publicatie), het artikel zegt 'laatst bijgewerkt in februari 2025'. De bestandsnaam volgt de publicatiedatum; prijzen en bereiken zijn de stand van februari 2025 of later. De nieuwe CLA (743 km, € 58.979) en DS N°8 suggereren dat de stand zelfs iets later is dan februari 2025.",
+  "Ranglijst, geen vergelijkingstest: geen concurrenten opgenomen. Het artikel zet de modellen niet als alternatief naast elkaar.",
+  "Weggelaten uit modellen: Lucid Air (1, 883 km), Mercedes EQS (4, 735 km) en Mercedes EQS SUV (8, 700 km); ze staan niet in plinkie-modellen.txt en hebben geen pagina. Ze staan wel in de tekst van bron.md, zonder wikilink.",
+  "Tesla Model 3: het artikel koppelt 702 km aan de Long Range AWD. Bij de huidige Model 3 hoort 702 km volgens mij bij de Long Range met achterwielaandrijving; niet tegen Tesla gelegd. Als twijfel opgenomen, niet gecorrigeerd.",
+  "Vanafprijzen horen meestal bij een andere uitvoering dan het genoemde bereik (Model 3 € 39.990 is de eenvoudigste, 702 km vraagt Long Range; Polestar 2 € 44.950 is de eenvoudigste, 655 km is Long Range Single Motor). Opgenomen als valkuil.",
+  "Nieuwe entiteiten nodig: modellen ds-n-8, mercedes-benz-cla, volkswagen-id-7, tesla-model-3, peugeot-e-3008, mercedes-benz-eqe, polestar-2; merken ds, tesla, polestar. Plinkie kent DS N°8 ook als ds/no-8 en Polestar 2 ook als polestar/polestar-2; gekozen is het kortste pad.",
+  "Mercedes EQE: het artikel zegt niet of het de sedan is; de EQE SUV wordt apart genoemd als kleinere broer van de EQS SUV. Of Plinkie's /deals/mercedes-benz/eqe de sedan is, is niet nagegaan.",
+  "Bron met een belang: ANWB verkoopt private lease en verwijst er in het artikel naar ('Private lease een elektrische auto')."
+ ]
+}

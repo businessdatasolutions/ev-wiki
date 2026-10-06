@@ -9,10 +9,10 @@ aliases:
 - Epiq
 tags:
 - skoda
-confidence: 0.75
+confidence: 0.85
 last_confirmed: '2026-10-06'
 accessed_at: '2026-10-06'
-source_count: 3
+source_count: 4
 relationships:
 - type: part-of
   target: skoda
@@ -32,8 +32,7 @@ relationships:
 
 # Škoda Epiq
 
-Model van [[skoda|Škoda]]. Bronnen over dit model: [[2026-09-13-skoda-epiq-troeft-zelfs-volkswagen-id-polo-af|Autovisie 13-09-2026]].
-Met één eigen bron blijft de zekerheid op hooguit 0,75.
+Model van [[skoda|Škoda]]. Bronnen over dit model: [[2026-09-13-skoda-epiq-troeft-zelfs-volkswagen-id-polo-af|Autovisie 13-09-2026]], [[2026-10-06-welke-nieuwe-elektrische-autos-komen-er-in-2026|ANWB 06-10-2026]].
 
 **Plinkie.** `/deals/skoda/epiq`, staat in de sitemap van plinkie.nl.
 
@@ -45,6 +44,7 @@ Met één eigen bron blijft de zekerheid op hooguit 0,75.
 
 ## Fabrieksopgaven
 
+- Uitvoering niet genoemd: komt in 2026 als betaalbare EV van de Volkswagen-groep, al onthuld; geen getallen genoemd (ANWB, verwachte EV's 2026, stand 06-10-2026, onder 'Volkswagen ID Polo, Cupra Raval en Skoda Epiq') ([[2026-10-06-welke-nieuwe-elektrische-autos-komen-er-in-2026|ANWB 06-10-2026]])
 - Epiq 35: WLTP 'ruim 300 km'. 1:24 ([[2026-09-13-skoda-epiq-troeft-zelfs-volkswagen-id-polo-af|Autovisie 13-09-2026]])
 - Epiq 55: WLTP 436 km (tester zei eerst 'zo'n 450' en verbeterde zich). 7:42 ([[2026-09-13-skoda-epiq-troeft-zelfs-volkswagen-id-polo-af|Autovisie 13-09-2026]])
 - Epiq 55: accu, prijs en vermogen gelijk aan de VW ID. Polo. 1:50 ([[2026-09-13-skoda-epiq-troeft-zelfs-volkswagen-id-polo-af|Autovisie 13-09-2026]])
@@ -106,4 +106,5 @@ Genoemd als concurrent van:
 
 ## Debatten en vervanging
 
+- BMW iX3 vanaf € 70.501 hier, instapper net geen € 63.000 in de video; Volvo EX60 700 km hier, 660 km WLTP voor de testauto in de video ([[2026-10-06-welke-nieuwe-elektrische-autos-komen-er-in-2026|ANWB 06-10-2026]] tegen [[2026-10-02-bmw-ix3-vs-volvo-ex60-roadtrip-met-special-guest|ANWB 02-10-2026]])
 - kofferbakinhoud Epiq: 490 L (ANWB) tegen ruim 470 l (Autovisie) ([[2026-09-13-skoda-epiq-troeft-zelfs-volkswagen-id-polo-af|Autovisie 13-09-2026]] tegen [[2026-04-01-grote-actieradius-en-goed-rijgedrag-voor-nieuwe-kia-ev2|ANWB 01-04-2026]])

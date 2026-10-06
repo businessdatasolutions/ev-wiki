@@ -58,10 +58,10 @@ web:
     sitemap_patroon: /auto/elektrisch-rijden/elektrische-autos/
     modelpagina_patroon: /auto/informatie/[^"#?]+
     ververs_dagen: 90
+    # goedkoopste-elektrische-auto bewust niet: gaat over occasions (06-10-2026)
     artikelen:
       - https://www.anwb.nl/auto/elektrisch-rijden/elektrische-autos/elektrische-auto-met-trekhaak
       - https://www.anwb.nl/auto/elektrisch-rijden/elektrische-autos/elektrische-caravantrekker
       - https://www.anwb.nl/auto/elektrisch-rijden/elektrische-autos/elektrische-auto-met-grootste-actieradius
-      - https://www.anwb.nl/auto/elektrisch-rijden/elektrische-autos/goedkoopste-elektrische-auto
       - https://www.anwb.nl/auto/elektrisch-rijden/elektrische-autos/garantie-op-elektrische-autos-hoe-zit-dat
       - https://www.anwb.nl/auto/elektrisch-rijden/elektrische-autos/verwachte-elektrische-autos

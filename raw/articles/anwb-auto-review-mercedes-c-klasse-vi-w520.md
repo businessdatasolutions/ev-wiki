@@ -16,7 +16,7 @@ verzameld:
   modellen_kandidaat:
   - mercedes-benz/c-klasse-limousine
   status: wacht op Process
-notes: Tekst uit de HTML gehaald met trafilatura; menu, voet en het blok met andere tests weggelaten. Uitvoering, auteur en publicatiedatum uit de kenmerken naast de tekst.
+notes: 'Tekst uit de HTML gehaald met trafilatura; menu, voet en het blok met andere tests weggelaten. Uitvoering, auteur en publicatiedatum uit de kenmerken naast de tekst. Kop opnieuw gelezen op 06-10-2026: de eerste versie las ''Specificaties'' als auteur.'
 ---
 
 # Auto Review Mercedes C-Klasse VI (W520)

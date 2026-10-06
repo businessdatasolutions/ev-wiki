@@ -1,0 +1,145 @@
+{
+  "nieuwe_entiteiten": [
+    {"slug": "hyundai-ioniq-9", "kind": "model", "naam": "Hyundai Ioniq 9", "merk": "hyundai", "plinkie_pad": "/deals/hyundai/ioniq-9", "aliases": ["Ioniq 9", "IONIQ 9"], "tekst": "Grote elektrische SUV van Hyundai, met de Kia EV9 nummer één in de ANWB-top 10 van caravantrekkers: 2500 kg met 106 kWh (stand 06-10-2026)."},
+    {"slug": "kia-ev9", "kind": "model", "naam": "Kia EV9", "merk": "kia", "plinkie_pad": "/deals/kia/ev9", "aliases": ["EV9", "Kia EV 9"], "tekst": "Grote elektrische SUV van Kia; 2500 kg trekgewicht met 100 kWh volgens ANWB (top 10 caravantrekkers, stand 06-10-2026)."},
+    {"slug": "bmw-ix", "kind": "model", "naam": "BMW iX", "merk": "bmw", "plinkie_pad": "/deals/bmw/ix", "aliases": ["iX", "BMW iX xDrive", "BMW iX Drive"], "tekst": "Grote elektrische crossover van BMW; 2500 kg trekgewicht met de 112 kWh-accu volgens ANWB (stand 06-10-2026)."},
+    {"slug": "audi-q6-e-tron", "kind": "model", "naam": "Audi Q6 e-tron", "merk": "audi", "plinkie_pad": "/deals/audi/q6-e-tron", "aliases": ["Q6 e-tron", "Audi Q6 e-tron quattro"], "tekst": "Elektrische SUV van Audi; de quattro met 100 kWh mag volgens ANWB 2400 kg trekken (stand 06-10-2026)."},
+    {"slug": "kia-ev6", "kind": "model", "naam": "Kia EV6", "merk": "kia", "plinkie_pad": "/deals/kia/ev6", "aliases": ["EV6"], "tekst": "Elektrische crossover van Kia; Trekauto van het jaar 2024 volgens ANWB, 1800 kg met 84 kWh."},
+    {"slug": "mercedes-benz-eqb", "kind": "model", "naam": "Mercedes-Benz EQB", "merk": "mercedes-benz", "plinkie_pad": "/deals/mercedes-benz/eqb", "aliases": ["EQB", "Mercedes EQB"], "tekst": "Elektrische SUV van Mercedes-Benz; 1700 kg trekgewicht met 67 kWh volgens ANWB (stand 06-10-2026)."},
+    {"slug": "zeekr-x", "kind": "model", "naam": "Zeekr X", "merk": "zeekr", "plinkie_pad": "/deals/zeekr/x", "aliases": ["Zeekr X Long Range"], "tekst": "Compacte elektrische SUV van Zeekr; 1600 kg trekgewicht bij elke motorvariant volgens ANWB (stand 06-10-2026)."},
+    {"slug": "tesla-model-y", "kind": "model", "naam": "Tesla Model Y", "merk": "tesla", "plinkie_pad": "/deals/tesla/model-y", "aliases": ["Model Y"], "tekst": "Elektrische SUV van Tesla; 1600 kg trekgewicht volgens ANWB (top 10 caravantrekkers, stand 06-10-2026)."},
+    {"slug": "byd-sealion-7", "kind": "model", "naam": "BYD Sealion 7", "merk": "byd", "plinkie_pad": "/deals/byd/sealion-7", "aliases": ["Sealion 7"], "tekst": "Elektrische SUV van BYD; volgens ANWB 1500 kg geremd trekgewicht, uitvoering niet genoemd."},
+    {"slug": "nissan-ariya", "kind": "model", "naam": "Nissan Ariya", "merk": "nissan", "plinkie_pad": "/deals/nissan/ariya", "aliases": ["Ariya"], "tekst": "Elektrische SUV van Nissan; volgens ANWB 1500 kg geremd trekgewicht, uitvoering niet genoemd."},
+    {"slug": "ford-mustang-mach-e", "kind": "model", "naam": "Ford Mustang Mach-E", "merk": "ford", "plinkie_pad": "/deals/ford/mustang-mach-e", "aliases": ["Mustang Mach-E", "Mach-E", "Ford Mustang Mach E"], "tekst": "Elektrische SUV van Ford; volgens ANWB 1500 kg geremd trekgewicht, uitvoering niet genoemd."},
+    {"slug": "hyundai-ioniq-6", "kind": "model", "naam": "Hyundai Ioniq 6", "merk": "hyundai", "plinkie_pad": "/deals/hyundai/ioniq-6", "aliases": ["Ioniq 6", "IONIQ 6"], "tekst": "Elektrische sedan van Hyundai; volgens ANWB 1500 kg geremd trekgewicht, uitvoering niet genoemd."},
+    {"slug": "mazda-mazda6e", "kind": "model", "naam": "Mazda 6e", "merk": "mazda", "plinkie_pad": "/deals/mazda/mazda6e", "aliases": ["Mazda6e", "Mazda 6e"], "tekst": "Elektrische sedan van Mazda; volgens ANWB 1500 kg geremd trekgewicht, uitvoering niet genoemd."},
+    {"slug": "tesla", "kind": "merk", "naam": "Tesla", "merk": "", "plinkie_pad": "", "aliases": ["Tesla"], "tekst": "Amerikaans merk. In deze wiki via de Model Y (en de Model X, zonder pagina) in de ANWB-top 10 van elektrische caravantrekkers."},
+    {"slug": "nissan", "kind": "merk", "naam": "Nissan", "merk": "", "plinkie_pad": "", "aliases": ["Nissan"], "tekst": "Japans merk. In deze wiki via de Ariya, 1500 kg trekgewicht volgens ANWB."},
+    {"slug": "ford", "kind": "merk", "naam": "Ford", "merk": "", "plinkie_pad": "", "aliases": ["Ford"], "tekst": "Amerikaans merk. In deze wiki via de Mustang Mach-E, 1500 kg trekgewicht volgens ANWB."},
+    {"slug": "mazda", "kind": "merk", "naam": "Mazda", "merk": "", "plinkie_pad": "", "aliases": ["Mazda"], "tekst": "Japans merk. In deze wiki via de Mazda 6e, 1500 kg trekgewicht volgens ANWB."}
+  ],
+  "model_feiten": {
+    "hyundai-ioniq-9": {
+      "uitvoeringen": ["106 kWh (ANWB, caravantrekkers, onder '1. Hyundai Ioniq 9')"],
+      "fabrieksopgaven": [
+        "106 kWh: trekgewicht 2500 kg geremd (ANWB, onder '1. Hyundai Ioniq 9')",
+        "Uitvoering niet genoemd: vanaf € 73.000, stand 06-10-2026 (ANWB, onder '1. Hyundai Ioniq 9')",
+        "106 kWh: bereik 600 km volgens de fabrikant, norm niet genoemd (ANWB, onder '1. Hyundai Ioniq 9')",
+        "Alle uitvoeringen: in grote lijnen dezelfde aandrijflijn als de Kia EV9 (ANWB, onder '1. Hyundai Ioniq 9')"
+      ],
+      "metingen": [],
+      "valkuilen": [],
+      "oordelen": [],
+      "concurrenten": [{"tegen": "kia-ev9", "tijd": "onder '1. Hyundai Ioniq 9 (106 kWh): 2.500 kg'", "grond": "ANWB zet ze naast elkaar: dezelfde aandrijflijn, concerngenoten, allebei 2500 kg; de Ioniq 9 duurder met iets grotere accu"}]
+    },
+    "kia-ev9": {
+      "uitvoeringen": ["100 kWh (ANWB, caravantrekkers, onder '2. Kia EV 9')"],
+      "fabrieksopgaven": [
+        "100 kWh: trekgewicht 2500 kg geremd (ANWB, onder '2. Kia EV 9')",
+        "Uitvoering niet genoemd: vanaf € 71.000, stand 06-10-2026 (ANWB, onder '2. Kia EV 9')",
+        "100 kWh: bereik 583 km volgens de fabrikant, norm niet genoemd (ANWB, onder '2. Kia EV 9')"
+      ],
+      "metingen": [],
+      "valkuilen": [],
+      "oordelen": ["100 kWh: 'een ideale elektrische caravantrekker' (ANWB, onder '2. Kia EV 9')"],
+      "concurrenten": []
+    },
+    "bmw-ix": {
+      "uitvoeringen": ["Basis 76,6 kWh; optioneel 112 kWh (ANWB, caravantrekkers, onder '3. BMW iX Drive')"],
+      "fabrieksopgaven": [
+        "xDrive 112 kWh: trekgewicht 2500 kg geremd (ANWB, onder '3. BMW iX Drive')",
+        "112 kWh: bereik 617 km 'in theorie' volgens de fabrikant; prijs 'bijna honderdduizend euro', stand 06-10-2026 (ANWB, onder '3. BMW iX Drive')"
+      ],
+      "metingen": [],
+      "valkuilen": ["2500 kg hoort bij de 112 kWh-uitvoering van bijna € 100.000; voor de basis met 76,6 kWh noemt ANWB geen trekgewicht (ANWB, onder '3. BMW iX Drive')"],
+      "oordelen": [],
+      "concurrenten": []
+    },
+    "audi-q6-e-tron": {
+      "uitvoeringen": ["quattro 100 kWh (ANWB, caravantrekkers, onder '4. Audi Q6 e-tron Quattro')"],
+      "fabrieksopgaven": [
+        "quattro 100 kWh: trekgewicht 2400 kg geremd (ANWB, onder '4. Audi Q6 e-tron Quattro')",
+        "Uitvoering niet genoemd: € 78.000, stand 06-10-2026 (ANWB, onder '4. Audi Q6 e-tron Quattro')"
+      ],
+      "metingen": [],
+      "valkuilen": [],
+      "oordelen": ["Alle versies: 'fantastische gezins- en reisauto', comfortabel, erg stil, prima bereik (ANWB, onder '4. Audi Q6 e-tron Quattro')"],
+      "concurrenten": []
+    },
+    "kia-ev6": {
+      "uitvoeringen": ["84 kWh; twee- of vierwielaandrijving (ANWB, caravantrekkers, onder '6. Kia EV6')"],
+      "fabrieksopgaven": ["84 kWh: trekgewicht 1800 kg geremd; aandrijving niet genoemd (ANWB, onder '6. Kia EV6')"],
+      "metingen": [],
+      "valkuilen": ["Tweewielaandrijving is de voordeligste keuze; of 1800 kg bij beide aandrijvingen geldt, zegt ANWB niet (ANWB, onder '6. Kia EV6')"],
+      "oordelen": [
+        "Uitvoering niet genoemd: Trekauto van het jaar 2024 volgens ANWB (ANWB, onder '6. Kia EV6')",
+        "Uitvoering niet genoemd: groot bereik, hoog laadtempo, ruim, complete uitrusting, niet duurder dan de concurrentie; 'terechte publiekslieveling' (ANWB, onder '6. Kia EV6')"
+      ],
+      "concurrenten": []
+    },
+    "mercedes-benz-eqb": {
+      "uitvoeringen": ["67 kWh (ANWB, caravantrekkers, onder '7. Mercedes-Benz EQB')"],
+      "fabrieksopgaven": [
+        "67 kWh: trekgewicht 1700 kg geremd (ANWB, onder '7. Mercedes-Benz EQB')",
+        "Uitvoering niet genoemd: vanaf € 57.000, stand 06-10-2026 (ANWB, onder '7. Mercedes-Benz EQB')"
+      ],
+      "metingen": [],
+      "valkuilen": ["Vanafprijs: voor comfort onderweg ben je aangewezen op de 'gepeperde optielijst' (ANWB, onder '7. Mercedes-Benz EQB')"],
+      "oordelen": ["Uitvoering niet genoemd: ruim en zuinig (ANWB, onder '7. Mercedes-Benz EQB')"],
+      "concurrenten": []
+    },
+    "zeekr-x": {
+      "uitvoeringen": ["Long Range 69 kWh; meerdere motorvarianten (ANWB, caravantrekkers, onder '8. Zeekr X Long Range')"],
+      "fabrieksopgaven": [
+        "Alle motorvarianten: trekgewicht 1600 kg geremd (ANWB, onder '8. Zeekr X Long Range')",
+        "Uitvoering niet genoemd: vanaf € 38.000, stand 06-10-2026 (ANWB, onder '8. Zeekr X Long Range')",
+        "Long Range 69 kWh: bereik 425 km volgens de fabrikant (ANWB, onder '8. Zeekr X Long Range')"
+      ],
+      "metingen": [],
+      "valkuilen": ["Long Range met caravan: reizen 'binnen een straal van zo'n 600 km goed te doen', daarboven kost het veel tijd; schatting van ANWB, geen meting (ANWB, onder '8. Zeekr X Long Range')"],
+      "oordelen": [],
+      "concurrenten": []
+    },
+    "volvo-ex30": {
+      "uitvoeringen": ["Instapmodel (344 km) en Single Motor Extended Range 69 kWh (ANWB, caravantrekkers, onder '9. Volvo EX30')"],
+      "fabrieksopgaven": [
+        "69 kWh: trekgewicht 1600 kg geremd (ANWB, onder '9. Volvo EX30')",
+        "Instapmodel: bereik 344 km volgens de fabrikant (ANWB, onder '9. Volvo EX30')",
+        "Single Motor Extended Range 69 kWh: bereik 471 km, vanaf € 41.495, stand 06-10-2026 (ANWB, onder '9. Volvo EX30')"
+      ],
+      "metingen": [],
+      "valkuilen": ["Instapmodel: 344 km is in de praktijk vaak minder door temperatuur en rijstijl, nog zonder caravan; ANWB raadt voor trekken de Extended Range aan (ANWB, onder '9. Volvo EX30')"],
+      "oordelen": [],
+      "concurrenten": []
+    },
+    "tesla-model-y": {
+      "uitvoeringen": ["60 tot 75 kWh (ANWB, caravantrekkers, onder '10. Tesla Model Y')"],
+      "fabrieksopgaven": [
+        "60-75 kWh: trekgewicht 1600 kg geremd (ANWB, onder '10. Tesla Model Y')",
+        "Uitvoering niet genoemd: vanaf zo'n € 46.000, stand 06-10-2026 (ANWB, onder '10. Tesla Model Y')"
+      ],
+      "metingen": [],
+      "valkuilen": [],
+      "oordelen": ["Uitvoering niet genoemd: zuinig, rijke standaarduitrusting, 'bákken met binnenruimte'; het merk moet je liggen (ANWB, onder '10. Tesla Model Y')"],
+      "concurrenten": []
+    },
+    "byd-sealion-7": {"uitvoeringen": [], "fabrieksopgaven": ["Uitvoering niet genoemd: trekgewicht 1500 kg geremd (ANWB, caravantrekkers, onder 'Veel EV's trekken 1.500 kg')"], "metingen": [], "valkuilen": [], "oordelen": [], "concurrenten": []},
+    "nissan-ariya": {"uitvoeringen": [], "fabrieksopgaven": ["Uitvoering niet genoemd: trekgewicht 1500 kg geremd (ANWB, caravantrekkers, onder 'Veel EV's trekken 1.500 kg')"], "metingen": [], "valkuilen": [], "oordelen": [], "concurrenten": []},
+    "volvo-ex40": {"uitvoeringen": [], "fabrieksopgaven": ["Uitvoering niet genoemd: trekgewicht 1500 kg geremd (ANWB, caravantrekkers, onder 'Veel EV's trekken 1.500 kg')"], "metingen": [], "valkuilen": [], "oordelen": [], "concurrenten": []},
+    "ford-mustang-mach-e": {"uitvoeringen": [], "fabrieksopgaven": ["Uitvoering niet genoemd: trekgewicht 1500 kg geremd (ANWB, caravantrekkers, onder 'Veel EV's trekken 1.500 kg')"], "metingen": [], "valkuilen": [], "oordelen": [], "concurrenten": []},
+    "hyundai-ioniq-6": {"uitvoeringen": [], "fabrieksopgaven": ["Uitvoering niet genoemd: trekgewicht 1500 kg geremd (ANWB, caravantrekkers, onder 'Veel EV's trekken 1.500 kg')"], "metingen": [], "valkuilen": [], "oordelen": [], "concurrenten": []},
+    "mazda-mazda6e": {"uitvoeringen": [], "fabrieksopgaven": ["Uitvoering niet genoemd: trekgewicht 1500 kg geremd (ANWB, caravantrekkers, onder 'Veel EV's trekken 1.500 kg')"], "metingen": [], "valkuilen": [], "oordelen": [], "concurrenten": []}
+  },
+  "merk_feiten": {
+    "kia": ["7 jaar fabrieksgarantie op de EV6 (ANWB, caravantrekkers, onder '6. Kia EV6')"],
+    "hyundai": ["Concerngenoot van Kia; de Ioniq 9 deelt in grote lijnen de aandrijflijn van de Kia EV9 (ANWB, caravantrekkers, onder '1. Hyundai Ioniq 9')"],
+    "anwb": ["Bron toevoegen: themaartikel 'Top 10 elektrische caravantrekkers' (stand 06-10-2026); ANWB riep de Kia EV6 uit tot Trekauto van het jaar 2024; verwijst naar het eigen Occasionplatform; source_count +1"]
+  },
+  "concepten": [
+    {"slug": "trekgewicht", "bestaat": true, "toevoeging": "ANWB-top 10 elektrische caravantrekkers (stand 06-10-2026), geremd, fabrieksopgaven: Hyundai Ioniq 9 106 kWh 2500 kg, Kia EV9 100 kWh 2500 kg, BMW iX 112 kWh 2500 kg, Audi Q6 e-tron quattro 100 kWh 2400 kg, Tesla Model X 2300 kg (geen pagina), Kia EV6 84 kWh 1800 kg, Mercedes-Benz EQB 67 kWh 1700 kg, Zeekr X 1600 kg (elke motorvariant), Volvo EX30 69 kWh 1600 kg, Tesla Model Y 1600 kg. 1500 kg geremd: BYD Sealion 7, Nissan Ariya, Volvo EX40, Ford Mustang Mach-E, Hyundai Ioniq 6, Mazda 6e. Kern: 1500 kg is bij veel EV's gewoon; 1800 kg of meer is 'peperduur' (zomaar € 70.000); het hoogste trekgewicht hoort vaak bij de grootste accu (BMW iX 112 kWh). Met caravan krimpt het bereik: ANWB raadt bij de EX30 de grote accu aan en noemt voor de Zeekr X Long Range zo'n 600 km reisafstand als goed te doen."},
+    {"slug": "praktijkbereik", "bestaat": true, "toevoeging": "ANWB (caravantrekkers, 06-10-2026): het fabrieksbereik is 'in de praktijk vaak minder' door temperatuur en rijstijl, en met een caravan nog minder (Volvo EX30 instap, 344 km). Geen meting."}
+  ],
+  "relaties_met_bestaande_bronnen": [
+    {"type": "supports", "target": "2026-10-02-bmw-ix3-vs-volvo-ex60-roadtrip-met-special-guest", "via": "hoog trekgewicht (2000 kg en meer) zit bij de grote, dure EV's; ANWB noemt 1800 kg of meer 'peperduur'"}
+  ]
+}

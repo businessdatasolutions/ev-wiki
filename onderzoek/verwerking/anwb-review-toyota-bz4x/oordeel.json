@@ -1,0 +1,22 @@
+{
+  "is_review": true,
+  "reden": "Volledige geschreven ANWB-review (01-08-2026) van de Toyota bZ4X Touring, de stationwagen van de bZ4X, getest als Executive met vierwielaandrijving (74,7 kWh, 280 kW / 380 pk) op optionele 20-inch wielen. Rijgedrag, interieur, ruimte, laden, prijs en een eigen meting: 19 kWh/100 km en zo'n 400 km bereik bij zomers weer met veel snelweg.",
+  "taal_transcript": "nl (geschreven artikel, geen transcript)",
+  "bronpagina_bestand": "2026-08-01-auto-review-toyota-bz4x-i-1e-facelift.md",
+  "modellen": ["toyota-bz4x-touring"],
+  "merken": ["toyota"],
+  "kanaal": "anwb",
+  "vergelijking": false,
+  "waarschuwingen": [
+    "Het model is de bZ4X Touring, niet de gewone bZ4X: de kop zegt 'Bz4x Touring 74.7kwh EV 280kw 4WD' en de tekst gaat alleen over de Touring. Plinkie heeft een eigen pad /deals/toyota/bz4x-touring; daar hoort deze bron. De titel 'Bz4x I 1e facelift' is de generatie-indeling van ANWB.",
+    "Auteur in de ruwe kop is 'Specificaties': een leesfout van de verzamelaar. Er staat geen schrijver in de tekst; gebruikt is author: [ANWB].",
+    "Bron met een belang: ANWB leaset zelf via ANWB Private Lease en noemt in de review een private-leaseprijs (rond € 700 per maand) en het eigen dynamische energiecontract. Confidence niet boven 0,75 zonder onafhankelijke tweede bron.",
+    "Eigen meting: 19 kWh/100 km en zo'n 400 km bereik, 'bij zomers weer en met veel snelwegkilometers', op de optionele 20-inch wielen. Geen afstand of temperatuur in graden. Of de 400 km gereden of gerekend is, zegt de tekst niet (75 / 19 = 395 km, dus vermoedelijk gerekend).",
+    "De 0-100 in 4,4 s staat er als 'onze vierwielaangedreven versie knalt in 4,4 seconden'; niet duidelijk of dat gemeten is. Opgenomen als fabrieksopgave.",
+    "Getallen die niet kloppen of onduidelijk zijn: '269 Nm koppel' bij 380 pk (laag; niet nagegaan bij Toyota), hoogte '1 meter 168' (vermoedelijk een tikfout), accu 74,7 kWh in de kop en 75 kWh in de tekst (afronding).",
+    "WLTP 591 km geldt volgens de tekst voor de '224 pk voorwielaandrijver'; of dat de Touring of de gewone bZ4X is, staat er niet duidelijk. Executive: 520 km.",
+    "Garantie 'tot 10 jaar' en 'tot 1 miljoen kilometer batterijgarantie': het woord 'tot' wijst op voorwaarden (onderhoud bij de dealer); die noemt de review niet.",
+    "Geen concurrenten van een ander merk. De tester zet de Toyota RAV4 PHEV als alternatief (zelfde prijs) en de gewone bZ4X als maatstaf; beide zijn Toyota en de RAV4 PHEV is geen EV en staat niet bij Plinkie. Niet opgenomen als concurrent.",
+    "Nieuwe entiteiten: merk toyota, model toyota-bz4x-touring (/deals/toyota/bz4x-touring) en een stub toyota-bz4x (/deals/toyota/bz4x) voor de feiten over de gewone versie."
+  ]
+}

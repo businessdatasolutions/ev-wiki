@@ -21,7 +21,7 @@ relationships:
 # Volvo EC40
 
 Model van [[volvo|Volvo]]. Bronnen over dit model: [[2026-09-10-geliefd-in-nederland-populaire-volvo-xc40-en-ex40-weer-gefacelift|Autovisie 10-09-2026]].
-Met één eigen bron blijft de zekerheid op hooguit 0,75.
+Met één eigen bron (of één test, ook als die in video en artikel verscheen) blijft de zekerheid op hooguit 0,75.
 
 **Plinkie.** `/deals/volvo/ec40`, staat in de sitemap van plinkie.nl.
 

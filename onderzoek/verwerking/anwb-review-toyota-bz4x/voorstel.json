@@ -1,0 +1,127 @@
+{
+  "nieuwe_entiteiten": [
+    {
+      "slug": "toyota",
+      "kind": "merk",
+      "naam": "Toyota",
+      "merk": "",
+      "plinkie_pad": "",
+      "aliases": ["Toyota"],
+      "tekst": "Japans automerk. Elektrisch in deze wiki: de bZ4X en de bZ4X Touring. Geeft 'tot 10 jaar garantie en tot 1 miljoen kilometer batterijgarantie'; de voorwaarden staan niet in de bron (ANWB, 01-08-2026, onder 'Type auto en prijzen')."
+    },
+    {
+      "slug": "toyota-bz4x-touring",
+      "kind": "model",
+      "naam": "Toyota bZ4X Touring",
+      "merk": "toyota",
+      "plinkie_pad": "/deals/toyota/bz4x-touring",
+      "aliases": ["bZ4X Touring", "BZ4X Touring", "Toyota BZ4X Touring", "Toyota bZ4X Touring"],
+      "tekst": "De stationwagen van de Toyota bZ4X: 4,83 m lang, 13 cm langer dan de gewone versie, met een kofferbak van 699 l. Voorwielaandrijving (224 pk) of vierwielaandrijving (380 pk) (ANWB, 01-08-2026)."
+    },
+    {
+      "slug": "toyota-bz4x",
+      "kind": "model",
+      "naam": "Toyota bZ4X",
+      "merk": "toyota",
+      "plinkie_pad": "/deals/toyota/bz4x",
+      "aliases": ["bZ4X", "BZ4X", "Toyota BZ4X"],
+      "tekst": "Elektrische SUV van Toyota. De Touring is er de langere stationwagen van; de gewone bZ4X is 13 cm korter, ongeveer € 9.000 goedkoper en heeft 452 l kofferbak (ANWB, 01-08-2026). Stub: alleen als maatstaf genoemd."
+    }
+  ],
+  "model_feiten": {
+    "toyota-bz4x-touring": {
+      "uitvoeringen": [
+        "Dynamic: voorwielaandrijving, 224 pk, vanaf € 48.995 (ANWB 01-08-2026, onder 'Type auto en prijzen')",
+        "Dynamic AWD: vierwielaandrijving, 380 pk (ANWB 01-08-2026, onder 'Type auto en prijzen')",
+        "Executive: altijd vierwielaandrijving, 380 pk (280 kW), 74,7 kWh, vanaf € 57.995; de testauto, op optionele 20-inch wielen (ANWB 01-08-2026, kop en onder 'Type auto en prijzen')",
+        "Alle uitvoeringen: 18 inch standaard, 20 inch optioneel (ANWB 01-08-2026, onder 'Hoe rijdt de Toyota BZ4X?')"
+      ],
+      "fabrieksopgaven": [
+        "Dynamic: vanaf € 48.995; Executive vanaf € 57.995, stand augustus 2026 (ANWB 01-08-2026, onder 'Type auto en prijzen')",
+        "Uitvoering niet genoemd: private lease vanaf rond € 700 per maand, volgens ANWB zelf (ANWB 01-08-2026, onder 'Type auto en prijzen')",
+        "Alle uitvoeringen: 4,83 m lang, 1,86 m breed, 13 cm langer dan de gewone bZ4X; hoogte '1 meter 168' onduidelijk (ANWB 01-08-2026, onder 'Type auto en prijzen')",
+        "Alle uitvoeringen: vanaf 1.900 kg; de Executive-testauto 2.200 kg (ANWB 01-08-2026, onder 'Type auto en prijzen' en 'Hoe rijdt')",
+        "Uitvoering niet genoemd: trekgewicht 1.500 kg (ANWB 01-08-2026, onder 'Type auto en prijzen')",
+        "AWD: 380 pk en 269 Nm (koppel laag voor dit vermogen, niet nagegaan); 0-100 km/u in 4,4 s (ANWB 01-08-2026, onder 'Hoe rijdt')",
+        "Uitvoering niet genoemd: kofferbak 699 l met de bank omhoog (ANWB 01-08-2026, onder 'De Toyota BZ4X van binnen')",
+        "Uitvoering niet genoemd: verbruik 14,0 kWh/100 km (ANWB 01-08-2026, onder 'De Toyota BZ4X en het milieu')",
+        "224 pk voorwielaandrijving: WLTP tot 591 km; onduidelijk of dit de Touring of de gewone bZ4X is (ANWB 01-08-2026, onder 'milieu')",
+        "Executive: WLTP 520 km (ANWB 01-08-2026, onder 'milieu')",
+        "Uitvoering niet genoemd: accu 75 kWh (kop: 74,7 kWh); AC 11 kW, leeg tot vol in 7 uur (ANWB 01-08-2026, onder 'milieu')",
+        "Executive: AC 22 kW aan een publieke paal (ANWB 01-08-2026, onder 'milieu')",
+        "Uitvoering niet genoemd: snelladen 150 kW, 10-80% in 28 minuten (ANWB 01-08-2026, onder 'milieu')",
+        "Alle uitvoeringen: Apple CarPlay, Android Auto en Safety Sense standaard (ANWB 01-08-2026, onder 'van binnen')"
+      ],
+      "metingen": [
+        "Executive AWD op 20-inch wielen: verbruik 19 kWh/100 km, bij zomers weer met veel snelwegkilometers; afstand en temperatuur niet genoemd. Fabrieksopgave 14,0 kWh/100 km (ANWB 01-08-2026, onder 'De Toyota BZ4X en het milieu')",
+        "Executive AWD op 20-inch wielen: bereik zo'n 400 km onder dezelfde omstandigheden, tegen 520 km WLTP; komt overeen met 75 / 19, dus vermoedelijk gerekend (ANWB 01-08-2026, onder 'De Toyota BZ4X en het milieu')"
+      ],
+      "valkuilen": [
+        "Optionele 20-inch wielen: hoger verbruik (19 tegen 14,0 kWh/100 km), meer bandengeruis en minder veercomfort volgens ANWB (ANWB 01-08-2026, onder 'Hoe rijdt' en 'milieu')",
+        "Executive: minstens € 9.000 duurder dan de Dynamic (ANWB 01-08-2026, onder 'Conclusie')",
+        "Alleen de Executive laadt met 22 kW AC; de andere uitvoeringen met 11 kW (ANWB 01-08-2026, onder 'milieu')",
+        "Alle uitvoeringen: geen one-pedal; de sterkste regeneratie remt niet tot stilstand (ANWB 01-08-2026, onder 'X Mode voor terrein')",
+        "Alle uitvoeringen: garantie 'tot 10 jaar' en 'tot 1 miljoen km' op de accu zijn bovengrenzen; de voorwaarden staan er niet (ANWB 01-08-2026, onder 'Type auto en prijzen')",
+        "Alle uitvoeringen: vanaf 1.900 kg, de testauto 2.200 kg; telt mee in de wegenbelasting (ANWB 01-08-2026, onder 'Type auto en prijzen')"
+      ],
+      "oordelen": [
+        "AWD: veel kracht, vooral nuttig bij inhalen (ANWB 01-08-2026, onder 'Hoe rijdt')",
+        "Executive op 20 inch: bijzonder comfortabel, grote hobbels goed verwerkt, opeenvolgende kleine hobbels niet; meer bandengeruis dan verwacht (ANWB 01-08-2026, onder 'Hoe rijdt')",
+        "Uitvoering niet genoemd: rijhulp snel aan en uit te zetten, 'prima gedaan'; logische menu's en grote toetsen (ANWB 01-08-2026, onder 'Hoe rijdt' en 'van binnen')",
+        "Uitvoering niet genoemd: uitstekende zitpositie maar korte zittingen voorin; veel plastic dat goedkoop aanvoelt (ANWB 01-08-2026, onder 'van binnen')",
+        "Uitvoering niet genoemd: 'een zee van ruimte' achterin en in de kofferbak (ANWB 01-08-2026, onder 'van binnen')",
+        "Uitvoering niet genoemd: 'een heerlijke reisauto'; vanafprijs 'netjes' voor wat je krijgt (ANWB 01-08-2026, onder 'Conclusie')"
+      ],
+      "concurrenten": []
+    },
+    "toyota-bz4x": {
+      "uitvoeringen": [],
+      "fabrieksopgaven": [
+        "Uitvoering niet genoemd: 13 cm korter en ongeveer € 9.000 goedkoper dan de bZ4X Touring; kofferbak 452 l (ANWB 01-08-2026, onder 'Type auto en prijzen' en 'van binnen')"
+      ],
+      "metingen": [],
+      "valkuilen": [],
+      "oordelen": [],
+      "concurrenten": []
+    }
+  },
+  "merk_feiten": {
+    "toyota": [
+      "Garantie 'tot 10 jaar' en batterijgarantie 'tot 1 miljoen kilometer'; voorwaarden niet genoemd (ANWB 01-08-2026, onder 'Type auto en prijzen')",
+      "ANWB ziet de bZ4X Touring als overstap voor wie nu een Toyota RAV4 PHEV rijdt: nagenoeg dezelfde vanafprijs (ANWB 01-08-2026, onder 'Type auto en prijzen')"
+    ]
+  },
+  "concepten": [
+    {
+      "slug": "praktijkbereik",
+      "bestaat": true,
+      "toevoeging": "Toyota bZ4X Touring Executive AWD op 20 inch: ANWB mat 19 kWh/100 km en kwam op zo'n 400 km, bij zomers weer met veel snelweg, tegen 520 km WLTP (ANWB 01-08-2026)."
+    },
+    {
+      "slug": "rijbereik-wltp",
+      "bestaat": true,
+      "toevoeging": "Toyota bZ4X Touring: Executive 520 km; 'tot 591 km' voor de 224 pk voorwielaandrijver (welke carrosserie is onduidelijk). Fabrieksopgaven via ANWB 01-08-2026."
+    },
+    {
+      "slug": "snelladen-10-80",
+      "bestaat": true,
+      "toevoeging": "Toyota bZ4X Touring: 150 kW, 10-80% in 28 minuten, fabrieksopgave via ANWB 01-08-2026."
+    },
+    {
+      "slug": "trekgewicht",
+      "bestaat": true,
+      "toevoeging": "Toyota bZ4X Touring: 1.500 kg (ANWB 01-08-2026)."
+    },
+    {
+      "slug": "kofferbakinhoud",
+      "bestaat": true,
+      "toevoeging": "Toyota bZ4X Touring 699 l tegen 452 l bij de gewone bZ4X, fabrieksopgaven via ANWB 01-08-2026."
+    },
+    {
+      "slug": "wegenbelasting",
+      "bestaat": true,
+      "toevoeging": "Toyota bZ4X Touring: vanaf 1.900 kg, de geteste Executive 2.200 kg (ANWB 01-08-2026)."
+    }
+  ],
+  "relaties_met_bestaande_bronnen": []
+}

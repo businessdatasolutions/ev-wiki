@@ -61,10 +61,14 @@ def kenmerken(html: str) -> dict:
     """Wat ANWB naast de tekst zet: uitvoering, auteur, publicatiedatum (\"Gepubliceerd op 28 juni 2023\")."""
     t = platte_tekst(html)
     uit = {}
-    m = re.search(r"\nUitvoering\n([^\n]+)\n([^\n]+)\n([^\n]+)\n", t)
+    m = re.search(r"\nUitvoering\n([^\n]+)\n", t)
     if m:
         uit["uitvoering"] = m.group(1).strip()
-        uit["auteur"] = m.group(2).strip()
+    # De auteur staat vlak vóór zijn functie ("ANWB Auto-expert"), en die vlak vóór "Gepubliceerd op".
+    # Niet tellen vanaf "Uitvoering": soms staat "Bekijk specificaties" ertussen (06-10-2026).
+    m = re.search(r"\n([^\n]+)\n[^\n]*(?:expert|redacteur|journalist)[^\n]*\nGepubliceerd op", t, re.I)
+    if m:
+        uit["auteur"] = m.group(1).strip()
     m = re.search(r"Gepubliceerd op\n\s*(\d{1,2}) (\w+) (\d{4})", t)
     if m and m.group(2).lower() in MAANDEN:
         uit["date_published"] = dt.date(int(m.group(3)), MAANDEN[m.group(2).lower()], int(m.group(1))).isoformat()
@@ -111,7 +115,10 @@ def haal_pagina(url: str, site: dict, soort: str, modellen: list[str], droog: bo
         "site": site["naam"],
         "soort": soort,
         "author": [k["auteur"]] if k.get("auteur") else [site["naam"]],
-        "date_published": k.get("date_published") or str(meta.get("date") or ""),
+        # trafilatura geeft bij ANWB een algemene sitedatum (2022-05-01) voor elk artikel; een
+        # themaartikel wordt bijgewerkt zonder nieuwe datum. Zonder "Gepubliceerd op" telt de stand
+        # van vandaag (06-10-2026).
+        "date_published": k.get("date_published") or vandaag,
         "uitvoering": k.get("uitvoering"),
         "taal": site.get("taal", "nl"),
         "opgehaald": vandaag,

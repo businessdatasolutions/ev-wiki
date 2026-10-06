@@ -4,7 +4,7 @@ url: https://www.anwb.nl/auto/tests/auto-reviews/detail/f2664de51a856f49a6e04000
 site: ANWB
 soort: review
 author:
-- Specificaties
+- Gert Wisse
 date_published: '2026-08-01'
 uitvoering: Toyota Bz4x Touring 74.7kwh EV 280kw 4WD
 taal: nl
@@ -16,7 +16,7 @@ verzameld:
   modellen_kandidaat:
   - toyota/bz4x
   status: wacht op Process
-notes: Tekst uit de HTML gehaald met trafilatura; menu, voet en het blok met andere tests weggelaten. Uitvoering, auteur en publicatiedatum uit de kenmerken naast de tekst.
+notes: 'Tekst uit de HTML gehaald met trafilatura; menu, voet en het blok met andere tests weggelaten. Uitvoering, auteur en publicatiedatum uit de kenmerken naast de tekst. Kop opnieuw gelezen op 06-10-2026: de eerste versie las ''Specificaties'' als auteur.'
 ---
 
 # Auto Review Toyota Bz4x I 1e facelift

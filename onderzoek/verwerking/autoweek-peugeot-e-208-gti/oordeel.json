@@ -1,0 +1,20 @@
+{
+  "is_review": true,
+  "reden": "Eerste rijtest van AutoWeek van de Peugeot e-208 GTi op wegen in de Schotse Highlands, steeds afgezet tegen de Opel Corsa GSE die de tester kort daarvoor reed. Rijgedrag, interieur, aandrijflijn, bereik bij sportief rijden en prijs. Geen eigen meting. Hele transcript gelezen: laatste tijdstempel 6:50 bij een duur van 7:19.",
+  "taal_transcript": "nl (automatisch, via yt-dlp)",
+  "bronpagina_bestand": "2026-09-25-de-peugeot-e-208-gti-is-de-meest-waardige-opvolger-van-de-205-gti-hele-berg-rijplezier.md",
+  "modellen": ["peugeot-e-208-gti"],
+  "merken": ["peugeot"],
+  "kanaal": "autoweek",
+  "vergelijking": false,
+  "waarschuwingen": [
+    "Tweede bron voor peugeot-e-208-gti na Autovisie (26-09-2026), zelfde introductie in Schotland. Bevestigt: 281 pk/345 Nm, Torsen-sperdifferentieel, € 41.990, door Peugeot aangepaste achterophanging met meer toespoor, nauwelijks verschil met de Corsa GSE, waardige opvolger van de 205 GTI. Tegenspraak: Autovisie vindt de vering 'niet keihard' met incasseringsvermogen (7:19), AutoWeek 'ontzettend stevig' op slechte Britse wegen (4:52). Voor Debatten en vervanging.",
+    "Nieuw ten opzichte van Autovisie: gewicht 1.510 kg, ESP en tractiecontrole niet helemaal uit te zetten, in sportmodus remt het pedaal alleen mechanisch, prijs met blauwe lak bijna € 43.000, en 'in nou 150 km' leeg bij sportief rijden.",
+    "De 150 km (5:40) is een uitspraak van de tester over sportief rijden op Schotse wegen, geen gedocumenteerde meting (geen verbruik, temperatuur of laadstand). Als valkuil opgenomen, niet als meting. Accu en WLTP noemt de video niet.",
+    "Corsa GSE als slug opel-corsa-electric volgens besluiten.yaml (uitvoering_van).",
+    "'Mini Cooper Selectric' (3:26) is vermoedelijk de Mini Cooper SE; de tester noemt hem als voorbeeld van een auto die met de achterkant 'echt dwars' komt, niet als alternatief. Niet in concurrenten; mini/cooper staat wel op Plinkie. De samenvoegstap kan dat anders wegen.",
+    "Porsche (4:30) is een contrast (te groot voor deze wegen), geen concurrent.",
+    "'Stabilisatoren, dempers, alles is uniek' (2:52) spreekt de zin ervoor tegen ('het onderstel is precies hetzelfde'); vermoedelijk 'identiek'. Zo gelezen, met het transcriptcitaat erbij.",
+    "Spraakherkenning: 'OPPO/Oppel/Open Corsa' is Opel Corsa, 'Corsa GS' is Corsa GSE, 'Torst sperfferentieel' is Torsen-sperdifferentieel, '100 hatch/hotge' is hot hatch, '€43.000 000' is € 43.000."
+  ]
+}

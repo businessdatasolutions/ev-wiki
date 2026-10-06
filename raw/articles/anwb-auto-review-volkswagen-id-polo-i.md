@@ -4,7 +4,7 @@ url: https://www.anwb.nl/auto/tests/auto-reviews/detail/bd7d42face3960a75ea9eefa
 site: ANWB
 soort: review
 author:
-- Specificaties
+- Frank Buma
 date_published: '2026-09-09'
 uitvoering: Volkswagen Id.polo 52kwh EV 155kw
 taal: nl
@@ -16,7 +16,7 @@ verzameld:
   modellen_kandidaat:
   - volkswagen/id-polo
   status: wacht op Process
-notes: Tekst uit de HTML gehaald met trafilatura; menu, voet en het blok met andere tests weggelaten. Uitvoering, auteur en publicatiedatum uit de kenmerken naast de tekst.
+notes: 'Tekst uit de HTML gehaald met trafilatura; menu, voet en het blok met andere tests weggelaten. Uitvoering, auteur en publicatiedatum uit de kenmerken naast de tekst. Kop opnieuw gelezen op 06-10-2026: de eerste versie las ''Specificaties'' als auteur.'
 ---
 
 # Auto Review Volkswagen Id.polo I

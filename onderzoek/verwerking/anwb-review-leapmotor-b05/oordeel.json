@@ -1,0 +1,22 @@
+{
+  "is_review": true,
+  "reden": "Geschreven ANWB-autoreview (24-09-2026) van één model: de Leapmotor B05, een elektrische hatchback met 218 pk en 56 of 67 kWh. Volledig artikel met prijs, uitrusting, rijden, interieur en milieu. Geen eigen meting: ANWB reed de auto kort tijdens de voorverkiezing van de Auto van het Jaar en neemt het verbruik van de fabrikant over.",
+  "taal_transcript": "nl (artikel, geen transcript)",
+  "bronpagina_bestand": "2026-09-24-leapmotor-b05-geen-lokkertje.md",
+  "modellen": ["leapmotor-b05"],
+  "merken": ["leapmotor"],
+  "kanaal": "anwb",
+  "vergelijking": false,
+  "waarschuwingen": [
+    "Bron met een belang: ANWB leaset zelf via ANWB Private Lease, en het artikel noemt een private-leaseprijs vanaf € 409 per maand zonder aanbieder. Confidence niet boven 0,75.",
+    "Geen meting: ANWB zegt zelf dat het verbruik 'voor nu maar even aangenomen' moet worden, omdat de rijtijd tijdens de voorverkiezing van de Auto van het Jaar kort was. Een eerste kennismaking, dus niet boven 0,75.",
+    "Het veld author in de ruwe kop is 'Bekijk specificaties': fout van de verzamelaar. Op de bronpagina staat author ANWB.",
+    "De geteste uitvoering staat alleen in de ruwe kop ('67.1kwh EV 160kw'); de tekst noemt hem niet.",
+    "Rijbereik 401-482 km is niet per accu toegewezen; de koppeling kleine accu = laag getal is een aanname. Norm niet genoemd.",
+    "Prijzen vaag: 'de duurste uitvoering gaat nét over de dertig mille' en 'met de grootste batterij onder de 30.000 euro'. Alleen € 25.995 en € 409 per maand zijn exacte getallen.",
+    "Tegenspraak met de merkpagina leapmotor: daar staat garantie 3 jaar/100.000 km en onderhoud bij 14 dealerbedrijven (ANWB, nov. 2024, over de T03). Hier: 4 jaar/100.000 km op de auto, 8 jaar/160.000 km op de accu, onderhoud bij Stellantis-dealers in het hele land. Kan per model verschillen of in twee jaar veranderd zijn: zet het in Debatten en vervanging, niet als vervanging.",
+    "Zustermodel B03X (aanwijzing van de opdrachtgever) wordt in het artikel niet genoemd. Geen rand voorgesteld; dat de B05 en B03X een platform delen, moet uit een andere bron komen.",
+    "Geen concurrent bij naam: alleen 'de concurrentie' en 'de niet Chinese concurrentie'. concurrenten blijft leeg.",
+    "Nieuwe entiteit nodig: model leapmotor-b05 (Plinkie /deals/leapmotor/b05)."
+  ]
+}

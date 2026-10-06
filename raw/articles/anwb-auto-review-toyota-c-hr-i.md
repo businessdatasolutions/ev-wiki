@@ -4,7 +4,7 @@ url: https://www.anwb.nl/auto/tests/auto-reviews/detail/26a811e9545166c7b6bf773a
 site: ANWB
 soort: review
 author:
-- Specificaties
+- Gert Wisse
 date_published: '2026-08-06'
 uitvoering: Toyota C-Hr+ 77kwh EV 165kw
 taal: nl
@@ -16,7 +16,7 @@ verzameld:
   modellen_kandidaat:
   - toyota/c-hr-plus
   status: wacht op Process
-notes: Tekst uit de HTML gehaald met trafilatura; menu, voet en het blok met andere tests weggelaten. Uitvoering, auteur en publicatiedatum uit de kenmerken naast de tekst.
+notes: 'Tekst uit de HTML gehaald met trafilatura; menu, voet en het blok met andere tests weggelaten. Uitvoering, auteur en publicatiedatum uit de kenmerken naast de tekst. Kop opnieuw gelezen op 06-10-2026: de eerste versie las ''Specificaties'' als auteur.'
 ---
 
 # Auto Review Toyota C-Hr+ I

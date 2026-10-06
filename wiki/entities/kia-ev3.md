@@ -8,10 +8,10 @@ aliases:
 - EV3
 tags:
 - kia
-confidence: 0.7
+confidence: 0.75
 last_confirmed: '2026-10-06'
 accessed_at: '2026-10-06'
-source_count: 1
+source_count: 2
 relationships:
 - type: part-of
   target: kia
@@ -19,9 +19,23 @@ relationships:
 
 # Kia EV3
 
-Model van [[kia|Kia]]. Deze wiki heeft nog geen review van de Kia EV3 zelf; de pagina bestaat omdat een bron hem als concurrent noemt of er iets over zegt.
+Model van [[kia|Kia]]. Bronnen over dit model: [[2026-10-06-9-elektrische-autos-met-trekhaak|ANWB 06-10-2026]].
+Met één eigen bron (of één test, ook als die in video en artikel verscheen) blijft de zekerheid op hooguit 0,75.
 
 **Plinkie.** `/deals/kia/ev3`, staat in de sitemap van plinkie.nl.
+
+## Uitvoeringen
+
+- Basis en een uitvoering met de grotere accu van 81,4 kWh (ANWB, trekhaak-artikel, onder '1. Kia EV3') ([[2026-10-06-9-elektrische-autos-met-trekhaak|ANWB 06-10-2026]])
+
+## Fabrieksopgaven
+
+- Basisuitvoering: trekgewicht 300 kg, vanaf € 36.995, stand 06-10-2026 (ANWB, onder '1. Kia EV3') ([[2026-10-06-9-elektrische-autos-met-trekhaak|ANWB 06-10-2026]])
+- Uitvoering met 81,4 kWh-accu: trekgewicht 1000 kg, duurder, bedrag niet genoemd (ANWB, onder '1. Kia EV3') ([[2026-10-06-9-elektrische-autos-met-trekhaak|ANWB 06-10-2026]])
+
+## Valkuilen
+
+- Basisuitvoering 300 kg, pas met de 81,4 kWh-accu 1000 kg; de vanafprijs hoort bij de 300 kg-versie (ANWB, onder '1. Kia EV3') ([[2026-10-06-9-elektrische-autos-met-trekhaak|ANWB 06-10-2026]])
 
 ## Concurrenten
 

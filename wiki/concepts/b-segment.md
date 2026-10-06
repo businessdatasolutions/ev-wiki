@@ -9,7 +9,7 @@ tags:
 confidence: 0.95
 last_confirmed: '2026-10-06'
 accessed_at: '2026-10-06'
-source_count: 7
+source_count: 9
 quality_score: 1
 ---
 
@@ -30,7 +30,9 @@ ertussen ([[2024-11-15-chinese-evs-onder-de-25-mille-kleine-autos-grote-verleidi
 ## Uit de bronnen
 
 - ANWB zet de ID. Polo tegenover Renault 5, Opel Corsa, Peugeot e-208, Lancia Ypsilon en de zustermodellen Raval en Epiq (9 sep 2026, 3:32) ([[2026-09-09-is-de-volkswagen-id-polo-de-nieuwe-publiekslieveling|ANWB 09-09-2026]])
+- ANWB-artikel zet de ID. Polo tegenover Opel Corsa Electric, Peugeot e-208 en Renault 5: soortgelijke prijs, Polo ruimer, minder accu en tragere laadsnelheid (9 sep 2026) ([[2026-09-09-volkswagen-id-polo-beter-door-de-bocht|ANWB 09-09-2026]])
 - AutoWeek scheidt hatchbacks (ID. Polo, Renault 5, Corsa, 208) van crossoverachtigen (Renault 4, Kia EV2, ID. Cross); meer dan 200 pk alleen bij Chinese merken zoals MG4 (12:03, 1:18). Het gat in laadsnelheid met D-segment en hoger blijft volgens de tester, door 800V (9:12) ([[2026-10-02-kan-de-volkswagen-id-polo-de-succesvolle-renault-5-aan|AutoWeek 02-10-2026]])
+- De e-208 GTi en de Opel Corsa GSE rijden volgens AutoWeek 'voor 99%' hetzelfde; beide rond € 42.000, en de tester vreest dat weinigen zo'n sportieve kleine EV kopen (25-09-2026, 2:39, 6:35). ([[2026-09-25-de-peugeot-e-208-gti-is-de-meest-waardige-opvolger-van-de-205-gti-hele-berg-rijplezier|AutoWeek 25-09-2026]])
 - Sportieve uitvoeringen in het B-segment: de e-208 GTi, Corsa GSE en Ypsilon HF delen één aandrijflijn (Autovisie, 26-09-2026, 3:01). ([[2026-09-26-waarom-wij-voor-de-peugeot-e-208-gti-zouden-kiezen|Autovisie 26-09-2026]])
 - Škoda Epiq als hoge variant van de compacte MEB+-EV's, tegenhanger van de Kia EV2 (Autovisie 13-09-2026, 1:00). De video zegt zelf niet 'B-segment'. ([[2026-09-13-skoda-epiq-troeft-zelfs-volkswagen-id-polo-af|Autovisie 13-09-2026]])
 
@@ -43,6 +45,8 @@ ertussen ([[2024-11-15-chinese-evs-onder-de-25-mille-kleine-autos-grote-verleidi
 - [[2026-09-26-waarom-wij-voor-de-peugeot-e-208-gti-zouden-kiezen|Autovisie 26-09-2026]]
 - [[2026-09-13-skoda-epiq-troeft-zelfs-volkswagen-id-polo-af|Autovisie 13-09-2026]]
 - [[2026-10-02-kan-de-volkswagen-id-polo-de-succesvolle-renault-5-aan|AutoWeek 02-10-2026]]
+- [[2026-09-09-volkswagen-id-polo-beter-door-de-bocht|ANWB 09-09-2026]]
+- [[2026-09-25-de-peugeot-e-208-gti-is-de-meest-waardige-opvolger-van-de-205-gti-hele-berg-rijplezier|AutoWeek 25-09-2026]]
 
 ## Debatten en vervanging
 

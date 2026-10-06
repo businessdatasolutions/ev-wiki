@@ -5,10 +5,10 @@ aliases:
 - Stellantis N.V.
 tags:
 - stellantis
-confidence: 0.8
+confidence: 0.95
 last_confirmed: '2026-10-06'
 accessed_at: '2026-10-06'
-source_count: 3
+source_count: 8
 ---
 
 # Stellantis
@@ -19,7 +19,12 @@ Autoconcern van onder meer [[fiat|Fiat]], [[citroen|Citroën]], [[jeep|Jeep]], O
 
 - [[2024-11-15-chinese-evs-onder-de-25-mille-kleine-autos-grote-verleiding|ANWB 15-11-2024]]
 - [[2026-09-11-rijtest-in-een-rationele-wereld-zou-iedereen-leapmotor-b03x-rijden|Autovisie 11-09-2026]]
+- [[2026-09-24-leapmotor-b05-geen-lokkertje|ANWB 24-09-2026]]
+- [[2026-09-25-de-peugeot-e-208-gti-is-de-meest-waardige-opvolger-van-de-205-gti-hele-berg-rijplezier|AutoWeek 25-09-2026]]
 - [[2026-09-26-waarom-wij-voor-de-peugeot-e-208-gti-zouden-kiezen|Autovisie 26-09-2026]]
+- [[2026-10-06-9-elektrische-autos-met-trekhaak|ANWB 06-10-2026]]
+- [[2026-10-06-de-10-elektrische-auto-s-met-de-grootste-actieradius|ANWB 06-10-2026]]
+- [[2026-10-06-garantie-op-elektrische-auto-en-accupakket|ANWB 06-10-2026]]
 
 ## Debatten en vervanging
 

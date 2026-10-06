@@ -150,6 +150,13 @@ for (const { sectionName, missing } of indexGapDetail) {
 // ev-wiki: werkvoorraad van de verzamelaar (CLAUDE.md §Verzamelaar). Een ruwe video
 // zonder bronpagina met dezelfde video_id wacht op Process.
 const wachtend = []
+// Afgewezen bij Process (status in onderzoek/register.jsonl): niet meer wachtend
+const afgewezen = new Set()
+try {
+  for (const r of (await readFile(join(WIKI_DIR, "..", "onderzoek", "register.jsonl"), "utf8")).split("\n")) {
+    if (r.includes('"afgewezen"')) afgewezen.add(JSON.parse(r).video_id)
+  }
+} catch {}
 try {
   const bronnen = (await Promise.all(
     (await listMarkdown(join(WIKI_DIR, "sources"))).map((f) => readFile(f, "utf8")),
@@ -159,14 +166,14 @@ try {
     if (!f.endsWith(".md") || f.endsWith(".stills.md")) continue
     const tekst = await readFile(join(rawDir, f), "utf8")
     const id = tekst.match(/^video_id: ['"]?([\w-]{11})/m)?.[1]
-    if (id && !bronnen.includes(id)) wachtend.push(f)
+    if (id && !bronnen.includes(id) && !afgewezen.has(id)) wachtend.push(f)
   }
   // Artikelen: wachtend als geen bronpagina hun url noemt
   const artDir = join(WIKI_DIR, "..", "raw", "articles")
   for (const f of await readdir(artDir).catch(() => [])) {
     if (!f.endsWith(".md")) continue
     const url = (await readFile(join(artDir, f), "utf8")).match(/^url: ['"]?([^'"\n]+)/m)?.[1]
-    if (url && !bronnen.includes(url)) wachtend.push(`articles/${f}`)
+    if (url && !bronnen.includes(url) && !afgewezen.has(url)) wachtend.push(`articles/${f}`)
   }
 } catch {}
 let voorstellen = 0

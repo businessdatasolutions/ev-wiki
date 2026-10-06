@@ -1,0 +1,20 @@
+{
+  "is_review": true,
+  "reden": "Geschreven ANWB-autoreview van de Volkswagen ID. Polo, in de 52 kWh/211 pk-topuitvoering. Het is de tekstversie van dezelfde rijtest als de ANWB-video van 9 september 2026: zelfde publicatiedatum, zelfde testauto, zelfde verbruiksmeting (15,1 kWh/100 km), en het artikel zegt zelf dat 'alle in deze rijtest gegeven informatie ook voorbijkomt in de begeleidende video'. Het artikel voegt toe wat de video open liet: bereik en laadvermogen per accu, trekgewicht van de instap, een leaseprijs, de garantie van de benzine-Polo en een praktijkbereik van 344 km.",
+  "taal_transcript": "nl (artikeltekst, geen transcript)",
+  "bronpagina_bestand": "2026-09-09-volkswagen-id-polo-beter-door-de-bocht.md",
+  "modellen": ["volkswagen-id-polo"],
+  "merken": ["volkswagen"],
+  "kanaal": "anwb",
+  "vergelijking": false,
+  "waarschuwingen": [
+    "Dezelfde test als de ANWB-video 2026-09-09-is-de-volkswagen-id-polo-de-nieuwe-publiekslieveling. Tel hem niet als onafhankelijke tweede bron: geen extra confidence voor feiten die de video al droeg, en geen extra sterkte voor de concurrentieparen Renault 5, Corsa en e-208 die de video al noemde. Overweeg in besluiten.yaml een vastlegging dat deze twee bronnen één test zijn.",
+    "Bron met een belang: ANWB leaset zelf via ANWB Private Lease; het artikel noemt een maandbedrag vanaf € 479.",
+    "Auteur in de ruwe kop is 'Specificaties': een label van de pagina, geen persoon. Als author is 'ANWB' gebruikt.",
+    "Het praktijkbereik van 344 km is door ANWB uitgerekend uit het gemeten verbruik (52 / 15,1), niet leeggereden. Omstandigheden van de meting noemt het artikel niet, net als de video.",
+    "Kleine tegenspraak met de video: de video zegt dat de ID. Polo een grotere accu en sneller snelladen heeft dan de Renault 5; het artikel zegt in het algemeen dat de Polo het 'op batterijomvang en laadsnelheid aflegt tegen de concurrentie' (Corsa, e-208, Renault 5).",
+    "Garantie: het artikel noemt 8 jaar bij Stellantis; de video sprak van '10 jaar garantie' in dit segment zonder merk. Welke garantie (fabriek of accu) de 8 jaar is, zegt het artikel niet.",
+    "Het artikel noemt de Lancia Ypsilon, Cupra Raval en Škoda Epiq niet; die concurrenten komen alleen uit de video.",
+    "Geen nieuwe entiteiten nodig: renault-5, opel-corsa-electric en peugeot-e-208 bestaan al."
+  ]
+}

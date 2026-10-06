@@ -1,0 +1,72 @@
+{
+  "nieuwe_entiteiten": [
+    {"slug": "leapmotor-b05", "kind": "model", "naam": "Leapmotor B05", "merk": "leapmotor", "plinkie_pad": "/deals/leapmotor/b05", "aliases": ["Leapmotor B05", "B05"], "tekst": "Elektrische gezinshatchback van Leapmotor, 4,43 m lang, achterwielaandrijving, 218 pk, accu van 56 of 67 kWh, vanaf € 25.995 (ANWB-autoreview, 24-09-2026). In China al eerder op de markt; voor Europa aangepast."}
+  ],
+  "model_feiten": {
+    "leapmotor-b05": {
+      "uitvoeringen": [
+        "Alle uitvoeringen: één aandrijving, 218 pk en 240 Nm, achterwielaandrijving (ANWB, onder 'Hoe rijdt de B05?')",
+        "Twee accu's: 56 en 67 kWh (onder 'De B05 en het milieu')",
+        "Getest: 67,1 kWh, 160 kW, alleen volgens de kenmerken naast het artikel",
+        "Goedkoopste uitvoering € 25.995; duurste net boven € 30.000; met de grote accu kan het onder € 30.000, sept. 2026 (onder 'Type auto en prijs')"
+      ],
+      "fabrieksopgaven": [
+        "Uitvoering niet genoemd: private lease vanaf € 409 per maand, sept. 2026; looptijd, bundel en aanbieder niet genoemd (onder 'Type auto en prijs')",
+        "56 en 67 kWh: rijbereik 401 tot 482 km 'door de fabrikant beloofd', niet per accu toegewezen, norm niet genoemd (onder 'De B05 en het milieu')",
+        "Uitvoering niet genoemd: verbruik rond 16 kWh/100 km volgens de fabrikant (onder 'De B05 en het milieu')",
+        "Uitvoering niet genoemd: 11 kW aan de paal, snelladen tot 174 kW; geen laadtijd genoemd (onder 'Hogere laadsnelheid')",
+        "Uitvoering niet genoemd: lengte 4,43 m (onder 'De B05 van binnen')",
+        "Uitvoering niet genoemd: kofferbak 345 L, 1.400 L met de bank plat, geen frunk (onder 'Tas voor je laadkabel')",
+        "Alle uitvoeringen: stoelverwarming, warmtepomp, draadloos telefoonladen (onder 'Onderscheidende uitrusting')",
+        "Goedkoopste uitvoering al: complete veiligheidsuitrusting met uitstapwaarschuwing voor fietsers, 360°-camera en V2L (onder 'Complete veiligheidsuitrusting', 'Zelf programmeren', 'Hogere laadsnelheid')",
+        "Uitvoering niet genoemd: panoramadak met zonnescherm, bediend via het scherm (onder 'Tas voor je laadkabel')"
+      ],
+      "metingen": [],
+      "valkuilen": [
+        "Alle uitvoeringen: mag geen aanhanger trekken, waar 750 tot 1.000 kg in dit segment gewoon is (onder 'Hoe rijdt de B05?')",
+        "Uitvoering niet genoemd: de tas voor de laadkabel neemt kofferruimte in; geen frunk (onder 'Tas voor je laadkabel')",
+        "Uitvoering niet genoemd: bijna alles via één centraal scherm, ook spiegels en zonnescherm; ogen van de weg (onder 'Tas voor je laadkabel')",
+        "Uitvoering niet genoemd: klein glasoppervlak, beperkt zicht rondom; 360°-camera standaard (onder 'Zelf programmeren')",
+        "Duurste uitvoering: net boven € 30.000, dus 'onder de 30 mille' geldt niet voor elke versie (onder 'Type auto en prijs')"
+      ],
+      "oordelen": [
+        "Uitvoering niet genoemd: besturing 'nogal doods', weinig gevoel (onder 'Geen aandrijfkrachten in je stuur')",
+        "Uitvoering niet genoemd: neutraal door de bocht, voor de prijsklasse 'niet verkeerd'; gewichtsverdeling en wielophanging voor Europa aangepast (onder 'Complete veiligheidsuitrusting')",
+        "Alle uitvoeringen: genoeg vermogen, niet explosief; launch control 'wonderlijk' op een gezinsauto (onder 'Hoe rijdt de B05?')",
+        "Uitvoering niet genoemd: programmeerbare stuurknop om piepjes of hulpsystemen uit te zetten; knippert bij het openen van een portier (onder 'Zelf programmeren')",
+        "Uitvoering niet genoemd: achterin veel beenruimte en genoeg hoofdruimte, knieën hoog; vlakke vloer, drie naast elkaar, eigen stroompunten en ventilatie (onder 'De B05 van binnen')",
+        "Uitvoering niet genoemd: materialen plezierig, interieur verzorgd maar steriel (onder 'Tas voor je laadkabel')",
+        "Eindoordeel: goedkoper, sterker en ruimer achterin dan de concurrentie, snel laden; 'voer voor discussie' omdat het een Chinese auto is (onder 'Conclusie')",
+        "Eerste kennismaking: kort gereden tijdens de voorverkiezing van de Auto van het Jaar, verbruik niet zelf gemeten (onder 'De B05 en het milieu')"
+      ],
+      "concurrenten": []
+    }
+  },
+  "merk_feiten": {
+    "leapmotor": [
+      "Valt onder Stellantis; volgens ANWB daarom geen probleem met onderdelen of lange reparaties, terwijl sommige verzekeraars Chinese auto's om die reden weigeren (ANWB, B05, 24-09-2026, onder 'Onderscheidende uitrusting')",
+      "Onderhoud in het hele land bij dezelfde dealers als Opel, Citroën en Fiat (ANWB, 24-09-2026). Tegenspraak met nov. 2024 (14 dealerbedrijven, T03): in Debatten en vervanging zetten",
+      "Garantie B05 van de Nederlandse importeur: 4 jaar of 100.000 km op de auto, 8 jaar of 160.000 km op de accu (ANWB, 24-09-2026). Tegenspraak met '3 jaar / 100.000 km' op de merkpagina (T03, nov. 2024): kan per model of in de tijd verschillen",
+      "B05 in China al eerder verkocht, voor Europa aangepast (ANWB, 24-09-2026, onder 'Geen aandrijfkrachten in je stuur')",
+      "Model toevoegen aan 'Modellen in deze wiki': leapmotor-b05"
+    ],
+    "stellantis": [
+      "Leapmotor-modellen krijgen onderhoud bij dezelfde dealers als Opel, Citroën en Fiat (ANWB, B05, 24-09-2026)"
+    ],
+    "anwb": [
+      "Bron toevoegen: ANWB-autoreview Leapmotor B05 (24-09-2026), een geschreven artikel zonder eigen meting; source_count +1. Het artikel noemt een private-leaseprijs zonder aanbieder"
+    ]
+  },
+  "concepten": [
+    {"slug": "trekgewicht", "bestaat": true, "toevoeging": "Leapmotor B05: mag niets trekken; ANWB noemt 750 tot 1.000 kg gebruikelijk in dit deel van de markt (ANWB, 24-09-2026). Net als de B03X"},
+    {"slug": "kofferbakinhoud", "bestaat": true, "toevoeging": "Leapmotor B05: 345 L, 1.400 L met de bank plat, geen frunk; de laadkabeltas neemt een deel in (ANWB, 24-09-2026)"},
+    {"slug": "rijbereik-wltp", "bestaat": true, "toevoeging": "Leapmotor B05: 401-482 km volgens de fabrikant, norm niet genoemd, niet per accu toegewezen (ANWB, 24-09-2026)"},
+    {"slug": "snelladen-10-80", "bestaat": true, "toevoeging": "Leapmotor B05: tot 174 kW, 'een stuk hoger dan gebruikelijk' in dit segment; geen 10-80%-tijd genoemd (ANWB, 24-09-2026)"},
+    {"slug": "bidirectioneel-laden", "bestaat": true, "toevoeging": "Leapmotor B05: V2L vanaf de eenvoudigste uitvoering (ANWB, 24-09-2026)"},
+    {"slug": "prijsklasse", "bestaat": true, "toevoeging": "Leapmotor B05: vanaf € 25.995, private lease vanaf € 409 per maand; ANWB noemt hem een uitzondering in een groeiende groep EV's 'onder de 30 mille' die onder de streep vaak meer kosten (24-09-2026)"}
+  ],
+  "relaties_met_bestaande_bronnen": [
+    {"type": "supports", "target": "2026-09-11-rijtest-in-een-rationele-wereld-zou-iedereen-leapmotor-b03x-rijden", "via": "Leapmotor verkocht en onderhouden via het netwerk van Stellantis; ook dit Leapmotor-model mag niets trekken"},
+    {"type": "contradicts", "target": "2024-11-15-chinese-evs-onder-de-25-mille-kleine-autos-grote-verleiding", "via": "garantie en dealernet van Leapmotor: 3 jaar en 14 dealerbedrijven (T03, nov. 2024) tegen 4 jaar plus 8 jaar op de accu en Stellantis-dealers in het hele land (B05, sept. 2026)"}
+  ]
+}

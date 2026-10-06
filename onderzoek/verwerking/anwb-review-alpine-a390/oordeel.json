@@ -1,0 +1,22 @@
+{
+  "is_review": true,
+  "reden": "Geschreven ANWB-autoreview (18-09-2026) van één model: de Alpine A390 GTS (89 kWh, drie motoren, 470 pk, vierwielaandrijving). Volledig artikel met conclusie, prijs, rijden, interieur en milieu. Eén eigen meting: 22 kWh/100 km en een praktijkbereik van rond de 430 km.",
+  "taal_transcript": "nl (artikel, geen transcript)",
+  "bronpagina_bestand": "2026-09-18-alpine-a390-gts-met-overtake-button.md",
+  "modellen": ["alpine-a390"],
+  "merken": ["alpine"],
+  "kanaal": "anwb",
+  "vergelijking": false,
+  "waarschuwingen": [
+    "Bron met een belang: ANWB leaset zelf via ANWB Private Lease; confidence niet boven 0,75 zonder onafhankelijke tweede bron.",
+    "Het veld author in de ruwe kop is 'Specificaties': een fout van de verzamelaar (tekst naast de kenmerken). Op de bronpagina staat author ANWB; de schrijver is onbekend.",
+    "De ruwe title is 'Auto Review Alpine A390 I'; de kop van het artikel is 'Mét overtake button!'. De bronpagina gebruikt beide.",
+    "Meting zonder omstandigheden: geen temperatuur, route, afstand of seizoen. Wel de testauto: GTS met 21-inch wielen.",
+    "Laadtijd 15-80% in zo'n 25 minuten: uit de tekst niet op te maken of ANWB dat mat of de fabriek citeert. Behandeld als fabrieksopgave. Let op: 15-80%, niet 10-80%.",
+    "Feitelijke fout in de bron: 'Verkor in het Belgische Duinkerke'. Duinkerke ligt in Frankrijk. Niet als feit overnemen.",
+    "Typfout in de bron: 'nu190 kW' gelezen als 190 kW.",
+    "Nieuwe entiteiten nodig: model alpine-a390 (Plinkie /deals/alpine/a390) en merk alpine. De A390 GT is een uitvoering, geen eigen model.",
+    "De Alpine A290 wordt genoemd als ander model van het merk ('sportieve versie van de Renault 5'), niet als concurrent. Geen rand, geen pagina voorgesteld; alleen als tekst.",
+    "Geen concurrenten genoemd: de enige vergelijking is GTS tegen GT, binnen één model."
+  ]
+}

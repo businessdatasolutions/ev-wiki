@@ -11,7 +11,7 @@ tags:
 confidence: 0.75
 last_confirmed: '2026-10-06'
 accessed_at: '2026-10-06'
-source_count: 3
+source_count: 4
 relationships:
 - type: part-of
   target: cupra
@@ -19,9 +19,14 @@ relationships:
 
 # Cupra Raval
 
-Model van [[cupra|Cupra]]. Deze wiki heeft nog geen review van de Cupra Raval zelf; de pagina bestaat omdat een bron hem als concurrent noemt of er iets over zegt.
+Model van [[cupra|Cupra]]. Bronnen over dit model: [[2026-10-06-welke-nieuwe-elektrische-autos-komen-er-in-2026|ANWB 06-10-2026]].
+Met één eigen bron (of één test, ook als die in video en artikel verscheen) blijft de zekerheid op hooguit 0,75.
 
 **Plinkie.** `/deals/cupra/raval`, staat in de sitemap van plinkie.nl.
+
+## Fabrieksopgaven
+
+- Uitvoering niet genoemd: komt in 2026 als betaalbare EV van de Volkswagen-groep, al onthuld; eerste rijindrukken zijn bekend; geen getallen genoemd (ANWB, verwachte EV's 2026, stand 06-10-2026, onder 'Volkswagen ID Polo, Cupra Raval en Skoda Epiq') ([[2026-10-06-welke-nieuwe-elektrische-autos-komen-er-in-2026|ANWB 06-10-2026]])
 
 ## Metingen
 
@@ -44,4 +49,4 @@ Genoemd als concurrent van:
 
 ## Debatten en vervanging
 
-Nog geen tegenspraak vastgelegd.
+- BMW iX3 vanaf € 70.501 hier, instapper net geen € 63.000 in de video; Volvo EX60 700 km hier, 660 km WLTP voor de testauto in de video ([[2026-10-06-welke-nieuwe-elektrische-autos-komen-er-in-2026|ANWB 06-10-2026]] tegen [[2026-10-02-bmw-ix3-vs-volvo-ex60-roadtrip-met-special-guest|ANWB 02-10-2026]])

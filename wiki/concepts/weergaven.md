@@ -8,7 +8,7 @@ tags:
 confidence: 0.95
 last_confirmed: '2026-10-06'
 accessed_at: '2026-10-06'
-source_count: 10
+source_count: 13
 quality_score: 1
 ---
 
@@ -38,7 +38,10 @@ Voor [[plinkie|Plinkie]] is het beheerinformatie die de volgorde van werk stuurt
 
 - ANWB ID. Polo: 126.172 op 06-10-2026, 27 dagen, ~4.673 per dag; veruit de hoogste per dag van de ANWB-bronnen tot nu toe (EV2 ~272/dag) ([[2026-09-09-is-de-volkswagen-id-polo-de-nieuwe-publiekslieveling|ANWB 09-09-2026]])
 - Rij: Autovisie, e-tron GT tegen Taycan, gemeten 06-10-2026, 165.195, ongeveer 5507 per dag (30 dagen). Veel hoger dan de andere Autovisie-video (42 per dag). ([[2026-09-06-elektrische-sportwagens-voor-weinig-de-audi-e-tron-gt-en-porsche-taycan-zijn-flink-afgesch|Autovisie 06-09-2026]])
+- Autovisie Mazda CX-6e: 26.496 op 06-10-2026, 13 dagen, ~2.038 per dag; tegen ~1.633 per dag voor de Autovisie-rijtest van de Škoda Epiq. ([[2026-09-23-rijtest-mazda-cx-6e-dit-is-veel-beter-dan-6e|Autovisie 23-09-2026]])
 - AutoWeek ID. Polo tegen Renault 5: 52.540 op 06-10-2026, 4 dagen, ~13.135 per dag; eerste AutoWeek-meting, niet vergelijken met ANWB of Autovisie ([[2026-10-02-kan-de-volkswagen-id-polo-de-succesvolle-renault-5-aan|AutoWeek 02-10-2026]])
+- AutoWeek Peaq: 56.117 op 06-10-2026, 16 dagen, ~3.507 per dag. ([[2026-09-20-de-skoda-peaq-is-heel-fijn-en-niet-vatbaar-voor-de-pseudo-eindheffing-groter-en-luxer-een|AutoWeek 20-09-2026]])
+- AutoWeek ID. Tiguan: 23.747 op 06-10-2026, 8 dagen, ~2.968 per dag (korte video van 5 min). ([[2026-09-28-de-volkswagen-id-tiguan-is-meer-dan-een-simpel-opgefriste-id4-andere-opzet-technisch-wel-g|AutoWeek 28-09-2026]])
 - ANWB iX3 tegen EX60: 59.009 op 06-10-2026, 4 dagen na publicatie (~14.750/dag). Voorbeeld van een eerste-weekpiek die niet met oudere video's te vergelijken is. ([[2026-10-02-bmw-ix3-vs-volvo-ex60-roadtrip-met-special-guest|ANWB 02-10-2026]])
 - Autovisie B03X: 13.100 op 06-10-2026, 25 dagen na publicatie, ongeveer 524 per dag. ([[2026-09-11-rijtest-in-een-rationele-wereld-zou-iedereen-leapmotor-b03x-rijden|Autovisie 11-09-2026]])
 - Autovisie Epiq: 37.558 op 06-10-2026, 23 dagen, ~1.633 per dag; tegen 42 per dag voor Autovisie Dongfeng Box (ander jaar, binnen hetzelfde kanaal). ([[2026-09-13-skoda-epiq-troeft-zelfs-volkswagen-id-polo-af|Autovisie 13-09-2026]])
@@ -56,6 +59,9 @@ Voor [[plinkie|Plinkie]] is het beheerinformatie die de volgorde van werk stuurt
 - [[2026-09-13-skoda-epiq-troeft-zelfs-volkswagen-id-polo-af|Autovisie 13-09-2026]]
 - [[2026-09-10-geliefd-in-nederland-populaire-volvo-xc40-en-ex40-weer-gefacelift|Autovisie 10-09-2026]]
 - [[2026-10-02-kan-de-volkswagen-id-polo-de-succesvolle-renault-5-aan|AutoWeek 02-10-2026]]
+- [[2026-09-23-rijtest-mazda-cx-6e-dit-is-veel-beter-dan-6e|Autovisie 23-09-2026]]
+- [[2026-09-20-de-skoda-peaq-is-heel-fijn-en-niet-vatbaar-voor-de-pseudo-eindheffing-groter-en-luxer-een|AutoWeek 20-09-2026]]
+- [[2026-09-28-de-volkswagen-id-tiguan-is-meer-dan-een-simpel-opgefriste-id4-andere-opzet-technisch-wel-g|AutoWeek 28-09-2026]]
 
 ## Debatten en vervanging
 

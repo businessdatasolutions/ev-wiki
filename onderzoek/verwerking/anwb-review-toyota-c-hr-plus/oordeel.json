@@ -1,0 +1,21 @@
+{
+  "is_review": true,
+  "reden": "Geschreven ANWB-autoreview (rijtest) van de volledig elektrische Toyota C-HR+, gereden in de instapuitvoering met 57,7 kWh en 164 pk. Prijzen, uitvoeringen, rijden, interieur, kofferbak, laden en één eigen verbruiksmeting (14,2 kWh/100 km). Het gaat echt over de C-HR+ (Plinkie-pad toyota/c-hr-plus), niet over de hybride C-HR.",
+  "taal_transcript": "nl (artikeltekst, geen transcript)",
+  "bronpagina_bestand": "2026-08-06-toyota-c-hr-plus-een-terecht-plusteken.md",
+  "modellen": ["toyota-c-hr-plus"],
+  "merken": ["toyota"],
+  "kanaal": "anwb",
+  "vergelijking": false,
+  "waarschuwingen": [
+    "Bron met een belang: ANWB leaset zelf via ANWB Private Lease, en het artikel noemt een leaseprijs vanaf ongeveer € 500 per maand. Confidence niet boven 0,75 zonder onafhankelijke tweede bron.",
+    "De ruwe kop zegt 'uitvoering: Toyota C-Hr+ 77kwh EV 165kw' (= de grote accu, 224 pk), maar de tekst zegt twee keer dat de testauto het instapmodel is, met 57,7 kWh en 164 pk. De tekst is gevolgd; de kop komt uit de kenmerken naast de tekst en lijkt de verkeerde uitvoering te tonen.",
+    "Vermogen van de instap is niet eenduidig: '167 pk' onder 'Type auto en prijzen', '164 pk' onder 'De Toyota C-HR+ en het milieu'. Beide genoemd, geen van beide als zeker.",
+    "Auteur in de ruwe kop is 'Specificaties': een fout van het ophalen (een label naast de tekst), geen persoon. Als author is 'ANWB' gebruikt.",
+    "Verbruiksmeting met omstandigheden 'veel snelwegkilometers, warm zomerweer'; afstand en temperatuur niet genoemd. Een praktijkbereik noemt ANWB niet; ~406 km is een eigen uitrekening van de wiki (57,7 / 14,2).",
+    "Het rijbereik van 458 km noemt Toyota voor de kleine accu en 609 km voor de grote; de norm (WLTP) staat er niet bij.",
+    "'Tot 1 miljoen kilometer garantie op het batterijpakket': voorwaarden (bijvoorbeeld jaarlijks onderhoud bij de dealer) noemt het artikel niet; niet aangevuld.",
+    "Nieuwe entiteiten: toyota-c-hr-plus en merk toyota (geen Toyota-pagina in de wiki); concurrenten skoda-elroq, kia-ev5 en renault-scenic-e-tech hebben nog geen pagina. Een andere agent in deze ronde verwerkt mogelijk de ANWB-review van de bZ4X en stelt dan ook merk toyota voor.",
+    "Datum: 6 augustus 2026, zomer; prijzen en garantie zijn de stand van toen."
+  ]
+}

@@ -1,0 +1,119 @@
+{
+  "nieuwe_entiteiten": [
+    {"slug": "tesla-model-3", "kind": "model", "naam": "Tesla Model 3", "merk": "tesla", "plinkie_pad": "/deals/tesla/model-3", "aliases": ["Model 3", "Tesla Model 3"], "tekst": "Middenklasse-sedan van Tesla. Nummer 1 in de ANWB-lijst van goedkoopste occasion-EV's (bouwjaar 2019-2020, stand 23-01-2025)."},
+    {"slug": "hyundai-kona-electric", "kind": "model", "naam": "Hyundai Kona Electric", "merk": "hyundai", "plinkie_pad": "/deals/hyundai/kona-electric", "aliases": ["Kona Electric", "Hyundai Kona", "Kona"], "tekst": "Compacte elektrische SUV van Hyundai. In deze wiki via de ANWB-lijst van goedkoopste occasion-EV's (eerste generatie, bouwjaar 2019-2020, stand 23-01-2025)."},
+    {"slug": "kia-niro-ev", "kind": "model", "naam": "Kia Niro EV", "merk": "kia", "plinkie_pad": "/deals/kia/niro-ev", "aliases": ["Niro EV", "Kia e-Niro", "e-Niro"], "tekst": "Elektrische crossover van Kia, eerder e-Niro genoemd. In deze wiki via de ANWB-lijst van goedkoopste occasion-EV's (eerste generatie, bouwjaar 2019-2020, stand 23-01-2025)."},
+    {"slug": "nissan-leaf", "kind": "model", "naam": "Nissan Leaf", "merk": "nissan", "plinkie_pad": "/deals/nissan/leaf", "aliases": ["Leaf", "Nissan Leaf"], "tekst": "Elektrische middenklasser van Nissan, de eerste van een grote fabrikant. In deze wiki via de ANWB-lijst van goedkoopste occasion-EV's (bouwjaar 2012-2019, stand 23-01-2025); die generaties hebben een luchtgekoelde accu en CHAdeMO."},
+    {"slug": "polestar-2", "kind": "model", "naam": "Polestar 2", "merk": "polestar", "plinkie_pad": "/deals/polestar/2", "aliases": ["Polestar 2", "PS2"], "tekst": "Elektrische fastback van Polestar. In deze wiki via de ANWB-lijst van goedkoopste occasion-EV's (bouwjaar 2020-2023, stand 23-01-2025). Plinkie kent hem ook als /deals/polestar/polestar-2."},
+    {"slug": "volkswagen-id-4", "kind": "model", "naam": "Volkswagen ID.4", "merk": "volkswagen", "plinkie_pad": "/deals/volkswagen/id-4", "aliases": ["ID.4", "Volkswagen ID.4"], "tekst": "Elektrische crossover van Volkswagen, 'het grote broertje van de ID.3'. In deze wiki via de ANWB-lijst van goedkoopste occasion-EV's (bouwjaar 2020-2022, stand 23-01-2025)."},
+    {"slug": "skoda-enyaq", "kind": "model", "naam": "Škoda Enyaq", "merk": "skoda", "plinkie_pad": "/deals/skoda/enyaq", "aliases": ["Enyaq", "Skoda Enyaq", "Škoda Enyaq iV", "Enyaq iV"], "tekst": "Elektrische gezins-SUV van Škoda, tot de facelift Enyaq iV. In deze wiki via de ANWB-lijst van goedkoopste occasion-EV's (bouwjaar 2020-2022, stand 23-01-2025). Plinkie kent hem ook als /deals/skoda/enyaq-iv."},
+    {"slug": "volkswagen-id-3", "kind": "model", "naam": "Volkswagen ID.3", "merk": "volkswagen", "plinkie_pad": "/deals/volkswagen/id-3", "aliases": ["ID.3", "Volkswagen ID.3"], "tekst": "Compacte elektrische hatchback van Volkswagen, motor achterin. In deze wiki via de ANWB-lijst van goedkoopste occasion-EV's (bouwjaar 2020-2021, stand 23-01-2025)."},
+    {"slug": "tesla", "kind": "merk", "naam": "Tesla", "merk": "", "plinkie_pad": "", "aliases": ["Tesla"], "tekst": "Amerikaanse fabrikant van elektrische auto's. In deze wiki via de Model 3."},
+    {"slug": "nissan", "kind": "merk", "naam": "Nissan", "merk": "", "plinkie_pad": "", "aliases": ["Nissan"], "tekst": "Japans merk; volgens ANWB de eerste grote fabrikant die geloofde in de volledig elektrische auto, met de Leaf. In deze wiki via de Leaf."},
+    {"slug": "polestar", "kind": "merk", "naam": "Polestar", "merk": "", "plinkie_pad": "", "aliases": ["Polestar"], "tekst": "Zweeds-Chinees merk van elektrische auto's, ontstaan uit Volvo. In deze wiki via de Polestar 2."}
+  ],
+  "model_feiten": {
+    "tesla-model-3": {
+      "uitvoeringen": ["Occasion, bouwjaar 2019-2020: vanaf € 14.445; richtprijs bouwjaar 2019 met 75.000 km ca. € 20.450 (ANWB Occasionplatform, stand 23-01-2025, onder de tabel 'Merk/type')"],
+      "fabrieksopgaven": ["Bouwjaar 2019: de eerste exemplaren kostten nieuw meer dan € 70.000 (ANWB-artikel goedkoopste, onder '1. Tesla Model 3')"],
+      "metingen": [],
+      "valkuilen": ["Occasion 2019-2020: de bovenste draagarmen roesten, de originele voorwielophanging haalt meestal de 100.000 km niet; verder lakkwaliteit, snel vastvriezende zijruiten en lekkage in de kofferbak (ANWB-artikel goedkoopste, stand januari 2025, onder '1. Tesla Model 3')"],
+      "oordelen": ["Occasion 2019-2020: 'behoorlijk storingvrij', op de draagarmen na (onder '1. Tesla Model 3')"],
+      "concurrenten": []
+    },
+    "hyundai-kona-electric": {
+      "uitvoeringen": ["Occasion, eerste generatie, bouwjaar 2019-2020: vanaf € 13.945; richtprijs bouwjaar 2020 met 75.000 km ca. € 17.440 (ANWB Occasionplatform, stand 23-01-2025, onder de tabel 'Merk/type')"],
+      "fabrieksopgaven": [],
+      "metingen": [],
+      "valkuilen": [],
+      "oordelen": ["Occasion 2019-2020: 'vrijwel onverstoorbare betrouwbaarheid' en goede rijeigenschappen; bij de Wegenwacht geen specifieke problemen bekend (onder '2. Hyundai Kona')"],
+      "concurrenten": []
+    },
+    "kia-niro-ev": {
+      "uitvoeringen": ["Occasion e-Niro, eerste generatie, bouwjaar 2019-2020: vanaf € 16.745; richtprijs bouwjaar 2019 met 75.000 km ca. € 19.400 (ANWB Occasionplatform, stand 23-01-2025, onder de tabel 'Merk/type')"],
+      "fabrieksopgaven": [],
+      "metingen": [],
+      "valkuilen": [],
+      "oordelen": ["e-Niro 2019-2020: jarenlang de best verkochte EV van Nederland; zuinig, ook met de kleinste accu geen bereikangst; ruimte genoeg voor kinderen en bagage; 'geen opvallende auto' (onder '3. Kia e-Niro')"],
+      "concurrenten": []
+    },
+    "nissan-leaf": {
+      "uitvoeringen": ["Occasion, bouwjaar 2012-2019: vanaf € 4.450; richtprijs bouwjaar 2018 met 75.000 km ca. € 12.445 (ANWB Occasionplatform, stand 23-01-2025, onder de tabel 'Merk/type')"],
+      "fabrieksopgaven": ["Bouwjaar 2012-2019: luchtgekoelde accu en CHAdeMO-laadaansluiting (onder '4. Nissan Leaf')"],
+      "metingen": [],
+      "valkuilen": [
+        "Bouwjaar 2012-2019: snelladen kan maar één keer per dag; daarna schroeft de auto het laadvermogen terug om de accu te sparen, een probleem bij lange afstanden (onder '4. Nissan Leaf')",
+        "Bouwjaar 2012-2019: CHAdeMO-stekker, laadpunten daarvoor 'moet je met een kaarsje zoeken' (onder '4. Nissan Leaf')",
+        "Geldt voor de oude generaties, niet vanzelf voor de huidige Leaf die Plinkie als nieuwe lease toont"
+      ],
+      "oordelen": ["Bouwjaar 2012-2019: het 'zeer hoge kwaliteitsniveau' van Nissan 'onverminderd' terug in deze EV (onder '4. Nissan Leaf')"],
+      "concurrenten": []
+    },
+    "polestar-2": {
+      "uitvoeringen": [
+        "Occasion, bouwjaar 2020-2023: vanaf € 20.445; richtprijs bouwjaar 2020 met 75.000 km ca. € 29.900 (ANWB Occasionplatform, stand 23-01-2025, onder de tabel 'Merk/type')",
+        "Twee motoren (vierwielaandrijving) of voorwielaandrijving met keuze uit verschillende accu's (onder '5. Polestar 2')"
+      ],
+      "fabrieksopgaven": ["Uitvoering niet genoemd: 8 jaar of 160.000 km garantie op de accu, 2 jaar op de rest van de auto (onder '5. Polestar 2')"],
+      "metingen": [],
+      "valkuilen": [
+        "Uitvoering niet genoemd: de accugarantie (8 jaar/160.000 km) is veel langer dan de garantie op de rest van de auto (2 jaar) (onder '5. Polestar 2')",
+        "Twee motoren tegenover één: sneller, maar eerder aan de laadpaal, duurder en zwaarder (onder '5. Polestar 2')"
+      ],
+      "oordelen": ["Uitvoering niet genoemd: 'kruisbestuiving' van gezinsauto en hoger op de wielen; 'werkelijke concurrenten' met een grote vijfde deur zijn er volgens ANWB nauwelijks (onder '5. Polestar 2')"],
+      "concurrenten": []
+    },
+    "volkswagen-id-4": {
+      "uitvoeringen": ["Occasion, bouwjaar 2020-2022: vanaf € 21.940; richtprijs bouwjaar 2021 met 75.000 km ca. € 27.890 (ANWB Occasionplatform, stand 23-01-2025, onder de tabel 'Merk/type')"],
+      "fabrieksopgaven": ["Uitvoering niet genoemd (occasion 2020-2022): leeggewicht ruim 2.100 kg; elektromotor 204 pk en 310 Nm (onder '6. Volkswagen ID.4')"],
+      "metingen": [],
+      "valkuilen": [],
+      "oordelen": ["Uitvoering niet genoemd: het gewicht voel je in bochten en bij remmen; geen vuurwerk, wel rust, stilte en 'een heerlijke reisgezel' (onder '6. Volkswagen ID.4')"],
+      "concurrenten": []
+    },
+    "volvo-ex40": {
+      "uitvoeringen": ["Occasion XC40 Recharge, bouwjaar 2020-2021: vanaf € 23.445; richtprijs bouwjaar 2020 met 75.000 km ca. € 32.350 (ANWB Occasionplatform, stand 23-01-2025, onder de tabel 'Merk/type')"],
+      "fabrieksopgaven": ["XC40 Recharge met voorwielaandrijving (instapper, oude naam): 231 pk en 330 Nm; aanhanger tot 1.500 kg (ANWB-artikel goedkoopste, onder '7. Volvo XC40 Recharge')"],
+      "metingen": [],
+      "valkuilen": ["Occasion XC40 Recharge 2020-2021: dodehoekbewaking en waarschuwing voor kruisend verkeer niet standaard; let erop bij een tweedehands exemplaar (onder '7. Volvo XC40 Recharge')"],
+      "oordelen": [
+        "XC40 Recharge voorwielaandrijving: bij vol gas 'slaan je wielen door' (onder '7. Volvo XC40 Recharge')",
+        "Uitvoering niet genoemd: de raamstijlen zitten in de weg bij het rondkijken, bij Volvo 'extra zwaar' (onder '7. Volvo XC40 Recharge')"
+      ],
+      "concurrenten": []
+    },
+    "skoda-enyaq": {
+      "uitvoeringen": ["Occasion Enyaq iV, bouwjaar 2020-2022: vanaf € 21.707; richtprijs bouwjaar 2021 met 75.000 km ca. € 26.800 (ANWB Occasionplatform, stand 23-01-2025, onder de tabel 'Merk/type')"],
+      "fabrieksopgaven": ["Enyaq iV, uitvoering niet genoemd: kofferbak minimaal 585 en maximaal 1.710 liter (onder '8. Skoda Enyaq iV')"],
+      "metingen": [],
+      "valkuilen": ["Enyaq iV 2020-2022: karige standaarduitrusting; stoelverwarming, rijden met één pedaal, stroompunten achterin en een achterruitenwisser kosten meer. Zoek een occasion die ze heeft (onder '8. Skoda Enyaq iV')"],
+      "oordelen": ["Enyaq iV: 'voelt als een brandstofauto', als compliment; gigantische binnenruimte, ook achterin (onder '8. Skoda Enyaq iV')"],
+      "concurrenten": []
+    },
+    "volkswagen-id-3": {
+      "uitvoeringen": [
+        "Occasion, bouwjaar 2020-2021: vanaf € 15.795; richtprijs bouwjaar 2021 met 75.000 km ca. € 19.440 (ANWB Occasionplatform, stand 23-01-2025, onder de tabel 'Merk/type')",
+        "Eén carrosserie, drie accu's en motoren; motor altijd tussen de achterwielen (onder '9. Volkswagen ID.3')"
+      ],
+      "fabrieksopgaven": [],
+      "metingen": [],
+      "valkuilen": ["Bouwjaar 2020-2021: kinderziekten bij de start, en nog steeds hardnekkige softwareproblemen en goedkope materialen (onder '9. Volkswagen ID.3')"],
+      "oordelen": ["Uitvoering niet genoemd: 'het formaat van een Golf, met de ruimte van een Passat, maar de draaicirkel van een Up!'; vlakke vloer, drie personen achterin (onder '9. Volkswagen ID.3')"],
+      "concurrenten": []
+    }
+  },
+  "merk_feiten": {
+    "hyundai": ["Volgens ANWB is de kwaliteit van Zuid-Koreaanse auto's 'tenminste op vergelijkbaar niveau' als die van Japanse merken; bij de Wegenwacht geen specifieke problemen bekend met de elektrische Kona (ANWB-artikel goedkoopste, stand januari 2025, onder '2. Hyundai Kona')"],
+    "nissan": ["Volgens ANWB was Nissan de eerste grote fabrikant die geloofde in de volledig elektrische auto; de Leaf was de eerste volwaardige elektrische middenklasser (onder '4. Nissan Leaf')"],
+    "polestar": ["Polestar 2: 8 jaar of 160.000 km garantie op de accu, 2 jaar op de rest van de auto (ANWB-artikel goedkoopste, onder '5. Polestar 2')"],
+    "bmw": ["Eerste generatie i3 (2013-2020), niet de i3 Neue Klasse: volgens de Wegenwacht komt de laadstekker soms niet los, en gaat de auto soms na volledig laden in een noodloop van maximaal 10 km/u; alleen BMW kan hem resetten. Occasion vanaf € 9.945, richtprijs bouwjaar 2018 met 75.000 km ca. € 17.450 (ANWB-artikel goedkoopste, stand 23-01-2025, onder '10. BMW i3')"],
+    "anwb": ["Bron toevoegen aan de lijst: ANWB-themaartikel 'Top 10 goedkoopste elektrische auto's' over occasions (eerste publicatie 2022, prijzen stand 23-01-2025); source_count +1. ANWB verwijst daarin naar het eigen Occasionplatform, de DEKRA-batterijtest met ledenkorting en ANWB Private Lease"]
+  },
+  "concepten": [
+    {"slug": "prijsklasse", "bestaat": true, "toevoeging": "Afbakening: ANWB's 'Top 10 goedkoopste elektrische auto's' gaat over occasions, niet over nieuwe lease. Richtprijzen bij 75.000 km, stand 23-01-2025: Nissan Leaf (2018) ca. € 12.445, Hyundai Kona Electric (2020) ca. € 17.440, Kia e-Niro (2019) ca. € 19.400, VW ID.3 (2021) ca. € 19.440, Tesla Model 3 (2019) ca. € 20.450, Škoda Enyaq iV (2021) ca. € 26.800, VW ID.4 (2021) ca. € 27.890, Polestar 2 (2020) ca. € 29.900, Volvo XC40 Recharge (2020) ca. € 32.350. Dit zijn koopprijzen van tweedehands auto's en geen maandbedragen; ze vallen buiten de prijsklassen van Plinkie. ANWB zegt erbij dat een nieuwe EV 'nog niet eens zo lang geleden' minimaal € 50.000 kostte."},
+    {"slug": "trekgewicht", "bestaat": true, "toevoeging": "Volvo XC40 Recharge, voorwielaandrijving (bouwjaar 2020-2021): aanhanger tot 1.500 kg (ANWB-artikel goedkoopste, onder '7. Volvo XC40 Recharge')"},
+    {"slug": "kofferbakinhoud", "bestaat": true, "toevoeging": "Škoda Enyaq iV: minimaal 585, maximaal 1.710 liter (ANWB-artikel goedkoopste, onder '8. Skoda Enyaq iV')"},
+    {"slug": "snelladen-10-80", "bestaat": true, "toevoeging": "Nissan Leaf, bouwjaar 2012-2019: luchtgekoelde accu, snelladen maar één keer per dag op vol vermogen, daarna langzamer; CHAdeMO-aansluiting (ANWB-artikel goedkoopste, onder '4. Nissan Leaf')"}
+  ],
+  "relaties_met_bestaande_bronnen": []
+}

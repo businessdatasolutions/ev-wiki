@@ -1,0 +1,20 @@
+{
+  "is_review": true,
+  "reden": "Eerste rijtest van de Mazda CX-6e (enige uitvoering: 258 pk, 78 kWh bruto, achterwielaandrijving, getest op 21 inch) door Autovisie, in Duitsland, zonder eigen meting. Doorlopend vergeleken met de Mazda 6e uit de eigen duurtest van Autovisie.",
+  "taal_transcript": "nl",
+  "bronpagina_bestand": "2026-09-23-rijtest-mazda-cx-6e-dit-is-veel-beter-dan-6e.md",
+  "modellen": ["mazda-cx-6e"],
+  "merken": ["mazda"],
+  "kanaal": "autovisie",
+  "vergelijking": false,
+  "waarschuwingen": [
+    "Het nl-spoor (asr, yt-dlp) leest als een machinevertaling: 'de stam' (kofferbak), 'tilzak', 'nietwaar', 'Shang-hè' (Changan), 'Depul S07' (Deepal S07), '61'/'6C'/'6e editie' (6e). De getallen zijn samenhangend, maar de formuleringen zijn niet letterlijk die van de tester.",
+    "De titel noemt de 6e als vergelijking. Mazda 6e is hetzelfde merk en dus geen automatische concurrent; hij staat niet in modellen: maar krijgt een korte pagina (mazda-mazda6e, Plinkie-pad mazda/mazda6e) met de oordelen uit de Autovisie-duurtest zoals de tester ze samenvat.",
+    "Prijs € 46.000 'voor de zakelijke versie' (1:51): onduidelijk of dat een uitvoeringsnaam is. Elders (0:04, 14:07) gewoon 'vanafprijs' en 'rijk uitgerust exemplaar'.",
+    "484 km (1:51) wordt niet WLTP genoemd; vermoedelijk wel.",
+    "'Volkswagen Polo ... meer dan 440 liter' (4:10): een gewone Polo heeft dat niet; mogelijk de ID. Polo. Niet als concurrent opgenomen.",
+    "Deepal S07 (changan-deepal/s07 staat op Plinkie) is de basis van de CX-6e maar niet als alternatief genoemd; niet in concurrenten, wel in de tekst. De samenvoegstap kan besluiten hem als platformtweeling te koppelen.",
+    "Nieuwe entiteiten: mazda (merk), mazda-cx-6e, mazda-mazda6e, tesla (merk), tesla-model-y, kia-ev6, hyundai-ioniq-5. Andere agents in deze ronde kunnen er ook een paar voorstellen.",
+    "Geen eigen meting: alle getallen zijn fabrieksopgaven of indrukken."
+  ]
+}

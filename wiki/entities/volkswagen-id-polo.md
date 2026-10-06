@@ -9,22 +9,22 @@ aliases:
 - ID Polo
 tags:
 - volkswagen
-confidence: 0.85
+confidence: 0.9
 last_confirmed: '2026-10-06'
 accessed_at: '2026-10-06'
-source_count: 4
+source_count: 5
 relationships:
 - type: part-of
   target: volkswagen
 - type: competes-with
   target: renault-5
-  via: 'AutoWeek 02-10-2026 (1:03): rechtstreekse vergelijkingstest, de eerste van AutoWeek met de ID. Polo; beide in de duurste uitvoering voor ongeveer € 37.000. ''Daarmee zijn het wel echt concurrenten van elkaar'' (12:31); ANWB 09-09-2026 (3:32): de concurrentie buiten de Volkswagen-groep waar de ID. Polo ''op zijn tellen moet passen''; de Renault 5 heeft volgens de tester een kleinere accu en trager snelladen, de goedkoopste Stellantis-modellen een grotere accu, sneller laden en langere garantie'
+  via: 'AutoWeek 02-10-2026 (1:03): rechtstreekse vergelijkingstest, de eerste van AutoWeek met de ID. Polo; beide in de duurste uitvoering voor ongeveer € 37.000. ''Daarmee zijn het wel echt concurrenten van elkaar'' (12:31); ANWB 09-09-2026 (onder ''Minimaal 30 mille''): soortgelijke prijzen; de ID. Polo is ruimer van binnen, maar legt het af op accugrootte en laadsnelheid. De Renault 5 heet onder ''De ID. Polo van binnen'' nog eens uitdrukkelijk ''een van de concurrenten''; ANWB 09-09-2026 (3:32): de concurrentie buiten de Volkswagen-groep waar de ID. Polo ''op zijn tellen moet passen''; de Renault 5 heeft volgens de tester een kleinere accu en trager snelladen, de goedkoopste Stellantis-modellen een grotere accu, sneller laden en langere garantie'
 - type: competes-with
   target: opel-corsa-electric
-  via: 'AutoWeek 02-10-2026 (12:12): echte hatchbacks in hetzelfde segment, net als de Renault 5 en de ID. Polo; ANWB 09-09-2026 (3:32): de concurrentie buiten de Volkswagen-groep waar de ID. Polo ''op zijn tellen moet passen''; de Renault 5 heeft volgens de tester een kleinere accu en trager snelladen, de goedkoopste Stellantis-modellen een grotere accu, sneller laden en langere garantie'
+  via: 'AutoWeek 02-10-2026 (12:12): echte hatchbacks in hetzelfde segment, net als de Renault 5 en de ID. Polo; ANWB 09-09-2026 (onder ''Minimaal 30 mille''): soortgelijke prijzen; de ID. Polo is ruimer van binnen, maar legt het af op accugrootte en laadsnelheid. De Renault 5 heet onder ''De ID. Polo van binnen'' nog eens uitdrukkelijk ''een van de concurrenten''; ANWB 09-09-2026 (3:32): de concurrentie buiten de Volkswagen-groep waar de ID. Polo ''op zijn tellen moet passen''; de Renault 5 heeft volgens de tester een kleinere accu en trager snelladen, de goedkoopste Stellantis-modellen een grotere accu, sneller laden en langere garantie'
 - type: competes-with
   target: peugeot-e-208
-  via: 'AutoWeek 02-10-2026 (12:12): echte hatchbacks in hetzelfde segment, net als de Renault 5 en de ID. Polo; ANWB 09-09-2026 (3:32): de concurrentie buiten de Volkswagen-groep waar de ID. Polo ''op zijn tellen moet passen''; de Renault 5 heeft volgens de tester een kleinere accu en trager snelladen, de goedkoopste Stellantis-modellen een grotere accu, sneller laden en langere garantie'
+  via: 'AutoWeek 02-10-2026 (12:12): echte hatchbacks in hetzelfde segment, net als de Renault 5 en de ID. Polo; ANWB 09-09-2026 (onder ''Minimaal 30 mille''): soortgelijke prijzen; de ID. Polo is ruimer van binnen, maar legt het af op accugrootte en laadsnelheid. De Renault 5 heet onder ''De ID. Polo van binnen'' nog eens uitdrukkelijk ''een van de concurrenten''; ANWB 09-09-2026 (3:32): de concurrentie buiten de Volkswagen-groep waar de ID. Polo ''op zijn tellen moet passen''; de Renault 5 heeft volgens de tester een kleinere accu en trager snelladen, de goedkoopste Stellantis-modellen een grotere accu, sneller laden en langere garantie'
 - type: competes-with
   target: renault-4
   via: 'AutoWeek 02-10-2026 (12:03): door de tester als concurrent genoemd, maar groter en meer crossover; hij zet ze eerder tegenover de komende ID. Cross'
@@ -44,7 +44,7 @@ relationships:
 
 # Volkswagen ID. Polo
 
-Model van [[volkswagen|Volkswagen]]. Bronnen over dit model: [[2026-09-09-is-de-volkswagen-id-polo-de-nieuwe-publiekslieveling|ANWB 09-09-2026]], [[2026-10-02-kan-de-volkswagen-id-polo-de-succesvolle-renault-5-aan|AutoWeek 02-10-2026]].
+Model van [[volkswagen|Volkswagen]]. Bronnen over dit model: [[2026-09-09-is-de-volkswagen-id-polo-de-nieuwe-publiekslieveling|ANWB 09-09-2026]], [[2026-09-09-volkswagen-id-polo-beter-door-de-bocht|ANWB 09-09-2026]], [[2026-10-02-kan-de-volkswagen-id-polo-de-succesvolle-renault-5-aan|AutoWeek 02-10-2026]], [[2026-10-06-welke-nieuwe-elektrische-autos-komen-er-in-2026|ANWB 06-10-2026]].
 
 **Plinkie.** `/deals/volkswagen/id-polo`, staat in de sitemap van plinkie.nl.
 
@@ -53,12 +53,15 @@ Model van [[volkswagen|Volkswagen]]. Bronnen over dit model: [[2026-09-09-is-de-
 - Bij de introductie twee accu's en drie vermogens; het derde vermogen wordt niet genoemd (2:24) ([[2026-09-09-is-de-volkswagen-id-polo-de-nieuwe-publiekslieveling|ANWB 09-09-2026]])
 - Instap: 116 pk (2:30) en 37 kWh (7:28; transcript: '37 kW') ([[2026-09-09-is-de-volkswagen-id-polo-de-nieuwe-publiekslieveling|ANWB 09-09-2026]])
 - Testauto: 211 pk (2:34) en 52 kWh (7:33; transcript: '52 KWU'), Duitse specificatie met massagestoelen (8:02) ([[2026-09-09-is-de-volkswagen-id-polo-de-nieuwe-publiekslieveling|ANWB 09-09-2026]])
+- 37 kWh: 116 pk (ANWB-artikel, onder 'De ID. Polo en het milieu'); zelfde test als de ANWB-video, het middelste vermogen noemt ook het artikel niet ([[2026-09-09-volkswagen-id-polo-beter-door-de-bocht|ANWB 09-09-2026]])
 - {'uitvoering': 'launch edition 52 kWh, 211 pk', 'feit': 'Testauto: 52 kWh, 211 pk op de voorwielen, alles erop en eraan', 'tijd': '1:10'} ([[2026-10-02-kan-de-volkswagen-id-polo-de-succesvolle-renault-5-aan|AutoWeek 02-10-2026]])
 - {'uitvoering': '37 kWh', 'feit': 'Kleine accu van 37 kWh met 116 of 137 pk (transcript; Autovisie noemt voor de Epiq 116 en 135 pk)', 'tijd': '1:26'} ([[2026-10-02-kan-de-volkswagen-id-polo-de-succesvolle-renault-5-aan|AutoWeek 02-10-2026]])
 - {'uitvoering': '52 kWh', 'feit': 'De grote accu is er nu alleen met 211 pk; minder vermogen met de grote accu komt later', 'tijd': '1:35'} ([[2026-10-02-kan-de-volkswagen-id-polo-de-succesvolle-renault-5-aan|AutoWeek 02-10-2026]])
 
 ## Fabrieksopgaven
 
+- Uitvoering niet genoemd: komt in 2026, al onthuld; vanaf € 24.995; 4,05 m lang, kofferbak 440 L (ANWB, verwachte EV's 2026, stand 06-10-2026, onder 'Volkswagen ID Polo, Cupra Raval en Skoda Epiq') ([[2026-10-06-welke-nieuwe-elektrische-autos-komen-er-in-2026|ANWB 06-10-2026]])
+- Alle uitvoeringen: komt naast de benzine-Polo, vervangt hem niet (ANWB, verwachte EV's 2026, stand 06-10-2026, idem) ([[2026-10-06-welke-nieuwe-elektrische-autos-komen-er-in-2026|ANWB 06-10-2026]])
 - Uitvoering niet genoemd (instap): geadverteerde vanafprijs € 24.990, september 2026 (0:18) ([[2026-09-09-is-de-volkswagen-id-polo-de-nieuwe-publiekslieveling|ANWB 09-09-2026]])
 - Testuitvoering 211 pk/52 kWh: minimaal € 34.990; met massagestoelen in Nederland 'bijna 36 mille', september 2026 (7:50) ([[2026-09-09-is-de-volkswagen-id-polo-de-nieuwe-publiekslieveling|ANWB 09-09-2026]])
 - Rijbereik 322 tot 454 km afhankelijk van de uitvoering; norm niet genoemd, niet per accu toegewezen (7:10) ([[2026-09-09-is-de-volkswagen-id-polo-de-nieuwe-publiekslieveling|ANWB 09-09-2026]])
@@ -68,6 +71,11 @@ Model van [[volkswagen|Volkswagen]]. Bronnen over dit model: [[2026-09-09-is-de-
 - Uitvoering niet genoemd: accupakket 400 kg (3:00) ([[2026-09-09-is-de-volkswagen-id-polo-de-nieuwe-publiekslieveling|ANWB 09-09-2026]])
 - Alle uitvoeringen: motor voorin, anders dan de ID.3 (5:15) ([[2026-09-09-is-de-volkswagen-id-polo-de-nieuwe-publiekslieveling|ANWB 09-09-2026]])
 - Alle uitvoeringen: even lang als de benzine-Polo, iets hoger en breder (1:32) ([[2026-09-09-is-de-volkswagen-id-polo-de-nieuwe-publiekslieveling|ANWB 09-09-2026]])
+- Uitvoering niet genoemd: private lease vanaf € 479 per maand, september 2026; ANWB leaset zelf (ANWB-artikel, onder 'Minimaal 30 mille') ([[2026-09-09-volkswagen-id-polo-beter-door-de-bocht|ANWB 09-09-2026]])
+- Met stoelverwarming, keyless entry en lichtmetalen wielen: 'minimaal 30 mille', september 2026 (ANWB-artikel, onder 'Minimaal 30 mille') ([[2026-09-09-volkswagen-id-polo-beter-door-de-bocht|ANWB 09-09-2026]])
+- 37 kWh: rijbereik 322 km; 52 kWh: 454 km; norm niet genoemd. Bevestigt de toewijzing die de ANWB-video openliet (ANWB-artikel, onder 'De ID. Polo en het milieu') ([[2026-09-09-volkswagen-id-polo-beter-door-de-bocht|ANWB 09-09-2026]])
+- 37 kWh: snelladen max. 88 kW; 52 kWh: max. 105 kW; AC driefasig bij elke uitvoering (ANWB-artikel, onder 'Verschillende regeneratiestanden') ([[2026-09-09-volkswagen-id-polo-beter-door-de-bocht|ANWB 09-09-2026]])
+- 116 pk, 37 kWh: trekgewicht 500 kg (ANWB-artikel, onder 'De ID. Polo en het milieu') ([[2026-09-09-volkswagen-id-polo-beter-door-de-bocht|ANWB 09-09-2026]])
 - {'uitvoering': 'launch edition 52 kWh, 211 pk', 'feit': "Prijs 'over de € 37.000', begin oktober 2026", 'tijd': '1:42'} ([[2026-10-02-kan-de-volkswagen-id-polo-de-succesvolle-renault-5-aan|AutoWeek 02-10-2026]])
 - {'uitvoering': '52 kWh, 211 pk', 'feit': "0-100 km/u 'zeven nog wat' seconden volgens de fabriek", 'tijd': '7:40'} ([[2026-10-02-kan-de-volkswagen-id-polo-de-succesvolle-renault-5-aan|AutoWeek 02-10-2026]])
 - {'uitvoering': 'niet genoemd', 'feit': 'Kofferbak 441 L, met veel diepte onder de laadvloer; geen frunk', 'tijd': '3:25'} ([[2026-10-02-kan-de-volkswagen-id-polo-de-succesvolle-renault-5-aan|AutoWeek 02-10-2026]])
@@ -79,6 +87,7 @@ Model van [[volkswagen|Volkswagen]]. Bronnen over dit model: [[2026-09-09-is-de-
 ## Metingen
 
 - Testauto 211 pk/52 kWh, Duitse specificatie: praktijkverbruik 15,1 kWh/100 km 'gedurende de opnames'; temperatuur, route en afstand niet genoemd; ANWB, september 2026 (7:37) ([[2026-09-09-is-de-volkswagen-id-polo-de-nieuwe-publiekslieveling|ANWB 09-09-2026]])
+- 52 kWh, 211 pk: praktijkbereik 344 km, door ANWB afgeleid uit de gemeten 15,1 kWh/100 km (dezelfde meting als in de ANWB-video), niet leeggereden; omstandigheden niet genoemd; ANWB, september 2026 (ANWB-artikel, onder 'De ID. Polo en het milieu') ([[2026-09-09-volkswagen-id-polo-beter-door-de-bocht|ANWB 09-09-2026]])
 - {'uitvoering': '52 kWh, 211 pk', 'feit': 'Verbruik gemiddeld 14 kWh/100 km, soms 13,x', 'omstandigheden': 'lente- en zomerweer rond 20 °C, airco aan, gewoon tempo op Nederlandse wegen', 'tester': 'AutoWeek', 'datum': '2026-10-02', 'tijd': '8:22'} ([[2026-10-02-kan-de-volkswagen-id-polo-de-succesvolle-renault-5-aan|AutoWeek 02-10-2026]])
 - {'uitvoering': '52 kWh, 211 pk', 'feit': 'Praktijkbereik ongeveer 370 km, afgeleid uit het verbruik, niet leeggereden', 'omstandigheden': 'idem', 'tester': 'AutoWeek', 'datum': '2026-10-02', 'tijd': '8:42'} ([[2026-10-02-kan-de-volkswagen-id-polo-de-succesvolle-renault-5-aan|AutoWeek 02-10-2026]])
 - {'uitvoering': '52 kWh, 211 pk', 'feit': "0-100 km/u 'ver onder de 7 seconden', sneller dan de fabrieksopgave", 'omstandigheden': 'niet genoemd', 'tester': 'AutoWeek', 'datum': '2026-10-02', 'tijd': '7:40'} ([[2026-10-02-kan-de-volkswagen-id-polo-de-succesvolle-renault-5-aan|AutoWeek 02-10-2026]])
@@ -92,6 +101,9 @@ Model van [[volkswagen|Volkswagen]]. Bronnen over dit model: [[2026-09-09-is-de-
 - Alle uitvoeringen: geen frunk (2:15) ([[2026-09-09-is-de-volkswagen-id-polo-de-nieuwe-publiekslieveling|ANWB 09-09-2026]])
 - Uitvoering niet genoemd: hogere motorrijtuigenbelasting dan de benzine-Polo door de accu; bedrag onleesbaar (transcript: '3 tot 15 tientjes per kwartaal'), raakt koop en niet lease (3:06) ([[2026-09-09-is-de-volkswagen-id-polo-de-nieuwe-publiekslieveling|ANWB 09-09-2026]])
 - Alle uitvoeringen: '5 jaar gratis onderhoud' vertegenwoordigt € 490 (4:30) ([[2026-09-09-is-de-volkswagen-id-polo-de-nieuwe-publiekslieveling|ANWB 09-09-2026]])
+- Alle uitvoeringen behalve het topmodel: adaptieve cruise control en 360-gradencamera alleen tegen meerprijs (ANWB-artikel, onder 'Verbloemde zitpositie') ([[2026-09-09-volkswagen-id-polo-beter-door-de-bocht|ANWB 09-09-2026]])
+- Instap 116 pk/37 kWh: trekgewicht 500 kg, tegen 1200 kg bij de 211 pk (ANWB-artikel, onder 'Hoe rijdt' en 'Het milieu') ([[2026-09-09-volkswagen-id-polo-beter-door-de-bocht|ANWB 09-09-2026]])
+- Uitvoering niet genoemd: de vanafprijs van € 24.990 is niet de auto van de foto's; met stoelverwarming, keyless entry en lichtmetaal minimaal € 30.000 (ANWB-artikel, onder 'Conclusie' en 'Minimaal 30 mille') ([[2026-09-09-volkswagen-id-polo-beter-door-de-bocht|ANWB 09-09-2026]])
 - {'uitvoering': '37 kWh', 'feit': 'Volgens de tester alleen geschikt als stadsauto; als eerste auto de grote accu nemen', 'tijd': '9:51'} ([[2026-10-02-kan-de-volkswagen-id-polo-de-succesvolle-renault-5-aan|AutoWeek 02-10-2026]])
 - {'uitvoering': 'optie audiopakket', 'feit': "De subwoofer neemt een deel van de ruimte onder de laadvloer (transcript: 'Audi pakket')", 'tijd': '3:38'} ([[2026-10-02-kan-de-volkswagen-id-polo-de-succesvolle-renault-5-aan|AutoWeek 02-10-2026]])
 - {'uitvoering': '52 kWh', 'feit': 'Nu alleen met 211 pk; de tester vindt 160-170 pk genoeg en verwacht dan een lagere prijs', 'tijd': '9:46'} ([[2026-10-02-kan-de-volkswagen-id-polo-de-succesvolle-renault-5-aan|AutoWeek 02-10-2026]])
@@ -108,6 +120,10 @@ Model van [[volkswagen|Volkswagen]]. Bronnen over dit model: [[2026-09-09-is-de-
 - Testauto: ruw motief op deurgrepen en raamschakelaars, 'daar zou je een appel op kunnen raspen' (6:44) ([[2026-09-09-is-de-volkswagen-id-polo-de-nieuwe-publiekslieveling|ANWB 09-09-2026]])
 - Uitvoering niet genoemd: meerdere rijstanden, in de sterkste rijden zonder rem (7:18) ([[2026-09-09-is-de-volkswagen-id-polo-de-nieuwe-publiekslieveling|ANWB 09-09-2026]])
 - Eindoordeel: niet duurder dan de concurrentie, wel ruimer; 'doet weinig verkeerd, maar ook weinig meer dan menig alternatief' (8:20, 8:42) ([[2026-09-09-is-de-volkswagen-id-polo-de-nieuwe-publiekslieveling|ANWB 09-09-2026]])
+- Testauto 211 pk: volwassen onderstel, goed op de weg zonder oncomfortabel te worden, besturing 'mooi communicatief'; voorwielaandrijving maakt een te snelle bocht intuïtief te corrigeren (ANWB-artikel, onder 'Hoe rijdt de ID. Polo') ([[2026-09-09-volkswagen-id-polo-beter-door-de-bocht|ANWB 09-09-2026]])
+- Uitvoering niet genoemd: zit iets hoger dan een gewone kleine auto, maar lage raamlijn en hoog dashboard geven het gevoel 'ín' de auto te zitten; zicht rondom redelijk (ANWB-artikel, onder 'Verbloemde zitpositie') ([[2026-09-09-volkswagen-id-polo-beter-door-de-bocht|ANWB 09-09-2026]])
+- Testauto: frivool interieur in meerdere materialen en kleuren; deurklinken en tuimelschakelaars 'gemeen scherpe randjes' (ANWB-artikel, onder 'Frivool binnenste'); zelfde test als de video, die 'een appel op kunnen raspen' zei ([[2026-09-09-volkswagen-id-polo-beter-door-de-bocht|ANWB 09-09-2026]])
+- Eindoordeel: zet de fouten van de eerste ID-modellen recht; onderscheidt zich met binnenruimte; laat steken vallen met de garantie (ANWB-artikel, onder 'Conclusie') ([[2026-09-09-volkswagen-id-polo-beter-door-de-bocht|ANWB 09-09-2026]])
 - {'uitvoering': 'testauto', 'feit': 'Beenruimte achterin veel beter dan in de Renault 5, hoofdruimte ongeveer gelijk; goede zithoek', 'tijd': '2:50'} ([[2026-10-02-kan-de-volkswagen-id-polo-de-succesvolle-renault-5-aan|AutoWeek 02-10-2026]])
 - {'uitvoering': 'testauto', 'feit': "Bediening 'voelt als thuiskomen': fysieke knoppen, vier raamschakelaars, geen sliders; zithouding 'helemaal top'; retroweergave met Golf-klokken", 'tijd': '4:02'} ([[2026-10-02-kan-de-volkswagen-id-polo-de-succesvolle-renault-5-aan|AutoWeek 02-10-2026]])
 - {'uitvoering': 'testauto', 'feit': "Rijgedrag: comfortabel zonder week, stabiel zonder hard; 'stijgt merkbaar boven de rest van dit segment uit'; geen onderstuur", 'tijd': '6:00'} ([[2026-10-02-kan-de-volkswagen-id-polo-de-succesvolle-renault-5-aan|AutoWeek 02-10-2026]])
@@ -129,6 +145,9 @@ Model van [[volkswagen|Volkswagen]]. Bronnen over dit model: [[2026-09-09-is-de-
 | [[peugeot-e-208|Peugeot e-208]] | [[2026-10-02-kan-de-volkswagen-id-polo-de-succesvolle-renault-5-aan|AutoWeek 02-10-2026]] | 12:12 | echte hatchbacks in hetzelfde segment, net als de Renault 5 en de ID. Polo |
 | [[renault-4|Renault 4]] | [[2026-10-02-kan-de-volkswagen-id-polo-de-succesvolle-renault-5-aan|AutoWeek 02-10-2026]] | 12:03 | door de tester als concurrent genoemd, maar groter en meer crossover; hij zet ze eerder tegenover de komende ID. Cross |
 | [[kia-ev2|Kia EV2]] | [[2026-10-02-kan-de-volkswagen-id-polo-de-succesvolle-renault-5-aan|AutoWeek 02-10-2026]] | 12:03 | door de tester als concurrent genoemd, maar groter en meer crossover; hij zet ze eerder tegenover de komende ID. Cross |
+| [[opel-corsa-electric|Opel Corsa Electric]] | [[2026-09-09-volkswagen-id-polo-beter-door-de-bocht|ANWB 09-09-2026]] | onder 'Minimaal 30 mille' | soortgelijke prijzen; de ID. Polo is ruimer van binnen, maar legt het af op accugrootte en laadsnelheid. De Renault 5 heet onder 'De ID. Polo van binnen' nog eens uitdrukkelijk 'een van de concurrenten' |
+| [[peugeot-e-208|Peugeot e-208]] | [[2026-09-09-volkswagen-id-polo-beter-door-de-bocht|ANWB 09-09-2026]] | onder 'Minimaal 30 mille' | soortgelijke prijzen; de ID. Polo is ruimer van binnen, maar legt het af op accugrootte en laadsnelheid. De Renault 5 heet onder 'De ID. Polo van binnen' nog eens uitdrukkelijk 'een van de concurrenten' |
+| [[renault-5|Renault 5]] | [[2026-09-09-volkswagen-id-polo-beter-door-de-bocht|ANWB 09-09-2026]] | onder 'Minimaal 30 mille' | soortgelijke prijzen; de ID. Polo is ruimer van binnen, maar legt het af op accugrootte en laadsnelheid. De Renault 5 heet onder 'De ID. Polo van binnen' nog eens uitdrukkelijk 'een van de concurrenten' |
 | [[renault-5|Renault 5]] | [[2026-09-09-is-de-volkswagen-id-polo-de-nieuwe-publiekslieveling|ANWB 09-09-2026]] | 3:32 | de concurrentie buiten de Volkswagen-groep waar de ID. Polo 'op zijn tellen moet passen'; de Renault 5 heeft volgens de tester een kleinere accu en trager snelladen, de goedkoopste Stellantis-modellen een grotere accu, sneller laden en langere garantie |
 | [[opel-corsa-electric|Opel Corsa Electric]] | [[2026-09-09-is-de-volkswagen-id-polo-de-nieuwe-publiekslieveling|ANWB 09-09-2026]] | 3:32 | de concurrentie buiten de Volkswagen-groep waar de ID. Polo 'op zijn tellen moet passen'; de Renault 5 heeft volgens de tester een kleinere accu en trager snelladen, de goedkoopste Stellantis-modellen een grotere accu, sneller laden en langere garantie |
 | [[peugeot-e-208|Peugeot e-208]] | [[2026-09-09-is-de-volkswagen-id-polo-de-nieuwe-publiekslieveling|ANWB 09-09-2026]] | 3:32 | de concurrentie buiten de Volkswagen-groep waar de ID. Polo 'op zijn tellen moet passen'; de Renault 5 heeft volgens de tester een kleinere accu en trager snelladen, de goedkoopste Stellantis-modellen een grotere accu, sneller laden en langere garantie |
@@ -153,4 +172,6 @@ Genoemd als concurrent van:
 
 ## Debatten en vervanging
 
+- BMW iX3 vanaf € 70.501 hier, instapper net geen € 63.000 in de video; Volvo EX60 700 km hier, 660 km WLTP voor de testauto in de video ([[2026-10-06-welke-nieuwe-elektrische-autos-komen-er-in-2026|ANWB 06-10-2026]] tegen [[2026-10-02-bmw-ix3-vs-volvo-ex60-roadtrip-met-special-guest|ANWB 02-10-2026]])
+- beenruimte achterin de ID. Polo: ANWB-artikel 'schiet tekort', AutoWeek 'veel beter' dan de Renault 5 ([[2026-09-09-volkswagen-id-polo-beter-door-de-bocht|ANWB 09-09-2026]] tegen [[2026-10-02-kan-de-volkswagen-id-polo-de-succesvolle-renault-5-aan|AutoWeek 02-10-2026]])
 - beenruimte achterin de ID. Polo: AutoWeek 'veel beter' dan de Renault 5, ANWB 'schiet echt tekort' ([[2026-10-02-kan-de-volkswagen-id-polo-de-succesvolle-renault-5-aan|AutoWeek 02-10-2026]] tegen [[2026-09-09-is-de-volkswagen-id-polo-de-nieuwe-publiekslieveling|ANWB 09-09-2026]])

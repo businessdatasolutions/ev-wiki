@@ -1,0 +1,22 @@
+{
+  "is_review": true,
+  "reden": "Geschreven ANWB-rijtest van de elektrische Mercedes-Benz C-klasse (nieuwe generatie W520, 'volledig elektrisch'), uitvoering C 400 4MATIC met 94,5 kWh. Geen getal als eigen meting: het praktijkverbruik wordt genoemd maar niet als waarde gegeven.",
+  "taal_transcript": "nl (artikel, geen transcript)",
+  "bronpagina_bestand": "2026-09-24-auto-review-mercedes-c-klasse-vi-w520.md",
+  "modellen": ["mercedes-benz-c-klasse-limousine"],
+  "merken": ["mercedes-benz"],
+  "kanaal": "anwb",
+  "vergelijking": false,
+  "waarschuwingen": [
+    "Bron met een belang: ANWB leaset zelf via ANWB Private Lease; de modelpagina blijft hooguit 0,75 tot er een onafhankelijke tweede bron is (Autovisie 27-07-2026 is dat wel, dus de rem vervalt mogelijk; de samenvoegstap beslist).",
+    "Identiteit nagegaan: het gaat om de elektrische C-klasse, niet de brandstofversie. De tekst zegt dat de nieuwste generatie 'volledig elektrisch' is en dat de brandstofversies ernaast leverbaar blijven. Slug mercedes-benz-c-klasse-limousine.",
+    "De kop noemt '94kwh EV 360kw 4WD'; de tekst zegt 94,5 kWh en 489 pk (ongeveer 360 kW). Dat klopt met elkaar.",
+    "Geen eigen meting met een getal. ANWB zet 'vraagtekens' bij 650-761 km WLTP op grond van het praktijkverbruik tijdens de opnames, maar noemt dat verbruik niet. Als oordeel opgenomen, niet als meting.",
+    "Prijs vanaf € 58.736 (24-09-2026) zonder uitvoering; welke accu of aandrijving daarbij hoort staat er niet. Autovisie gaf geen leesbaar bedrag; dit vult dat gat met een datum.",
+    "'BMW i3' is de nieuwe i3 (Neue Klasse, 'de 3 Serie op stroom'), niet de oude i3. Slug bmw-i3 zoals bij Autovisie.",
+    "Nieuwe modelpagina nodig: hyundai-ioniq-6 (Plinkie-pad /deals/hyundai/ioniq-6), kort, alleen als concurrent genoemd.",
+    "De Volkswagen Polo valt alleen als maat voor de draaicirkel; geen concurrent. Het gaat om de Polo, niet de ID. Polo.",
+    "Er is een begeleidende ANWB-video ('komt ook voorbij in de begeleidende video'); die staat nog niet in raw/. Als hij later binnenkomt, is het dezelfde test, geen onafhankelijke tweede bron.",
+    "Auteur Frank Buma: één bron als schrijver, maar mogelijk dezelfde 'Frank'/'Buma' als in de ANWB-video van 02-10-2026. Bij twee bronnen een personenpagina overwegen."
+  ]
+}

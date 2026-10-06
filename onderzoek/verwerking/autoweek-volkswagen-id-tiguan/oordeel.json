@@ -1,0 +1,18 @@
+{
+  "is_review": true,
+  "reden": "Korte eerste kennismaking (5 min) van AutoWeek met een gecamoufleerd prototype van de ID. Tiguan, de grondig vernieuwde opvolger van de ID.4. Wel rijindruk en fabrieksopgaven (accu's, WLTP +20-40 km, trekgewicht 2000 kg), geen meting, geen prijs.",
+  "taal_transcript": "nl",
+  "bronpagina_bestand": "2026-09-28-de-volkswagen-id-tiguan-is-meer-dan-een-simpel-opgefriste-id4-andere-opzet-technisch-wel-g.md",
+  "modellen": ["volkswagen-id-4"],
+  "merken": ["volkswagen"],
+  "kanaal": "autoweek",
+  "vergelijking": false,
+  "waarschuwingen": [
+    "Model: de video gaat over de ID. Tiguan, de opvolger van de ID.4 onder een nieuwe naam (alleen het dak is origineel; 'de ID4 bestaat niet meer', 4:32; AutoWeek-URL noemt hem 'volkswagen-id-4-opvolger'). Plinkie heeft volkswagen/id-4 en geen id-tiguan (onderzoek/plinkie-modellen.txt). Daarom op volkswagen-id-4 gezet, met 'ID. Tiguan' als alias en als nieuwe generatie. Komt er later een Plinkie-pad volkswagen/id-tiguan, dan hoort deze bron daar en wordt de ID.4-pagina de oude generatie.",
+    "Geen besluiten.yaml-regel 'uitvoering_van' voorgesteld: de ID. Tiguan is geen uitvoering maar een opvolger. De samenvoegstap kan kiezen voor een eigen slug volkswagen-id-tiguan met plinkie_pad leeg.",
+    "Prototype, gecamoufleerd en met afgedekt dashboard; uitvoering van de testauto niet genoemd. Wat definitief wordt, kan afwijken.",
+    "Onleesbaar: het oude trekgewicht 'maximaal 100 kg' (vermoedelijk 1000 kg); als transcript genoteerd. Accu's als '58 kW' en '77 kW' in het transcript, gelezen als kWh; '11p accu' als LFP.",
+    "Geen concurrenten: de ID. Polo en ID.3 Neo vallen alleen als voorbeeld binnen hetzelfde merk.",
+    "Nieuwe modelpagina nodig: volkswagen-id-4 (plinkie_pad /deals/volkswagen/id-4); merk volkswagen bestaat."
+  ]
+}

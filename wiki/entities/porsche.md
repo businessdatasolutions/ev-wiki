@@ -5,10 +5,10 @@ aliases:
 - Porsche
 tags:
 - porsche
-confidence: 0.7
+confidence: 0.75
 last_confirmed: '2026-10-06'
 accessed_at: '2026-10-06'
-source_count: 1
+source_count: 2
 relationships:
 - type: part-of
   target: volkswagen-groep
@@ -26,6 +26,7 @@ Hoort bij [[volkswagen-groep]].
 
 ## Uit de bronnen
 
+- Garantie op de auto 2 jaar; op de accu 8 jaar / 160.000 km; minimale State of Health 70% (ANWB-garantieoverzicht, stand 06-10-2026, onder 'Overzicht garanties op elektrische auto's') ([[2026-10-06-garantie-op-elektrische-auto-en-accupakket|ANWB 06-10-2026]])
 - Sinds 2020 zijn in Nederland bijna 2900 Taycans geregistreerd (Autovisie 2026-09-06, 3:29) ([[2026-09-06-elektrische-sportwagens-voor-weinig-de-audi-e-tron-gt-en-porsche-taycan-zijn-flink-afgesch|Autovisie 06-09-2026]])
 - Dure onderhoud en onderdelen; Porsche doet zelf aankoopkeuringen (13:01, 14:14) ([[2026-09-06-elektrische-sportwagens-voor-weinig-de-audi-e-tron-gt-en-porsche-taycan-zijn-flink-afgesch|Autovisie 06-09-2026]])
 - Part-of volkswagen-groep (algemene kennis) ([[2026-09-06-elektrische-sportwagens-voor-weinig-de-audi-e-tron-gt-en-porsche-taycan-zijn-flink-afgesch|Autovisie 06-09-2026]])
@@ -33,6 +34,7 @@ Hoort bij [[volkswagen-groep]].
 ## Bronnen
 
 - [[2026-09-06-elektrische-sportwagens-voor-weinig-de-audi-e-tron-gt-en-porsche-taycan-zijn-flink-afgesch|Autovisie 06-09-2026]]
+- [[2026-10-06-garantie-op-elektrische-auto-en-accupakket|ANWB 06-10-2026]]
 
 ## Debatten en vervanging
 

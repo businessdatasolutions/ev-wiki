@@ -1,0 +1,40 @@
+{
+ "is_review": false,
+ "reden": "Afgewezen bij het samenvoegen (06-10-2026): het artikel gaat over occasions (richtprijzen van tweedehands auto's, bouwjaren 2012-2023, stand 23-01-2025). Plinkie vergelijkt nieuwe private lease; zie geen_concept accugezondheid. Themaartikel van ANWB over de tien goedkoopste elektrische auto's op de OCCASIONMARKT (niet nieuw, niet lease): een tabel met bouwjaren, vanafprijs en richtprijs van het ANWB Occasionplatform (stand 23-01-2025), plus per model een alinea met aandachtspunten van de Wegenwacht en een kort oordeel. Geen test, geen meting. Beperkt bruikbaar: de valkuilen en oordelen gelden voor oudere generaties, en de prijzen zijn tweedehands-richtprijzen.",
+ "taal_transcript": "nl",
+ "bronpagina_bestand": "2022-05-01-top-10-goedkoopste-elektrische-auto-s.md",
+ "modellen": [
+  "tesla-model-3",
+  "hyundai-kona-electric",
+  "kia-niro-ev",
+  "nissan-leaf",
+  "polestar-2",
+  "volkswagen-id-4",
+  "volvo-ex40",
+  "skoda-enyaq",
+  "volkswagen-id-3"
+ ],
+ "merken": [
+  "tesla",
+  "hyundai",
+  "kia",
+  "nissan",
+  "polestar",
+  "volkswagen",
+  "volvo",
+  "skoda"
+ ],
+ "kanaal": "anwb",
+ "vergelijking": false,
+ "waarschuwingen": [
+  "Het gaat over OCCASIONS, niet over nieuwe auto's. De aanwijzing 'kern als aanvulling op prijsklasse' past slecht: prijsklasse is Plinkie's filter op het maandbedrag van nieuwe lease. De aanvulling is daarom een afbakening (dit zijn geen leasebedragen). Vergelijk besluiten.yaml: accugezondheid kreeg geen concept omdat het over tweedehands gaat. De samenvoegstap kan de aanvulling ook weglaten.",
+  "Generaties: elk feit hoort bij de bouwjaren uit de tabel (2012-2023). Kona Electric 2019-2020, Niro EV 2019-2020 (e-Niro) en Leaf 2012-2019 zijn eerdere generaties dan wat Plinkie nu als nieuwe lease toont; de valkuilen (Leaf: luchtgekoelde accu, CHAdeMO; Model 3: roestende draagarmen) gelden niet vanzelf voor het huidige model. Elk feit noemt daarom het bouwjaar.",
+  "BMW i3 (nr. 10, bouwjaar 2013-2020) is NIET in modellen of model_feiten gezet: de bestaande pagina bmw-i3 is de i3 Neue Klasse (2026), een andere auto onder dezelfde naam. De feiten staan alleen in bron.md (Wegenwacht: laadstekker die vastzit, noodloop na laden met max. 10 km/u, reset alleen door BMW; occasion vanaf € 9.945, richtprijs 2018/75.000 km ca. € 17.450). Besluit nodig: aparte slug (bijv. bmw-i3-2013) of weglaten.",
+  "Volvo XC40 (nr. 7, 2020-2021, de voorwielaangedreven XC40 Recharge) is op volvo-ex40 gezet, omdat die pagina 'XC40 Recharge' als alias heeft. Plinkie kent ook /deals/volvo/xc40-recharge.",
+  "Skoda Enyaq iV op slug skoda-enyaq (kortste pad /deals/skoda/enyaq; Plinkie kent ook skoda/enyaq-iv).",
+  "Prijzen: occasionprijzen van het ANWB Occasionplatform, 'voor het laatst geactualiseerd op 23 januari 2025'. date_published in de ruwe kop is 2022-05-01; de bestandsnaam volgt die datum. De prijzen staan in model_feiten onder 'uitvoeringen' (bouwjaar + prijs), omdat er geen sectie voor restwaarde is.",
+  "Ranglijst op zoekgedrag en prijs, geen vergelijkingstest: geen concurrenten. ANWB noemt bij de Polestar 2 dat er 'nauwelijks' concurrenten zijn, en bij Kona, e-Niro en Enyaq 'de concurrentie' zonder modellen. ID.4 als 'grote broertje van de ID.3' is hetzelfde merk.",
+  "Bron met een belang: ANWB verwijst naar het eigen Occasionplatform, de DEKRA-batterijtest met ledenkorting en ANWB Private Lease.",
+  "Nieuwe entiteiten: modellen tesla-model-3, hyundai-kona-electric, kia-niro-ev, nissan-leaf, polestar-2, volkswagen-id-4, skoda-enyaq, volkswagen-id-3; merken tesla, nissan, polestar. tesla-model-3, polestar-2, tesla en polestar stelt ook de map anwb-artikel-grootste-actieradius voor."
+ ]
+}

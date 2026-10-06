@@ -4,7 +4,7 @@ url: https://www.anwb.nl/auto/tests/auto-reviews/detail/4601ffa222cf11711f5086a1
 site: ANWB
 soort: review
 author:
-- Specificaties
+- Gert Wisse
 date_published: '2026-09-24'
 uitvoering: Volvo EX60 91kwh EV 375kw 4WD
 taal: nl
@@ -16,7 +16,7 @@ verzameld:
   modellen_kandidaat:
   - volvo/ex60
   status: wacht op Process
-notes: Tekst uit de HTML gehaald met trafilatura; menu, voet en het blok met andere tests weggelaten. Uitvoering, auteur en publicatiedatum uit de kenmerken naast de tekst.
+notes: 'Tekst uit de HTML gehaald met trafilatura; menu, voet en het blok met andere tests weggelaten. Uitvoering, auteur en publicatiedatum uit de kenmerken naast de tekst. Kop opnieuw gelezen op 06-10-2026: de eerste versie las ''Specificaties'' als auteur.'
 ---
 
 # Auto Review Volvo EX60 I

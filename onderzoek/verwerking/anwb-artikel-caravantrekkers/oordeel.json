@@ -1,0 +1,20 @@
+{
+  "is_review": true,
+  "reden": "Geen test maar een ANWB-themaartikel: een top 10 van elektrische caravantrekkers (1600 tot 2500 kg geremd), met per model accu, trekgewicht, vanafprijs en soms fabrieksbereik, plus zes modellen met 1500 kg in de inleiding. Fabrieksopgaven en korte oordelen; geen metingen. Bruikbaar als aanvulling op het concept trekgewicht en per model.",
+  "taal_transcript": "nl (artikeltekst, geen transcript)",
+  "bronpagina_bestand": "2026-10-06-top-10-elektrische-caravantrekkers.md",
+  "modellen": ["hyundai-ioniq-9", "kia-ev9", "bmw-ix", "audi-q6-e-tron", "kia-ev6", "mercedes-benz-eqb", "zeekr-x", "volvo-ex30", "tesla-model-y"],
+  "merken": ["hyundai", "kia", "bmw", "audi", "mercedes-benz", "zeekr", "volvo", "tesla"],
+  "kanaal": "anwb",
+  "vergelijking": false,
+  "waarschuwingen": [
+    "Datum: date_published 2026-10-06 is gelijk aan de ophaaldatum. Waarschijnlijk is dat de datum van de laatste bijwerking op de pagina en niet de eerste publicatie; behandel het als stand van 06-10-2026.",
+    "Tesla Model X (2300 kg, € 123.990) staat in de top 10 maar niet bij Plinkie en heeft geen pagina: alleen in de tekst. Ook de Cybertruck en F-150 Lightning (niet in Nederland) en de Mercedes EQS alleen in de tekst.",
+    "Eén concurrentpaar: Hyundai Ioniq 9 tegen Kia EV9, omdat ANWB ze expliciet naast elkaar zet (zelfde aandrijflijn, concerngenoten, Ioniq 9 duurder met grotere accu). Zwakke grond: het is een rangschikking, geen test. De Model X 'concurreert op papier' met de BMW iX en Mercedes EQS, maar de Model X heeft geen pagina en staat niet bij Plinkie; niet opgenomen.",
+    "Zes modellen met 1500 kg in de inleiding (BYD Sealion 7, Nissan Ariya, Volvo EX40, Ford Mustang Mach-E, Hyundai Ioniq 6, Mazda 6e): in model_feiten, niet in modellen:, want het artikel zegt er alleen dat ene getal over. Uitvoering niet genoemd.",
+    "Slug mazda-mazda6e volgt het Plinkie-pad /deals/mazda/mazda6e letterlijk. 'BMW iX Drive' gelezen als BMW iX xDrive; slug bmw-ix.",
+    "Bij het BMW iX hoort 2500 kg bij de 112 kWh-uitvoering; de basis met 76,6 kWh krijgt geen trekgewicht in het artikel.",
+    "Bereikgetallen (Ioniq 9 600 km, EV9 583 km, iX 617 km, Zeekr X 425 km, EX30 344/471 km, Model X ~500 km) zijn fabrieksopgaven zonder caravan; norm niet genoemd.",
+    "Nieuwe entiteiten: modellen hyundai-ioniq-9, kia-ev9, bmw-ix, audi-q6-e-tron, kia-ev6, mercedes-benz-eqb, zeekr-x, tesla-model-y, byd-sealion-7, nissan-ariya, ford-mustang-mach-e, hyundai-ioniq-6, mazda-mazda6e; merken tesla, nissan, ford, mazda. kia-ev6 stelt ook de map anwb-artikel-trekhaak voor."
+  ]
+}

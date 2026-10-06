@@ -8,10 +8,10 @@ aliases:
 - EX30
 tags:
 - volvo
-confidence: 0.7
+confidence: 0.75
 last_confirmed: '2026-10-06'
 accessed_at: '2026-10-06'
-source_count: 1
+source_count: 2
 relationships:
 - type: part-of
   target: volvo
@@ -19,9 +19,24 @@ relationships:
 
 # Volvo EX30
 
-Model van [[volvo|Volvo]]. Deze wiki heeft nog geen review van de Volvo EX30 zelf; de pagina bestaat omdat een bron hem als concurrent noemt of er iets over zegt.
+Model van [[volvo|Volvo]]. Bronnen over dit model: [[2026-10-06-top-10-elektrische-caravantrekkers|ANWB 06-10-2026]].
+Met één eigen bron (of één test, ook als die in video en artikel verscheen) blijft de zekerheid op hooguit 0,75.
 
 **Plinkie.** `/deals/volvo/ex30`, staat in de sitemap van plinkie.nl.
+
+## Uitvoeringen
+
+- Instapmodel (344 km) en Single Motor Extended Range 69 kWh (ANWB, caravantrekkers, onder '9. Volvo EX30') ([[2026-10-06-top-10-elektrische-caravantrekkers|ANWB 06-10-2026]])
+
+## Fabrieksopgaven
+
+- 69 kWh: trekgewicht 1600 kg geremd (ANWB, onder '9. Volvo EX30') ([[2026-10-06-top-10-elektrische-caravantrekkers|ANWB 06-10-2026]])
+- Instapmodel: bereik 344 km volgens de fabrikant (ANWB, onder '9. Volvo EX30') ([[2026-10-06-top-10-elektrische-caravantrekkers|ANWB 06-10-2026]])
+- Single Motor Extended Range 69 kWh: bereik 471 km, vanaf € 41.495, stand 06-10-2026 (ANWB, onder '9. Volvo EX30') ([[2026-10-06-top-10-elektrische-caravantrekkers|ANWB 06-10-2026]])
+
+## Valkuilen
+
+- Instapmodel: 344 km is in de praktijk vaak minder door temperatuur en rijstijl, nog zonder caravan; ANWB raadt voor trekken de Extended Range aan (ANWB, onder '9. Volvo EX30') ([[2026-10-06-top-10-elektrische-caravantrekkers|ANWB 06-10-2026]])
 
 ## Concurrenten
 

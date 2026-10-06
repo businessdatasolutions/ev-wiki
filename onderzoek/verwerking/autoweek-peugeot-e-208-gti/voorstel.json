@@ -1,0 +1,64 @@
+{
+  "nieuwe_entiteiten": [],
+  "model_feiten": {
+    "peugeot-e-208-gti": {
+      "uitvoeringen": [
+        "e-208 GTi: één uitvoering, elektromotor op de voorwielen met Torsen-sperdifferentieel; accu niet genoemd (AutoWeek, 0:49)"
+      ],
+      "fabrieksopgaven": [
+        "e-208 GTi: 281 pk en 345 Nm, gelijk aan de Corsa GSE (0:49)",
+        "e-208 GTi: verlaagd en verbreed, velgen naar die van de 205 GTI (0:58)",
+        "e-208 GTi: gewicht 1.510 kg (3:36)",
+        "e-208 GTi: veren, stabilisatoren en dempers gelijk aan de Corsa GSE (transcript: 'alles is uniek', vermoedelijk 'identiek'); volgens Peugeot iets meer toespoor achter (2:47, 2:55)",
+        "e-208 GTi: in sportmodus recupereert het rempedaal niet en bedient het alleen de mechanische remmen (6:18)",
+        "e-208 GTi: prijs € 41.990, met blauwe lak bijna € 43.000, september 2026 (5:55)"
+      ],
+      "metingen": [],
+      "valkuilen": [
+        "e-208 GTi: bij sportief rijden op Schotse B-wegen 'in nou 150 km' leeg; uitspraak van de tester zonder verbruik, temperatuur of laadstand, geen meting (5:40)",
+        "e-208 GTi: ESP en tractiecontrole kunnen niet helemaal uit (4:21)",
+        "e-208 GTi: het extra toespoor achter is in de praktijk amper te merken; rijdt 'voor 99%' als de Corsa GSE (2:39, 3:14)",
+        "e-208 GTi: 'echt ontzettend stevig' op slechte wegen (4:52)",
+        "e-208 GTi: met de blauwe lak van de testauto bijna € 43.000 in plaats van € 41.990 (5:59)"
+      ],
+      "oordelen": [
+        "e-208 GTi: klein stuur en hoge instrumenten geven een head-up-effect en de illusie van directheid; volgens de tester misschien deels marketing (1:45, 4:12)",
+        "e-208 GTi: speels, compact, veel grip en tractie door het sperdifferentieel; op smalle Schotse wegen heel leuk (3:32, 4:41)",
+        "e-208 GTi: 281 pk is ruim genoeg, maar niet schakelen haalt iets van de beleving weg (5:24)",
+        "e-208 GTi: 'ontzettend leuke speelse hot hatch' met veel liefde en zorg, waardige opvolger van de 205 GTI (6:09, 6:28)",
+        "e-208 GTi: voor € 42.000 koop je veel andere auto's, al zijn die niet leuker; de tester vreest dat weinigen hem kopen (6:02, 6:35)"
+      ],
+      "concurrenten": [
+        {"tegen": "opel-corsa-electric", "tijd": "0:44", "grond": "Corsa GSE: 'in feite dezelfde auto', kort daarvoor door de tester gereden; vergeleken op interieur en rijgedrag ('voor 99% precies hetzelfde', 2:39) en prijs (6:44)"}
+      ]
+    },
+    "opel-corsa-electric": {
+      "uitvoeringen": [
+        "Corsa GSE: zelfde 281 pk-aandrijflijn, onderstel, prestatiemenu en alcantara als de e-208 GTi (AutoWeek, 0:44, 1:34)"
+      ],
+      "fabrieksopgaven": [],
+      "metingen": [],
+      "valkuilen": [],
+      "oordelen": [
+        "Corsa GSE: de achterkant duwt een beetje mee als je enthousiast de bocht in gaat, maar komt niet dwars (AutoWeek, 3:14)"
+      ],
+      "concurrenten": []
+    }
+  },
+  "merk_feiten": {
+    "peugeot": [
+      "Na een aantal jaar weer een kleine GTI van Peugeot; de e-208 GTi is de eerste elektrische (AutoWeek, 25-09-2026, 0:00)"
+    ],
+    "stellantis": [
+      "De e-208 GTi en de Corsa GSE zijn volgens AutoWeek 'in feite dezelfde auto'; de verschillen zitten in het uiterlijk, het kleine stuur en een iets ander toespoor achter (25-09-2026, 0:44, 2:55)"
+    ]
+  },
+  "concepten": [
+    {"slug": "praktijkbereik", "bestaat": true, "toevoeging": "Peugeot e-208 GTi: volgens AutoWeek 'in nou 150 km' leeg bij sportief rijden op smalle Schotse wegen. Een uitspraak, geen meting: verbruik, temperatuur en laadstand zijn niet genoemd (25-09-2026, 5:40)."},
+    {"slug": "b-segment", "bestaat": true, "toevoeging": "De e-208 GTi en de Opel Corsa GSE rijden volgens AutoWeek 'voor 99%' hetzelfde; beide rond € 42.000, en de tester vreest dat weinigen zo'n sportieve kleine EV kopen (25-09-2026, 2:39, 6:35)."}
+  ],
+  "relaties_met_bestaande_bronnen": [
+    {"type": "supports", "target": "2026-09-26-waarom-wij-voor-de-peugeot-e-208-gti-zouden-kiezen", "via": "zelfde introductie in Schotland; 281 pk en 345 Nm, Torsen-sperdifferentieel, € 41.990, aangepaste achterophanging met meer toespoor, nauwelijks verschil met de Corsa GSE, waardige opvolger van de 205 GTI"},
+    {"type": "contradicts", "target": "2026-09-26-waarom-wij-voor-de-peugeot-e-208-gti-zouden-kiezen", "via": "vering: Autovisie 'niet keihard' met incasseringsvermogen, AutoWeek 'ontzettend stevig' op slechte Britse wegen"}
+  ]
+}

@@ -8,6 +8,17 @@ Toegestane bewerkingen: `ingest`, `acquire`, `query`, `lint`, `synthesize`, `ref
 
 ---
 
+## [2026-10-06] ingest | Derde batch: 18 bronnen, eerste ANWB-reviews en themaartikelen
+
+Twintig ruwe bronnen van de verzamelaar (6 video's, 8 ANWB-reviews, 6 ANWB-themaartikelen), verwerkt door tien parallelle subagents met twee bronnen elk (opdracht in `onderzoek/verwerking/agent-opdracht.md`), samengevoegd met `onderzoek/samenvoegen.py`. 18 bronpagina's; 2 afgewezen (in het register): de AutoWeek-video over de benzine-3-serie (de i3 is alleen de vergelijking) en het ANWB-artikel over de goedkoopste EV's (occasions, geen nieuwe lease).
+
+- **Reviews met eigen meting:** Nissan Leaf 16,6 kWh/100 km, Toyota bZ4X Touring 19, C-HR+ 14,2, Volvo EX60 19 bij 110 km/u (22 bij 140), Alpine A390 22.
+- **Themaartikelen:** trekhaak, caravantrekkers, grootste actieradius, garantie per merk (38 merken), verwachte modellen 2026. Datum = stand van ophalen: ANWB werkt deze artikelen bij zonder nieuwe datum, en de sitedatum 2022-05-01 klopte niet.
+- **Nieuw besluit `zelfde_test`:** de ANWB-video en de ANWB-review van dezelfde rit (EX60, ID. Polo) tellen als één bron voor de zekerheid.
+- **Correctie:** de kofferbakvloer met klepjes hoort bij de EX60, niet bij de iX3.
+- **Tegenspraak vastgelegd:** Leapmotor-garantie en dealernet (2024 tegen 2026), V2L op de EX60 (video tegen review), vering e-208 GTi (Autovisie tegen AutoWeek), garantie VW/Kia/Volvo (tabel tegen video's).
+- **Nieuw concept:** garantie.
+
 ## [2026-10-06] acquire | verzamelaar: 6 review(s)
 
 Opgehaald door `onderzoek/verzamelaar.py`, nog niet verwerkt (wacht op Process):

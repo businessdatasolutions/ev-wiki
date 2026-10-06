@@ -1,0 +1,20 @@
+{
+  "is_review": true,
+  "reden": "Volledige geschreven ANWB-review (Frank Buma, 30-07-2026) van de derde generatie Nissan Leaf, getest als 52 kWh / 130 kW (177 pk) in het hoogste uitrustingsniveau. Rijgedrag, interieur, ruimte, laden en één eigen meting: praktijkverbruik 16,6 kWh/100 km, met een afgeleid bereik van 313 km tegen 445 km WLTP.",
+  "taal_transcript": "nl (geschreven artikel, geen transcript)",
+  "bronpagina_bestand": "2026-07-30-auto-review-nissan-leaf-iii.md",
+  "modellen": ["nissan-leaf"],
+  "merken": ["nissan"],
+  "kanaal": "anwb",
+  "vergelijking": false,
+  "waarschuwingen": [
+    "Bron met een belang: ANWB leaset zelf via ANWB Private Lease en noemt in de tekst het eigen dynamische energiecontract. Confidence niet boven 0,75 zonder onafhankelijke tweede bron.",
+    "De verbruiksmeting (16,6 kWh/100 km) staat er zonder omstandigheden: geen temperatuur, route, afstand of wielmaat. Het bereik van 313 km is gerekend (52 kWh / 16,6), niet gereden.",
+    "Testuitvoering: de kop zegt 52 kWh / 130 kW, de tekst zegt 'het meest luxueuze' van vier uitrustingsniveaus. Tegelijk zegt de tekst dat de 75 kWh een rijkere uitrusting heeft. Of het topniveau met 52 kWh leverbaar is in Nederland, is na te gaan bij Nissan.",
+    "Gebruikt '52 kWh' zonder bruto of netto; vermoedelijk netto, niet nagegaan.",
+    "Het AC-laadvermogen staat er niet als getal; alleen 'met drie fasen' bij elke uitvoering.",
+    "Nieuwe entiteiten: merk nissan, model nissan-leaf (/deals/nissan/leaf), en twee stubmodellen renault-megane-e-tech (/deals/renault/megane-e-tech) en renault-scenic-e-tech (/deals/renault/scenic-e-tech). Merk renault bestaat al.",
+    "Concurrenten Mégane en Scénic op grond van prijs, accu en garantie (Mégane) en hetzelfde platform (beide). De Scénic valt in dezelfde passage over platform en techniek en daarna als maatstaf voor het gewicht; zwakkere grond dan de Mégane.",
+    "Er staan geen prijzen per uitvoering in, alleen de vanafprijs € 33.990 (juli 2026)."
+  ]
+}

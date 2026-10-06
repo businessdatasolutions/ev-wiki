@@ -13,7 +13,7 @@ tags:
 confidence: 0.75
 last_confirmed: '2026-10-06'
 accessed_at: '2026-10-06'
-source_count: 3
+source_count: 4
 relationships:
 - type: part-of
   target: citroen
@@ -21,9 +21,18 @@ relationships:
 
 # Citroën ë-C3
 
-Model van [[citroen|Citroën]]. Deze wiki heeft nog geen review van de Citroën ë-C3 zelf; de pagina bestaat omdat een bron hem als concurrent noemt of er iets over zegt.
+Model van [[citroen|Citroën]]. Bronnen over dit model: [[2026-10-06-9-elektrische-autos-met-trekhaak|ANWB 06-10-2026]].
+Met één eigen bron (of één test, ook als die in video en artikel verscheen) blijft de zekerheid op hooguit 0,75.
 
 **Plinkie.** `/deals/citroen/e-c3`, staat in de sitemap van plinkie.nl.
+
+## Fabrieksopgaven
+
+- Uitvoering niet genoemd: trekgewicht 600 kg; vanaf € 24.290 voor de 'kale' variant, stand 06-10-2026 (ANWB, onder '2. Citroën ë-C3') ([[2026-10-06-9-elektrische-autos-met-trekhaak|ANWB 06-10-2026]])
+
+## Valkuilen
+
+- Kale variant: de vanafprijs van € 24.290 is de basisuitvoering; of die de trekhaak of 600 kg heeft, zegt het artikel niet (ANWB, onder '2. Citroën ë-C3') ([[2026-10-06-9-elektrische-autos-met-trekhaak|ANWB 06-10-2026]])
 
 ## Concurrenten
 

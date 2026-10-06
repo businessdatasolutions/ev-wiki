@@ -9,10 +9,10 @@ aliases:
 - R5
 tags:
 - renault
-confidence: 0.75
+confidence: 0.8
 last_confirmed: '2026-10-06'
 accessed_at: '2026-10-06'
-source_count: 2
+source_count: 3
 relationships:
 - type: part-of
   target: renault
@@ -26,8 +26,7 @@ relationships:
 
 # Renault 5
 
-Model van [[renault|Renault]]. Bronnen over dit model: [[2026-10-02-kan-de-volkswagen-id-polo-de-succesvolle-renault-5-aan|AutoWeek 02-10-2026]].
-Met één eigen bron blijft de zekerheid op hooguit 0,75.
+Model van [[renault|Renault]]. Bronnen over dit model: [[2026-10-02-kan-de-volkswagen-id-polo-de-succesvolle-renault-5-aan|AutoWeek 02-10-2026]], [[2026-10-06-9-elektrische-autos-met-trekhaak|ANWB 06-10-2026]].
 
 **Plinkie.** `/deals/renault/5`, staat in de sitemap van plinkie.nl.
 
@@ -37,6 +36,8 @@ Met één eigen bron blijft de zekerheid op hooguit 0,75.
 
 ## Fabrieksopgaven
 
+- Uitvoering niet genoemd: trekgewicht 500 kg, vanaf € 32.990, stand 06-10-2026 (ANWB, trekhaak-artikel, onder '1. Renault 5') ([[2026-10-06-9-elektrische-autos-met-trekhaak|ANWB 06-10-2026]])
+- Alle uitvoeringen: qua formaat tussen Twingo en Clio (ANWB, onder '1. Renault 5') ([[2026-10-06-9-elektrische-autos-met-trekhaak|ANWB 06-10-2026]])
 - {'uitvoering': 'iconic edition', 'feit': 'Prijs ongeveer € 37.000, begin oktober 2026', 'tijd': '2:07'} ([[2026-10-02-kan-de-volkswagen-id-polo-de-succesvolle-renault-5-aan|AutoWeek 02-10-2026]])
 - {'uitvoering': 'niet genoemd', 'feit': 'Kofferbak 326 L met een vak voor de laadkabel; geen frunk', 'tijd': '2:35'} ([[2026-10-02-kan-de-volkswagen-id-polo-de-succesvolle-renault-5-aan|AutoWeek 02-10-2026]])
 - {'uitvoering': 'niet genoemd', 'feit': 'Snelladen maximaal 100 kW', 'tijd': '13:04'} ([[2026-10-02-kan-de-volkswagen-id-polo-de-succesvolle-renault-5-aan|AutoWeek 02-10-2026]])
@@ -78,6 +79,7 @@ Genoemd als concurrent van:
 | Model | Bron | Tijd | Grond |
 | --- | --- | --- | --- |
 | [[volkswagen-id-polo|Volkswagen ID. Polo]] | [[2026-10-02-kan-de-volkswagen-id-polo-de-succesvolle-renault-5-aan|AutoWeek 02-10-2026]] | 1:03 | rechtstreekse vergelijkingstest, de eerste van AutoWeek met de ID. Polo; beide in de duurste uitvoering voor ongeveer € 37.000. 'Daarmee zijn het wel echt concurrenten van elkaar' (12:31) |
+| [[volkswagen-id-polo|Volkswagen ID. Polo]] | [[2026-09-09-volkswagen-id-polo-beter-door-de-bocht|ANWB 09-09-2026]] | onder 'Minimaal 30 mille' | soortgelijke prijzen; de ID. Polo is ruimer van binnen, maar legt het af op accugrootte en laadsnelheid. De Renault 5 heet onder 'De ID. Polo van binnen' nog eens uitdrukkelijk 'een van de concurrenten' |
 | [[volkswagen-id-polo|Volkswagen ID. Polo]] | [[2026-09-09-is-de-volkswagen-id-polo-de-nieuwe-publiekslieveling|ANWB 09-09-2026]] | 3:32 | de concurrentie buiten de Volkswagen-groep waar de ID. Polo 'op zijn tellen moet passen'; de Renault 5 heeft volgens de tester een kleinere accu en trager snelladen, de goedkoopste Stellantis-modellen een grotere accu, sneller laden en langere garantie |
 
 ## Weergaven

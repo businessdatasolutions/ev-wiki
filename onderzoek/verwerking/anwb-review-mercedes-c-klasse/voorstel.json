@@ -1,0 +1,140 @@
+{
+  "nieuwe_entiteiten": [
+    {
+      "slug": "hyundai-ioniq-6",
+      "kind": "model",
+      "naam": "Hyundai Ioniq 6",
+      "merk": "hyundai",
+      "plinkie_pad": "/deals/hyundai/ioniq-6",
+      "aliases": [
+        "Ioniq 6",
+        "IONIQ 6",
+        "Hyundai IONIQ 6"
+      ],
+      "tekst": "Elektrische sedan van Hyundai. ANWB noemt hem in de review van de elektrische Mercedes C-klasse 'nuchter bekeken' een veel goedkoper alternatief en op punten een onverwachte rivaal, met vijf jaar garantie op de auto (ANWB 24-09-2026, onder 'Onverwachte rivaal'). Korte pagina: alleen als concurrent genoemd. Plinkie-pad staat in onderzoek/plinkie-modellen.txt."
+    }
+  ],
+  "model_feiten": {
+    "mercedes-benz-c-klasse-limousine": {
+      "uitvoeringen": [
+        "C 400 4MATIC: vierwielaandrijving, 489 pk, 800 Nm, accu 94,5 kWh; de testauto. Onder 'Extra kilo's' en 'De C 400 4MATIC en het milieu'",
+        "Kleinere accu van 85 kWh; vermogen en aandrijving niet genoemd. Onder 'De C 400 4MATIC en het milieu'"
+      ],
+      "fabrieksopgaven": [
+        "Uitvoering niet genoemd: vanaf € 58.736 op 24-09-2026. Onder 'Extra vermogen'",
+        "C 400 4MATIC: leeggewicht 2.460 kg. Onder 'Hoe rijdt de C 400 4MATIC'",
+        "C 400 4MATIC: trekgewicht 1.800 kg, gelijk aan de sterkste C-klasse op brandstof. Onder 'Extra kilo's'",
+        "Uitvoering niet genoemd: transmissie met twee versnellingen, voor zuinigheid op de snelweg en voor acceleratie. Onder 'Twee versnellingen'",
+        "Uitvoering niet van belang: wielbasis 2,96 m, bijna 10 cm meer dan de C-klasse op brandstof en de BMW i3. Onder 'Beukenbruin'",
+        "Uitvoering niet genoemd: kofferbak 470 L (sedan, geen vijfde deur); frunk 101 L, opent met een druk op het embleem. Onder 'Frunk met bedieningsgemak'",
+        "94,5 kWh en 85 kWh: WLTP 650 tot 761 km, niet per accu toegewezen. Onder 'De C 400 4MATIC en het milieu'",
+        "94,5 kWh en 85 kWh: laden 320 tot 330 kW afhankelijk van de accu, 800 volt. Onder 'De C 400 4MATIC en het milieu'",
+        "Uitvoering niet genoemd: boordlader van 22 kW als optie. Onder 'De C 400 4MATIC en het milieu'",
+        "Vanafprijs: standaard glazen dak, elektrisch verstel- en verwarmbare stoelen en vierwielaandrijving; bijna alle hulpsystemen standaard. Onder 'Extra vermogen' en '(Bijna) alle hulpsystemen aanwezig'"
+      ],
+      "metingen": [],
+      "valkuilen": [
+        "C 400 4MATIC: 2.460 kg geeft volgens ANWB 'stevige maandlasten'; bij private lease zit de wegenbelasting in het maandbedrag. Onder 'Conclusie' en de minpunten",
+        "Uitvoering niet genoemd: snelladen aan een 400-voltpaal alleen met een optionele omvormer. Onder 'De C 400 4MATIC en het milieu'",
+        "Uitvoering niet genoemd: head-up display en 360-gradencamera niet standaard. Onder '(Bijna) alle hulpsystemen aanwezig'",
+        "Uitvoering niet genoemd: luchtvering en achterwielbesturing zijn opties; de wendbaarheid 'als een Volkswagen Polo' geldt met achterwielbesturing. Onder 'Extra kilo's'",
+        "Uitvoering niet genoemd: achterin een hoge dorpel, een middentunnel, hoofdruimte 'net aan' voor lange volwassenen en te weinig voetenruimte onder de voorstoelen. Onder 'Geen vlakke vloer'",
+        "Uitvoering niet genoemd: zitpositie hoger dan in een sedan, door de accu onder de vloer. Onder 'Twee versnellingen'"
+      ],
+      "oordelen": [
+        "C 400 4MATIC met luchtvering: geen hinder van het gewicht; op de lange baan comfort dat een limousine benadert. Onder 'Extra kilo's' en 'Twee versnellingen'",
+        "Uitvoering niet genoemd: ongewenste hulpsystemen zijn makkelijk uit te zetten; de snelheidswaarschuwing met één druk op een icoon. Onder '(Bijna) alle hulpsystemen aanwezig'",
+        "Met Hyperscreen: optioneel en 'feitelijk overbodig', wel spectaculair. Onder 'De C 400 4MATIC van binnen'",
+        "C 400 4MATIC: ANWB zet 'vraagtekens' bij 650-761 km WLTP op grond van het praktijkverbruik tijdens de opnames; dat verbruik staat er niet als getal. Onder 'De C 400 4MATIC en het milieu'",
+        "Uitvoering niet genoemd: ontwerp 'smaakgevoelig', opzichtige grille en hatchbackachtige lijn. Onder de minpunten en 'Type auto en prijs'",
+        "Uitvoering niet genoemd: voor een premium sedan valt de vanafprijs mee. Onder 'Conclusie'"
+      ],
+      "concurrenten": [
+        {
+          "tegen": "bmw-i3",
+          "tijd": "onder 'Extra vermogen' en 'Onverwachte rivaal'",
+          "grond": "aartsrivaal in het premium middensegment; de nieuwe elektrische 3 Serie is duurder, de C-klasse levert meer vermogen en binnenruimte"
+        },
+        {
+          "tegen": "hyundai-ioniq-6",
+          "tijd": "onder 'Extra vermogen' en 'Onverwachte rivaal'",
+          "grond": "veel goedkoper alternatief, 'nuchter bekeken'; op punten een onverwachte rivaal, onder meer vijf jaar garantie tegen twee"
+        }
+      ]
+    },
+    "bmw-i3": {
+      "uitvoeringen": [],
+      "fabrieksopgaven": [
+        "Uitvoering niet genoemd: 'vooralsnog duurder' dan de elektrische C-klasse; ook het duurste C-klasse-model is volgens ANWB, afhankelijk van de uitrusting, een paar duizend euro goedkoper (24-09-2026). Onder 'Onverwachte rivaal'",
+        "Uitvoering niet genoemd: wielbasis bijna 10 cm korter dan de 2,96 m van de elektrische C-klasse. Onder 'Beukenbruin'"
+      ],
+      "metingen": [],
+      "valkuilen": [],
+      "oordelen": [],
+      "concurrenten": []
+    },
+    "hyundai-ioniq-6": {
+      "uitvoeringen": [],
+      "fabrieksopgaven": [],
+      "metingen": [],
+      "valkuilen": [],
+      "oordelen": [
+        "Uitvoering niet genoemd: 'veel goedkoper' dan de elektrische C-klasse en op punten een onverwachte rivaal. Onder 'Extra vermogen' en 'Onverwachte rivaal'"
+      ],
+      "concurrenten": []
+    }
+  },
+  "merk_feiten": {
+    "mercedes-benz": [
+      "Garantie twee jaar op de auto, zonder kilometergrens; op de accu acht jaar of 160.000 km (ANWB 24-09-2026, onder 'Onverwachte rivaal'). Bevestigt de garantie die ANWB op 02-10-2026 bij de GLC noemde.",
+      "De C-klasse op benzine en diesel blijft naast de elektrische C-klasse leverbaar (ANWB 24-09-2026, onder 'Type auto en prijs')."
+    ],
+    "hyundai": [
+      "Garantie vijf jaar op de hele auto, zonder kilometergrens; op de accu acht jaar of 160.000 km (ANWB 24-09-2026, review van de Mercedes C-klasse, onder 'Onverwachte rivaal')."
+    ]
+  },
+  "concepten": [
+    {
+      "slug": "wegenbelasting",
+      "bestaat": true,
+      "toevoeging": "Elektrische Mercedes C-klasse C 400 4MATIC, 2.460 kg: ANWB noemt 'stevige maandlasten door torenhoog leeggewicht' als minpunt (24-09-2026, conclusie). Tweede bron na Autovisie 27-07-2026 die het gewicht van deze auto als kostenpost noemt."
+    },
+    {
+      "slug": "trekgewicht",
+      "bestaat": true,
+      "toevoeging": "Rij: Mercedes-Benz C-klasse elektrisch, C 400 4MATIC, 1.800 kg (ANWB 24-09-2026, onder 'Extra kilo's')."
+    },
+    {
+      "slug": "kofferbakinhoud",
+      "bestaat": true,
+      "toevoeging": "Rij: Mercedes-Benz C-klasse elektrisch, 470 L plus frunk 101 L (ANWB 24-09-2026, onder 'Frunk met bedieningsgemak')."
+    },
+    {
+      "slug": "rijbereik-wltp",
+      "bestaat": true,
+      "toevoeging": "Elektrische C-klasse: 650 tot 761 km voor 85 en 94,5 kWh; ANWB zet er 'vraagtekens' bij op grond van het praktijkverbruik, zonder getal (24-09-2026)."
+    },
+    {
+      "slug": "snelladen-10-80",
+      "bestaat": true,
+      "toevoeging": "Elektrische C-klasse: 320 tot 330 kW met 800 volt; aan een 400-voltpaal alleen snelladen met een optionele omvormer. Geen 10-80%-tijd genoemd (ANWB 24-09-2026). Dezelfde optie-omvormer noemde ANWB bij de GLC (02-10-2026)."
+    }
+  ],
+  "relaties_met_bestaande_bronnen": [
+    {
+      "type": "supports",
+      "target": "2026-07-27-elektrische-c-klasse-doet-het-heel-anders-dan-de-bmw-i3",
+      "via": "zelfde C 400 4MATIC: 2.460 kg en de wegenbelasting als minpunt, ongeveer 490 pk, twee versnellingen, wielbasis bijna 3 m, frunk ruim 100 L, laden tot 330 kW, WLTP tot 761 km; luchtvering en achterwielbesturing als opties; hoge zitpositie en krappe voetenruimte achterin; hulpsystemen snel uit; BMW i3 als hoofdconcurrent"
+    },
+    {
+      "type": "supports",
+      "target": "2026-07-27-elektrische-c-klasse-doet-het-heel-anders-dan-de-bmw-i3",
+      "via": "praktijkverbruik boven de opgave: Autovisie mat iets meer dan 18 kWh/100 km tegen 14,1; ANWB zet zonder getal vraagtekens bij het WLTP-bereik"
+    },
+    {
+      "type": "supports",
+      "target": "2026-10-02-bmw-ix3-vs-volvo-ex60-roadtrip-met-special-guest",
+      "via": "garantie Mercedes-Benz: twee jaar zonder kilometergrens, accu acht jaar of 160.000 km; omvormer voor 400-voltladen is bij Mercedes een optie (daar bij de GLC)"
+    }
+  ]
+}

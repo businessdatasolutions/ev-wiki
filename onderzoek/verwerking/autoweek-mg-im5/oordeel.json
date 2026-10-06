@@ -1,0 +1,21 @@
+{
+  "is_review": true,
+  "reden": "Rijtest van AutoWeek van de MG IM5 Performance (752 pk, 100 kWh), met exterieur, kofferbak, achterbank, interieur, rijgedrag, uitvoeringen, laden en prijzen. De video legt hem steeds naast de Tesla Model 3, maar die is niet gereden: geen vergelijkingstest. Geen eigen meting. Hele transcript gelezen: laatste tijdstempel 13:01 bij een duur van 13:31.",
+  "taal_transcript": "nl (automatisch, via yt-dlp)",
+  "bronpagina_bestand": "2026-09-22-de-mg-im5-heeft-veel-te-bieden-maar-daar-betaal-je-dan-ook-voor-groter-maar-duurder-dan-mo.md",
+  "modellen": ["mg-mg-im5"],
+  "merken": ["mg"],
+  "kanaal": "autoweek",
+  "vergelijking": false,
+  "waarschuwingen": [
+    "Nieuwe entiteiten: mg-mg-im5 (Plinkie-pad mg/mg-im5), merk mg, tesla-model-3 (Plinkie-pad tesla/model-3) en merk tesla. Geen van vier heeft al een pagina.",
+    "De titel noemt maar één alternatief: de Tesla Model 3. Andere merken vallen niet. De MG IM6 (de SUV-broer, eerder door AutoWeek getest) is een keuze binnen één merk en staat niet in concurrenten; hij heeft nog geen pagina en is daarom zonder wikilink genoemd.",
+    "'Model Y' op 0:43 is een verspreking: de IM6 richt zich op de Model Y, de IM5 op de Model 3. Niet als concurrent opgenomen.",
+    "'11p accu' (9:01) gelezen als LFP-accu, '400 technologie' als 400 volt, 'MGM5' als MG IM5, 'instarium' als instrumentarium.",
+    "Vermogen Performance '752 pk' (7:22) past bij een orde van grootte voor een tweemotorige versie; niet tegen MG gelegd.",
+    "Prijzen zijn afgerond en uit het hoofd: instap 'net geen 49 mi' (ongeveer € 49.000), Long Range 'bijna 57 mil', Model 3 Performance 'bijna 61 mil'. Het verschil met de 'meest vergelijkbare' Model 3 is 'uit mijn hoofd iets van €12.000' (11:32): vermoeden, niet als feit. De prijs van de IM5 Performance zelf noemt de tester niet.",
+    "Laadvermogen: 75 kWh 'dik 150 kW' (10:12), 100 kWh met 800 V 'net geen 400 kW' (9:24). Fabrieksopgaven, niet gemeten. Of de Performance ook de 800 V-accu heeft, zegt de tester impliciet (dezelfde 100 kWh-accu, 9:57).",
+    "Kofferbak Model 3 '425 l' en frunk '88 l' (2:49) noemt de tester als vergelijking; frunk IM5 '18 l'. Alles fabrieksopgaven, niet gemeten.",
+    "Waar de test gereden is, zegt de video niet."
+  ]
+}

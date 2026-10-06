@@ -1,0 +1,130 @@
+{
+  "nieuwe_entiteiten": [
+    {"slug": "skoda-elroq", "kind": "model", "naam": "Škoda Elroq", "merk": "skoda", "plinkie_pad": "/deals/skoda/elroq", "aliases": ["Skoda Elroq", "Elroq"], "tekst": "Compacte elektrische SUV van Škoda. Volgens ANWB de bestverkochte auto van Nederland in 2025, met 1000 kg trekgewicht (ANWB, 9 elektrische auto's met trekhaak, stand 06-10-2026)."},
+    {"slug": "renault-megane-e-tech", "kind": "model", "naam": "Renault Mégane E-Tech Electric", "merk": "renault", "plinkie_pad": "/deals/renault/megane-e-tech", "aliases": ["Renault Megane E-Tech", "Mégane E-Tech Electric", "Megane E-Tech"], "tekst": "Elektrische gezinsauto van Renault, 500 kg trekgewicht volgens ANWB (9 elektrische auto's met trekhaak, stand 06-10-2026)."},
+    {"slug": "mini-aceman", "kind": "model", "naam": "Mini Aceman", "merk": "mini", "plinkie_pad": "/deals/mini/aceman", "aliases": ["MINI Aceman", "Aceman"], "tekst": "Kleine elektrische crossover van Mini, kleiner en goedkoper dan de Countryman; 750 kg trekgewicht volgens ANWB (stand 06-10-2026)."},
+    {"slug": "hyundai-kona-electric", "kind": "model", "naam": "Hyundai Kona Electric", "merk": "hyundai", "plinkie_pad": "/deals/hyundai/kona-electric", "aliases": ["Kona Electric", "Hyundai Kona electric", "Kona EV"], "tekst": "Elektrische compacte SUV van Hyundai. ANWB noemt de vorige generatie als occasion met trekhaak, alleen in de 64 kWh-versie (stand 06-10-2026)."},
+    {"slug": "kia-niro-ev", "kind": "model", "naam": "Kia Niro EV", "merk": "kia", "plinkie_pad": "/deals/kia/niro-ev", "aliases": ["Kia e-Niro", "e-Niro", "Niro EV"], "tekst": "Elektrische compacte SUV van Kia; de vorige generatie heette e-Niro. ANWB noemt die als occasion met trekhaak, alleen in de 64 kWh-versie (stand 06-10-2026)."},
+    {"slug": "mg-mg-zs-ev", "kind": "model", "naam": "MG ZS EV", "merk": "mg", "plinkie_pad": "/deals/mg/mg-zs-ev", "aliases": ["MG ZS EV", "ZS EV", "MG ZS"], "tekst": "Elektrische compacte SUV van MG. ANWB noemt hem als occasion met 500 kg trekgewicht vanaf modeljaar 2021 (stand 06-10-2026)."},
+    {"slug": "hyundai-ioniq-5", "kind": "model", "naam": "Hyundai Ioniq 5", "merk": "hyundai", "plinkie_pad": "/deals/hyundai/ioniq-5", "aliases": ["Ioniq 5", "IONIQ 5"], "tekst": "Elektrische crossover van Hyundai; volgens ANWB Trekauto van het jaar 2022."},
+    {"slug": "kia-ev6", "kind": "model", "naam": "Kia EV6", "merk": "kia", "plinkie_pad": "/deals/kia/ev6", "aliases": ["EV6"], "tekst": "Elektrische crossover van Kia; volgens ANWB Trekauto van het jaar 2024."},
+    {"slug": "mini", "kind": "merk", "naam": "Mini", "merk": "", "plinkie_pad": "", "aliases": ["MINI", "Mini"], "tekst": "Brits merk van BMW. In deze wiki via de Aceman in het ANWB-artikel over elektrische auto's met trekhaak."},
+    {"slug": "mg", "kind": "merk", "naam": "MG", "merk": "", "plinkie_pad": "", "aliases": ["MG", "MG Motor"], "tekst": "Merk van het Chinese SAIC. In deze wiki via de ZS EV in het ANWB-artikel over elektrische auto's met trekhaak."}
+  ],
+  "model_feiten": {
+    "kia-ev3": {
+      "uitvoeringen": ["Basis en een uitvoering met de grotere accu van 81,4 kWh (ANWB, trekhaak-artikel, onder '1. Kia EV3')"],
+      "fabrieksopgaven": [
+        "Basisuitvoering: trekgewicht 300 kg, vanaf € 36.995, stand 06-10-2026 (ANWB, onder '1. Kia EV3')",
+        "Uitvoering met 81,4 kWh-accu: trekgewicht 1000 kg, duurder, bedrag niet genoemd (ANWB, onder '1. Kia EV3')"
+      ],
+      "metingen": [],
+      "valkuilen": ["Basisuitvoering 300 kg, pas met de 81,4 kWh-accu 1000 kg; de vanafprijs hoort bij de 300 kg-versie (ANWB, onder '1. Kia EV3')"],
+      "oordelen": [],
+      "concurrenten": []
+    },
+    "skoda-elroq": {
+      "uitvoeringen": [],
+      "fabrieksopgaven": ["Uitvoering niet genoemd: trekgewicht 1000 kg, vanaf € 34.900, stand 06-10-2026 (ANWB, onder '2. Skoda Elroq')"],
+      "metingen": [],
+      "valkuilen": [],
+      "oordelen": ["Uitvoering niet genoemd: met 1000 kg ook een kleine caravan, niet alleen aanhanger of fietsendrager (ANWB, onder '2. Skoda Elroq')"],
+      "concurrenten": []
+    },
+    "renault-megane-e-tech": {
+      "uitvoeringen": [],
+      "fabrieksopgaven": [
+        "Uitvoering niet genoemd: trekgewicht 500 kg, vanaf € 36.370, stand 06-10-2026 (ANWB, onder '3. Renault Mégane E-TECH Electric')",
+        "Alle uitvoeringen: accu onder de inzittenden, geen verlies van bagageruimte (ANWB, onder '3. Renault Mégane E-TECH Electric')"
+      ],
+      "metingen": [],
+      "valkuilen": [],
+      "oordelen": [],
+      "concurrenten": []
+    },
+    "renault-5": {
+      "uitvoeringen": [],
+      "fabrieksopgaven": [
+        "Uitvoering niet genoemd: trekgewicht 500 kg, vanaf € 32.990, stand 06-10-2026 (ANWB, trekhaak-artikel, onder '1. Renault 5')",
+        "Alle uitvoeringen: qua formaat tussen Twingo en Clio (ANWB, onder '1. Renault 5')"
+      ],
+      "metingen": [],
+      "valkuilen": [],
+      "oordelen": [],
+      "concurrenten": []
+    },
+    "citroen-e-c3": {
+      "uitvoeringen": [],
+      "fabrieksopgaven": ["Uitvoering niet genoemd: trekgewicht 600 kg; vanaf € 24.290 voor de 'kale' variant, stand 06-10-2026 (ANWB, onder '2. Citroën ë-C3')"],
+      "metingen": [],
+      "valkuilen": ["Kale variant: de vanafprijs van € 24.290 is de basisuitvoering; of die de trekhaak of 600 kg heeft, zegt het artikel niet (ANWB, onder '2. Citroën ë-C3')"],
+      "oordelen": [],
+      "concurrenten": []
+    },
+    "mini-aceman": {
+      "uitvoeringen": [],
+      "fabrieksopgaven": [
+        "Uitvoering niet genoemd: trekgewicht 750 kg, vanaf € 38.990, stand 06-10-2026 (ANWB, onder '3. Mini Aceman')",
+        "Alle uitvoeringen: een stuk kleiner dan de nieuwe Countryman en daardoor goedkoper (ANWB, onder '3. Mini Aceman')"
+      ],
+      "metingen": [],
+      "valkuilen": [],
+      "oordelen": [],
+      "concurrenten": []
+    },
+    "hyundai-kona-electric": {
+      "uitvoeringen": ["Vorige generatie, 64 kWh (ANWB, trekhaak-artikel, onder '1. Hyundai Kona electric')"],
+      "fabrieksopgaven": ["Vorige generatie, alleen 64 kWh: trekgewicht 300 kg; occasion vanaf € 16.445, stand 06-10-2026 (ANWB, onder '1. Hyundai Kona electric')"],
+      "metingen": [],
+      "valkuilen": ["Vorige generatie: trekgewicht alleen bij de 64 kWh-versie; voor de kleinere accu noemt ANWB er geen (ANWB, onder '1. Hyundai Kona electric')"],
+      "oordelen": ["Vorige generatie, uitvoering niet genoemd: 'kwalitatief zeer goed en probleemloos', aldus de Wegenwacht (ANWB, onder '1. Hyundai Kona electric')"],
+      "concurrenten": []
+    },
+    "kia-niro-ev": {
+      "uitvoeringen": ["Vorige generatie e-Niro, 64 kWh (ANWB, trekhaak-artikel, onder '2. Kia e-Niro')"],
+      "fabrieksopgaven": ["Vorige generatie e-Niro, alleen 64 kWh: trekgewicht 300 kg; occasion vanaf € 24.899, stand 06-10-2026 (ANWB, onder '2. Kia e-Niro')"],
+      "metingen": [],
+      "valkuilen": ["Vorige generatie e-Niro: trekgewicht alleen bij de 64 kWh-versie; voor de kleinere accu noemt ANWB er geen (ANWB, onder '2. Kia e-Niro')"],
+      "oordelen": [],
+      "concurrenten": []
+    },
+    "mg-mg-zs-ev": {
+      "uitvoeringen": ["Modeljaar 2021 en later (ANWB, trekhaak-artikel, onder '3. MG ZS EV')"],
+      "fabrieksopgaven": ["Vanaf modeljaar 2021: trekgewicht 500 kg; occasion vanaf € 27.450, stand 06-10-2026 (ANWB, onder '3. MG ZS EV')"],
+      "metingen": [],
+      "valkuilen": ["Trekgewicht pas vanaf modeljaar 2021; voor oudere exemplaren noemt ANWB het niet (ANWB, onder '3. MG ZS EV')"],
+      "oordelen": ["Uitvoering niet genoemd: rijk uitgerust en goed op veiligheid (ANWB, onder '3. MG ZS EV')"],
+      "concurrenten": []
+    },
+    "hyundai-ioniq-5": {
+      "uitvoeringen": [],
+      "fabrieksopgaven": [],
+      "metingen": [],
+      "valkuilen": [],
+      "oordelen": ["Uitvoering niet genoemd: Trekauto van het jaar 2022 (ANWB, trekhaak-artikel, onder 'Elektrische auto's zijn soms zelfs ideale caravantrekkers')"],
+      "concurrenten": []
+    },
+    "kia-ev6": {
+      "uitvoeringen": [],
+      "fabrieksopgaven": [],
+      "metingen": [],
+      "valkuilen": [],
+      "oordelen": ["Uitvoering niet genoemd: Trekauto van het jaar 2024 (ANWB, trekhaak-artikel, onder 'Elektrische auto's zijn soms zelfs ideale caravantrekkers')"],
+      "concurrenten": []
+    }
+  },
+  "merk_feiten": {
+    "skoda": ["De Elroq was in 2025 de bestverkochte auto van Nederland (ANWB, trekhaak-artikel, onder '2. Skoda Elroq')"],
+    "kia": [
+      "De EV3 was in 2025 de op één na bestverkochte auto van Nederland (ANWB, trekhaak-artikel, onder '1. Kia EV3')",
+      "Veel gebruikte e-Niro's te koop, vaak bij Kia-dealers (ANWB, onder '2. Kia e-Niro')"
+    ],
+    "anwb": ["Bron toevoegen: themaartikel '9 elektrische auto's met trekhaak' (kop 01-05-2022, stand 06-10-2026); verwijst naar het eigen Occasionplatform en ANWB Private Lease; source_count +1"]
+  },
+  "concepten": [
+    {"slug": "trekgewicht", "bestaat": true, "toevoeging": "ANWB-themaartikel (stand 06-10-2026), negen EV's tot € 40.000 met minstens 300 kg, fabrieksopgaven, geremd of ongeremd niet genoemd: Kia EV3 300 kg (1000 kg met 81,4 kWh), Škoda Elroq 1000 kg, Renault Mégane E-Tech 500 kg, Renault 5 500 kg, Citroën ë-C3 600 kg, Mini Aceman 750 kg; occasions Hyundai Kona Electric en Kia e-Niro 300 kg (alleen 64 kWh), MG ZS EV 500 kg (vanaf modeljaar 2021). Kern: trekhaak achteraf is bij een EV niet altijd mogelijk omdat de accu in de weg zit, dus kies een auto met af-fabriek trekhaak; trekgewicht én kogeldruk bepalen of een caravan kan; het bereik loopt met een caravan 'drastisch' terug, het rijgedrag lijdt minder dan bij een brandstofauto. Trekauto van het jaar: Hyundai Ioniq 5 (2022), Kia EV6 (2024)."}
+  ],
+  "relaties_met_bestaande_bronnen": [
+    {"type": "supports", "target": "2026-09-09-is-de-volkswagen-id-polo-de-nieuwe-publiekslieveling", "via": "trekgewicht hangt aan de uitvoering: bij de Kia EV3 pas 1000 kg met de grote accu, bij de ID. Polo 1200 kg alleen bij de duurdere versies"}
+  ]
+}

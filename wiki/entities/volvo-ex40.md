@@ -10,10 +10,10 @@ aliases:
 - Volvo XC40 Recharge
 tags:
 - volvo
-confidence: 0.7
+confidence: 0.75
 last_confirmed: '2026-10-06'
 accessed_at: '2026-10-06'
-source_count: 1
+source_count: 2
 relationships:
 - type: part-of
   target: volvo
@@ -22,7 +22,7 @@ relationships:
 # Volvo EX40
 
 Model van [[volvo|Volvo]]. Bronnen over dit model: [[2026-09-10-geliefd-in-nederland-populaire-volvo-xc40-en-ex40-weer-gefacelift|Autovisie 10-09-2026]].
-Met één eigen bron blijft de zekerheid op hooguit 0,75.
+Met één eigen bron (of één test, ook als die in video en artikel verscheen) blijft de zekerheid op hooguit 0,75.
 
 **Plinkie.** `/deals/volvo/ex40`, staat in de sitemap van plinkie.nl.
 
@@ -35,6 +35,7 @@ Met één eigen bron blijft de zekerheid op hooguit 0,75.
 
 ## Fabrieksopgaven
 
+- Uitvoering niet genoemd: trekgewicht 1500 kg geremd (ANWB, caravantrekkers, onder 'Veel EV's trekken 1.500 kg') ([[2026-10-06-top-10-elektrische-caravantrekkers|ANWB 06-10-2026]])
 - P5: WLTP ongeveer 477 km; accu 70 kWh (transcript: '70 kWu') (Autovisie 10-09-2026, 7:01) ([[2026-09-10-geliefd-in-nederland-populaire-volvo-xc40-en-ex40-weer-gefacelift|Autovisie 10-09-2026]])
 - P5 Range: WLTP 576 km; accu 82 kWh (transcript: '82 kW batterij') (Autovisie 10-09-2026, 7:18) ([[2026-09-10-geliefd-in-nederland-populaire-volvo-xc40-en-ex40-weer-gefacelift|Autovisie 10-09-2026]])
 - P8 AWD en P8 AWD Performance: WLTP 'zo'n beetje rond de 540' km, afgerond en voor beide samen (Autovisie 10-09-2026, 7:32) ([[2026-09-10-geliefd-in-nederland-populaire-volvo-xc40-en-ex40-weer-gefacelift|Autovisie 10-09-2026]])

@@ -32,6 +32,7 @@ Genoemd als concurrent van:
 | --- | --- | --- | --- |
 | [[volkswagen-id-polo|Volkswagen ID. Polo]] | [[2026-10-02-kan-de-volkswagen-id-polo-de-succesvolle-renault-5-aan|AutoWeek 02-10-2026]] | 12:12 | echte hatchbacks in hetzelfde segment, net als de Renault 5 en de ID. Polo |
 | [[renault-5|Renault 5]] | [[2026-10-02-kan-de-volkswagen-id-polo-de-succesvolle-renault-5-aan|AutoWeek 02-10-2026]] | 12:12 | echte hatchbacks in hetzelfde segment, net als de Renault 5 en de ID. Polo |
+| [[volkswagen-id-polo|Volkswagen ID. Polo]] | [[2026-09-09-volkswagen-id-polo-beter-door-de-bocht|ANWB 09-09-2026]] | onder 'Minimaal 30 mille' | soortgelijke prijzen; de ID. Polo is ruimer van binnen, maar legt het af op accugrootte en laadsnelheid. De Renault 5 heet onder 'De ID. Polo van binnen' nog eens uitdrukkelijk 'een van de concurrenten' |
 | [[volkswagen-id-polo|Volkswagen ID. Polo]] | [[2026-09-09-is-de-volkswagen-id-polo-de-nieuwe-publiekslieveling|ANWB 09-09-2026]] | 3:32 | de concurrentie buiten de Volkswagen-groep waar de ID. Polo 'op zijn tellen moet passen'; de Renault 5 heeft volgens de tester een kleinere accu en trager snelladen, de goedkoopste Stellantis-modellen een grotere accu, sneller laden en langere garantie |
 
 ## Debatten en vervanging

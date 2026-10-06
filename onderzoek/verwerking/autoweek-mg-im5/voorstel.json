@@ -1,0 +1,80 @@
+{
+  "nieuwe_entiteiten": [
+    {"slug": "mg-mg-im5", "kind": "model", "naam": "MG IM5", "merk": "mg", "plinkie_pad": "/deals/mg/mg-im5", "aliases": ["IM5", "MG IM5", "IM5 Performance", "IM5 Long Range"], "tekst": "Elektrische sedan met hatchbackklep van het IM-label van MG, 4,93 m lang. Drie versies: 295 pk met 75 kWh LFP en 400 V, Long Range RWD met 100 kWh NMC en 800 V, en Performance met 752 pk. AutoWeek legt hem naast de Tesla Model 3: groter en luxer, maar duurder (22-09-2026)."},
+    {"slug": "mg", "kind": "merk", "naam": "MG", "merk": "", "plinkie_pad": "", "aliases": ["MG", "MG Motor"], "tekst": "Automerk van Chinese herkomst (SAIC). IM is een luxer label onder MG met een eigen logo; de auto's heten wel MG IM5 en MG IM6 (AutoWeek, 22-09-2026, 1:49)."},
+    {"slug": "tesla-model-3", "kind": "model", "naam": "Tesla Model 3", "merk": "tesla", "plinkie_pad": "/deals/tesla/model-3", "aliases": ["Model 3", "Tesla Model 3", "Model 3 Performance"], "tekst": "Elektrische sedan van Tesla. AutoWeek noemt hem de benchmark van het elektrische segment, waar de MG IM5 zich op richt (22-09-2026, 1:20). Deze wiki heeft nog geen review van de Model 3 zelf."},
+    {"slug": "tesla", "kind": "merk", "naam": "Tesla", "merk": "", "plinkie_pad": "", "aliases": ["Tesla"], "tekst": "Amerikaans automerk. In de wiki via de Model 3 als doelwit van de MG IM5 (AutoWeek, 22-09-2026)."}
+  ],
+  "model_feiten": {
+    "mg-mg-im5": {
+      "uitvoeringen": [
+        "Instap: achterwielaandrijving, 295 pk, 75 kWh LFP-accu, 400 V (8:52)",
+        "Long Range RWD: 100 kWh NMC-accu, 800 V; vermogen niet genoemd (9:09)",
+        "Performance (getest): 752 pk, dezelfde 100 kWh-accu (7:20, 9:57)"
+      ],
+      "fabrieksopgaven": [
+        "Uitvoering niet genoemd: 4,93 m lang, wielbasis 2,95 m, ruim 20 cm langer dan een Model 3 (1:02)",
+        "Uitvoering niet genoemd: kofferbak 457 L met vlakke laadvloer, frunk 18 L (2:16, 2:52)",
+        "Instap 75 kWh: rijbereik 'zo'n 450 km' (9:04)",
+        "Long Range RWD 100 kWh: rijbereik 710 km (9:44)",
+        "Performance 100 kWh: rijbereik 575 km (10:03)",
+        "Instap 75 kWh, 400 V: snelladen 'dik 150 kW' (10:10)",
+        "100 kWh, 800 V: snelladen 'net geen 400 kW' (9:22)",
+        "Uitvoering niet genoemd: panoramadak en (kunst)leren bekleding standaard, meesturende achterwielen met draaicirkel van krap 10 m (10:45)",
+        "Uitvoering niet genoemd: 10 inch scherm op de middentunnel en een paneel van 26,3 inch voor de bestuurder (5:17, 6:10)",
+        "Instap 75 kWh: vanaf 'net geen 49 mi' (ongeveer € 49.000), september 2026 (11:14)",
+        "Long Range RWD: 'bijna 57 mil' (ongeveer € 57.000), september 2026 (11:35)"
+      ],
+      "metingen": [],
+      "valkuilen": [
+        "Snelladen tot bijna 400 kW alleen met de 100 kWh/800 V-accu; de instap van ongeveer € 49.000 laadt met iets meer dan 150 kW (10:07, 11:19)",
+        "Alle uitvoeringen: 'absoluut geen efficiëntiewonder'; de 710 km komt uit 100 kWh, het hoge laadvermogen is nodig en geen pluspunt volgens de tester. Geen verbruik genoemd (9:34, 10:17)",
+        "Uitvoering niet genoemd: lage kofferklep, de tester van net onder 1,70 m stoot bijna zijn hoofd (2:29)",
+        "Uitvoering niet genoemd: aflopende daklijn, iemand van 1,85 m raakt achterin rechtop zittend vermoedelijk het dak; de rugleuning kan iets achterover (3:13, 4:12)",
+        "Uitvoering niet genoemd: frunk van 18 L tegen 88 L in een Model 3 (2:47)",
+        "Performance: torque steer en een neus die omhoog komt bij vol gas, onrustig (7:38)",
+        "Uitvoering niet genoemd: menu bomvol instellingen, in het begin overweldigend (5:47)"
+      ],
+      "oordelen": [
+        "Uitvoering niet genoemd: echte hatchbackklep maakt laden prettig (2:08)",
+        "Uitvoering niet genoemd: beenruimte achterin 'te over', comfortabele stoel (3:03)",
+        "Uitvoering niet genoemd: goede afwerking en zachte materialen; luxer en sfeervoller dan een Tesla (4:57, 10:38)",
+        "Performance: zonder luchtvering natuurlijker dan de IM6 met luchtvering; rustig gereden een fijne, koersvaste cruiser (6:50, 7:46)",
+        "Performance: rijdt minder betrokken dan de Model 3, 'zeker geen nieuwe benchmark' maar 'lang niet verkeerd' (8:02, 8:30)",
+        "Uitvoering niet genoemd: draaicirkel van krap 10 m 'heel indrukwekkend' voor dit formaat (10:53)",
+        "Alle uitvoeringen: 'meer voor meer', groter en luxer maar fors duurder dan de Model 3; alleen de Performance is in prijs vergelijkbaar met de Model 3 Performance (11:56, 12:30)"
+      ],
+      "concurrenten": [
+        {"tegen": "tesla-model-3", "tijd": "0:41", "grond": "MG richt de IM5 op de Model 3, de benchmark van het segment; de video vergelijkt op maat, kofferbak, rijgedrag, efficiëntie, laden en prijs. Groter en luxer, maar duurder. De Tesla is niet gereden"}
+      ]
+    },
+    "tesla-model-3": {
+      "uitvoeringen": [],
+      "fabrieksopgaven": [
+        "Uitvoering niet genoemd: kofferbak 'zo'n 425 l' en frunk 88 L, volgens AutoWeek (2:47)",
+        "Performance: 'bijna 61 mil' (ongeveer € 61.000), september 2026, volgens AutoWeek (12:07)"
+      ],
+      "metingen": [],
+      "valkuilen": [],
+      "oordelen": [
+        "Uitvoering niet genoemd: betrekt de bestuurder meer bij het rijden dan de MG IM5 en is efficiënter, volgens AutoWeek (8:02, 9:52)"
+      ],
+      "concurrenten": []
+    }
+  },
+  "merk_feiten": {
+    "mg": [
+      "IM is een luxer label onder MG met een eigen logo; de auto heet wel MG IM5. Het logo op de achterklep is de knop van de kofferklep (AutoWeek, 22-09-2026, 1:49)",
+      "Het infotainment van de IM-modellen is een ander systeem dan dat van de gewone MG-modellen (AutoWeek, 22-09-2026, 6:18)",
+      "De tester vindt dat Chinese merken 'hetzelfde voor minder of meer voor hetzelfde' moeten bieden; de IM5 doet 'meer voor meer' (AutoWeek, 22-09-2026, 12:47)"
+    ]
+  },
+  "concepten": [
+    {"slug": "kofferbakinhoud", "bestaat": true, "toevoeging": "MG IM5 (uitvoering niet genoemd): 457 L achter en 18 L voorin, tegen 425 L en een frunk van 88 L in de Tesla Model 3. Opgaven, niet gemeten (AutoWeek, 22-09-2026, 2:16 en 2:47)."},
+    {"slug": "snelladen-10-80", "bestaat": true, "toevoeging": "MG IM5: laadvermogen hangt af van de accu. 75 kWh LFP met 400 V 'dik 150 kW', 100 kWh NMC met 800 V 'net geen 400 kW'. Geen 10-80%-tijd genoemd. De tester noemt het hoge laadvermogen nodig, niet een pluspunt, omdat de auto niet zuinig is (AutoWeek, 22-09-2026, 9:22 en 10:10)."},
+    {"slug": "rijbereik-wltp", "bestaat": true, "toevoeging": "MG IM5: zo'n 450 km (75 kWh), 710 km (Long Range RWD, 100 kWh) en 575 km (Performance, 100 kWh). Volgens de tester komt het grote bereik uit een grote accu, niet uit zuinigheid (AutoWeek, 22-09-2026, 9:04-10:03)."},
+    {"slug": "lfp-accu", "bestaat": true, "toevoeging": "MG IM5 instapversie: 75 kWh LFP-accu met 400 V en ongeveer 150 kW snelladen; de grotere 100 kWh-accu is NMC met 800 V (AutoWeek, 22-09-2026, 8:58)."},
+    {"slug": "prijsklasse", "bestaat": true, "toevoeging": "MG IM5: vanaf ongeveer € 49.000 (75 kWh) en bijna € 57.000 (Long Range), september 2026. Volgens AutoWeek duidelijk duurder dan de meest vergelijkbare Tesla Model 3; de Model 3 Performance kost bijna € 61.000 (22-09-2026, 11:14-12:07)."}
+  ],
+  "relaties_met_bestaande_bronnen": []
+}

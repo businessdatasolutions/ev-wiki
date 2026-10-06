@@ -1,0 +1,137 @@
+{
+  "nieuwe_entiteiten": [
+    {
+      "slug": "skoda-peaq",
+      "kind": "model",
+      "naam": "Škoda Peaq",
+      "merk": "skoda",
+      "plinkie_pad": "/deals/skoda/peaq",
+      "aliases": ["Peaq", "Skoda Peaq", "Škoda Peaq"],
+      "tekst": "Elektrische zevenzitter en topmodel van Škoda, iets groter dan de Kodiaq met verbrandingsmotor en kleiner dan de Kia EV9 en Hyundai Ioniq 9. Staat op de achterwielaangedreven doorontwikkeling van MEB, die Volkswagen nu ook MEB+ noemt. Twee accu's (60 en 90) en drie aandrijflijnen; in de showroom in het najaar van 2026."
+    },
+    {
+      "slug": "peugeot-e-5008",
+      "kind": "model",
+      "naam": "Peugeot e-5008",
+      "merk": "peugeot",
+      "plinkie_pad": "/deals/peugeot/e-5008",
+      "aliases": ["e-5008", "Peugeot e-5008", "E5008"],
+      "tekst": "Elektrische zevenzits-SUV van Peugeot. In deze wiki nog alleen als concurrent genoemd: AutoWeek noemt hem de enige echte concurrent van de Škoda Peaq."
+    },
+    {
+      "slug": "kia-ev9",
+      "kind": "model",
+      "naam": "Kia EV9",
+      "merk": "kia",
+      "plinkie_pad": "/deals/kia/ev9",
+      "aliases": ["EV9", "Kia EV9"],
+      "tekst": "Grote elektrische zevenzits-SUV van Kia, langer dan 5 m. In deze wiki nog alleen als concurrent genoemd, bij de Škoda Peaq."
+    },
+    {
+      "slug": "hyundai-ioniq-9",
+      "kind": "model",
+      "naam": "Hyundai Ioniq 9",
+      "merk": "hyundai",
+      "plinkie_pad": "/deals/hyundai/ioniq-9",
+      "aliases": ["Ioniq 9", "Hyundai Ioniq 9", "IONIQ 9"],
+      "tekst": "Grote elektrische zevenzits-SUV van Hyundai, langer dan 5 m. In deze wiki nog alleen als concurrent genoemd, bij de Škoda Peaq."
+    }
+  ],
+  "model_feiten": {
+    "skoda-peaq": {
+      "uitvoeringen": [
+        "Peaq 60: kleine accu (capaciteit niet genoemd), achterwielaandrijving, WLTP 'een dikke 400 km', instapuitvoering vanaf net onder € 50.000 (transcript: 'net geen 50.000. €1000'), stand september 2026. AutoWeek 20-09-2026, 8:03 en 11:55",
+        "Peaq 90: 'een kleine 90 kWh', 286 pk, achterwielaandrijving, WLTP 'dik 600 km', tot 640 km; de geteste uitvoering, alleen een stap hoger op de uitrustingsladder. Prijs niet leesbaar (transcript: 'minimaal €5.000'). 8:11 en 12:11",
+        "Peaq 90X: grote accu, vierwielaandrijving, 299 pk. 9:00",
+        "Alle uitvoeringen: in de showroom in het najaar van 2026. 11:55"
+      ],
+      "fabrieksopgaven": [
+        "Uitvoering niet genoemd: verbruik ongeveer 15 kWh/100 km volgens Škoda (transcript: '15 kW per 100 km'). 6:52",
+        "Peaq 90: snelladen 200 kW. 8:44",
+        "Zevenzitter: kofferbak achter de derde rij 'bijna 300 l', deels onder de vloer. 3:28",
+        "Derde rij geklapt: 935 l bij de vijfzitter, 900 l bij de zevenzitter; bij welke stand van de middenbank is onduidelijk. 3:56",
+        "Uitvoering niet genoemd: frunk 37 L, past de rolhoes en laadkabels. 4:42",
+        "Vierwielaandrijving: trekgewicht 2000 kg; achterwielaandrijving niet leesbaar (transcript: '100 kg'). Trekhaak elektrisch uitklapbaar. 4:34",
+        "Peaq 90: 2200 kg op kenteken. 10:28",
+        "Alle uitvoeringen: achterwielaandrijving (behalve 90X), trommelremmen achter, platform is de doorontwikkeling van MEB (heet nu ook MEB+). 7:27",
+        "Alle uitvoeringen: stoelverwarming en stuurverwarming standaard. 12:03",
+        "Uitvoering niet genoemd: opties Sonos-audio, panoramadak met segmentverduistering, loungestoelen met voetsteun, klaptafel. 9:31"
+      ],
+      "metingen": [],
+      "valkuilen": [
+        "Peaq 60 tegen 90: de grote accu vraagt een hogere uitrusting; de instapprijs hoort bij de 60, en volgens importeur Pon is 'een dikke 400 km' voor de meeste kopers van zo'n auto niet genoeg. 8:03, 12:11",
+        "Peaq 90: 2200 kg op kenteken, dus hoge wegenbelasting; bij private lease zit dat in het maandbedrag (transcript: 'weegbelasting'). 10:28",
+        "Uitvoering niet genoemd: derde zitrij is een optie, ook op de basisversie; prijs niet leesbaar (transcript: 'Kost €190'). 3:21",
+        "Trekgewicht 2000 kg geldt voor de 90X met vierwielaandrijving; de waarde met achterwielaandrijving is niet leesbaar. 4:34",
+        "Uitvoering niet genoemd: het interieur van de testauto kost 'iets van € 1800' extra bovenop een al niet lage uitrusting. 7:04",
+        "Uitvoering niet genoemd: de wielen van de testauto staan niet in de configurator, ze komen als accessoire. 1:40",
+        "Uitvoering niet genoemd: panoramadak kan niet open. 9:38",
+        "Kofferbak 935 l: Škoda gaf bij de presentatie en bij de rijtest een andere stand van de middenbank op. 4:03"
+      ],
+      "oordelen": [
+        "Peaq 90: middenrij ruim met goede zithouding, bank verschuifbaar; derde rij krap maar voor een korte rit geschikt voor een volwassene; kleine raampjes achterin. 2:22, 2:56",
+        "Peaq 90: derde zitrij kost weinig kofferbakruimte, 'gewoon bestellen'. 4:20",
+        "Peaq 90: verticaal scherm met Android Automotive, temperatuurknoppen en een volumeknop in plaats van een slider, beter dan in de Enyaq; overzichtelijk en snel. 5:39",
+        "Peaq 90: elektrische deurgrepen, 'doet een beetje pijn' bij Škoda. 5:03",
+        "Peaq 90: aandrijflijn en snelladen 'dikke prima, niet grensverleggend'. 8:33",
+        "Peaq 90: klaptafel voelt 'brak' en zit in de weg. 10:11",
+        "Peaq 90: zonder luchtvering beter geveerd en gedempt dan veel lichtere auto's op dit platform; stabiel, voorspelbaar, niet zacht. 10:35",
+        "Peaq 90: fijne besturing zonder aandrijfreacties, kleine draaicirkel. 11:24",
+        "Peaq 90: eindoordeel 'heel fijn', weinig op aan te merken; geen volumesucces door prijs en maat. 12:21"
+      ],
+      "concurrenten": [
+        {"tegen": "peugeot-e-5008", "tijd": "1:31", "grond": "'de enige echte concurrent', elektrische zevenzitter van Europees formaat; kofferbak achter de derde rij ~250 l tegen bijna 300 l (3:28)"},
+        {"tegen": "kia-ev9", "tijd": "0:53", "grond": "elektrische zevenzitter, maar over de 5 m en duurder; begint volgens de tester rond € 60.000 (12:44)"},
+        {"tegen": "hyundai-ioniq-9", "tijd": "0:53", "grond": "elektrische zevenzitter, maar over de 5 m en duurder (1:24)"}
+      ]
+    },
+    "peugeot-e-5008": {
+      "uitvoeringen": [],
+      "fabrieksopgaven": [
+        "Uitvoering niet genoemd: kofferbak achter de derde rij 'geloof ik' niet verder dan 250 l (tester niet zeker). AutoWeek 20-09-2026, 3:28"
+      ],
+      "metingen": [],
+      "valkuilen": [],
+      "oordelen": [],
+      "concurrenten": []
+    },
+    "kia-ev9": {
+      "uitvoeringen": [],
+      "fabrieksopgaven": [
+        "Uitvoering niet genoemd: langer dan 5 m; begint rond € 60.000 (transcript: 'Dat begint dan bij 60'), stand september 2026. AutoWeek 20-09-2026, 0:53 en 12:44"
+      ],
+      "metingen": [],
+      "valkuilen": [],
+      "oordelen": [],
+      "concurrenten": []
+    },
+    "hyundai-ioniq-9": {
+      "uitvoeringen": [],
+      "fabrieksopgaven": [
+        "Uitvoering niet genoemd: langer dan 5 m, duurder dan de Peaq. AutoWeek 20-09-2026, 0:53 en 1:24"
+      ],
+      "metingen": [],
+      "valkuilen": [],
+      "oordelen": [],
+      "concurrenten": []
+    }
+  },
+  "merk_feiten": {
+    "skoda": [
+      "De Peaq is het nieuwe topmodel van Škoda en de eerste elektrische zevenzitter van de Volkswagen-groep die geen bus is (de ID. Buzz had al een derde rij). AutoWeek 20-09-2026, 1:09",
+      "Peaq en Epiq delen de nieuwe vormgeving met T-vormige lampen. AutoWeek 20-09-2026, 5:22",
+      "Importeur Pon verwacht dat de meeste Peaq-kopers 'doorsparen' voor de grote accu. AutoWeek 20-09-2026, 8:11"
+    ],
+    "volkswagen-groep": [
+      "De naam MEB+ geldt nu voor alle elektrische auto's van de groep: zowel het voorwielplatform van de Epiq als de achterwielaangedreven doorontwikkeling van MEB onder de Peaq. AutoWeek 20-09-2026, 7:27"
+    ]
+  },
+  "concepten": [
+    {"slug": "kofferbakinhoud", "bestaat": true, "toevoeging": "Škoda Peaq: bijna 300 l achter de derde rij, 935 l (vijfzitter) / 900 l (zevenzitter) met de derde rij geklapt, frunk 37 L; opgave Škoda, niet gemeten, stand middenbank onduidelijk (AutoWeek 20-09-2026, 3:28-4:42). Peugeot e-5008 achter de derde rij volgens de tester ~250 l."},
+    {"slug": "trekgewicht", "bestaat": true, "toevoeging": "Škoda Peaq 90X (vierwielaandrijving): 2000 kg; met achterwielaandrijving niet leesbaar in het transcript (AutoWeek 20-09-2026, 4:34)."},
+    {"slug": "rijbereik-wltp", "bestaat": true, "toevoeging": "Škoda Peaq 60 'een dikke 400 km', Peaq 90 'dik 600', tot 640 km (AutoWeek 20-09-2026, 8:03)."},
+    {"slug": "wegenbelasting", "bestaat": true, "toevoeging": "Škoda Peaq 90 weegt 2200 kg op kenteken; AutoWeek waarschuwt voor de wegenbelasting (20-09-2026, 10:28)."},
+    {"slug": "weergaven", "bestaat": true, "toevoeging": "AutoWeek Peaq: 56.117 op 06-10-2026, 16 dagen, ~3.507 per dag."}
+  ],
+  "relaties_met_bestaande_bronnen": []
+}

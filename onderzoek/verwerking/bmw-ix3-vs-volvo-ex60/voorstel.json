@@ -1,136 +1,259 @@
 {
-  "nieuwe_entiteiten": [
-    {"slug": "bmw", "kind": "merk", "naam": "BMW", "merk": "", "plinkie_pad": "", "aliases": ["BMW"], "tekst": "Duits premiummerk. In de ANWB-vergelijkingstest van 2 oktober 2026 met de iX3: 3 jaar garantie op de auto en 8 jaar op de accu (23:08)."},
-    {"slug": "volvo", "kind": "merk", "naam": "Volvo", "merk": "", "plinkie_pad": "", "aliases": ["Volvo"], "tekst": "Zweeds merk. Volgens ANWB (2 oktober 2026) 3 jaar of 100.000 km garantie op de auto, en 10 jaar op de accu bij onderhoud bij de dealer (21:44, 23:08)."},
-    {"slug": "mercedes-benz", "kind": "merk", "naam": "Mercedes-Benz", "merk": "", "plinkie_pad": "", "aliases": ["Mercedes", "Mercedes-Benz"], "tekst": "Duits premiummerk. Volgens ANWB (2 oktober 2026) 2 jaar garantie op de auto zonder kilometergrens en 8 jaar of 160.000 km op de accu (21:00)."},
-    {"slug": "bmw-ix3", "kind": "model", "naam": "BMW iX3", "merk": "bmw", "plinkie_pad": "/deals/bmw/ix3", "aliases": ["iX3", "BMW iX3", "IX3"], "tekst": "Elektrische premium-SUV met 800-voltladen, vanaf net geen € 63.000 (oktober 2026). ANWB zette hem op 2 oktober 2026 in een vergelijkingstest van 1000 km tegen de Volvo EX60 (0:33). Let op: niet de oude BMW i3; ASR schrijft 'I3'."},
-    {"slug": "volvo-ex60", "kind": "model", "naam": "Volvo EX60", "merk": "volvo", "plinkie_pad": "/deals/volvo/ex60", "aliases": ["EX60", "Volvo EX60"], "tekst": "Elektrische premium-SUV met 800-voltladen, vanaf € 63.995 (oktober 2026). Winnaar van de ANWB-vergelijkingstest tegen de BMW iX3 van 2 oktober 2026, op ruimte, comfort en trekgewicht (22:09)."},
-    {"slug": "mercedes-benz-glc", "kind": "model", "naam": "Mercedes-Benz GLC (elektrisch)", "merk": "mercedes-benz", "plinkie_pad": "/deals/mercedes-benz/glc", "aliases": ["GLC", "Mercedes GLC", "GLC 400", "Mercedes-Benz GLC"], "tekst": "De elektrische GLC, een totaal andere auto dan de GLC met brandstofmotor onder dezelfde naam (ANWB, 2 oktober 2026, 17:44). Vanaf € 64.130, als derde premium-SUV naast iX3 en EX60 bekeken maar niet gereden."}
-  ],
-  "model_feiten": {
-    "bmw-ix3": {
-      "uitvoeringen": [
-        "Instapper: achterwielaandrijving, accu 87,5 kWh (transcript: '87,5 kW'), vanaf net geen € 63.000 op 02-10-2026 (2:05)",
-        "Testauto: vierwielaandrijving, ongeveer 500 pk, 115 kWh, WLTP 805 km; prijs onleesbaar (transcript: '83.000 509') (2:48, 3:30)"
-      ],
-      "fabrieksopgaven": [
-        "Testauto 115 kWh: WLTP 805 km (1:28)",
-        "Uitvoering niet genoemd: lengte ongeveer 4,80 m, wielbasis 10 cm korter dan de EX60 (8:30)",
-        "Uitvoering niet genoemd: kofferbak 3 L kleiner dan de 523 L van de EX60, met bank plat 1750 L (9:16, 9:30)",
-        "Uitvoering niet genoemd: frunk 6 L groter dan die van de EX60; absolute maat onzeker (transcript: '58 l voor de EX60') (9:46)",
-        "Testauto: trekgewicht 2000 kg (12:34)",
-        "Uitvoering niet genoemd: 800 volt, voorconditioneren, warmtepomp, stroom leveren aan apparaten (6:34, 8:05)",
-        "Uitvoering niet genoemd: display over de volle breedte van het dashboard (4:12)"
-      ],
-      "metingen": [
-        "Testauto 115 kWh: na één laadstop 527 km naar het noorden van Denemarken gehaald met 6% over (transcript: '6% over 4 km'), op cruise control rond 107 km/u (transcript: '107'); temperatuur niet genoemd (16:14)",
-        "Testauto 115 kWh: bereikschatting na vol laden 696 km, in drive meteen 522 km (boordcomputer, 10:34)",
-        "Testauto 115 kWh: 200 kW aan een paal van 400 kW, met koude accu en gedeelde paal (7:00)",
-        "Testauto: van 80% naar 100% laden kostte ongeveer 45 minuten extra, voor beide auto's (17:03)"
-      ],
-      "valkuilen": [
-        "Testauto: voorconditioneren gebeurde niet, ondanks navigeren met de eigen navigatie; daardoor koude accu en 200 kW. Met een knop kan het met de hand (7:00, 7:52)",
-        "Testauto: bereikschatting zakte van 696 naar 522 km bij inschakelen van drive (10:34)",
-        "Uitvoering niet genoemd: rugleuning achter niet elektrisch verstelbaar, in de EX60 wel (9:08)",
-        "Uitvoering niet genoemd: bij opname voor het hele jaar uitverkocht (0:55)"
-      ],
-      "oordelen": [
-        "Testauto: stuurt heel goed, sportief, levert 500 pk 'met een soort van zweepslag' (11:46, 12:07)",
-        "Testauto: fantastische stoelen, rijhulp die doet wat hij belooft, rijstrook wisselen door in de spiegel te kijken (11:02)",
-        "Uitvoering niet genoemd: kofferbakvloer met twee klepjes, zodat de laadkabel bereikbaar blijft (9:56)",
-        "Testauto: luidruchtiger en harder geveerd dan de EX60; verliest de test ondanks meer bereik en sneller laden (12:28, 22:14)"
-      ],
-      "concurrenten": [
-        {"tegen": "volvo-ex60", "tijd": "0:33", "grond": "rechtstreekse vergelijkingstest, premium-SUV's rond € 63.000, 1000 km"},
-        {"tegen": "mercedes-benz-glc", "tijd": "17:28", "grond": "andere premium-SUV, kanshebber Auto van het Jaar 2027, vanaf € 64.130"}
-      ]
+ "nieuwe_entiteiten": [
+  {
+   "slug": "bmw",
+   "kind": "merk",
+   "naam": "BMW",
+   "merk": "",
+   "plinkie_pad": "",
+   "aliases": [
+    "BMW"
+   ],
+   "tekst": "Duits premiummerk. In de ANWB-vergelijkingstest van 2 oktober 2026 met de iX3: 3 jaar garantie op de auto en 8 jaar op de accu (23:08)."
+  },
+  {
+   "slug": "volvo",
+   "kind": "merk",
+   "naam": "Volvo",
+   "merk": "",
+   "plinkie_pad": "",
+   "aliases": [
+    "Volvo"
+   ],
+   "tekst": "Zweeds merk. Volgens ANWB (2 oktober 2026) 3 jaar of 100.000 km garantie op de auto, en 10 jaar op de accu bij onderhoud bij de dealer (21:44, 23:08)."
+  },
+  {
+   "slug": "mercedes-benz",
+   "kind": "merk",
+   "naam": "Mercedes-Benz",
+   "merk": "",
+   "plinkie_pad": "",
+   "aliases": [
+    "Mercedes",
+    "Mercedes-Benz"
+   ],
+   "tekst": "Duits premiummerk. Volgens ANWB (2 oktober 2026) 2 jaar garantie op de auto zonder kilometergrens en 8 jaar of 160.000 km op de accu (21:00)."
+  },
+  {
+   "slug": "bmw-ix3",
+   "kind": "model",
+   "naam": "BMW iX3",
+   "merk": "bmw",
+   "plinkie_pad": "/deals/bmw/ix3",
+   "aliases": [
+    "iX3",
+    "BMW iX3",
+    "IX3"
+   ],
+   "tekst": "Elektrische premium-SUV met 800-voltladen, vanaf net geen € 63.000 (oktober 2026). ANWB zette hem op 2 oktober 2026 in een vergelijkingstest van 1000 km tegen de Volvo EX60 (0:33). Let op: niet de oude BMW i3; ASR schrijft 'I3'."
+  },
+  {
+   "slug": "volvo-ex60",
+   "kind": "model",
+   "naam": "Volvo EX60",
+   "merk": "volvo",
+   "plinkie_pad": "/deals/volvo/ex60",
+   "aliases": [
+    "EX60",
+    "Volvo EX60"
+   ],
+   "tekst": "Elektrische premium-SUV met 800-voltladen, vanaf € 63.995 (oktober 2026). Winnaar van de ANWB-vergelijkingstest tegen de BMW iX3 van 2 oktober 2026, op ruimte, comfort en trekgewicht (22:09)."
+  },
+  {
+   "slug": "mercedes-benz-glc",
+   "kind": "model",
+   "naam": "Mercedes-Benz GLC (elektrisch)",
+   "merk": "mercedes-benz",
+   "plinkie_pad": "/deals/mercedes-benz/glc",
+   "aliases": [
+    "GLC",
+    "Mercedes GLC",
+    "GLC 400",
+    "Mercedes-Benz GLC"
+   ],
+   "tekst": "De elektrische GLC, een totaal andere auto dan de GLC met brandstofmotor onder dezelfde naam (ANWB, 2 oktober 2026, 17:44). Vanaf € 64.130, als derde premium-SUV naast iX3 en EX60 bekeken maar niet gereden."
+  }
+ ],
+ "model_feiten": {
+  "bmw-ix3": {
+   "uitvoeringen": [
+    "Instapper: achterwielaandrijving, accu 87,5 kWh (transcript: '87,5 kW'), vanaf net geen € 63.000 op 02-10-2026 (2:05)",
+    "Testauto: vierwielaandrijving, ongeveer 500 pk, 115 kWh, WLTP 805 km; prijs onleesbaar (transcript: '83.000 509') (2:48, 3:30)"
+   ],
+   "fabrieksopgaven": [
+    "Testauto 115 kWh: WLTP 805 km (1:28)",
+    "Uitvoering niet genoemd: lengte ongeveer 4,80 m, wielbasis 10 cm korter dan de EX60 (8:30)",
+    "Uitvoering niet genoemd: kofferbak 3 L kleiner dan de 523 L van de EX60, met bank plat 1750 L (9:16, 9:30)",
+    "Uitvoering niet genoemd: frunk 58 L, 6 L groter dan de 52 L van de EX60; de maten komen uit de ANWB-review van dezelfde test (transcript: '58 l voor de EX60') (9:46)",
+    "Testauto: trekgewicht 2000 kg (12:34)",
+    "Uitvoering niet genoemd: 800 volt, voorconditioneren, warmtepomp, stroom leveren aan apparaten (6:34, 8:05)",
+    "Uitvoering niet genoemd: display over de volle breedte van het dashboard (4:12)"
+   ],
+   "metingen": [
+    "Testauto 115 kWh: na één laadstop 527 km naar het noorden van Denemarken gehaald met 6% over (transcript: '6% over 4 km'), op cruise control rond 107 km/u (transcript: '107'); temperatuur niet genoemd (16:14)",
+    "Testauto 115 kWh: bereikschatting na vol laden 696 km, in drive meteen 522 km (boordcomputer, 10:34)",
+    "Testauto 115 kWh: 200 kW aan een paal van 400 kW, met koude accu en gedeelde paal (7:00)",
+    "Testauto: van 80% naar 100% laden kostte ongeveer 45 minuten extra, voor beide auto's (17:03)"
+   ],
+   "valkuilen": [
+    "Testauto: voorconditioneren gebeurde niet, ondanks navigeren met de eigen navigatie; daardoor koude accu en 200 kW. Met een knop kan het met de hand (7:00, 7:52)",
+    "Testauto: bereikschatting zakte van 696 naar 522 km bij inschakelen van drive (10:34)",
+    "Uitvoering niet genoemd: rugleuning achter niet elektrisch verstelbaar, in de EX60 wel (9:08)",
+    "Uitvoering niet genoemd: bij opname voor het hele jaar uitverkocht (0:55)"
+   ],
+   "oordelen": [
+    "Testauto: stuurt heel goed, sportief, levert 500 pk 'met een soort van zweepslag' (11:46, 12:07)",
+    "Testauto: fantastische stoelen, rijhulp die doet wat hij belooft, rijstrook wisselen door in de spiegel te kijken (11:02)",
+    "Testauto: luidruchtiger en harder geveerd dan de EX60; verliest de test ondanks meer bereik en sneller laden (12:28, 22:14)"
+   ],
+   "concurrenten": [
+    {
+     "tegen": "volvo-ex60",
+     "tijd": "0:33",
+     "grond": "rechtstreekse vergelijkingstest, premium-SUV's rond € 63.000, 1000 km"
     },
-    "volvo-ex60": {
-      "uitvoeringen": [
-        "Instapper: achterwielaandrijving, 83 kWh, vanaf € 63.995 op 02-10-2026; standaard meer vermogen en rijkere uitrusting dan de iX3 (2:10)",
-        "Testauto: vierwielaandrijving, iets meer dan 500 pk, 95 kWh, op 22 inch; prijs onleesbaar (transcript: '€7.45') (2:48, 3:10, 3:55)",
-        "Aangekondigd: 117 kWh, WLTP 810 km; bij opname niet leverbaar (3:12)"
-      ],
-      "fabrieksopgaven": [
-        "Testauto 95 kWh: WLTP 660 km (1:28)",
-        "117 kWh: WLTP 810 km (3:12)",
-        "Uitvoering niet genoemd: lengte ongeveer 4,80 m, wielbasis 2,97 m (8:30)",
-        "Uitvoering niet genoemd: kofferbak 523 L, met bank plat 1647 L (9:16, 9:30)",
-        "Testauto: trekgewicht 2400 kg (12:34)",
-        "Uitvoering niet genoemd: standaard glazen panoramadak, verwarmde achterbank en 20 inch; de testauto heeft een dimbaar glazen dak (2:39, 4:20, 5:02)",
-        "Uitvoering niet genoemd: 800 volt, voorconditioneren, warmtepomp, stroom leveren aan apparaten (6:34, 8:05)"
-      ],
-      "metingen": [
-        "Testauto 95 kWh, 22 inch: bereikschatting bij vertrek met volle accu 490 km tegen 660 km WLTP (boordcomputer, 1:42)",
-        "Testauto 95 kWh: 370 kW aan een paal van 400 kW, 'het maximum' (7:18)",
-        "Testauto 95 kWh, 22 inch: haalde de laatste etappe naar het noorden van Denemarken niet met één laadstop; een extra stop voor ongeveer 100 km (16:39)",
-        "Testauto: van 80% naar 100% laden kostte ongeveer 45 minuten extra, voor beide auto's (17:03)"
-      ],
-      "valkuilen": [
-        "Testauto op 22 inch in plaats van standaard 20 inch: volgens de tester 'behoorlijk wat' meer verbruik, mede oorzaak dat 660 km WLTP 'bij lange na niet' gehaald werd (4:46)",
-        "Uitvoering niet genoemd: knop om de bestuurderscamera uit te zetten zit diep in het menu (14:16)",
-        "Uitvoering niet genoemd: 100.000 km-grens op de autogarantie; 10 jaar accugarantie alleen bij onderhoud bij de dealer (21:51, 23:08)"
-      ],
-      "oordelen": [
-        "Testauto: zeer comfortabel, 'alsof je op een waterbedje ligt', stiller dan de iX3 (12:07, 12:28)",
-        "Uitvoering niet genoemd: meer beenruimte en iets meer hoofdruimte achterin dan de iX3 (8:48)",
-        "Uitvoering niet genoemd: bediening 'een stap achteruit'; groot scherm goed afleesbaar maar onlogisch, klein stuur voegt niets toe, stuurwielknoppen gevoelig (13:53)",
-        "Uitvoering niet genoemd: minimalistisch Scandinavisch interieur met nephout, leer en stof (4:30)",
-        "Testauto: winnaar van de test op ruimte, stilte, comfort, trekgewicht en accugarantie (22:09, 23:08)"
-      ],
-      "concurrenten": [
-        {"tegen": "bmw-ix3", "tijd": "0:33", "grond": "rechtstreekse vergelijkingstest, premium-SUV's rond € 63.000, 1000 km"},
-        {"tegen": "mercedes-benz-glc", "tijd": "17:28", "grond": "andere premium-SUV, kanshebber Auto van het Jaar 2027, vanaf € 64.130"}
-      ]
-    },
-    "mercedes-benz-glc": {
-      "uitvoeringen": [
-        "Instapper: achterwielaandrijving, 85 kWh, vanaf € 64.130 op 02-10-2026 (18:00)",
-        "Drie motoren van 354 tot 489 pk (20:49)"
-      ],
-      "fabrieksopgaven": [
-        "Instapper 85 kWh: laden tot 330 kW, 800 volt (18:08)",
-        "Topmodel: WLTP 714 km (18:51)",
-        "Uitvoering niet genoemd: frunk 128 L, van buiten te openen (20:05)",
-        "Goedkoopste uitvoering: trekgewicht 2200 kg; duurdere uitvoeringen 2400 kg (20:27)"
-      ],
-      "metingen": [],
-      "valkuilen": [
-        "Uitvoering niet genoemd: de 400-voltomvormer is een optie; zonder laadt de GLC aan een 400-voltpaal niet met 330 kW, met omvormer kost het 50 L bagageruimte (18:25)",
-        "Uitvoering niet genoemd: Superscreen, luchtvering en meesturende achterwielen zijn opties (19:48)",
-        "Uitvoering niet genoemd: rugleuning achter niet verstelbaar; kleine middentunnel achterin (19:00)",
-        "Naam: de elektrische GLC is een totaal andere auto dan de GLC met brandstofmotor (17:44)"
-      ],
-      "oordelen": [
-        "Niet gereden: ruimer dan iX3 en EX60, maar volgens de testers minder ver, trager laden en minder vermogen (21:27)"
-      ],
-      "concurrenten": [
-        {"tegen": "bmw-ix3", "tijd": "17:28", "grond": "andere premium-SUV, kanshebber Auto van het Jaar 2027"},
-        {"tegen": "volvo-ex60", "tijd": "17:28", "grond": "andere premium-SUV, kanshebber Auto van het Jaar 2027"}
-      ]
+    {
+     "tegen": "mercedes-benz-glc",
+     "tijd": "17:28",
+     "grond": "andere premium-SUV, kanshebber Auto van het Jaar 2027, vanaf € 64.130"
     }
+   ]
   },
-  "merk_feiten": {
-    "bmw": [
-      "Garantie 3 jaar op de auto, 8 jaar op de accu (ANWB, 02-10-2026, 21:44, 23:08)",
-      "iX3 bij opname voor het hele jaar uitverkocht (ANWB, 02-10-2026, 0:55)"
-    ],
-    "volvo": [
-      "Garantie 3 jaar of 100.000 km op de auto; 10 jaar op de accu als de auto bij de dealer onderhouden wordt (ANWB, 02-10-2026, 21:44, 23:08)"
-    ],
-    "mercedes-benz": [
-      "Garantie 2 jaar op de auto zonder kilometergrens; 8 jaar of 160.000 km op de accu (ANWB, 02-10-2026, 21:00)"
-    ]
+  "volvo-ex60": {
+   "uitvoeringen": [
+    "Instapper: achterwielaandrijving, 83 kWh, vanaf € 63.995 op 02-10-2026; standaard meer vermogen en rijkere uitrusting dan de iX3 (2:10)",
+    "Testauto: vierwielaandrijving, iets meer dan 500 pk, 95 kWh, op 22 inch; prijs onleesbaar (transcript: '€7.45') (2:48, 3:10, 3:55)",
+    "Aangekondigd: 117 kWh, WLTP 810 km; bij opname niet leverbaar (3:12)"
+   ],
+   "fabrieksopgaven": [
+    "Testauto 95 kWh: WLTP 660 km (1:28)",
+    "117 kWh: WLTP 810 km (3:12)",
+    "Uitvoering niet genoemd: lengte ongeveer 4,80 m, wielbasis 2,97 m (8:30)",
+    "Uitvoering niet genoemd: kofferbak 523 L, met bank plat 1647 L (9:16, 9:30)",
+    "Testauto: trekgewicht 2400 kg (12:34)",
+    "Uitvoering niet genoemd: standaard glazen panoramadak, verwarmde achterbank en 20 inch; de testauto heeft een dimbaar glazen dak (2:39, 4:20, 5:02)",
+    "Uitvoering niet genoemd: 800 volt, voorconditioneren, warmtepomp, stroom leveren aan apparaten (6:34, 8:05)"
+   ],
+   "metingen": [
+    "Testauto 95 kWh, 22 inch: bereikschatting bij vertrek met volle accu 490 km tegen 660 km WLTP (boordcomputer, 1:42)",
+    "Testauto 95 kWh: 370 kW aan een paal van 400 kW, 'het maximum' (7:18)",
+    "Testauto 95 kWh, 22 inch: haalde de laatste etappe naar het noorden van Denemarken niet met één laadstop; een extra stop voor ongeveer 100 km (16:39)",
+    "Testauto: van 80% naar 100% laden kostte ongeveer 45 minuten extra, voor beide auto's (17:03)"
+   ],
+   "valkuilen": [
+    "Testauto op 22 inch in plaats van standaard 20 inch: volgens de tester 'behoorlijk wat' meer verbruik, mede oorzaak dat 660 km WLTP 'bij lange na niet' gehaald werd (4:46)",
+    "Uitvoering niet genoemd: knop om de bestuurderscamera uit te zetten zit diep in het menu (14:16)",
+    "Uitvoering niet genoemd: 100.000 km-grens op de autogarantie; 10 jaar accugarantie alleen bij onderhoud bij de dealer (21:51, 23:08)"
+   ],
+   "oordelen": [
+    "Testauto: zeer comfortabel, 'alsof je op een waterbedje ligt', stiller dan de iX3 (12:07, 12:28)",
+    "Uitvoering niet genoemd: meer beenruimte en iets meer hoofdruimte achterin dan de iX3 (8:48)",
+    "Uitvoering niet genoemd: bediening 'een stap achteruit'; groot scherm goed afleesbaar maar onlogisch, klein stuur voegt niets toe, stuurwielknoppen gevoelig (13:53)",
+    "Uitvoering niet genoemd: minimalistisch Scandinavisch interieur met nephout, leer en stof (4:30)",
+    "Testauto: winnaar van de test op ruimte, stilte, comfort, trekgewicht en accugarantie (22:09, 23:08)",
+    "Uitvoering niet genoemd: kofferbakvloer met twee klepjes, zodat de laadkabel bereikbaar blijft (9:56; in de video aan de iX3 toegeschreven, volgens de ANWB-review van dezelfde test de EX60)"
+   ],
+   "concurrenten": [
+    {
+     "tegen": "bmw-ix3",
+     "tijd": "0:33",
+     "grond": "rechtstreekse vergelijkingstest, premium-SUV's rond € 63.000, 1000 km"
+    },
+    {
+     "tegen": "mercedes-benz-glc",
+     "tijd": "17:28",
+     "grond": "andere premium-SUV, kanshebber Auto van het Jaar 2027, vanaf € 64.130"
+    }
+   ]
   },
-  "concepten": [
-    {"slug": "trekgewicht", "bestaat": true, "toevoeging": "Rijen: Volvo EX60 2400 kg en BMW iX3 2000 kg (testauto's, ANWB 02-10-2026, 12:34); Mercedes-Benz GLC 2200 kg goedkoopste, 2400 kg duurdere (20:27). Voor ANWB was trekgewicht een reden om de EX60 te kiezen (22:36)."},
-    {"slug": "kofferbakinhoud", "bestaat": true, "toevoeging": "Rijen: EX60 523 L / 1647 L bank plat; iX3 3 L kleiner / 1750 L bank plat (9:16, 9:30). Frunk apart: GLC 128 L, iX3 en EX60 ongeveer de helft (20:19); bij GLC kost de optionele 400V-omvormer 50 L bagageruimte (18:39)."},
-    {"slug": "praktijkbereik", "bestaat": true, "toevoeging": "Rij met voorbehoud: iX3 115 kWh haalde 527 km na één laadstop met 6% over op ~107 km/u; EX60 95 kWh op 22 inch haalde dat niet en schatte bij vertrek 490 km tegen 660 km WLTP. Geen temperatuur, geen kWh/100 km; boordcomputerschattingen zijn geen meting (1:42, 10:34, 16:14)."},
-    {"slug": "rijbereik-wltp", "bestaat": true, "toevoeging": "Rijen: iX3 115 kWh 805 km, EX60 95 kWh 660 km, EX60 117 kWh 810 km, GLC topmodel 714 km (ANWB 02-10-2026, 1:28, 3:12, 18:51). Valkuil: grotere wielen (22 tegen 20 inch) kosten bereik (4:46)."},
-    {"slug": "snelladen-10-80", "bestaat": true, "toevoeging": "Geen 10–80%-tijd in deze bron, wel laadvermogens: EX60 370 kW, iX3 200 kW met koude accu, GLC 330 kW opgave. Valkuilen: voorconditioneren moet echt gebeurd zijn, een gedeelde paal halveert, en bij de GLC alleen 330 kW aan 400V-palen met de optionele omvormer (7:00, 7:18, 18:25)."},
-    {"slug": "voorconditioneren", "bestaat": false, "toevoeging": "Nieuw concept voorstellen: de accu voorverwarmen voor een snellaadstop. ANWB 02-10-2026: de iX3 deed het niet ondanks navigeren met de eigen navigatie en laadde daardoor tot 200 kW; met een knop kan het met de hand (7:00, 7:52). Alternatief: als alinea in snelladen-10-80."},
-    {"slug": "carrosserie", "bestaat": true, "toevoeging": "Eerste SUV's in de wiki: iX3, EX60 en GLC worden 'premium SUV' genoemd (ANWB 02-10-2026, 17:30)."},
-    {"slug": "weergaven", "bestaat": true, "toevoeging": "ANWB iX3 tegen EX60: 59.009 op 06-10-2026, 4 dagen na publicatie (~14.750/dag). Voorbeeld van een eerste-weekpiek die niet met oudere video's te vergelijken is."}
+  "mercedes-benz-glc": {
+   "uitvoeringen": [
+    "Instapper: achterwielaandrijving, 85 kWh, vanaf € 64.130 op 02-10-2026 (18:00)",
+    "Drie motoren van 354 tot 489 pk (20:49)"
+   ],
+   "fabrieksopgaven": [
+    "Instapper 85 kWh: laden tot 330 kW, 800 volt (18:08)",
+    "Topmodel: WLTP 714 km (18:51)",
+    "Uitvoering niet genoemd: frunk 128 L, van buiten te openen (20:05)",
+    "Goedkoopste uitvoering: trekgewicht 2200 kg; duurdere uitvoeringen 2400 kg (20:27)"
+   ],
+   "metingen": [],
+   "valkuilen": [
+    "Uitvoering niet genoemd: de 400-voltomvormer is een optie; zonder laadt de GLC aan een 400-voltpaal niet met 330 kW, met omvormer kost het 50 L bagageruimte (18:25)",
+    "Uitvoering niet genoemd: Superscreen, luchtvering en meesturende achterwielen zijn opties (19:48)",
+    "Uitvoering niet genoemd: rugleuning achter niet verstelbaar; kleine middentunnel achterin (19:00)",
+    "Naam: de elektrische GLC is een totaal andere auto dan de GLC met brandstofmotor (17:44)"
+   ],
+   "oordelen": [
+    "Niet gereden: ruimer dan iX3 en EX60, maar volgens de testers minder ver, trager laden en minder vermogen (21:27)"
+   ],
+   "concurrenten": [
+    {
+     "tegen": "bmw-ix3",
+     "tijd": "17:28",
+     "grond": "andere premium-SUV, kanshebber Auto van het Jaar 2027"
+    },
+    {
+     "tegen": "volvo-ex60",
+     "tijd": "17:28",
+     "grond": "andere premium-SUV, kanshebber Auto van het Jaar 2027"
+    }
+   ]
+  }
+ },
+ "merk_feiten": {
+  "bmw": [
+   "Garantie 3 jaar op de auto, 8 jaar op de accu (ANWB, 02-10-2026, 21:44, 23:08)",
+   "iX3 bij opname voor het hele jaar uitverkocht (ANWB, 02-10-2026, 0:55)"
   ],
-  "relaties_met_bestaande_bronnen": []
+  "volvo": [
+   "Garantie 3 jaar of 100.000 km op de auto; 10 jaar op de accu als de auto bij de dealer onderhouden wordt (ANWB, 02-10-2026, 21:44, 23:08)"
+  ],
+  "mercedes-benz": [
+   "Garantie 2 jaar op de auto zonder kilometergrens; 8 jaar of 160.000 km op de accu (ANWB, 02-10-2026, 21:00)"
+  ]
+ },
+ "concepten": [
+  {
+   "slug": "trekgewicht",
+   "bestaat": true,
+   "toevoeging": "Rijen: Volvo EX60 2400 kg en BMW iX3 2000 kg (testauto's, ANWB 02-10-2026, 12:34); Mercedes-Benz GLC 2200 kg goedkoopste, 2400 kg duurdere (20:27). Voor ANWB was trekgewicht een reden om de EX60 te kiezen (22:36)."
+  },
+  {
+   "slug": "kofferbakinhoud",
+   "bestaat": true,
+   "toevoeging": "Rijen: EX60 523 L / 1647 L bank plat; iX3 3 L kleiner / 1750 L bank plat (9:16, 9:30). Frunk apart: GLC 128 L, iX3 en EX60 ongeveer de helft (20:19); bij GLC kost de optionele 400V-omvormer 50 L bagageruimte (18:39)."
+  },
+  {
+   "slug": "praktijkbereik",
+   "bestaat": true,
+   "toevoeging": "Rij met voorbehoud: iX3 115 kWh haalde 527 km na één laadstop met 6% over op ~107 km/u; EX60 95 kWh op 22 inch haalde dat niet en schatte bij vertrek 490 km tegen 660 km WLTP. Geen temperatuur, geen kWh/100 km; boordcomputerschattingen zijn geen meting (1:42, 10:34, 16:14)."
+  },
+  {
+   "slug": "rijbereik-wltp",
+   "bestaat": true,
+   "toevoeging": "Rijen: iX3 115 kWh 805 km, EX60 95 kWh 660 km, EX60 117 kWh 810 km, GLC topmodel 714 km (ANWB 02-10-2026, 1:28, 3:12, 18:51). Valkuil: grotere wielen (22 tegen 20 inch) kosten bereik (4:46)."
+  },
+  {
+   "slug": "snelladen-10-80",
+   "bestaat": true,
+   "toevoeging": "Geen 10–80%-tijd in deze bron, wel laadvermogens: EX60 370 kW, iX3 200 kW met koude accu, GLC 330 kW opgave. Valkuilen: voorconditioneren moet echt gebeurd zijn, een gedeelde paal halveert, en bij de GLC alleen 330 kW aan 400V-palen met de optionele omvormer (7:00, 7:18, 18:25)."
+  },
+  {
+   "slug": "voorconditioneren",
+   "bestaat": false,
+   "toevoeging": "Nieuw concept voorstellen: de accu voorverwarmen voor een snellaadstop. ANWB 02-10-2026: de iX3 deed het niet ondanks navigeren met de eigen navigatie en laadde daardoor tot 200 kW; met een knop kan het met de hand (7:00, 7:52). Alternatief: als alinea in snelladen-10-80."
+  },
+  {
+   "slug": "carrosserie",
+   "bestaat": true,
+   "toevoeging": "Eerste SUV's in de wiki: iX3, EX60 en GLC worden 'premium SUV' genoemd (ANWB 02-10-2026, 17:30)."
+  },
+  {
+   "slug": "weergaven",
+   "bestaat": true,
+   "toevoeging": "ANWB iX3 tegen EX60: 59.009 op 06-10-2026, 4 dagen na publicatie (~14.750/dag). Voorbeeld van een eerste-weekpiek die niet met oudere video's te vergelijken is."
+  }
+ ],
+ "relaties_met_bestaande_bronnen": []
 }

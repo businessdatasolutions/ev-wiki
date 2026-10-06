@@ -1,0 +1,38 @@
+{
+ "is_review": true,
+ "reden": "Geen test maar een ANWB-themaartikel: negen elektrische auto's tot € 40.000 met een trekgewicht van minstens 300 kg, in drie groepen (nieuwe gezinsauto, kleine auto, tweedehands). Per model één fabrieksopgave (trekgewicht en vanafprijs), soms met de uitvoering waarbij dat trekgewicht hoort. Bruikbaar als aanvulling op het concept trekgewicht en per model.",
+ "taal_transcript": "nl (artikeltekst, geen transcript)",
+ "bronpagina_bestand": "2026-10-06-9-elektrische-autos-met-trekhaak.md",
+ "modellen": [
+  "kia-ev3",
+  "skoda-elroq",
+  "renault-megane-e-tech",
+  "renault-5",
+  "citroen-e-c3",
+  "mini-aceman",
+  "hyundai-kona-electric",
+  "kia-niro-ev",
+  "mg-mg-zs-ev"
+ ],
+ "merken": [
+  "kia",
+  "skoda",
+  "renault",
+  "citroen",
+  "mini",
+  "hyundai",
+  "mg"
+ ],
+ "kanaal": "anwb",
+ "vergelijking": false,
+ "waarschuwingen": [
+  "Datum: de ruwe kop zegt date_published 2022-05-01, maar de tekst noemt verkoopcijfers over 2025 en de Kia EV3. Het artikel is dus later bijgewerkt; prijzen en lijst zijn de stand van 06-10-2026 (opgehaald). De bestandsnaam volgt de kop (2022-05-01); de samenvoegstap kan kiezen voor 2026-10-06.",
+  "Slug mg-mg-zs-ev volgt de regel letterlijk (Plinkie-pad /deals/mg/mg-zs-ev). Lelijk; een besluit 'uitvoering_van' of een kortere slug kan, maar dan vindt samenvoegen.py het Plinkie-pad niet meer.",
+  "Kona Electric en e-Niro: 300 kg geldt alleen voor de 64 kWh-versie, en het gaat om de vorige generatie als occasion. De prijzen (€ 16.445 en € 24.899) zijn occasionprijzen, geen nieuwprijs; niet vergelijken met leaseprijzen van het huidige model.",
+  "Kia e-Niro staat bij Plinkie als kia/niro-ev (huidige generatie); het artikel gaat over de gebruikte e-Niro. Zelfde modelpagina, maar de feiten noemen 'vorige generatie, occasion'.",
+  "Ongeremd of geremd trekgewicht zegt het artikel niet.",
+  "Geen concurrenten: het artikel zet de modellen in een lijst, niet als alternatief tegen elkaar. Aceman tegen Countryman en Renault 5 tussen Twingo en Clio zijn vergelijkingen binnen één merk.",
+  "Hyundai Ioniq 5 (Trekauto van het jaar 2022) en Kia EV6 (2024) worden alleen genoemd; feit staat in model_feiten als oordeel, niet in modellen:.",
+  "Nieuwe entiteiten: modellen skoda-elroq, renault-megane-e-tech, mini-aceman, hyundai-kona-electric, kia-niro-ev, mg-mg-zs-ev (en hyundai-ioniq-5, kia-ev6 via model_feiten); merken mini en mg."
+ ]
+}

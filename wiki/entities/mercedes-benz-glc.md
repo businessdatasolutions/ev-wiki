@@ -23,7 +23,7 @@ relationships:
 # Mercedes-Benz GLC (elektrisch)
 
 Model van [[mercedes-benz|Mercedes-Benz]]. Bronnen over dit model: [[2026-10-02-bmw-ix3-vs-volvo-ex60-roadtrip-met-special-guest|ANWB 02-10-2026]].
-Met één eigen bron blijft de zekerheid op hooguit 0,75.
+Met één eigen bron (of één test, ook als die in video en artikel verscheen) blijft de zekerheid op hooguit 0,75.
 
 **Plinkie.** `/deals/mercedes-benz/glc`, staat in de sitemap van plinkie.nl.
 

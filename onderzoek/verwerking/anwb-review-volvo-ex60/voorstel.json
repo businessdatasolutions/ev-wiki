@@ -1,0 +1,76 @@
+{
+  "nieuwe_entiteiten": [],
+  "model_feiten": {
+    "volvo-ex60": {
+      "uitvoeringen": [
+        "P6: achterwielaandrijving, 83 kWh, vanaf € 63.995 op 24-09-2026. Onder 'Type auto en prijzen'",
+        "P10 All Wheel Drive: vierwielaandrijving, 500 pk, 95 kWh, € 77.445 op 24-09-2026; de testauto, op 22 inch. Onder 'Type auto en prijzen'",
+        "P12: 117 kWh, WLTP 810 km; prijs onwaarschijnlijk (tekst: 'ruim 71 mille', lager dan de P10). Onder 'Type auto en prijzen'"
+      ],
+      "fabrieksopgaven": [
+        "P10: WLTP 660 km. Onder 'Type auto en prijzen'",
+        "Uitvoering niet genoemd: laden tot 370 kW met 800 volt. Onder 'De Volvo EX60 en het milieu'",
+        "P10: gewicht 2.350 kg rijklaar. Onder 'De Volvo EX60 en het milieu'",
+        "Uitvoering niet genoemd: frunk 52 L. Onder 'Veel ruimte achterin'",
+        "Uitvoering niet genoemd: warmtepomp; accu voorverwarmen gaat vanzelf met de navigatie, of met de hand. Onder 'De Volvo EX60 en het milieu'",
+        "Uitvoering niet genoemd: rugleuning achter elektrisch verstelbaar. Onder 'Veel ruimte achterin'",
+        "Uitvoering niet genoemd: kofferbakvloer met twee kleppen naar een ruimte voor de laadkabel. Onder 'Veel ruimte achterin'"
+      ],
+      "metingen": [
+        "P10, 22 inch: 19 kWh/100 km over ongeveer 1.000 km snelweg naar het noorden van Denemarken, ongeveer 16 °C, zoveel mogelijk 110 km/u. ANWB, september 2026. Onder 'De Volvo EX60 en het milieu'",
+        "P10, 22 inch: 22 kWh/100 km op de terugweg bij 140 km/u of harder; temperatuur niet genoemd. Onder 'De Volvo EX60 en het milieu'",
+        "P10, 22 inch: 17,2 kWh/100 km afgelezen bij woon-werkverkeer in Nederland; afstand en temperatuur niet genoemd. Onder 'De Volvo EX60 en het milieu'",
+        "P10, 22 inch: praktijkbereik 'pakweg 500 km' op een lading, tegen 660 km WLTP. Onder 'De Volvo EX60 en het milieu'"
+      ],
+      "valkuilen": [
+        "Uitvoering niet genoemd: geen stroom terug aan het net of aan apparaten die je op de auto aansluit. Onder 'De Volvo EX60 en het milieu'",
+        "P10: testauto op 22 inch in plaats van standaard 20 inch; de 660 km WLTP geldt voor de standaardwielen. Onder 'De Volvo EX60 en het milieu'",
+        "Uitvoering niet genoemd: geen Apple CarPlay bij het schrijven; Volvo belooft het eind 2026 via een over-the-air-update. Onder 'Hoe rijdt de Volvo EX60?'",
+        "Uitvoering niet genoemd: geen dashboardkastje en geen vak onder de armsteun (daar zitten uitschuifbare bekerhouders). Onder 'De Volvo EX60 vanbinnen'",
+        "Uitvoering niet genoemd: achterportieren gaan niet ver open, instap lastiger. Onder 'Veel ruimte achterin'",
+        "Uitvoering niet genoemd: hulpsystemen uitzetten gaat via het scherm en is te ingewikkeld; alleen de snelheidspiepjes hebben een knop op het stuur. Onder 'Hoe rijdt de Volvo EX60?'"
+      ],
+      "oordelen": [
+        "P10: heerlijk comfortabel en ruim, rustig ook bij 150 km/u; vering op comfort, goede stoelen, alert op het gaspedaal, precieze besturing. Onder 'Hoe rijdt de Volvo EX60?'",
+        "Uitvoering niet genoemd: adaptieve cruise control remt later en harder dan je wilt en past zich slecht aan kleine snelheidsverschillen aan. Onder 'Hoe rijdt de Volvo EX60?'",
+        "Uitvoering niet genoemd: infotainment anders opgebouwd en hier en daar onhandiger dan van een Volvo verwacht. Onder 'De Volvo EX60 vanbinnen'",
+        "Uitvoering niet genoemd: overvloedig been- en hoofdruimte achterin. Onder 'Veel ruimte achterin'",
+        "P10: verbruik 'heel netjes' voor een auto van 2.350 kg. Onder 'De Volvo EX60 en het milieu'",
+        "Uitvoering niet genoemd: niet goedkoop, maar tegenover de BMW iX3 'best scherp geprijsd'. Onder 'Conclusie'"
+      ],
+      "concurrenten": [
+        {"tegen": "bmw-ix3", "tijd": "onder 'Conclusie'", "grond": "concurrent in de premium-SUV-klasse; de EX60 is ten opzichte van de iX3 'best scherp geprijsd' en op een aantal punten beter"}
+      ]
+    },
+    "bmw-ix3": {
+      "uitvoeringen": [],
+      "fabrieksopgaven": [],
+      "metingen": [],
+      "valkuilen": [],
+      "oordelen": [
+        "Uitvoering niet genoemd: duurder dan de Volvo EX60 en op een aantal punten minder, volgens ANWB 24-09-2026. Onder 'Conclusie'"
+      ],
+      "concurrenten": []
+    }
+  },
+  "merk_feiten": {
+    "volvo": [
+      "Volvo is in handen van het Chinese concern Geely; de EX60 wordt in Zweden gebouwd. ANWB ziet Chinese invloed in de opbouw van het infotainment (ANWB 24-09-2026, onder 'De Volvo EX60 vanbinnen').",
+      "ANWB verwacht dat de grote accu en het 800-voltladen van de EX60 later naar goedkopere en kleinere Volvo's gaan (ANWB 24-09-2026, onder 'Type auto en prijzen')."
+    ]
+  },
+  "concepten": [
+    {"slug": "praktijkbereik", "bestaat": true, "toevoeging": "Rij: Volvo EX60 P10, 95 kWh, 22 inch: 'pakweg 500 km' tegen 660 km WLTP; 19 kWh/100 km over ~1.000 km snelweg bij ~16 °C en ~110 km/u, 22 kWh/100 km bij 140 km/u of harder, 17,2 kWh/100 km woon-werk (ANWB 24-09-2026). Zelfde rit als de ANWB-video van 02-10-2026, waar de boordcomputer bij vertrek 490 km schatte."},
+    {"slug": "rijbereik-wltp", "bestaat": true, "toevoeging": "Volvo EX60: P10 (95 kWh) 660 km, P12 (117 kWh) 810 km; de 660 km geldt op 20 inch, ANWB reed op 22 inch (ANWB 24-09-2026)."},
+    {"slug": "bidirectioneel-laden", "bestaat": true, "toevoeging": "Volvo EX60: volgens de geschreven ANWB-review geen stroom terug aan het net of aan apparaten (24-09-2026); in de ANWB-video van 02-10-2026 zegt een tester (8:05) dat beide auto's stroom aan apparaten kunnen leveren. Open tegenspraak, na te gaan bij Volvo."},
+    {"slug": "voorconditioneren", "bestaat": true, "toevoeging": "Volvo EX60: voorverwarmen gaat vanzelf als je navigeert naar een laadstop, en kan ook met de hand (ANWB 24-09-2026)."},
+    {"slug": "trekgewicht", "bestaat": true, "toevoeging": "Volvo EX60: 2.400 kg, bevestigd in de geschreven review (ANWB 24-09-2026, onder 'Hoe rijdt de Volvo EX60?')."},
+    {"slug": "kofferbakinhoud", "bestaat": true, "toevoeging": "Volvo EX60: 523 L, 1.647 L met de bank plat, frunk 52 L (ANWB 24-09-2026). Het frunkgetal lost de onduidelijkheid in de ANWB-video op: EX60 52 L, BMW iX3 dus ongeveer 58 L."}
+  ],
+  "relaties_met_bestaande_bronnen": [
+    {"type": "supports", "target": "2026-10-02-bmw-ix3-vs-volvo-ex60-roadtrip-met-special-guest", "via": "zelfde test en dezelfde rit naar Denemarken (geen onafhankelijke bevestiging): P6 83 kWh vanaf € 63.995, P10 95 kWh met 500 pk op 22 inch, WLTP 660 en 810 km, 370 kW laden, 4,80 m en 2,97 m wielbasis, 523/1.647 L, trekgewicht 2.400 kg, praktijk rond 490-500 km, comfort en stilte, bediening als minpunt, BMW iX3 als concurrent"},
+    {"type": "supports", "target": "2026-10-02-bmw-ix3-vs-volvo-ex60-roadtrip-met-special-guest", "via": "lost drie onzekerheden uit de video op: de prijs van de testauto (transcript: '€7.45') is € 77.445; de frunk van de EX60 is 52 L; de achterdeur die niet ver opengaat (8:58) is die van de EX60"},
+    {"type": "contradicts", "target": "2026-10-02-bmw-ix3-vs-volvo-ex60-roadtrip-met-special-guest", "via": "stroom leveren aan apparaten: de video (8:05) zegt dat beide auto's het kunnen, het artikel zegt dat de EX60 geen stroom kan teruggeven aan het net of aan apparaten"},
+    {"type": "contradicts", "target": "2026-10-02-bmw-ix3-vs-volvo-ex60-roadtrip-met-special-guest", "via": "kofferbakvloer met twee klepjes voor de laadkabel: de verwerking van de video zette die bij de BMW iX3 (9:56); het artikel zet hem bij de EX60, en het transcript ondersteunt dat (de BMW-rijder zegt 'dat heb ik niet'). Een correctie op de wiki-lezing van de video, niet op de video zelf"}
+  ]
+}

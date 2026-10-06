@@ -1,0 +1,219 @@
+{
+ "nieuwe_entiteiten": [
+  {
+   "slug": "renault-twingo",
+   "kind": "model",
+   "naam": "Renault Twingo E-Tech Electric",
+   "merk": "renault",
+   "plinkie_pad": "/deals/renault/twingo",
+   "aliases": [
+    "Twingo",
+    "Renault Twingo",
+    "Twingo E-Tech",
+    "Twingo E-TECH Electric"
+   ],
+   "tekst": "Kleine elektrische Renault met retro-ontwerp, vijf deuren en een schuifbare achterbank; komt in 2026, net onder € 20.000 en 263 km volgens de folder (ANWB, stand 06-10-2026). Plinkie kent ook /deals/renault/twingo-e-tech."
+  },
+  {
+   "slug": "hyundai-ioniq-6",
+   "kind": "model",
+   "naam": "Hyundai IONIQ 6",
+   "merk": "hyundai",
+   "plinkie_pad": "/deals/hyundai/ioniq-6",
+   "aliases": [
+    "IONIQ 6",
+    "Ioniq 6",
+    "Hyundai Ioniq 6",
+    "IONIQ 6 N"
+   ],
+   "tekst": "Elektrische sedan van Hyundai. In 2026 komt de sportieve uitvoering IONIQ 6 N met 650 pk en 770 Nm (ANWB, stand 06-10-2026)."
+  },
+  {
+   "slug": "subaru-uncharted",
+   "kind": "model",
+   "naam": "Subaru Uncharted",
+   "merk": "subaru",
+   "plinkie_pad": "/deals/subaru/uncharted",
+   "aliases": [
+    "Uncharted",
+    "Subaru Uncharted"
+   ],
+   "tekst": "Subaru's versie van de Toyota C-HR+; komt in 2026 met twee accugroottes en tot 470 km bereik, standaard voorwielaandrijving (ANWB, stand 06-10-2026)."
+  },
+  {
+   "slug": "subaru",
+   "kind": "merk",
+   "naam": "Subaru",
+   "merk": "",
+   "plinkie_pad": "",
+   "aliases": [
+    "Subaru"
+   ],
+   "tekst": "Japans merk met een klein modellenprogramma, bekend om vierwielaandrijving. Werkt samen met Toyota: de Uncharted is een versie van de Toyota C-HR+ (ANWB, stand 06-10-2026)."
+  }
+ ],
+ "model_feiten": {
+  "volvo-ex60": {
+   "uitvoeringen": [],
+   "fabrieksopgaven": [
+    "Uitvoering niet genoemd: komt in 2026; 700 km bereik, het grootste van een elektrische Volvo; norm niet genoemd (ANWB, verwachte EV's 2026, stand 06-10-2026, onder 'Volvo EX60')",
+    "Uitvoering niet genoemd: prijs nog niet bekend; ANWB verwacht hem onder de benzine-XC60 van net geen € 62.000 (ANWB, verwachte EV's 2026, stand 06-10-2026, onder 'Volvo EX60')"
+   ],
+   "metingen": [],
+   "valkuilen": [
+    "Uitvoering niet genoemd: de prijsverwachting is een schatting van ANWB op grond van EX90 en XC90, geen opgave van Volvo; het bereik van 700 km wijkt af van 660 km WLTP voor de testauto (95 kWh, 22 inch) in de iX3-EX60-video van 02-10-2026 (ANWB, verwachte EV's 2026, stand 06-10-2026, onder 'Volvo EX60')"
+   ],
+   "oordelen": [],
+   "concurrenten": []
+  },
+  "bmw-ix3": {
+   "uitvoeringen": [],
+   "fabrieksopgaven": [
+    "Uitvoering niet genoemd: komt in 2026 als eerste model van de 'Neue Klasse'; 800 volt, meer dan 800 km bereik; prijs vanaf € 70.501 (ANWB, verwachte EV's 2026, stand 06-10-2026, onder 'BMW iX3')"
+   ],
+   "metingen": [],
+   "valkuilen": [
+    "Instap: € 70.501 hier tegen 'net geen € 63.000' voor de instapper in de iX3-EX60-video van 02-10-2026; mogelijk een oudere prijs of een andere uitvoering (ANWB, verwachte EV's 2026, stand 06-10-2026, onder 'BMW iX3')"
+   ],
+   "oordelen": [],
+   "concurrenten": []
+  },
+  "volkswagen-id-polo": {
+   "uitvoeringen": [],
+   "fabrieksopgaven": [
+    "Uitvoering niet genoemd: komt in 2026, al onthuld; vanaf € 24.995; 4,05 m lang, kofferbak 440 L (ANWB, verwachte EV's 2026, stand 06-10-2026, onder 'Volkswagen ID Polo, Cupra Raval en Skoda Epiq')",
+    "Alle uitvoeringen: komt naast de benzine-Polo, vervangt hem niet (ANWB, verwachte EV's 2026, stand 06-10-2026, idem)"
+   ],
+   "metingen": [],
+   "valkuilen": [],
+   "oordelen": [],
+   "concurrenten": []
+  },
+  "cupra-raval": {
+   "uitvoeringen": [],
+   "fabrieksopgaven": [
+    "Uitvoering niet genoemd: komt in 2026 als betaalbare EV van de Volkswagen-groep, al onthuld; eerste rijindrukken zijn bekend; geen getallen genoemd (ANWB, verwachte EV's 2026, stand 06-10-2026, onder 'Volkswagen ID Polo, Cupra Raval en Skoda Epiq')"
+   ],
+   "metingen": [],
+   "valkuilen": [],
+   "oordelen": [],
+   "concurrenten": []
+  },
+  "skoda-epiq": {
+   "uitvoeringen": [],
+   "fabrieksopgaven": [
+    "Uitvoering niet genoemd: komt in 2026 als betaalbare EV van de Volkswagen-groep, al onthuld; geen getallen genoemd (ANWB, verwachte EV's 2026, stand 06-10-2026, onder 'Volkswagen ID Polo, Cupra Raval en Skoda Epiq')"
+   ],
+   "metingen": [],
+   "valkuilen": [],
+   "oordelen": [],
+   "concurrenten": []
+  },
+  "renault-twingo": {
+   "uitvoeringen": [
+    "Instap en duurdere uitvoeringen; welke precies noemt het artikel niet (ANWB, verwachte EV's 2026, stand 06-10-2026, onder 'Renault Twingo E-TECH Electric')"
+   ],
+   "fabrieksopgaven": [
+    "Uitvoering niet genoemd: komt in 2026; prijs net geen € 20.000; 263 km bereik 'afgaand op de folder' (ANWB, verwachte EV's 2026, stand 06-10-2026, onder 'Renault Twingo E-TECH Electric')",
+    "Alle uitvoeringen: vijf deuren (het origineel had er drie), schuifbare achterbank (ANWB, verwachte EV's 2026, stand 06-10-2026, idem)"
+   ],
+   "metingen": [],
+   "valkuilen": [
+    "Alleen duurdere uitvoeringen: als thuisbatterij te gebruiken (bidirectioneel), en pas 'zodra de infrastructuur het toelaat' (ANWB, verwachte EV's 2026, stand 06-10-2026, idem)"
+   ],
+   "oordelen": [],
+   "concurrenten": []
+  },
+  "hyundai-ioniq-6": {
+   "uitvoeringen": [
+    "IONIQ 6 N: sportieve uitvoering, komt in 2026 (ANWB, verwachte EV's 2026, stand 06-10-2026, onder 'Hyundai IONIQ 6 N')"
+   ],
+   "fabrieksopgaven": [
+    "IONIQ 6 N: 650 pk en 770 Nm; accu, bereik en prijs niet genoemd (ANWB, verwachte EV's 2026, stand 06-10-2026, onder 'Hyundai IONIQ 6 N')"
+   ],
+   "metingen": [],
+   "valkuilen": [],
+   "oordelen": [
+    "IONIQ 6 N: 'oogt al snel' door de opzichtige spoilers (ANWB, verwachte EV's 2026, stand 06-10-2026, idem)"
+   ],
+   "concurrenten": []
+  },
+  "subaru-uncharted": {
+   "uitvoeringen": [
+    "Twee accugroottes; standaard voorwielaandrijving, vierwielaandrijving tegen meerprijs (ANWB, verwachte EV's 2026, stand 06-10-2026, onder 'Subaru Uncharted')"
+   ],
+   "fabrieksopgaven": [
+    "Grootste accu (vermoedelijk): tot 470 km bereik; norm niet genoemd; komt in 2026 (ANWB, verwachte EV's 2026, stand 06-10-2026, idem)",
+    "Alle uitvoeringen: Subaru's versie van de Toyota C-HR+ (ANWB, verwachte EV's 2026, stand 06-10-2026, idem)"
+   ],
+   "metingen": [],
+   "valkuilen": [
+    "Standaard alleen voorwielaandrijving; vierwielaandrijving, waar Subaru om bekendstaat, kost extra. Welk bereik bij welke accu en aandrijving hoort, zegt het artikel niet (ANWB, verwachte EV's 2026, stand 06-10-2026, idem)"
+   ],
+   "oordelen": [],
+   "concurrenten": []
+  }
+ },
+ "merk_feiten": {
+  "volvo": [
+   "De XC60 heeft de 240 ingehaald als best verkochte Volvo; de EX60 is het elektrische alternatief (ANWB, verwachte EV's 2026, stand 06-10-2026, onder 'Volvo EX60')"
+  ],
+  "bmw": [
+   "De iX3 is het eerste model van de 'Neue Klasse', een nieuwe generatie modellen van BMW (ANWB, verwachte EV's 2026, stand 06-10-2026, onder 'BMW iX3')"
+  ],
+  "volkswagen-groep": [
+   "Komt in 2026 met drie betaalbare EV's: Volkswagen ID. Polo, Cupra Raval en Skoda Epiq (ANWB, verwachte EV's 2026, stand 06-10-2026)"
+  ],
+  "renault": [
+   "Zeer succesvol met retro-modellen; de Twingo E-Tech wordt de betaalbaarste daarvan (ANWB, verwachte EV's 2026, stand 06-10-2026, onder 'Renault Twingo E-TECH Electric')"
+  ],
+  "hyundai": [
+   "Het N-label voor sportieve modellen komt nu ook op een EV: de IONIQ 6 N (ANWB, verwachte EV's 2026, stand 06-10-2026, onder 'Hyundai IONIQ 6 N')"
+  ],
+  "subaru": [
+   "Klein modellenprogramma; de Uncharted is de versie van Subaru van de Toyota C-HR+ (ANWB, verwachte EV's 2026, stand 06-10-2026, onder 'Subaru Uncharted')"
+  ],
+  "anwb": [
+   "Bron toevoegen: ANWB-themaartikel over verwachte EV's in 2026 (stand 06-10-2026); ANWB zegt dat veel nieuwe modellen na introductie in ANWB Private Lease komen"
+  ]
+ },
+ "concepten": [
+  {
+   "slug": "rijbereik-wltp",
+   "bestaat": true,
+   "toevoeging": "Opgaven voor modellen die in 2026 komen, norm niet genoemd: Volvo EX60 700 km, BMW iX3 meer dan 800 km, Subaru Uncharted tot 470 km, Renault Twingo 263 km (folder) (ANWB, verwachte EV's 2026, stand 06-10-2026)"
+  },
+  {
+   "slug": "kofferbakinhoud",
+   "bestaat": true,
+   "toevoeging": "Volkswagen ID. Polo: 440 L volgens ANWB in dit artikel, 441 L in de ID. Polo-video (ANWB, verwachte EV's 2026, stand 06-10-2026)"
+  },
+  {
+   "slug": "bidirectioneel-laden",
+   "bestaat": true,
+   "toevoeging": "Renault Twingo E-Tech: duurdere uitvoeringen moeten als thuisbatterij te gebruiken zijn, 'zodra de infrastructuur het toelaat' (ANWB, verwachte EV's 2026, stand 06-10-2026)"
+  },
+  {
+   "slug": "wegenbelasting",
+   "bestaat": true,
+   "toevoeging": "ANWB schrijft dat vanaf 2026 voor een EV naast bpm ook wegenbelasting verschuldigd is, en dat de bijtelling naar 22 procent gaat. Dat spreekt 'sinds 2025 stap voor stap' op deze pagina tegen; na te gaan bij de Belastingdienst (ANWB, verwachte EV's 2026, stand 06-10-2026, onder 'Veranderende regelgeving')"
+  }
+ ],
+ "relaties_met_bestaande_bronnen": [
+  {
+   "type": "contradicts",
+   "target": "2026-10-02-bmw-ix3-vs-volvo-ex60-roadtrip-met-special-guest",
+   "via": "BMW iX3 vanaf € 70.501 hier, instapper net geen € 63.000 in de video; Volvo EX60 700 km hier, 660 km WLTP voor de testauto in de video"
+  },
+  {
+   "type": "supports",
+   "target": "2026-09-09-is-de-volkswagen-id-polo-de-nieuwe-publiekslieveling",
+   "via": "ID. Polo naast de benzine-Polo, vanaf ongeveer € 25.000, kofferbak rond 440 L; Raval en Epiq als zustermodellen"
+  },
+  {
+   "type": "supports",
+   "target": "2026-09-13-skoda-epiq-troeft-zelfs-volkswagen-id-polo-af",
+   "via": "ID. Polo, Cupra Raval en Skoda Epiq als de betaalbare EV's van de Volkswagen-groep in 2026"
+  }
+ ]
+}

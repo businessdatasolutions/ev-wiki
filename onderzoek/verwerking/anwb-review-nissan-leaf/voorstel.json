@@ -1,0 +1,166 @@
+{
+  "nieuwe_entiteiten": [
+    {
+      "slug": "nissan",
+      "kind": "merk",
+      "naam": "Nissan",
+      "merk": "",
+      "plinkie_pad": "",
+      "aliases": ["Nissan"],
+      "tekst": "Japans automerk. Bracht in 2010 met de Leaf de eerste elektrische auto voor een gezin, maar hield daarna te lang vast aan luchtkoeling en CHAdeMO. De derde Leaf (2026) staat op het platform van Renault (ANWB, 30-07-2026, onder 'Type auto en prijs'). Fabrieksgarantie 3 jaar of 100.000 km, accugarantie 8 jaar of 160.000 km."
+    },
+    {
+      "slug": "nissan-leaf",
+      "kind": "model",
+      "naam": "Nissan Leaf",
+      "merk": "nissan",
+      "plinkie_pad": "/deals/nissan/leaf",
+      "aliases": ["Leaf", "Nissan Leaf", "Leaf III"],
+      "tekst": "Elektrische compacte gezinsauto, sinds de derde generatie (2026) een crossover in plaats van een hatchback. Gebouwd op het platform van de Renault Mégane en Scénic E-Tech, met vloeistofgekoelde accu's van 52 of 75 kWh en een CCS-aansluiting (ANWB, 30-07-2026)."
+    },
+    {
+      "slug": "renault-megane-e-tech",
+      "kind": "model",
+      "naam": "Renault Mégane E-Tech",
+      "merk": "renault",
+      "plinkie_pad": "/deals/renault/megane-e-tech",
+      "aliases": ["Mégane E-Tech", "Megane E-Tech", "Renault Mégane", "Renault Megane E-Tech Electric"],
+      "tekst": "Elektrische compacte auto van Renault. Deelt platform, accu's en aandrijflijnen met de Nissan Leaf, en is volgens ANWB iets goedkoper met een grotere accu (ANWB, 30-07-2026). Stub: alleen genoemd als concurrent."
+    },
+    {
+      "slug": "renault-scenic-e-tech",
+      "kind": "model",
+      "naam": "Renault Scénic E-Tech",
+      "merk": "renault",
+      "plinkie_pad": "/deals/renault/scenic-e-tech",
+      "aliases": ["Scénic E-Tech", "Scenic E-Tech", "Renault Scénic", "Renault Scenic E-Tech Electric"],
+      "tekst": "Elektrische gezinsauto van Renault. Deelt platform, accu's en aandrijflijnen met de Nissan Leaf; de Leaf weegt meer dan de veel forsere Scénic (ANWB, 30-07-2026). Stub: alleen genoemd als concurrent."
+    }
+  ],
+  "model_feiten": {
+    "nissan-leaf": {
+      "uitvoeringen": [
+        "52 kWh: 130 kW (177 pk), 345 Nm; DC 105 kW; WLTP 445 km; de testauto, in het hoogste van vier uitrustingsniveaus (ANWB 30-07-2026, kop en onder 'Hoe rijdt de Leaf')",
+        "75 kWh: meer vermogen (geen getal), rijkere uitrusting, DC 150 kW, WLTP 604 km, accuvoorverwarming onderweg (ANWB 30-07-2026, onder 'Rijkere uitrusting' en 'Onderweg voorverwarmen')",
+        "Alle uitvoeringen: vier uitrustingsniveaus; vanaf het tweede een draadloze telefoonlader (ANWB 30-07-2026, onder 'Variabele vloerdelen')"
+      ],
+      "fabrieksopgaven": [
+        "Instap: vanafprijs € 33.990, stand juli 2026 (ANWB 30-07-2026, onder 'Type auto en prijs')",
+        "52 kWh: WLTP 445 km (ANWB 30-07-2026, onder 'De Leaf en het milieu')",
+        "75 kWh: WLTP 604 km (ANWB 30-07-2026, onder 'De Leaf en het milieu')",
+        "52 kWh: snelladen max. 105 kW; 75 kWh: 150 kW (ANWB 30-07-2026, onder 'Rijkere uitrusting')",
+        "Alle uitvoeringen: AC-laden driefasig aan een publieke paal; vermogen niet genoemd (ANWB 30-07-2026, onder 'Rijkere uitrusting')",
+        "Uitvoering niet genoemd: leeggewicht minimaal 1.789 kg (ANWB 30-07-2026, onder 'Hoe rijdt de Leaf')",
+        "Alle motorisaties: trekgewicht 975 kg (ANWB 30-07-2026, onder 'Hoe rijdt de Leaf')",
+        "Uitvoering niet genoemd: kofferbak 437 tot 1.052 l, variabele laadvloer (ANWB 30-07-2026, onder 'Variabele vloerdelen')",
+        "Alle uitvoeringen: warmtepomp standaard; adaptieve cruise control, aanrijdingswaarschuwing en dodehoekbescherming in de vanafprijs (ANWB 30-07-2026, onder 'Onderweg voorverwarmen' en 'Gratis hulpsystemen')",
+        "Alle uitvoeringen: vloeistofgekoelde accu en CCS-aansluiting, in plaats van luchtkoeling en CHAdeMO bij de vorige Leaf (ANWB 30-07-2026, onder 'Voortaan vloeistofgekoeld')"
+      ],
+      "metingen": [
+        "52 kWh, 130 kW, hoogste uitrustingsniveau: praktijkverbruik 16,6 kWh/100 km; omstandigheden niet genoemd (geen temperatuur, route, afstand of wielmaat) (ANWB 30-07-2026, onder 'De Leaf en het milieu')",
+        "52 kWh: afgeleid praktijkbereik hooguit 313 km (52 / 16,6), tegen 445 km WLTP; gerekend, niet gereden (ANWB 30-07-2026, onder 'De Leaf en het milieu')"
+      ],
+      "valkuilen": [
+        "52 kWh: geen accuvoorverwarming onderweg en 105 in plaats van 150 kW snelladen; dat heeft alleen de 75 kWh (ANWB 30-07-2026, onder 'Rijkere uitrusting' en 'Onderweg voorverwarmen')",
+        "Uitvoering niet genoemd: vehicle-to-load alleen in sommige uitvoeringen, welke staat er niet (ANWB 30-07-2026, onder 'Rijkere uitrusting')",
+        "Instapniveau: geen koppeling van de cruise control met de navigatie, die kost een hoger niveau (ANWB 30-07-2026, onder 'Gratis hulpsystemen')",
+        "Vanaf het tweede niveau: de draadloze telefoonlader is niet gekoeld; een telefoon raakt op korte ritjes oververhit (ANWB 30-07-2026, onder 'Variabele vloerdelen')",
+        "Uitvoering niet genoemd: minimaal 1.789 kg, zwaarder dan de Renault Scénic; telt mee in de wegenbelasting (ANWB 30-07-2026, onder 'Hoe rijdt de Leaf')",
+        "Uitvoering niet genoemd: one-pedal rijden remt niet af tot stilstand (ANWB 30-07-2026, onder 'Onderweg voorverwarmen')",
+        "52 kWh: het afgeleide bereik ligt ongeveer 30% onder de WLTP-opgave (ANWB 30-07-2026, onder 'De Leaf en het milieu')"
+      ],
+      "oordelen": [
+        "Uitvoering niet genoemd: veert diep in maar is stevig gedempt, oncomfortabel op korte oneffenheden; windgeruis van de grote spiegels (ANWB 30-07-2026, onder 'Hoe rijdt de Leaf')",
+        "Uitvoering niet genoemd: zware bediening van stuur, richtingaanwijzers en knoppen; drukknoppen voor de versnellingsbak 'even wennen' (ANWB 30-07-2026, onder 'Zware bediening')",
+        "Uitvoering niet genoemd: achterin geen hoofdruimte voor lange volwassenen, weinig steun aan de benen, beenruimte goed tot ongeveer 1,90 m (ANWB 30-07-2026, onder 'De Leaf van binnen')",
+        "Hoogste uitrustingsniveau: rijk en weelderig interieur, stof op de portieren (ANWB 30-07-2026, onder 'Variabele vloerdelen')",
+        "Uitvoering niet genoemd: onderscheidt zich nergens van de concurrenten behalve met het uiterlijk; 'aansluiten is niet voldoende' (ANWB 30-07-2026, onder 'Conclusie')"
+      ],
+      "concurrenten": [
+        {
+          "tegen": "renault-megane-e-tech",
+          "tijd": "onder 'Type auto en prijs'",
+          "grond": "zelfde platform, accu's en aandrijflijnen; de Leaf is een fractie duurder met een kleinere accu maar een jaar meer garantie"
+        },
+        {
+          "tegen": "renault-scenic-e-tech",
+          "tijd": "onder 'Type auto en prijs' en 'Hoe rijdt de Leaf'",
+          "grond": "zelfde platform; de Leaf weegt meer dan de forsere Scénic. Zwakkere grond: niet als alternatief bij de prijs genoemd"
+        }
+      ]
+    },
+    "renault-megane-e-tech": {
+      "uitvoeringen": [],
+      "fabrieksopgaven": [
+        "Uitvoering niet genoemd: iets goedkoper dan de Nissan Leaf (€ 33.990), met een grotere accu; fabrieksgarantie een jaar korter, accugarantie gelijk (8 jaar of 160.000 km) (ANWB 30-07-2026, onder 'Type auto en prijs')"
+      ],
+      "metingen": [],
+      "valkuilen": [],
+      "oordelen": [],
+      "concurrenten": []
+    },
+    "renault-scenic-e-tech": {
+      "uitvoeringen": [],
+      "fabrieksopgaven": [
+        "Uitvoering niet genoemd: lichter dan de Nissan Leaf (minimaal 1.789 kg), terwijl hij veel forser oogt (ANWB 30-07-2026, onder 'Hoe rijdt de Leaf')"
+      ],
+      "metingen": [],
+      "valkuilen": [],
+      "oordelen": [],
+      "concurrenten": []
+    }
+  },
+  "merk_feiten": {
+    "nissan": [
+      "De eerste Leaf (2010) maakte de elektrische auto geschikt voor een gezin; daarna verloor Nissan zijn positie door luchtgekoelde accu's en CHAdeMO (ANWB 30-07-2026, onder 'Type auto en prijs')",
+      "Fabrieksgarantie 3 jaar of 100.000 km, een jaar meer dan Renault; accugarantie 8 jaar of 160.000 km (ANWB 30-07-2026, onder 'Type auto en prijs')",
+      "De derde Leaf gebruikt platform, accu's en aandrijflijnen van Renault (ANWB 30-07-2026, onder 'Voortaan vloeistofgekoeld')"
+    ],
+    "renault": [
+      "Fabrieksgarantie een jaar korter dan bij Nissan; accugarantie 8 jaar of 160.000 km. Mégane en Scénic E-Tech delen hun platform met de Nissan Leaf (ANWB 30-07-2026, onder 'Type auto en prijs')"
+    ]
+  },
+  "concepten": [
+    {
+      "slug": "praktijkbereik",
+      "bestaat": true,
+      "toevoeging": "Nissan Leaf 52 kWh: ANWB mat 16,6 kWh/100 km en rekent daaruit hooguit 313 km, tegen 445 km WLTP (ongeveer 30% minder). Omstandigheden niet genoemd (ANWB 30-07-2026, onder 'De Leaf en het milieu')."
+    },
+    {
+      "slug": "rijbereik-wltp",
+      "bestaat": true,
+      "toevoeging": "Nissan Leaf: 445 km (52 kWh) en 604 km (75 kWh), fabrieksopgaven via ANWB 30-07-2026."
+    },
+    {
+      "slug": "snelladen-10-80",
+      "bestaat": true,
+      "toevoeging": "Nissan Leaf: max. 105 kW (52 kWh) of 150 kW (75 kWh); geen 10-80%-tijd genoemd (ANWB 30-07-2026)."
+    },
+    {
+      "slug": "voorconditioneren",
+      "bestaat": true,
+      "toevoeging": "Nissan Leaf: alleen de 75 kWh kan de accu onderweg voorverwarmen voor een snellere laadstop (ANWB 30-07-2026, onder 'Onderweg voorverwarmen')."
+    },
+    {
+      "slug": "bidirectioneel-laden",
+      "bestaat": true,
+      "toevoeging": "Nissan Leaf (2026): aansluiten op het stroomnet blijft mogelijk; vehicle-to-load alleen in sommige uitvoeringen, welke noemt ANWB niet (30-07-2026, onder 'Voortaan vloeistofgekoeld' en 'Rijkere uitrusting')."
+    },
+    {
+      "slug": "trekgewicht",
+      "bestaat": true,
+      "toevoeging": "Nissan Leaf: 975 kg bij elke motorisatie, genoeg voor een kleine caravan (ANWB 30-07-2026)."
+    },
+    {
+      "slug": "kofferbakinhoud",
+      "bestaat": true,
+      "toevoeging": "Nissan Leaf: 437 tot 1.052 l, fabrieksopgave (ANWB 30-07-2026)."
+    },
+    {
+      "slug": "wegenbelasting",
+      "bestaat": true,
+      "toevoeging": "Nissan Leaf: minimaal 1.789 kg, zwaarder dan de forsere Renault Scénic (ANWB 30-07-2026)."
+    }
+  ],
+  "relaties_met_bestaande_bronnen": []
+}

@@ -169,6 +169,11 @@ node scripts/quality-score.mjs
 - **Een besluit gaat naar `besluiten.yaml`,** niet in de code: welke pagina's met de hand geschreven
   zijn, welke slug een uitvoering is, welk concept geen pagina krijgt, welke map een vergelijking is.
   Lees de rapporten van de agents: wat ze als twijfel melden, is meestal een besluit.
+- **Dezelfde test telt één keer.** Een ANWB-video en de geschreven review van dezelfde rit zijn
+  twee bronnen maar één test. Zet ze als paar onder `zelfde_test:` in `besluiten.yaml`; het script
+  telt ze dan als één voor `source_count` en de zekerheidsgrens van 0,75. De agents melden zo'n paar.
+- **Een afwijzing gaat in het register** (`status: afgewezen`, met reden), zodat de sessiestart de
+  ruwe bron niet meer als wachtend telt.
 - **Een bronpagina wordt één keer geschreven.** Daarna is de wiki leidend; `--herschrijf-bronnen`
   overschrijft correcties en is alleen voor een concept dat zelf fout was.
 - **Herhaalbaar.** Zonder nieuwe ronde verandert een run niets. Een met de hand geschreven modelpagina
@@ -295,6 +300,10 @@ verzameld: {door, datum, site, modellen_kandidaat, status}
 notes: <hoe de tekst uit de HTML is gehaald>
 ---
 ```
+
+**Datum.** Een review heeft "Gepubliceerd op"; een themaartikel vaak niet, en ANWB werkt die bij
+zonder nieuwe datum (de sitedatum 2022-05-01 die trafilatura vond, was voor elk artikel gelijk).
+Zonder "Gepubliceerd op" is `date_published` de dag van ophalen: de stand.
 
 **Verplicht voor pre-flight:** `title`, `url`, `date_published`. Op de bronpagina wordt het
 `kind: article`, `author` uit de kop, en geen `weergaven:`. Een feit verwijst naar de alinea of de

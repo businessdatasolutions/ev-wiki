@@ -28,7 +28,7 @@ relationships:
 # Audi e-tron GT
 
 Model van [[audi|Audi]]. Bronnen over dit model: [[2026-09-06-elektrische-sportwagens-voor-weinig-de-audi-e-tron-gt-en-porsche-taycan-zijn-flink-afgesch|Autovisie 06-09-2026]].
-Met één eigen bron blijft de zekerheid op hooguit 0,75.
+Met één eigen bron (of één test, ook als die in video en artikel verscheen) blijft de zekerheid op hooguit 0,75.
 
 **Plinkie.** Staat niet in de sitemap van plinkie.nl.
 

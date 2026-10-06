@@ -1,0 +1,39 @@
+{
+ "is_review": true,
+ "reden": "Geen review maar een bruikbaar themaartikel van ANWB: welke nieuwe elektrische auto's in 2026 op de markt komen, met per model wat er over introductie, accu, bereik en prijs bekend is. Vroeg signaal (idee E in Plinkie's ideeen/plinkie-reviews.html): modellen die Plinkie al in de lijst heeft maar die nog weinig aanbod hebben. Geen eigen metingen; alles is fabrieksopgave, folder of gerucht.",
+ "taal_transcript": "nl (artikeltekst, geen transcript)",
+ "bronpagina_bestand": "2026-10-06-welke-nieuwe-elektrische-autos-komen-er-in-2026.md",
+ "modellen": [
+  "volvo-ex60",
+  "bmw-ix3",
+  "volkswagen-id-polo",
+  "cupra-raval",
+  "skoda-epiq",
+  "renault-twingo",
+  "hyundai-ioniq-6",
+  "subaru-uncharted"
+ ],
+ "merken": [
+  "volvo",
+  "bmw",
+  "volkswagen",
+  "cupra",
+  "skoda",
+  "renault",
+  "hyundai",
+  "subaru"
+ ],
+ "kanaal": "anwb",
+ "vergelijking": false,
+ "waarschuwingen": [
+  "date_published 2022-05-01 uit de ruwe kop klopt niet met de inhoud (over 2026, iX3-prijs, ID. Polo onthuld) en is gelijk aan die van het garantieartikel: vermoedelijk de eerste publicatie van de URL. Bestandsnaam volgt de kop; feiten zijn gedateerd als 'stand 06-10-2026'. Besluit eigenaar nodig.",
+  "Bron met een belang: ANWB zegt dat veel nieuwe modellen na introductie in het aanbod van ANWB Private Lease komen.",
+  "Tegenspraak: BMW iX3 'vanaf € 70.501' hier, 'net geen € 63.000' voor de instapper in de iX3-EX60-video van 02-10-2026. ID. Polo 'vanaf € 24.995' hier, € 24.990 in de ID. Polo-video; kofferbak 440 L hier, 441 L daar. Volvo EX60 700 km hier, 660 km WLTP voor de testauto in de video.",
+  "Hyundai IONIQ 6 N staat onder hyundai-ioniq-6 als uitvoering, want Plinkie heeft geen eigen pad ioniq-6-n (wel ioniq-5-n). Wil de eigenaar hem apart, dan hoort dat in besluiten.yaml.",
+  "Nieuwe entiteiten: renault-twingo (/deals/renault/twingo; Plinkie kent ook twingo-e-tech), hyundai-ioniq-6 (/deals/hyundai/ioniq-6), subaru-uncharted (/deals/subaru/uncharted) en merk subaru.",
+  "Geen concurrenten opgenomen. De Uncharted is 'Subaru's versie van de Toyota C-HR+' (zustermodel, toyota-c-hr-plus staat wel in Plinkie's lijst) en de Omoda 4 'doet denken aan' Nissan Juke en Toyota C-HR: geen van beide wordt expliciet als alternatief gezet. De samenvoegstap kan Uncharted/C-HR+ alsnog als paar overwegen.",
+  "Alleen in de tekst, niet bij Plinkie of zonder pagina: Jaguar Type 00 (770 km, 300 km bijladen in een kwartier, prijs ruim boven € 160.000 geschat), Omoda 4 (gerucht: rond € 30.000, 400 km; Plinkie heeft alleen omoda/5-ev), Volvo EX90.",
+  "Regelgeving 'vanaf 2026 ook wegenbelasting' spreekt het concept wegenbelasting tegen ('sinds 2025 stap voor stap'); als aanvulling met tegenspraak gemeld.",
+  "Omoda 4-cijfers zijn expliciet gerucht ('in de wandelgangen'); niet als fabrieksopgave behandelen."
+ ]
+}

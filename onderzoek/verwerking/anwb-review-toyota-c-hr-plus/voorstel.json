@@ -1,0 +1,76 @@
+{
+  "nieuwe_entiteiten": [
+    {"slug": "toyota-c-hr-plus", "kind": "model", "naam": "Toyota C-HR+", "merk": "toyota", "plinkie_pad": "/deals/toyota/c-hr-plus", "aliases": ["Toyota C-HR+", "C-HR+", "C-HR Plus", "Toyota C-HR Plus"], "tekst": "Volledig elektrische SUV-coupé van Toyota, 16 cm langer dan de hybride C-HR. Drie uitvoeringen: 57,7 kWh met 167/164 pk, 77 kWh met 224 pk, en vierwielaandrijving met 343 pk (ANWB, 6 aug 2026). Niet verwarren met de C-HR (mild-hybride en hybride), die Plinkie niet heeft."},
+    {"slug": "toyota", "kind": "merk", "naam": "Toyota", "merk": "", "plinkie_pad": "", "aliases": ["Toyota"], "tekst": "Japans merk. Geeft op de C-HR+ 10 jaar of 1 miljoen kilometer batterijgarantie, volgens ANWB 'uniek' (6 aug 2026). Plinkie heeft van Toyota onder meer de bZ4X, bZ4X Touring, C-HR+ en Urban Cruiser."},
+    {"slug": "skoda-elroq", "kind": "model", "naam": "Škoda Elroq", "merk": "skoda", "plinkie_pad": "/deals/skoda/elroq", "aliases": ["Skoda Elroq", "Škoda Elroq", "Elroq"], "tekst": "Genoemd als concurrent van de Toyota C-HR+; kofferbak 470 L met de achterbank rechtop (ANWB, C-HR+, 6 aug 2026)."},
+    {"slug": "kia-ev5", "kind": "model", "naam": "Kia EV5", "merk": "kia", "plinkie_pad": "/deals/kia/ev5", "aliases": ["Kia EV5", "EV5"], "tekst": "Genoemd als concurrent van de Toyota C-HR+ (ANWB, 6 aug 2026)."},
+    {"slug": "renault-scenic-e-tech", "kind": "model", "naam": "Renault Scénic E-Tech", "merk": "renault", "plinkie_pad": "/deals/renault/scenic-e-tech", "aliases": ["Renault Scénic", "Renault Scenic", "Scénic E-Tech", "Scenic E-Tech"], "tekst": "Genoemd als concurrent van de Toyota C-HR+ met een grotere kofferbak: 545 L (ANWB, C-HR+, 6 aug 2026)."}
+  ],
+  "model_feiten": {
+    "toyota-c-hr-plus": {
+      "uitvoeringen": [
+        "Instap: 57,7 kWh, 167 pk (onder 'Type auto en prijzen') of 164 pk (onder 'Het milieu'); de bron spreekt zichzelf tegen. Dit is de ANWB-testauto (onder 'Instapmodel heeft goeie uitrusting')",
+        "Grote accu: 77 kWh met 224 pk (onder 'Type auto en prijzen')",
+        "Vierwielaandrijving: 343 pk met de grote accu (onder 'Type auto en prijzen')",
+        "First Edition: de stap boven de instap; accu en vermogen niet genoemd (onder 'Instapmodel heeft goeie uitrusting')"
+      ],
+      "fabrieksopgaven": [
+        "Instap 57,7 kWh: prijs € 37.995, augustus 2026 (onder 'Instapmodel heeft goeie uitrusting')",
+        "First Edition: 'net geen 44 mille', augustus 2026 (onder 'Instapmodel heeft goeie uitrusting')",
+        "Vierwielaandrijving 343 pk: vanaf € 50.995, augustus 2026 (onder 'Instapmodel heeft goeie uitrusting')",
+        "Uitvoering niet genoemd: private lease vanaf ongeveer € 500 per maand, augustus 2026; ANWB leaset zelf (onder 'Instapmodel heeft goeie uitrusting')",
+        "Instap: standaard warmtepomp, stoel- en stuurverwarming, adaptieve cruise control, climate control, spraakbediening, twee draadloze telefoonladers, Apple CarPlay en Android Auto (onder 'Instapmodel heeft goeie uitrusting' en 'Van binnen')",
+        "Alle uitvoeringen: 16 cm langer dan de hybride C-HR, langere wielbasis (onder 'Type auto en prijzen')",
+        "Uitvoering niet genoemd: kofferbak 416 L, 30 L meer dan de hybride C-HR; verstelbare bodem (onder 'Coupélijn maakt kofferbak kleiner')",
+        "Instap 57,7 kWh: fabrieksverbruik 13,4 kWh/100 km; rijbereik 458 km, norm niet genoemd (onder 'Het milieu')",
+        "77 kWh: rijbereik 609 km, norm niet genoemd (onder 'Het milieu')",
+        "Beide accu's: snelladen max. 150 kW, in een half uur tot 80% (onder 'Het milieu')",
+        "Alle uitvoeringen: AC-laden 11 kW, tegen meerprijs 22 kW (onder 'Het milieu')",
+        "Alle uitvoeringen: eco-stand en flippers aan de stuurkolom voor de regeneratie (onder 'Het milieu')"
+      ],
+      "metingen": [
+        "Instap 57,7 kWh, 164 pk: gemiddeld 14,2 kWh/100 km tegen 13,4 opgegeven; veel snelwegkilometers, warm zomerweer, afstand en temperatuur niet genoemd; ANWB, augustus 2026 (onder 'De Toyota C-HR+ en het milieu')"
+      ],
+      "valkuilen": [
+        "Alle uitvoeringen: grote prijssprongen, van € 37.995 via bijna € 44.000 (First Edition) naar € 50.995 (4x4); minpunt volgens ANWB (onder 'Instapmodel heeft goeie uitrusting')",
+        "Uitvoering niet genoemd: kofferbak 416 L, kleiner dan de Škoda Elroq (470 L) en Renault Scénic (545 L), door de coupédaklijn (onder 'Coupélijn maakt kofferbak kleiner')",
+        "Alle uitvoeringen: geen frunk; de laadkabel moet in de kofferbak (onder 'Coupélijn maakt kofferbak kleiner')",
+        "Sommige versies, welke niet genoemd: 230 V-stopcontact in de kofferbak (onder 'Coupélijn maakt kofferbak kleiner')",
+        "Alle uitvoeringen: geen one-pedal-rijden, tot stilstand altijd de rem nodig (onder 'Het milieu')",
+        "Alle uitvoeringen: geen sportstand, ondanks het coupé-uiterlijk (onder 'Hoe rijdt de Toyota C-HR+?')",
+        "Instap: stoelen en stuur handmatig verstellen, stoffen bekleding (onder 'Van binnen')",
+        "Uitvoering niet genoemd: krappe instap achterin, lastig bij een kinderzitje (onder 'Coupélijn maakt kofferbak kleiner')"
+      ],
+      "oordelen": [
+        "Instap: zeer stil, nauwelijks wind- en motorgeluid, alleen bandengeruis (onder 'Hoe rijdt de Toyota C-HR+?')",
+        "Instap: comfortabele vering, besturing met 'best wel wat gevoel', voorspelbaar en weinig overhellen in snelle bochten (onder 'Hoe rijdt de Toyota C-HR+?')",
+        "Instap: rijhulpsystemen werken 'netjes, zonder hinderlijk in te grijpen' (onder 'Hoe rijdt de Toyota C-HR+?')",
+        "Instap: bediening intuïtief, snelheidspiep met één druk uit; dashboard uit de bZ4X; veel plastic (onder 'Van binnen')",
+        "Uitvoering niet genoemd: achterin hoofd- en beenruimte 'overdadig', verstelbare rugleuning, vlakke vloer (onder 'Coupélijn maakt kofferbak kleiner')",
+        "Eindoordeel: 'een fijne elektrische auto voor gezinnen'; met de vanafprijs, de uitrusting en de garantie 'een verleidelijk aanbod' (onder 'Conclusie')"
+      ],
+      "concurrenten": [
+        {"tegen": "skoda-elroq", "tijd": "onder 'Een terecht plusteken'", "grond": "concurrentie waar de C-HR+ zich tegen moet onderscheiden; ook de grotere kofferbak (470 L) onder 'Coupélijn maakt kofferbak kleiner'"},
+        {"tegen": "kia-ev5", "tijd": "onder 'Een terecht plusteken'", "grond": "concurrentie waar de C-HR+ zich tegen moet onderscheiden"},
+        {"tegen": "renault-scenic-e-tech", "tijd": "onder 'Coupélijn maakt kofferbak kleiner'", "grond": "concurrent met een grotere kofferbak: 545 L tegen 416 L"}
+      ]
+    }
+  },
+  "merk_feiten": {
+    "toyota": [
+      "C-HR+: batterijgarantie 10 jaar of 1 miljoen kilometer, volgens ANWB 'uniek'; voorwaarden niet genoemd (ANWB, 6 aug 2026, onder 'Instapmodel heeft goeie uitrusting')",
+      "C-HR+ 'scoort hoog op betrouwbaarheid'; waarop dat rust, zegt ANWB niet (onder 'Conclusie')",
+      "De importeur zette voor de ANWB-test het instapmodel in, niet een rijk uitgeruste versie (onder 'Instapmodel heeft goeie uitrusting')"
+    ],
+    "anwb": [
+      "Bron toevoegen: ANWB, geschreven review Toyota C-HR+ (augustus 2026); source_count +1"
+    ]
+  },
+  "concepten": [
+    {"slug": "praktijkbereik", "bestaat": true, "toevoeging": "Toyota C-HR+ 57,7 kWh: 14,2 kWh/100 km gemeten, veel snelweg en warm zomerweer; fabriek 13,4 kWh/100 km en 458 km. ANWB noemt geen praktijkbereik; rekenkundig ~406 km (eigen uitrekening) (ANWB, 6 aug 2026)"},
+    {"slug": "kofferbakinhoud", "bestaat": true, "toevoeging": "Toyota C-HR+: 416 L door de coupédaklijn, tegen Škoda Elroq 470 L en Renault Scénic 545 L; geen frunk (ANWB, 6 aug 2026)"},
+    {"slug": "rijbereik-wltp", "bestaat": true, "toevoeging": "Toyota C-HR+: 458 km (57,7 kWh) en 609 km (77 kWh), norm niet genoemd (ANWB, 6 aug 2026)"},
+    {"slug": "snelladen-10-80", "bestaat": true, "toevoeging": "Toyota C-HR+: max. 150 kW bij beide accu's, 'in een half uur 80%' volgens opgave; geen 10-80%-tijd gemeten (ANWB, 6 aug 2026)"}
+  ],
+  "relaties_met_bestaande_bronnen": []
+}

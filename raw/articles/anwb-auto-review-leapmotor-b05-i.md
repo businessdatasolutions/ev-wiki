@@ -4,7 +4,7 @@ url: https://www.anwb.nl/auto/tests/auto-reviews/detail/1e589327c91999978b51306e
 site: ANWB
 soort: review
 author:
-- Bekijk specificaties
+- Frank Buma
 date_published: '2026-09-24'
 uitvoering: Leapmotor B05 67.1kwh EV 160kw
 taal: nl
@@ -16,7 +16,7 @@ verzameld:
   modellen_kandidaat:
   - leapmotor/b05
   status: wacht op Process
-notes: Tekst uit de HTML gehaald met trafilatura; menu, voet en het blok met andere tests weggelaten. Uitvoering, auteur en publicatiedatum uit de kenmerken naast de tekst.
+notes: 'Tekst uit de HTML gehaald met trafilatura; menu, voet en het blok met andere tests weggelaten. Uitvoering, auteur en publicatiedatum uit de kenmerken naast de tekst. Kop opnieuw gelezen op 06-10-2026: de eerste versie las ''Specificaties'' als auteur.'
 ---
 
 # Auto Review Leapmotor B05 I

@@ -1,0 +1,22 @@
+{
+  "is_review": true,
+  "reden": "Geschreven ANWB-rijtest van de Volvo EX60, uitvoering P10 All Wheel Drive (95 kWh, 500 pk, 22 inch), met eigen verbruiksmetingen: 19 kWh/100 km over ongeveer 1.000 km snelweg naar Noord-Denemarken bij ongeveer 16 °C en zoveel mogelijk 110 km/u, 22 kWh/100 km terug bij 140 km/u of harder, 17,2 kWh/100 km woon-werk in Nederland, en een praktijkbereik van ongeveer 500 km.",
+  "taal_transcript": "nl (artikel, geen transcript)",
+  "bronpagina_bestand": "2026-09-24-auto-review-volvo-ex60-i.md",
+  "modellen": ["volvo-ex60"],
+  "merken": ["volvo"],
+  "kanaal": "anwb",
+  "vergelijking": false,
+  "waarschuwingen": [
+    "Bron met een belang: ANWB leaset zelf via ANWB Private Lease. De bestaande bron over de EX60 is ook van ANWB en beschrijft dezelfde rit naar Denemarken: dit artikel en de video van 02-10-2026 zijn één test, geen twee onafhankelijke bronnen. Confidence van volvo-ex60 dus niet boven 0,75 op grond van deze twee.",
+    "Auteur in de ruwe kop is 'Specificaties': een fout bij het uitlezen van de kenmerken, geen naam. Op de bronpagina staat author ANWB. De verzamelaar (onderzoek/webbronnen.py) leest het auteursveld hier verkeerd.",
+    "Uitvoering in de kop: '91kwh EV 375kw 4WD'; de tekst zegt 95 kWh en 500 pk (ongeveer 368 kW). Mogelijk 91 kWh netto en 95 kWh bruto; niet als feit opgenomen. De tekst is gevolgd.",
+    "Prijs P12 (117 kWh, 810 km) is 'ruim 71 mille', goedkoper dan de P10 van € 77.445 met de kleinere accu. Dat is onwaarschijnlijk; mogelijk een tikfout voor 81 mille. Opgenomen als (tekst: 'ruim 71 mille'), niet als feit.",
+    "Tegenspraak met de ANWB-video van 02-10-2026: daar zegt een tester (8:05) dat 'allebei de auto's' stroom kunnen leveren aan apparaten. Dit artikel zegt dat de EX60 geen stroom kan teruggeven aan het net of aan apparaten. De modelpagina volvo-ex60 noemt nu 'stroom leveren aan apparaten' als fabrieksopgave; dat hoort in Debatten.",
+    "Correctie op de verwerking van de video: de kofferbakvloer met twee klepjes voor de laadkabel staat op de pagina bmw-ix3 (9:56). Het transcript laat de vraag stellen vanuit de Volvo en de BMW-rijder antwoorden 'dat heb ik niet'; dit artikel bevestigt de klepjes bij de EX60. Het feit hoort bij volvo-ex60, niet bij bmw-ix3.",
+    "Lost twee onzekerheden uit de video op: frunk EX60 52 L (dus de BMW 58 L, 6 L meer), en de achterdeur die niet ver opengaat (8:58) is die van de EX60.",
+    "Lost de onleesbare prijs van de testauto uit de video op (transcript: '€7.45'): P10 kost € 77.445 op 24-09-2026.",
+    "Metingen zijn zonder afstand bij het woon-werkverkeer en zonder temperatuur in Nederland. Het praktijkbereik van 500 km is een afronding ('pakweg'), op 22 inch.",
+    "Concurrent BMW iX3 alleen in de conclusie, op prijs ('best scherp geprijsd') en op punten beter; geen nieuwe pagina nodig."
+  ]
+}

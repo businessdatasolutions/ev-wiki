@@ -1,0 +1,118 @@
+{
+  "nieuwe_entiteiten": [
+    {"slug": "ds-n-8", "kind": "model", "naam": "DS N°8", "merk": "ds", "plinkie_pad": "/deals/ds/n-8", "aliases": ["DS N°8", "DS N8", "N°8", "DS No 8"], "tekst": "Elektrisch model van DS, het luxemerk naast Citroën. Nummer 2 in de ANWB-ranglijst van grootste actieradius: 750 km WLTP met de Long Range (stand februari 2025). Plinkie kent hem ook als /deals/ds/no-8."},
+    {"slug": "mercedes-benz-cla", "kind": "model", "naam": "Mercedes-Benz CLA", "merk": "mercedes-benz", "plinkie_pad": "/deals/mercedes-benz/cla", "aliases": ["Mercedes CLA", "CLA", "Mercedes-Benz CLA"], "tekst": "Nieuwe elektrische CLA van Mercedes-Benz. Nummer 3 in de ANWB-ranglijst van grootste actieradius: tot 743 km WLTP en laden tot 320 kW (stand februari 2025)."},
+    {"slug": "volkswagen-id-7", "kind": "model", "naam": "Volkswagen ID.7", "merk": "volkswagen", "plinkie_pad": "/deals/volkswagen/id-7", "aliases": ["ID.7", "Volkswagen ID.7", "ID.7 Tourer"], "tekst": "Grote elektrische sedan van Volkswagen, ook als stationwagen (Plinkie: /deals/volkswagen/id-7-tourer). Nummer 5 in de ANWB-ranglijst van grootste actieradius: 709 km WLTP, uitvoering niet genoemd (stand februari 2025)."},
+    {"slug": "tesla-model-3", "kind": "model", "naam": "Tesla Model 3", "merk": "tesla", "plinkie_pad": "/deals/tesla/model-3", "aliases": ["Model 3", "Tesla Model 3"], "tekst": "Middenklasse-sedan van Tesla. Nummer 6 in de ANWB-ranglijst van grootste actieradius: 702 km WLTP volgens ANWB met de Long Range AWD (stand februari 2025)."},
+    {"slug": "peugeot-e-3008", "kind": "model", "naam": "Peugeot e-3008", "merk": "peugeot", "plinkie_pad": "/deals/peugeot/e-3008", "aliases": ["e-3008", "Peugeot e-3008", "E-3008"], "tekst": "Elektrische SUV van Peugeot. Nummer 7 in de ANWB-ranglijst van grootste actieradius: 701 km WLTP met de accu van 96 kWh (stand februari 2025)."},
+    {"slug": "mercedes-benz-eqe", "kind": "model", "naam": "Mercedes-Benz EQE", "merk": "mercedes-benz", "plinkie_pad": "/deals/mercedes-benz/eqe", "aliases": ["Mercedes EQE", "EQE", "Mercedes-Benz EQE"], "tekst": "Elektrische sedan van Mercedes-Benz. Nummer 9 in de ANWB-ranglijst van grootste actieradius: 669 km WLTP, uitvoering niet genoemd (stand februari 2025). Of Plinkie's pad de sedan of de EQE SUV is, is niet nagegaan."},
+    {"slug": "polestar-2", "kind": "model", "naam": "Polestar 2", "merk": "polestar", "plinkie_pad": "/deals/polestar/2", "aliases": ["Polestar 2", "PS2"], "tekst": "Elektrische fastback van Polestar. Nummer 10 in de ANWB-ranglijst van grootste actieradius: 655 km WLTP, vooral met de Long Range Single Motor (stand februari 2025). Plinkie kent hem ook als /deals/polestar/polestar-2."},
+    {"slug": "ds", "kind": "merk", "naam": "DS", "merk": "", "plinkie_pad": "", "aliases": ["DS", "DS Automobiles"], "tekst": "Frans luxemerk van Stellantis (part-of stellantis); ANWB noemt DS 'het luxebroertje van Citroën'. In deze wiki via de N°8 in de ANWB-ranglijst van grootste actieradius."},
+    {"slug": "tesla", "kind": "merk", "naam": "Tesla", "merk": "", "plinkie_pad": "", "aliases": ["Tesla"], "tekst": "Amerikaanse fabrikant van elektrische auto's. In deze wiki via de Model 3, volgens ANWB 'heer en meester in de Nederlandse EV-markt' (stand februari 2025)."},
+    {"slug": "polestar", "kind": "merk", "naam": "Polestar", "merk": "", "plinkie_pad": "", "aliases": ["Polestar"], "tekst": "Zweeds-Chinees merk van elektrische auto's, ontstaan uit Volvo. In deze wiki via de Polestar 2."}
+  ],
+  "model_feiten": {
+    "ds-n-8": {
+      "uitvoeringen": ["Long Range: de versie met 750 km WLTP, vanaf € 59.200 (ANWB-artikel, stand februari 2025, onder '2. DS N°8')"],
+      "fabrieksopgaven": [
+        "Long Range: WLTP 750 km (ANWB-artikel, stand februari 2025, onder '2. DS N°8')",
+        "Uitvoering niet genoemd: DS claimt meer dan 500 km op de snelweg; fabrikantclaim, geen meting (onder '2. DS N°8')",
+        "Uitvoering niet genoemd: snelladen maximaal 160 kW (onder '2. DS N°8')",
+        "Long Range: vanafprijs € 59.200, koopprijs, stand februari 2025 (onder '2. DS N°8')"
+      ],
+      "metingen": [],
+      "valkuilen": ["Alleen de Long Range haalt 750 km; het bereik van andere uitvoeringen noemt het artikel niet (onder '2. DS N°8')"],
+      "oordelen": [],
+      "concurrenten": []
+    },
+    "mercedes-benz-cla": {
+      "uitvoeringen": ["'De eerste versie van de nieuwe CLA'; welke aandrijving of accu noemt het artikel niet (onder '3. Mercedes CLA')"],
+      "fabrieksopgaven": [
+        "Uitvoering niet genoemd: WLTP 'tot 743 km' (ANWB-artikel, stand februari 2025, onder '3. Mercedes CLA')",
+        "Uitvoering niet genoemd: snelladen tot 320 kW (onder '3. Mercedes CLA')",
+        "Eerste versie: vanafprijs € 58.979, koopprijs, stand februari 2025 (onder '3. Mercedes CLA')"
+      ],
+      "metingen": [],
+      "valkuilen": ["'Tot 743 km' is de bovengrens; welke uitvoering dat haalt, zegt het artikel niet (onder '3. Mercedes CLA')"],
+      "oordelen": ["Uitvoering niet genoemd: 'maakt zowel qua actieradius als qua laadsnelheid indruk' (onder '3. Mercedes CLA')"],
+      "concurrenten": []
+    },
+    "volkswagen-id-7": {
+      "uitvoeringen": ["Sedan en stationwagen; accu en vermogen niet genoemd (onder '5. Volkswagen ID.7')"],
+      "fabrieksopgaven": [
+        "Uitvoering niet genoemd: WLTP 709 km (ANWB-artikel, stand februari 2025, onder '5. Volkswagen ID.7')",
+        "Uitvoering niet genoemd: vanafprijs € 57.990, koopprijs, stand februari 2025 (onder '5. Volkswagen ID.7')"
+      ],
+      "metingen": [],
+      "valkuilen": ["Bereik en vanafprijs zijn niet aan één uitvoering gekoppeld; of de goedkoopste ID.7 709 km haalt, zegt het artikel niet (onder '5. Volkswagen ID.7')"],
+      "oordelen": ["Uitvoering niet genoemd: 'de aalgladde reismachine'; Volkswagen 'keert terug in het topsegment' (onder '5. Volkswagen ID.7')"],
+      "concurrenten": []
+    },
+    "tesla-model-3": {
+      "uitvoeringen": ["Long Range AWD: de versie met meer dan 700 km volgens ANWB; daarnaast een eenvoudigste uitvoering (onder '6. Tesla Model 3')"],
+      "fabrieksopgaven": [
+        "Long Range AWD: WLTP 702 km volgens ANWB, stand februari 2025 (onder '6. Tesla Model 3'); niet bij Tesla nagegaan, zie valkuilen",
+        "Eenvoudigste uitvoering: € 39.990, koopprijs, stand februari 2025 (onder '6. Tesla Model 3')"
+      ],
+      "metingen": [],
+      "valkuilen": [
+        "Eenvoudigste uitvoering vs. Long Range AWD: de vanafprijs van € 39.990 hoort niet bij de 702 km; daarvoor moet je de Long Range AWD aanvinken (onder '6. Tesla Model 3')",
+        "Twijfel: bij de huidige Model 3 hoort 702 km mogelijk bij de Long Range met achterwielaandrijving en niet bij de AWD; controleren bij Tesla vóór gebruik (onder '6. Tesla Model 3')"
+      ],
+      "oordelen": ["Uitvoering niet genoemd: 'de voordeligste auto met meer dan 700 kilometer range uit dit lijstje', mede door de prijs 'heer en meester in de Nederlandse EV-markt' (onder '6. Tesla Model 3')"],
+      "concurrenten": []
+    },
+    "peugeot-e-3008": {
+      "uitvoeringen": ["Met het grote batterijpakket van 96 kWh (onder '7. Peugeot e-3008')"],
+      "fabrieksopgaven": [
+        "96 kWh: WLTP 701 km (ANWB-artikel, stand februari 2025, onder '7. Peugeot e-3008')",
+        "96 kWh: minstens € 49.915, koopprijs, stand februari 2025 (onder '7. Peugeot e-3008')"
+      ],
+      "metingen": [],
+      "valkuilen": ["Alleen met de accu van 96 kWh: 701 km; het bereik van de kleinere accu noemt het artikel niet (onder '7. Peugeot e-3008')"],
+      "oordelen": ["96 kWh: 'kost echter wel een lieve duit'; eindelijk een volumemerk in de top 10 (onder '7. Peugeot e-3008')"],
+      "concurrenten": []
+    },
+    "mercedes-benz-eqe": {
+      "uitvoeringen": [],
+      "fabrieksopgaven": [
+        "Uitvoering niet genoemd: WLTP 669 km (ANWB-artikel, stand februari 2025, onder '9. Mercedes EQE')",
+        "Uitvoering niet genoemd: vanafprijs € 67.428, koopprijs, stand februari 2025 (onder '9. Mercedes EQE')"
+      ],
+      "metingen": [],
+      "valkuilen": ["Bereik en vanafprijs zijn niet aan één uitvoering gekoppeld; het artikel noemt ook niet of het de sedan of de SUV is, al wordt de EQE SUV apart genoemd als kleinere broer van de EQS SUV (onder '8. Mercedes EQS SUV' en '9. Mercedes EQE')"],
+      "oordelen": [],
+      "concurrenten": []
+    },
+    "polestar-2": {
+      "uitvoeringen": ["Long Range Single Motor: de versie die 'aanzienlijk verder' komt; daarnaast een eenvoudigste uitvoering (onder '10. Polestar 2')"],
+      "fabrieksopgaven": [
+        "Long Range Single Motor: WLTP 655 km, stand februari 2025 (onder '10. Polestar 2')",
+        "Eenvoudigste uitvoering: € 44.950, koopprijs, stand februari 2025 (onder '10. Polestar 2')"
+      ],
+      "metingen": [],
+      "valkuilen": ["Eenvoudigste uitvoering vs. Long Range Single Motor: de vanafprijs van € 44.950 hoort niet bij de 655 km (onder '10. Polestar 2')"],
+      "oordelen": ["Uitvoering niet genoemd: 'een bijgepunt uiterlijk' na de facelift (onder '10. Polestar 2')"],
+      "concurrenten": []
+    }
+  },
+  "merk_feiten": {
+    "ds": ["ANWB noemt DS 'het luxebroertje van Citroën' (ANWB-artikel grootste actieradius, stand februari 2025, onder '2. DS N°8')"],
+    "mercedes-benz": [
+      "Vier Mercedessen in de ANWB-top 10 van grootste actieradius: CLA (743 km), EQS (735 km), EQS SUV (700 km) en EQE (669 km), stand februari 2025",
+      "Volgens ANWB neemt de EQS de rol van vlaggenschip niet over; de volgende EQS wordt een elektrische S-Klasse, net als BMW met de 7 Serie (onder '4. Mercedes EQS'). EQS en EQS SUV staan niet op Plinkie"
+    ],
+    "volkswagen": ["ANWB ziet bij volumemerken als Volkswagen en Peugeot 'een voorzichtige kentering' naar grote accu's tegen een lagere prijs (onder 'Een grote actieradius = een flink prijskaartje', stand februari 2025)"],
+    "peugeot": ["ANWB ziet bij volumemerken als Volkswagen en Peugeot 'een voorzichtige kentering' naar grote accu's tegen een lagere prijs (onder 'Een grote actieradius = een flink prijskaartje', stand februari 2025)"],
+    "tesla": ["Volgens ANWB laadt Tesla, net als Kia, al binnen 20 minuten (onder 'Actieradius vs. laadsnelheid'); welke modellen en welk bereik, zegt het artikel niet"],
+    "anwb": ["Bron toevoegen aan de lijst: ANWB-themaartikel 'De 10 elektrische auto's met de grootste actieradius' (eerste publicatie 2022, stand februari 2025); source_count +1"]
+  },
+  "concepten": [
+    {"slug": "rijbereik-wltp", "bestaat": true, "toevoeging": "ANWB-ranglijst grootste actieradius (stand februari 2025), alle WLTP-fabrieksopgaven: DS N°8 Long Range 750 km, Mercedes CLA tot 743 km, Volkswagen ID.7 709 km, Tesla Model 3 Long Range AWD 702 km, Peugeot e-3008 96 kWh 701 km, Mercedes EQE 669 km, Polestar 2 Long Range Single Motor 655 km; buiten Plinkie Lucid Air 883, EQS 735 en EQS SUV 700 km. Bij de Model 3 en Polestar 2 hoort de vanafprijs bij een andere uitvoering dan het bereik. ANWB zelf: zulke cijfers worden 'in de praktijk bijna nooit gehaald', en een gemiddelde forens rijdt nog geen 40 km per dag."},
+    {"slug": "praktijkbereik", "bestaat": true, "toevoeging": "Geen meting, wel een claim: DS zegt dat de N°8 meer dan 500 km op de snelweg haalt, tegen 750 km WLTP (ANWB-artikel grootste actieradius, stand februari 2025). ANWB schrijft dat WLTP-bereiken door wind, verkeer en rijstijl in de praktijk bijna nooit gehaald worden."},
+    {"slug": "snelladen-10-80", "bestaat": true, "toevoeging": "Maximaal laadvermogen, geen 10-80%-tijd: Mercedes CLA tot 320 kW, DS N°8 maximaal 160 kW. ANWB raadt aan liever een kleinere accu met hoge laadsnelheid te kiezen dan het grootste bereik; Kia en Tesla laden volgens ANWB al binnen 20 minuten (ANWB-artikel grootste actieradius, stand februari 2025)."}
+  ],
+  "relaties_met_bestaande_bronnen": [
+    {"type": "supports", "target": "2026-10-02-bmw-ix3-vs-volvo-ex60-roadtrip-met-special-guest", "via": "beide ANWB-bronnen laten zien dat WLTP-bereiken van boven de 650 km in de praktijk niet gehaald worden; het artikel zegt het in het algemeen, de roadtrip laat het zien bij de EX60"}
+  ]
+}

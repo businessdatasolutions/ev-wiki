@@ -89,6 +89,14 @@ def main():
     CONCERN = B.get("concern") or {}
     NAAM_MERK = B.get("merknaam") or {}
     SITEMAP = set(MODELLEN_TXT.read_text().split())
+    # Bronnen die dezelfde test zijn, tellen als één (een ANWB-video en de review erbij)
+    TEST_VAN = {}
+    for groep in B.get("zelfde_test") or []:
+        for b in groep:
+            TEST_VAN[b] = groep[0]
+
+    def unieke_tests(bs):
+        return len({TEST_VAN.get(b, b) for b in bs})
 
     def remap_tekst(s):
         for a, b in REMAP.items():
@@ -213,18 +221,18 @@ def main():
         for (_, t, b, tijd, grond) in eigen_claims:
             per_tegen.setdefault(t, []).append(f"{kanaal_kort(b)} ({tijd}): {grond}".strip())
         rel += [{"type": "competes-with", "target": t, "via": "; ".join(dict.fromkeys(v))} for t, v in per_tegen.items()]
-        cap = 0.75 if len(eigen) < 2 else None
+        cap = 0.75 if unieke_tests(eigen) < 2 else None
         dag = ingest(alle) or datum(dt.date.today())
         fm = {"type": "entity", "kind": "model", "merk": merk, "plinkie_pad": pad, "aliases": list(dict.fromkeys(aliases)),
-              "tags": [merk], "confidence": conf(len(alle), cap), "last_confirmed": dag, "accessed_at": dag,
-              "source_count": len(alle), "relationships": rel}
+              "tags": [merk], "confidence": conf(unieke_tests(alle), cap), "last_confirmed": dag, "accessed_at": dag,
+              "source_count": unieke_tests(alle), "relationships": rel}
         merknaam = NAAM_MERK.get(merk) or naam_van(merk)
         L = [f"# {naam}", ""]
         if eigen:
             L.append(f"Model van [[{merk}|{merknaam}]]. Bronnen over dit model: "
                      + ", ".join(f"[[{b}|{kanaal_kort(b)}]]" for b in eigen) + ".")
             if cap:
-                L.append("Met één eigen bron blijft de zekerheid op hooguit 0,75.")
+                L.append("Met één eigen bron (of één test, ook als die in video en artikel verscheen) blijft de zekerheid op hooguit 0,75.")
         else:
             L.append(f"Model van [[{merk}|{merknaam}]]. Deze wiki heeft nog geen review van de {naam} zelf; "
                      "de pagina bestaat omdat een bron hem als concurrent noemt of er iets over zegt.")

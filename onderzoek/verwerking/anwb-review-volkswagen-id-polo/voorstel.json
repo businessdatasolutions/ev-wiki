@@ -1,0 +1,61 @@
+{
+  "nieuwe_entiteiten": [],
+  "model_feiten": {
+    "volkswagen-id-polo": {
+      "uitvoeringen": [
+        "37 kWh: 116 pk (ANWB-artikel, onder 'De ID. Polo en het milieu'); zelfde test als de ANWB-video, het middelste vermogen noemt ook het artikel niet"
+      ],
+      "fabrieksopgaven": [
+        "Uitvoering niet genoemd: private lease vanaf € 479 per maand, september 2026; ANWB leaset zelf (ANWB-artikel, onder 'Minimaal 30 mille')",
+        "Met stoelverwarming, keyless entry en lichtmetalen wielen: 'minimaal 30 mille', september 2026 (ANWB-artikel, onder 'Minimaal 30 mille')",
+        "37 kWh: rijbereik 322 km; 52 kWh: 454 km; norm niet genoemd. Bevestigt de toewijzing die de ANWB-video openliet (ANWB-artikel, onder 'De ID. Polo en het milieu')",
+        "37 kWh: snelladen max. 88 kW; 52 kWh: max. 105 kW; AC driefasig bij elke uitvoering (ANWB-artikel, onder 'Verschillende regeneratiestanden')",
+        "116 pk, 37 kWh: trekgewicht 500 kg (ANWB-artikel, onder 'De ID. Polo en het milieu')"
+      ],
+      "metingen": [
+        "52 kWh, 211 pk: praktijkbereik 344 km, door ANWB afgeleid uit de gemeten 15,1 kWh/100 km (dezelfde meting als in de ANWB-video), niet leeggereden; omstandigheden niet genoemd; ANWB, september 2026 (ANWB-artikel, onder 'De ID. Polo en het milieu')"
+      ],
+      "valkuilen": [
+        "Alle uitvoeringen behalve het topmodel: adaptieve cruise control en 360-gradencamera alleen tegen meerprijs (ANWB-artikel, onder 'Verbloemde zitpositie')",
+        "Instap 116 pk/37 kWh: trekgewicht 500 kg, tegen 1200 kg bij de 211 pk (ANWB-artikel, onder 'Hoe rijdt' en 'Het milieu')",
+        "Uitvoering niet genoemd: de vanafprijs van € 24.990 is niet de auto van de foto's; met stoelverwarming, keyless entry en lichtmetaal minimaal € 30.000 (ANWB-artikel, onder 'Conclusie' en 'Minimaal 30 mille')"
+      ],
+      "oordelen": [
+        "Testauto 211 pk: volwassen onderstel, goed op de weg zonder oncomfortabel te worden, besturing 'mooi communicatief'; voorwielaandrijving maakt een te snelle bocht intuïtief te corrigeren (ANWB-artikel, onder 'Hoe rijdt de ID. Polo')",
+        "Uitvoering niet genoemd: zit iets hoger dan een gewone kleine auto, maar lage raamlijn en hoog dashboard geven het gevoel 'ín' de auto te zitten; zicht rondom redelijk (ANWB-artikel, onder 'Verbloemde zitpositie')",
+        "Testauto: frivool interieur in meerdere materialen en kleuren; deurklinken en tuimelschakelaars 'gemeen scherpe randjes' (ANWB-artikel, onder 'Frivool binnenste'); zelfde test als de video, die 'een appel op kunnen raspen' zei",
+        "Eindoordeel: zet de fouten van de eerste ID-modellen recht; onderscheidt zich met binnenruimte; laat steken vallen met de garantie (ANWB-artikel, onder 'Conclusie')"
+      ],
+      "concurrenten": [
+        {"tegen": "opel-corsa-electric", "tijd": "onder 'Minimaal 30 mille'", "grond": "soortgelijke prijs; ID. Polo ruimer, maar minder accu en tragere laadsnelheid; Stellantis geeft 8 jaar garantie tegen 2"},
+        {"tegen": "peugeot-e-208", "tijd": "onder 'Minimaal 30 mille'", "grond": "soortgelijke prijs; ID. Polo ruimer, maar minder accu en tragere laadsnelheid; Stellantis geeft 8 jaar garantie tegen 2"},
+        {"tegen": "renault-5", "tijd": "onder 'Minimaal 30 mille'", "grond": "soortgelijke prijs; ID. Polo ruimer, maar minder accu en tragere laadsnelheid; onder 'De ID. Polo van binnen' nog eens 'een van de concurrenten', met retro-ontwerp"}
+      ]
+    }
+  },
+  "merk_feiten": {
+    "volkswagen": [
+      "ID. Polo: 2 jaar fabrieksgarantie, de benzine-Polo 4 jaar; Stellantis (Opel, Peugeot) geeft 8 jaar. 'Dat valt zo langzamerhand niet meer uit te leggen' (ANWB-artikel, 9 sep 2026, onder 'Niet meer uit te leggen')",
+      "Volkswagen stapt met de ID. Polo af van aparte typenamen als ID.3 en gaat terug naar bekende namen (ANWB-artikel, onder 'Type auto en prijs')",
+      "Na de veegbediening van de eerste ID-modellen keren gewone knoppen terug in het interieur (ANWB-artikel, onder 'Frivool binnenste')"
+    ],
+    "stellantis": [
+      "8 jaar garantie bij Opel en Peugeot, tegen 2 jaar op de ID. Polo; welke garantie (fabriek of accu) zegt het artikel niet (ANWB-artikel, 9 sep 2026, onder 'Niet meer uit te leggen')"
+    ],
+    "anwb": [
+      "Bron toevoegen: ANWB, geschreven review Volkswagen ID. Polo (september 2026), de tekstversie van de video van dezelfde dag; source_count +1, maar geen onafhankelijke tweede bron"
+    ]
+  },
+  "concepten": [
+    {"slug": "praktijkbereik", "bestaat": true, "toevoeging": "Volkswagen ID. Polo 52 kWh/211 pk: ANWB rekent in het artikel 344 km uit de gemeten 15,1 kWh/100 km, tegen 454 km opgegeven; de video noemde geen bereik (ANWB-artikel, 9 sep 2026)"},
+    {"slug": "trekgewicht", "bestaat": true, "toevoeging": "Volkswagen ID. Polo: 500 kg voor de 116 pk/37 kWh, 1200 kg voor de 211 pk; 'een zeldzaamheid in dit deel van de markt' (ANWB-artikel, 9 sep 2026)"},
+    {"slug": "rijbereik-wltp", "bestaat": true, "toevoeging": "Volkswagen ID. Polo: 322 km bij 37 kWh, 454 km bij 52 kWh, nu per accu toegewezen; norm niet genoemd (ANWB-artikel, 9 sep 2026)"},
+    {"slug": "snelladen-10-80", "bestaat": true, "toevoeging": "Volkswagen ID. Polo: max. 88 kW bij 37 kWh, 105 kW bij 52 kWh, nu per accu toegewezen; geen 10-80%-tijd (ANWB-artikel, 9 sep 2026)"},
+    {"slug": "b-segment", "bestaat": true, "toevoeging": "ANWB-artikel zet de ID. Polo tegenover Opel Corsa Electric, Peugeot e-208 en Renault 5: soortgelijke prijs, Polo ruimer, minder accu en tragere laadsnelheid (9 sep 2026)"}
+  ],
+  "relaties_met_bestaande_bronnen": [
+    {"type": "supports", "target": "2026-09-09-is-de-volkswagen-id-polo-de-nieuwe-publiekslieveling", "via": "Dezelfde ANWB-rijtest in tekst, geen onafhankelijke bevestiging: zelfde dag, testauto, 15,1 kWh/100 km, 1200 kg, 441 L, € 490 onderhoud, 2 jaar garantie, krappe beenruimte. Het artikel vult in wat de video openliet: 322/454 km en 88/105 kW per accu, 500 kg voor de instap, € 479 lease, 344 km praktijkbereik. Niet gelijk: de video zegt dat de Polo een grotere accu en sneller snelladen heeft dan de Renault 5, het artikel dat hij het daarop aflegt tegen de concurrentie; de video noemde '10 jaar garantie' in het segment, het artikel 8 jaar bij Stellantis"},
+    {"type": "contradicts", "target": "2026-10-02-kan-de-volkswagen-id-polo-de-succesvolle-renault-5-aan", "via": "beenruimte achterin de ID. Polo: ANWB-artikel 'schiet tekort', AutoWeek 'veel beter' dan de Renault 5"},
+    {"type": "supports", "target": "2026-10-02-kan-de-volkswagen-id-polo-de-succesvolle-renault-5-aan", "via": "Renault 5 als concurrent van de ID. Polo; kofferbak 441 L zonder frunk; snelladen officieel 105 kW met de grote accu"}
+  ]
+}

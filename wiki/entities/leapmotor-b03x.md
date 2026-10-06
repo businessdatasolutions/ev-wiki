@@ -42,7 +42,7 @@ relationships:
 # Leapmotor B03X
 
 Model van [[leapmotor|Leapmotor]]. Bronnen over dit model: [[2026-09-11-rijtest-in-een-rationele-wereld-zou-iedereen-leapmotor-b03x-rijden|Autovisie 11-09-2026]].
-Met één eigen bron blijft de zekerheid op hooguit 0,75.
+Met één eigen bron (of één test, ook als die in video en artikel verscheen) blijft de zekerheid op hooguit 0,75.
 
 **Plinkie.** `/deals/leapmotor/b03x`, staat in de sitemap van plinkie.nl.
 
