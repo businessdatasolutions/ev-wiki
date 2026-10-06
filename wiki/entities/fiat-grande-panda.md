@@ -2,7 +2,7 @@
 type: entity
 kind: model
 merk: fiat
-plinkie_pad: ""
+plinkie_pad: "/deals/fiat/grande-panda"
 aliases: ["Fiat Grande Panda", "Grande Panda", Panda]
 tags: [fiat]
 confidence: 0.75
@@ -20,7 +20,7 @@ Model van [[fiat]]. Deze wiki heeft nog geen review van de Fiat Grande Panda zel
 een tester hem als concurrent noemt ([[b-segment]]). Komt er een review bij, dan groeit deze pagina
 tot een volledige modelpagina.
 
-**Plinkie.** Nog niet gekoppeld: het pad op Plinkie is niet nagegaan.
+**Plinkie.** `/deals/fiat/grande-panda`, nagegaan in de sitemap van plinkie.nl op 06-10-2026.
 
 ## Concurrenten
 

@@ -2,7 +2,7 @@
 type: entity
 kind: model
 merk: skoda
-plinkie_pad: ""
+plinkie_pad: "/deals/skoda/epiq"
 aliases: ["Škoda Epiq", "Skoda Epiq", Epiq]
 tags: [skoda]
 confidence: 0.7
@@ -20,7 +20,7 @@ Model van [[skoda]]. Deze wiki heeft nog geen review van de Škoda Epiq zelf; de
 een tester hem als concurrent noemt ([[b-segment]]). Komt er een review bij, dan groeit deze pagina
 tot een volledige modelpagina.
 
-**Plinkie.** Nog niet gekoppeld: het pad op Plinkie is niet nagegaan.
+**Plinkie.** `/deals/skoda/epiq`, nagegaan in de sitemap van plinkie.nl op 06-10-2026.
 
 ## Concurrenten
 

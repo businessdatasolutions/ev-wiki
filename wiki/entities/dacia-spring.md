@@ -20,7 +20,7 @@ Model van [[dacia]]. Deze wiki heeft nog geen review van de Dacia Spring zelf; d
 een tester hem als concurrent noemt ([[b-segment]]). Komt er een review bij, dan groeit deze pagina
 tot een volledige modelpagina.
 
-**Plinkie.** `/deals/dacia/spring`, nagegaan in het leesmodel van Plinkie op 06-10-2026.
+**Plinkie.** `/deals/dacia/spring`, nagegaan in de sitemap van plinkie.nl op 06-10-2026.
 
 ## Concurrenten
 

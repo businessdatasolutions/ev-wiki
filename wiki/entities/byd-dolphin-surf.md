@@ -2,7 +2,7 @@
 type: entity
 kind: model
 merk: byd
-plinkie_pad: ""
+plinkie_pad: "/deals/byd/dolphin-surf"
 aliases: ["BYD Dolphin Surf", "Dolphin Surf"]
 tags: [byd]
 confidence: 0.7
@@ -20,7 +20,7 @@ Model van [[byd]]. Deze wiki heeft nog geen review van de BYD Dolphin Surf zelf;
 een tester hem als concurrent noemt ([[b-segment]]). Komt er een review bij, dan groeit deze pagina
 tot een volledige modelpagina.
 
-**Plinkie.** Nog niet gekoppeld: het pad op Plinkie is niet nagegaan.
+**Plinkie.** `/deals/byd/dolphin-surf`, nagegaan in de sitemap van plinkie.nl op 06-10-2026.
 
 ## Concurrenten
 

@@ -2,7 +2,7 @@
 type: entity
 kind: model
 merk: kia
-plinkie_pad: ""
+plinkie_pad: "/deals/kia/ev2"
 aliases: ["Kia EV2", "EV2"]
 tags: [kia, b-segment, hatchback]
 confidence: 0.7
@@ -48,7 +48,7 @@ van de Kia EV3: 24 cm korter, wielbasis 11 cm korter. Eén bron, een rijtest van
 ([[2026-04-01-grote-actieradius-en-goed-rijgedrag-voor-nieuwe-kia-ev2|april 2026]]). Die bron heeft
 een belang (ANWB leaset zelf) en geen eigen meting, dus `confidence` blijft op 0,7.
 
-**Plinkie.** Nog niet gekoppeld: het pad op Plinkie is niet nagegaan.
+**Plinkie.** `/deals/kia/ev2`, nagegaan in de sitemap van plinkie.nl op 06-10-2026.
 
 ## Uitvoeringen
 

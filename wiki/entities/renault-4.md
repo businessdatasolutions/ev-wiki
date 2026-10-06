@@ -2,7 +2,7 @@
 type: entity
 kind: model
 merk: renault
-plinkie_pad: ""
+plinkie_pad: "/deals/renault/4"
 aliases: ["Renault 4", "Renault 4 E-Tech", R4]
 tags: [renault]
 confidence: 0.7
@@ -20,7 +20,7 @@ Model van [[renault]]. Deze wiki heeft nog geen review van de Renault 4 zelf; de
 een tester hem als concurrent noemt ([[b-segment]]). Komt er een review bij, dan groeit deze pagina
 tot een volledige modelpagina.
 
-**Plinkie.** Nog niet gekoppeld: het pad op Plinkie is niet nagegaan.
+**Plinkie.** `/deals/renault/4`, nagegaan in de sitemap van plinkie.nl op 06-10-2026.
 
 ## Concurrenten
 

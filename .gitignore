@@ -54,3 +54,6 @@ raw/videos/test.txt
 # Playwright MCP session traces/logs — ephemeral browser-automation debug output
 .playwright-mcp/
 .venv/
+
+# Logs van de verzamelaar (onderzoek/verzamel.sh)
+onderzoek/logs/

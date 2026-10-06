@@ -8,6 +8,19 @@ Toegestane bewerkingen: `ingest`, `acquire`, `query`, `lint`, `synthesize`, `ref
 
 ---
 
+## [2026-10-06] acquire | verzamelaar: 8 review(s)
+
+Opgehaald door `onderzoek/verzamelaar.py`, nog niet verwerkt (wacht op Process):
+
+- `raw/videos/bmw-ix3-vs-volvo-ex60-roadtrip-met-special-guest.md` (ANWB; bmw/ix3, volvo/ex60)
+- `raw/videos/is-de-volkswagen-id-polo-de-nieuwe-publiekslieveling-anwb-autotest.md` (ANWB; volkswagen/id-polo)
+- `raw/videos/waarom-wij-voor-de-peugeot-e-208-gti-zouden-kiezen.md` (Autovisie; peugeot/e-208-gti)
+- `raw/videos/skoda-epiq-troeft-zelfs-volkswagen-id-polo-af.md` (Autovisie; skoda/epiq, volkswagen/id-polo)
+- `raw/videos/rijtest-in-een-rationele-wereld-zou-iedereen-leapmotor-b03x-rijden.md` (Autovisie; leapmotor/b03x)
+- `raw/videos/geliefd-in-nederland-populaire-volvo-xc40-en-ex40-weer-gefacelift.md` (Autovisie; volvo/ex40)
+- `raw/videos/elektrische-sportwagens-voor-weinig-de-audi-e-tron-gt-en-porsche-taycan-zijn-flink-afgesch.md` (Autovisie; audi/e-tron)
+- `raw/videos/elektrische-c-klasse-doet-het-heel-anders-dan-de-bmw-i3-dit-is-echt-goed.md` (Autovisie; bmw/i3)
+
 ## [2026-10-06] ingest | Eerste batch: Plinkie-filtermodel, Kia EV2 (ANWB), Box tegen T03 (ANWB), Dongfeng Box (Autovisie)
 
 Eerste ingest na het opzetten van de wiki. Vier bronnen:

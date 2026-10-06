@@ -146,9 +146,38 @@ lines.push(
 for (const { sectionName, missing } of indexGapDetail) {
   lines.push(`  - ${sectionName}: ${missing.length} (run \`node scripts/lint-index-completeness.mjs\` for the list)`)
 }
+
+// ev-wiki: werkvoorraad van de verzamelaar (CLAUDE.md §Verzamelaar). Een ruwe video
+// zonder bronpagina met dezelfde video_id wacht op Process.
+const wachtend = []
+try {
+  const bronnen = (await Promise.all(
+    (await listMarkdown(join(WIKI_DIR, "sources"))).map((f) => readFile(f, "utf8")),
+  )).join("\n")
+  const rawDir = join(WIKI_DIR, "..", "raw", "videos")
+  for (const f of await readdir(rawDir)) {
+    if (!f.endsWith(".md") || f.endsWith(".stills.md")) continue
+    const tekst = await readFile(join(rawDir, f), "utf8")
+    const id = tekst.match(/^video_id: ['"]?([\w-]{11})/m)?.[1]
+    if (id && !bronnen.includes(id)) wachtend.push(f)
+  }
+} catch {}
+let voorstellen = 0
+try {
+  const vs = await readFile(join(WIKI_DIR, "..", "onderzoek", "kanaalvoorstellen.md"), "utf8")
+  // Tabelrijen zonder de kop, de scheidingsregel en de lege-rij "| – |"
+  voorstellen = vs.split("\n").filter((r) => r.startsWith("| ") && !/^\| (Kanaal|---|–) /.test(r)).length
+} catch {}
+lines.push("")
+lines.push("**Verzamelaar:**")
+lines.push("")
+lines.push(`- ${wachtend.length} ruwe video('s) in \`raw/videos/\` wachten op Process${wachtend.length ? ":" : "."}`)
+for (const f of wachtend.slice(0, 10)) lines.push(`  - ${f}`)
+if (wachtend.length > 10) lines.push(`  - … en ${wachtend.length - 10} meer`)
+lines.push(`- ${voorstellen} kanaalvoorstel(len) in \`onderzoek/kanaalvoorstellen.md\`.`)
 lines.push("")
 lines.push(
-  "Refer to [`CLAUDE.md`](../CLAUDE.md) for the full schema, [`llm-wiki-v2-plan.md`](../llm-wiki-v2-plan.md) for the staged release plan, and the most recent log entries for what's in flight.",
+  "Refer to [`CLAUDE.md`](../CLAUDE.md) for the full schema and the most recent log entries for what's in flight.",
 )
 
 console.log(lines.join("\n"))

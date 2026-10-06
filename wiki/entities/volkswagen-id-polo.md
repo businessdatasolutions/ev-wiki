@@ -2,7 +2,7 @@
 type: entity
 kind: model
 merk: volkswagen
-plinkie_pad: ""
+plinkie_pad: "/deals/volkswagen/id-polo"
 aliases: ["Volkswagen ID. Polo", "ID. Polo", "ID Polo"]
 tags: [volkswagen]
 confidence: 0.7
@@ -20,7 +20,7 @@ Model van [[volkswagen]]. Deze wiki heeft nog geen review van de Volkswagen ID. 
 een tester hem als concurrent noemt ([[b-segment]]). Komt er een review bij, dan groeit deze pagina
 tot een volledige modelpagina.
 
-**Plinkie.** Nog niet gekoppeld: het pad op Plinkie is niet nagegaan.
+**Plinkie.** `/deals/volkswagen/id-polo`, nagegaan in de sitemap van plinkie.nl op 06-10-2026.
 
 ## Concurrenten
 

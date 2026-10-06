@@ -20,7 +20,7 @@ Model van [[citroen]]. Deze wiki heeft nog geen review van de Citroën ë-C3 zel
 een tester hem als concurrent noemt ([[b-segment]]). Komt er een review bij, dan groeit deze pagina
 tot een volledige modelpagina.
 
-**Plinkie.** `/deals/citroen/e-c3`, nagegaan in het leesmodel van Plinkie op 06-10-2026.
+**Plinkie.** `/deals/citroen/e-c3`, nagegaan in de sitemap van plinkie.nl op 06-10-2026.
 
 ## Concurrenten
 

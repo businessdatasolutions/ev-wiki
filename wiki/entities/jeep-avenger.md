@@ -2,7 +2,7 @@
 type: entity
 kind: model
 merk: jeep
-plinkie_pad: ""
+plinkie_pad: "/deals/jeep/avenger"
 aliases: ["Jeep Avenger", Avenger]
 tags: [jeep]
 confidence: 0.7
@@ -20,7 +20,7 @@ Model van [[jeep]]. Deze wiki heeft nog geen review van de Jeep Avenger zelf; de
 een tester hem als concurrent noemt ([[b-segment]]). Komt er een review bij, dan groeit deze pagina
 tot een volledige modelpagina.
 
-**Plinkie.** Nog niet gekoppeld: het pad op Plinkie is niet nagegaan.
+**Plinkie.** `/deals/jeep/avenger`, nagegaan in de sitemap van plinkie.nl op 06-10-2026.
 
 ## Concurrenten
 

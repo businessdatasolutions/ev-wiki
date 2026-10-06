@@ -32,7 +32,7 @@ gebouwd in Polen. Eén bron: de vergelijkingstest van [[anwb|ANWB]] tegen de
 ([[2024-11-15-chinese-evs-onder-de-25-mille-kleine-autos-grote-verleiding|november 2024]]), met een
 eigen meting. `confidence` 0,75: een eigen meting telt mee, maar ANWB biedt de T03 zelf aan.
 
-**Plinkie.** `/deals/leapmotor/t03`, nagegaan in het leesmodel van Plinkie op 06-10-2026.
+**Plinkie.** `/deals/leapmotor/t03`, nagegaan in de sitemap van plinkie.nl op 06-10-2026.
 
 ## Uitvoeringen
 

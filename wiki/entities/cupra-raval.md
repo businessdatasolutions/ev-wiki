@@ -2,7 +2,7 @@
 type: entity
 kind: model
 merk: cupra
-plinkie_pad: ""
+plinkie_pad: "/deals/cupra/raval"
 aliases: ["Cupra Raval", Raval]
 tags: [cupra]
 confidence: 0.7
@@ -20,7 +20,7 @@ Model van [[cupra]]. Deze wiki heeft nog geen review van de Cupra Raval zelf; de
 een tester hem als concurrent noemt ([[b-segment]]). Komt er een review bij, dan groeit deze pagina
 tot een volledige modelpagina.
 
-**Plinkie.** Nog niet gekoppeld: het pad op Plinkie is niet nagegaan.
+**Plinkie.** `/deals/cupra/raval`, nagegaan in de sitemap van plinkie.nl op 06-10-2026.
 
 ## Concurrenten
 

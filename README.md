@@ -25,10 +25,16 @@ kwaliteitsscore, lokaal zoeken, hooks) komt uit de
 [ai-wiki](https://github.com/businessdatasolutions/ai-wiki). De werkwijze staat in [CLAUDE.md](CLAUDE.md).
 
 ```
-raw/      ruwe bronnen (transcripts, artikelen), onveranderlijk
-wiki/     sources/ · entities/ (modellen, merken, kanalen) · concepts/ · syntheses/ · threads/
-scripts/  lint, graaf, kwaliteit, zoeken
+raw/        ruwe bronnen (transcripts, artikelen), onveranderlijk
+onderzoek/  de verzamelaar: vaste kanalen, register, kanaalvoorstellen
+wiki/       sources/ · entities/ (modellen, merken, kanalen) · concepts/ · syntheses/ · threads/
+scripts/    lint, graaf, kwaliteit, zoeken
 ```
+
+**De verzamelaar** (`onderzoek/verzamelaar.py`) haalt elke nacht zelf nieuwe reviews op van vaste
+kanalen, voor de modellen die Plinkie aanbiedt, en zet ze in `raw/`. Eens per week zoekt hij ook
+buiten die kanalen en stelt nieuwe kanalen voor in `onderzoek/kanaalvoorstellen.md`. Verwerken tot
+wiki-pagina's gebeurt daarna, met een mens erbij.
 
 ## Lokaal
 

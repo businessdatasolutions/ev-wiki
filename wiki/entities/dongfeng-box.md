@@ -2,7 +2,7 @@
 type: entity
 kind: model
 merk: dongfeng
-plinkie_pad: ""
+plinkie_pad: "/deals/dongfeng/box"
 aliases: ["Dongfeng Box", "Box", "Nammi Box", "Nammi 01"]
 tags: [dongfeng, stadsauto, b-segment, lfp]
 confidence: 0.8
@@ -42,7 +42,7 @@ vergelijkingstest van [[anwb|ANWB]] tegen de [[leapmotor-t03|Leapmotor T03]]
 ([[2024-11-15-chinese-evs-onder-de-25-mille-kleine-autos-grote-verleiding|november 2024]]), die
 elkaar op accu's, garantie, trekgewicht en importeur bevestigen.
 
-**Plinkie.** Nog niet gekoppeld: het pad op Plinkie is niet nagegaan.
+**Plinkie.** `/deals/dongfeng/box`, nagegaan in de sitemap van plinkie.nl op 06-10-2026.
 
 ## Uitvoeringen
 

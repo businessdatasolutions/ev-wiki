@@ -1,0 +1,34 @@
+# Kanalen voor de verzamelaar (CLAUDE.md §Verzamelaar).
+#
+# `vast`: de verzamelaar leest elke run de nieuwste uploads en haalt reviews van modellen
+# uit de sitemap van Plinkie op naar raw/videos/. Alleen jij voegt hier een kanaal toe,
+# meestal vanuit onderzoek/kanaalvoorstellen.md.
+#
+# `genegeerd`: kanalen die de verkenning niet meer mag voorstellen, met de reden.
+#
+# Velden per kanaal:
+#   naam:          zoals het kanaal zichzelf noemt
+#   url:           de /videos-pagina van het kanaal
+#   taal:          taal van de video's; wordt --sub-lang bij het ophalen en de titeltaal
+#   ook_aanbieder: slug van de entiteit als het kanaal zelf leaset of verkoopt (belang)
+#   uploads:       hoeveel van de nieuwste uploads elke run gelezen worden
+#   uitsluiten:    titelpatronen (reguliere expressie, hoofdletters maken niet uit) van video's die
+#                  een model noemen maar geen review zijn, zoals pechhulp-afleveringen
+
+vast:
+  - naam: ANWB
+    url: https://www.youtube.com/@ANWB/videos
+    taal: nl
+    ook_aanbieder: anwb-private-lease
+    uploads: 40
+    uitsluiten: "wegenwacht|pech|repareert|lekke band"
+  - naam: Autovisie
+    url: https://www.youtube.com/@Autovisie/videos
+    taal: nl
+    uploads: 40
+  - naam: AutoWeek
+    url: https://www.youtube.com/@AutoWeek/videos
+    taal: nl
+    uploads: 40
+
+genegeerd: []

@@ -36,12 +36,17 @@ Warner & Wäger-tagging van de ai-wiki is vervangen door de [§EV-lens](#ev-lens
   synthesize | refactor | bulk-refactor`. Nieuwste bovenaan.
 - Publicatie met Quartz naar GitHub Pages: `businessdatasolutions.github.io/ev-wiki`.
 
-## De drie lagen
+## De lagen
 
-1. **Ruwe bronnen**: door de gebruiker gekozen, onveranderlijk. Claude leest, wijzigt nooit.
-2. **De wiki**: door Claude geschreven en beheerd. Samenvattingen, entiteiten, concepten,
-   syntheses, een index en een log.
-3. **Het schema**: dit bestand. Het contract dat van Claude een gedisciplineerde beheerder maakt.
+1. **Ruwe bronnen** (`raw/`): gekozen door de gebruiker of opgehaald door de
+   [verzamelaar](#verzamelaar), onveranderlijk. Claude leest, wijzigt nooit. Het register van wat
+   de verzamelaar zag en waarom hij iets oversloeg, staat in `onderzoek/`.
+2. **De wiki** (`wiki/`): de onderzoekslaag, door Claude geschreven en beheerd. Samenvattingen,
+   entiteiten, concepten, syntheses, een index en een log.
+3. **Artikelen** (nog niet gebouwd): de publicatielaag, een kritisch artikel per model, geschreven
+   uit de wiki en pas live na de poort in Plinkie's `ideeen/plinkie-reviews.html#poort`. Artikelen
+   komen nooit in `raw/` of tussen de onderzoekspagina's.
+4. **Het schema**: dit bestand. Het contract dat van Claude een gedisciplineerde beheerder maakt.
 
 ## De vier operaties
 
@@ -131,6 +136,44 @@ done
 ```
 
 Wezen opsporen heeft geen script; dat is een handmatige ronde.
+
+## Verzamelaar
+
+`onderzoek/verzamelaar.py` haalt **zelfstandig** reviews op. Het is Acquire, geautomatiseerd: hij
+schrijft in `raw/videos/` en `onderzoek/`, plus één `acquire`-regel in `wiki/log.md`, en **nooit**
+een wiki-pagina. Process blijft een sessie met een mens erbij; de SessionStart-hook toont hoeveel
+ruwe video's erop wachten.
+
+**Wanneer.** Elke nacht om 04:15 via launchd (`onderzoek/installeer-planning.sh` zet hem aan,
+`onderzoek/nl.businessdatasolutions.ev-wiki.verzamelaar.plist` is de taak). Met de hand:
+`onderzoek/verzamel.sh [--droog] [--verken] [--max N]`. Logs in `onderzoek/logs/` (niet in git).
+
+**Gewone run.**
+1. De modellen komen uit de sitemap van plinkie.nl: alleen auto's die Plinkie aanbiedt.
+2. Per kanaal in `onderzoek/kanalen.yaml` (`vast:`) de nieuwste uploads, met titels in de taal van
+   het kanaal.
+3. Een titel wordt aan een model gekoppeld als **merk én model** erin staan. Een model van één
+   teken (Renault 4) telt alleen direct na het merk; een model binnen een ander model ("e-tron" in
+   "Q4 e-tron") valt weg. Getest in `onderzoek/test_verzamelaar.py`.
+4. Overgeslagen: geen model, korter dan 4 minuten, of een titel onder `uitsluiten:` van het kanaal
+   (bij ANWB de Wegenwacht-afleveringen).
+5. Opgehaald met de transcript-skill en `--sub-lang` in de taal van het kanaal, hooguit 8 per run.
+   De ruwe kop krijgt een blok `verzameld:` (door, datum, kanaal, `modellen_kandidaat`).
+
+**Verkenning** (eens per week, of `--verken`). Voor 15 modellen per keer, op volgorde rond door de
+lijst, zoekt hij op YouTube ("<model> review", "<model> test", Nederlands en Engels). Kanalen
+buiten de lijst worden **niet opgehaald**: ze komen als voorstel in `onderzoek/kanaalvoorstellen.md`,
+per kanaal met modellen, aantal video's en voorbeelden. **Alleen de gebruiker** zet een kanaal in
+`vast:` of `genegeerd:`.
+
+**Register.** `onderzoek/register.jsonl` heeft één regel per video die de verzamelaar zag, met
+status (`opgehaald`, `overgeslagen` met reden, `mislukt`, `voorstel`). Een video in het register of
+in `raw/` wordt niet opnieuw bekeken. Wil je een overgeslagen video toch, haal hem dan met de hand op.
+
+**Bij Process van een verzamelde video.** `modellen_kandidaat` is een vermoeden uit de titel, geen
+feit: controleer in het transcript over welk model en welke uitvoering de video echt gaat, en of het
+een review is. Is het geen review, schrijf dan geen bronpagina maar zet in het register een regel
+met status `afgewezen` en de reden.
 
 ## Bronnen controleren vóór ingest
 
@@ -274,7 +317,10 @@ relationships:
     target: kia
 ```
 
-`plinkie_pad` is de koppelsleutel naar Plinkie (`/deals/<merk>/<model>`). Plinkie maakt het pad uit
+`plinkie_pad` is de koppelsleutel naar Plinkie (`/deals/<merk>/<model>`). Nagaan doe je in de
+openbare sitemap, `https://plinkie.nl/sitemap.xml`; dat is ook de modellenlijst van de verzamelaar.
+Plinkie kent sommige modellen onder twee paden (`renault/4` en `renault/4-e-tech`); `plinkie_pad`
+noemt het kortste. Plinkie maakt het pad uit
 de voertuigsleutel: kleine letters, zonder accenten, woorden met `-` (`Citroën ë-C3` → `citroen/e-c3`,
 `ID.3` → `id3`), met de aliaslijst in Plinkie's `aliassen.json`. **Vul het alleen in als het in
 Plinkie is nagegaan**: een verzonnen pad is een stille gebroken koppeling. Leeg betekent "nog niet

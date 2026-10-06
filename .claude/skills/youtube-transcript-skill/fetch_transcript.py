@@ -27,6 +27,7 @@ import re
 import subprocess
 import sys
 import tempfile
+import time
 from pathlib import Path
 from urllib.parse import parse_qs, urlparse
 
@@ -602,6 +603,11 @@ def _vtt_to_segments(vtt: str, rolling: bool) -> list[dict]:
     return _dedupe_segments(out)
 
 
+# YouTube answers HTTP 429 after a burst of subtitle requests (2026-10-06: two of ten
+# videos in the first ev-wiki collector run). Waiting usually clears it.
+SUBS_RETRY_WAITS_S = (30, 90)
+
+
 def fetch_subs(video_id: str, lang: str) -> tuple[list[dict], str] | None:
     """Fetch the `lang` caption track with yt-dlp. Returns (segments, kind) or None."""
     url = f"https://www.youtube.com/watch?v={video_id}"
@@ -609,7 +615,13 @@ def fetch_subs(video_id: str, lang: str) -> tuple[list[dict], str] | None:
         for kind, flag in (("manual", "--write-subs"), ("asr", "--write-auto-subs")):
             cmd = [sys.executable, "-m", "yt_dlp", "--skip-download", flag, "--sub-langs", lang,
                    "--sub-format", "vtt", "-o", str(Path(tmp) / f"{kind}.%(ext)s"), url]
-            subprocess.run(cmd, capture_output=True, text=True)
+            for wait in (0, *SUBS_RETRY_WAITS_S):
+                if wait:
+                    print(f"warning: HTTP 429 on subtitles, retrying in {wait} s", file=sys.stderr)
+                    time.sleep(wait)
+                r = subprocess.run(cmd, capture_output=True, text=True)
+                if "HTTP Error 429" not in r.stderr:
+                    break
             files = sorted(Path(tmp).glob(f"{kind}.{lang}*.vtt"))
             if files:
                 segs = _vtt_to_segments(files[0].read_text(encoding="utf-8"), rolling=(kind == "asr"))

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!-- De verzamelaar van ev-wiki, elke nacht om 04:15 (CLAUDE.md §Verzamelaar).
+     Installeren:   onderzoek/installeer-planning.sh
+     Stoppen:       launchctl bootout gui/$(id -u)/nl.businessdatasolutions.ev-wiki.verzamelaar -->
+<plist version="1.0">
+<dict>
+  <key>Label</key><string>nl.businessdatasolutions.ev-wiki.verzamelaar</string>
+  <key>ProgramArguments</key>
+  <array>
+    <string>/bin/zsh</string>
+    <string>-lc</string>
+    <string>"$HOME/Documents/Projects/ev-wiki/onderzoek/verzamel.sh"</string>
+  </array>
+  <key>StartCalendarInterval</key>
+  <dict><key>Hour</key><integer>4</integer><key>Minute</key><integer>15</integer></dict>
+  <key>StandardOutPath</key><string>/tmp/ev-wiki-verzamelaar.out</string>
+  <key>StandardErrorPath</key><string>/tmp/ev-wiki-verzamelaar.err</string>
+</dict>
+</plist>

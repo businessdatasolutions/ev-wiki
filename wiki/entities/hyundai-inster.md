@@ -2,7 +2,7 @@
 type: entity
 kind: model
 merk: hyundai
-plinkie_pad: ""
+plinkie_pad: "/deals/hyundai/inster"
 aliases: ["Hyundai Inster", Inster]
 tags: [hyundai]
 confidence: 0.7
@@ -20,7 +20,7 @@ Model van [[hyundai]]. Deze wiki heeft nog geen review van de Hyundai Inster zel
 een tester hem als concurrent noemt ([[b-segment]]). Komt er een review bij, dan groeit deze pagina
 tot een volledige modelpagina.
 
-**Plinkie.** Nog niet gekoppeld: het pad op Plinkie is niet nagegaan.
+**Plinkie.** `/deals/hyundai/inster`, nagegaan in de sitemap van plinkie.nl op 06-10-2026.
 
 ## Concurrenten
 
