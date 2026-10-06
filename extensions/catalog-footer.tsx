@@ -16,11 +16,11 @@ interface Options {
 // evidence → distilled: sources (evidence) → entities + concepts (catalog)
 // → threads (in-flight investigation) → syntheses (durable conclusions).
 const COUNTED_TYPES: ReadonlyArray<{ type: string; singular: string; plural: string }> = [
-  { type: "source", singular: "source", plural: "sources" },
-  { type: "entity", singular: "entity", plural: "entities" },
-  { type: "concept", singular: "concept", plural: "concepts" },
+  { type: "source", singular: "bron", plural: "bronnen" },
+  { type: "entity", singular: "entiteit", plural: "entiteiten" },
+  { type: "concept", singular: "concept", plural: "concepten" },
   { type: "thread", singular: "thread", plural: "threads" },
-  { type: "synthesis", singular: "synthesis", plural: "syntheses" },
+  { type: "synthesis", singular: "synthese", plural: "syntheses" },
 ]
 
 // Site-wide footer that mirrors the stock Quartz Footer (attribution +

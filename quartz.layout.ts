@@ -3,6 +3,7 @@ import * as Component from "./quartz/components"
 import BacklinksWithAliases from "./extensions/backlinks-with-aliases"
 import RelationshipsPanel from "./extensions/relationships-panel"
 import CatalogFooter from "./extensions/catalog-footer"
+import WerkmateriaalMelding from "./extensions/werkmateriaal-melding"
 
 export const sharedPageComponents: SharedLayout = {
   head: Component.Head(),
@@ -24,6 +25,7 @@ export const defaultContentPageLayout: PageLayout = {
     Component.ArticleTitle(),
     Component.ContentMeta(),
     Component.TagList(),
+    WerkmateriaalMelding(),
   ],
   left: [
     Component.PageTitle(),
@@ -52,6 +54,7 @@ export const defaultListPageLayout: PageLayout = {
     Component.Breadcrumbs(),
     Component.ArticleTitle(),
     Component.ContentMeta(),
+    WerkmateriaalMelding(),
   ],
   left: [
     Component.PageTitle(),
